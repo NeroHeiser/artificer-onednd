@@ -48,7 +48,7 @@ export class CompendiumSync {
   ];
 
   /**
-   * Sincroniza todos os pacotes do módulo se estiverem vazios ou se for forçado.
+   * Sincroniza todos os pacotes do módulo se estiverem vazios, com IDs inválidos ou se for forçado.
    * @param {object} options
    * @param {boolean} [options.force=false] Força a sobrescrita dos itens
    * @param {boolean} [options.silent=false] Não emite notificações na tela
@@ -73,27 +73,31 @@ export class CompendiumSync {
 
       try {
         const index = await pack.getIndex();
-        if (index.size === 0 || force) {
-          const dataUrl = `modules/${MODULE_ID}/scripts/data/${packInfo.file}`;
-          const response = await fetch(dataUrl);
-          if (!response.ok) {
-            console.error(`Artificer OneD&D | Falha ao carregar arquivo de dados: ${dataUrl}`);
-            continue;
-          }
+        const hasInvalidIds = index.some(e => !/^[a-zA-Z0-9]{16}$/.test(e._id));
 
-          const documentsData = await response.json();
+        const dataUrl = `modules/${MODULE_ID}/scripts/data/${packInfo.file}`;
+        const response = await fetch(dataUrl);
+        if (!response.ok) {
+          console.error(`Artificer OneD&D | Falha ao carregar arquivo de dados: ${dataUrl}`);
+          continue;
+        }
 
-          if (force && index.size > 0) {
-            // Remove documentos antigos antes de recriar
+        const documentsData = await response.json();
+        const shouldSync = index.size === 0 || force || hasInvalidIds || (index.size !== documentsData.length);
+
+        if (shouldSync) {
+          const docCls = getDocumentClass(packInfo.documentName);
+
+          if (index.size > 0) {
+            // Remove documentos antigos/inválidos antes de recriar
             const existingIds = index.map(e => e._id);
-            if (packInfo.documentName === "Item") {
-              await Item.deleteDocuments(existingIds, { pack: pack.collection });
-            } else if (packInfo.documentName === "Actor") {
-              await Actor.deleteDocuments(existingIds, { pack: pack.collection });
+            try {
+              await docCls.deleteDocuments(existingIds, { pack: pack.collection });
+            } catch (err) {
+              console.warn(`Artificer OneD&D | Aviso ao limpar registros antigos em ${packKey}:`, err);
             }
           }
 
-          const docCls = getDocumentClass(packInfo.documentName);
           await docCls.createDocuments(documentsData, { pack: pack.collection, keepId: true });
           console.log(`Artificer OneD&D | Sincronizados ${documentsData.length} documentos em ${packKey}`);
           syncedCount += documentsData.length;

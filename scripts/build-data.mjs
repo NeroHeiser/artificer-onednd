@@ -11,12 +11,12 @@ if (!fs.existsSync(DATA_DIR)) {
 }
 
 // =============================================================
-// 1. FEATURES (features.json)
+// 1. FEATURES (features.json) - All _ids MUST be 16 characters!
 // =============================================================
 const features = [
   // --- BASE ARTIFICER FEATURES ---
   {
-    _id: "artfeatspellcast0",
+    _id: "artfeatspellcast",
     name: "Spellcasting (Artificer)",
     type: "feat",
     img: "icons/magic/symbols/runes-star-pentagon-blue.webp",
@@ -45,7 +45,7 @@ const features = [
     }
   },
   {
-    _id: "artfeattinkermag0",
+    _id: "artfeattinkermag",
     name: "Tinker's Magic",
     type: "feat",
     img: "icons/tools/instruments/measuring-compass-brass.webp",
@@ -73,7 +73,7 @@ const features = [
     }
   },
   {
-    _id: "artfeatreplicatm0",
+    _id: "artfeatreplicatm",
     name: "Replicate Magic Item",
     type: "feat",
     img: "icons/commodities/treasure/chest-wooden-steel-gold.webp",
@@ -96,7 +96,7 @@ const features = [
     }
   },
   {
-    _id: "artfeatasiprog000",
+    _id: "artfeatasiprog00",
     name: "Ability Score Improvement",
     type: "feat",
     img: "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
@@ -111,7 +111,7 @@ const features = [
     }
   },
   {
-    _id: "artfeatmagtinker0",
+    _id: "artfeatmagictink",
     name: "Magic Item Tinker",
     type: "feat",
     img: "icons/magic/symbols/gear-sparks-teal.webp",
@@ -135,7 +135,7 @@ const features = [
     }
   },
   {
-    _id: "artfeatflashgen00",
+    _id: "artfeatflashgen0",
     name: "Flash of Genius",
     type: "feat",
     img: "icons/magic/light/bulb-glow-yellow-blue.webp",
@@ -161,7 +161,7 @@ const features = [
     }
   },
   {
-    _id: "artfeatmagicadept",
+    _id: "artfeatmagicadep",
     name: "Magic Item Adept",
     type: "feat",
     img: "icons/equipment/finger/ring-cabochon-gold-purple.webp",
@@ -176,7 +176,7 @@ const features = [
     }
   },
   {
-    _id: "artfeatspellstore",
+    _id: "artfeatspellstor",
     name: "Spell-Storing Item",
     type: "feat",
     img: "icons/sundries/books/book-embossed-jeweled-purple.webp",
@@ -200,7 +200,7 @@ const features = [
     }
   },
   {
-    _id: "artfeatadvartifi0",
+    _id: "artfeatadvartif0",
     name: "Advanced Artifice",
     type: "feat",
     img: "icons/magic/symbols/rune-sigil-horned-blue.webp",
@@ -220,7 +220,7 @@ const features = [
     }
   },
   {
-    _id: "artfeatmagicmast0",
+    _id: "artfeatmagicmas0",
     name: "Magic Item Master",
     type: "feat",
     img: "icons/equipment/finger/ring-band-engraved-gold.webp",
@@ -235,7 +235,7 @@ const features = [
     }
   },
   {
-    _id: "artfeatepicboon00",
+    _id: "artfeatepicboon0",
     name: "Epic Boon",
     type: "feat",
     img: "icons/magic/light/explosion-star-glow-orange.webp",
@@ -250,7 +250,7 @@ const features = [
     }
   },
   {
-    _id: "artfeatsoulartif0",
+    _id: "artfeatsoulartif",
     name: "Soul of Artifice",
     type: "feat",
     img: "icons/magic/life/heart-cross-strong-green.webp",
@@ -272,7 +272,7 @@ const features = [
 
   // --- ALCHEMIST FEATURES ---
   {
-    _id: "alcfeattoolstrad0",
+    _id: "alcfeattoolstrad",
     name: "Tools of the Trade (Alchemist)",
     type: "feat",
     img: "icons/tools/laboratory/alembic-glass-copper.webp",
@@ -292,7 +292,7 @@ const features = [
     }
   },
   {
-    _id: "alcfeatelixir0000",
+    _id: "alcfeatelixir000",
     name: "Experimental Elixir",
     type: "feat",
     img: "icons/consumables/potions/potion-bottle-corked-glowing-green.webp",
@@ -322,7 +322,7 @@ const features = [
     }
   },
   {
-    _id: "alcfeatsavant0000",
+    _id: "alcfeatsavant000",
     name: "Alchemical Savant",
     type: "feat",
     img: "icons/magic/fire/flame-burning-flask-teal.webp",
@@ -337,7 +337,7 @@ const features = [
     }
   },
   {
-    _id: "alcfeatreagents00",
+    _id: "alcfeatreagents0",
     name: "Restorative Reagents",
     type: "feat",
     img: "icons/magic/life/cross-burst-teal.webp",
@@ -358,7 +358,7 @@ const features = [
     }
   },
   {
-    _id: "alcfeatmastery000",
+    _id: "alcfeatmastery00",
     name: "Chemical Mastery",
     type: "feat",
     img: "icons/magic/unholy/cauldron-bubbling-green.webp",
@@ -381,7 +381,7 @@ const features = [
 
   // --- ARMORER FEATURES ---
   {
-    _id: "armfeattoolstrad0",
+    _id: "armfeattoolstrad",
     name: "Tools of the Trade (Armorer)",
     type: "feat",
     img: "icons/tools/smithing/hammer-sledge.webp",
@@ -402,7 +402,7 @@ const features = [
     }
   },
   {
-    _id: "armfeatarcanearm0",
+    _id: "armfeatarcanearm",
     name: "Arcane Armor",
     type: "feat",
     img: "icons/equipment/chest/breastplate-metal-scaled-grey.webp",
@@ -418,7 +418,7 @@ const features = [
     }
   },
   {
-    _id: "armfeatarmormod00",
+    _id: "armfeatarmormod0",
     name: "Armor Model",
     type: "feat",
     img: "icons/equipment/shield/tower-crest-steel-blue.webp",
@@ -456,7 +456,7 @@ const features = [
     }
   },
   {
-    _id: "armfeatextraatt00",
+    _id: "armfeatextraatt0",
     name: "Extra Attack (Armorer)",
     type: "feat",
     img: "icons/skills/melee/strike-sword-steel-yellow.webp",
@@ -471,7 +471,7 @@ const features = [
     }
   },
   {
-    _id: "armfeatimparmor00",
+    _id: "armfeatimparmor0",
     name: "Improved Armorer",
     type: "feat",
     img: "icons/equipment/chest/breastplate-helmet-metal.webp",
@@ -491,7 +491,7 @@ const features = [
     }
   },
   {
-    _id: "armfeatperfect000",
+    _id: "armfeatperfect00",
     name: "Perfected Armor",
     type: "feat",
     img: "icons/equipment/chest/armor-plate-gilded-purple.webp",
@@ -534,7 +534,7 @@ const features = [
     }
   },
   {
-    _id: "artifeatcannon000",
+    _id: "artifeatcannon00",
     name: "Eldritch Cannon",
     type: "feat",
     img: "icons/weapons/artillery/cannon-wooden-bronze.webp",
@@ -557,7 +557,7 @@ const features = [
     }
   },
   {
-    _id: "artifeatfirearm00",
+    _id: "artifeatfirearm0",
     name: "Arcane Firearm",
     type: "feat",
     img: "icons/weapons/wands/wand-carved-glowing-gold.webp",
@@ -572,7 +572,7 @@ const features = [
     }
   },
   {
-    _id: "artifeatexplosiv0",
+    _id: "artifeatexplosiv",
     name: "Explosive Cannon",
     type: "feat",
     img: "icons/magic/fire/explosion-fireball-large-orange.webp",
@@ -592,7 +592,7 @@ const features = [
     }
   },
   {
-    _id: "artifeatfortifie0",
+    _id: "artifeatfortifi0",
     name: "Fortified Position",
     type: "feat",
     img: "icons/environment/settlement/watchtower-stone-snow.webp",
@@ -614,7 +614,7 @@ const features = [
 
   // --- BATTLE SMITH FEATURES ---
   {
-    _id: "bsfeattoolstrad00",
+    _id: "bsfeattoolstrad0",
     name: "Tools of the Trade (Battle Smith)",
     type: "feat",
     img: "icons/tools/smithing/anvil.webp",
@@ -634,7 +634,7 @@ const features = [
     }
   },
   {
-    _id: "bsfeatbattleread0",
+    _id: "bsfeatbattleread",
     name: "Battle Ready",
     type: "feat",
     img: "icons/weapons/swords/sword-broad-crystal-blue.webp",
@@ -654,7 +654,7 @@ const features = [
     }
   },
   {
-    _id: "bsfeatdefender000",
+    _id: "bsfeatdefender00",
     name: "Steel Defender",
     type: "feat",
     img: "icons/creatures/magical/construct-iron-golem-purple.webp",
@@ -672,7 +672,7 @@ const features = [
     }
   },
   {
-    _id: "bsfeatextraatt000",
+    _id: "bsfeatextraatt00",
     name: "Extra Attack (Battle Smith)",
     type: "feat",
     img: "icons/skills/melee/strike-sword-blood-red.webp",
@@ -687,7 +687,7 @@ const features = [
     }
   },
   {
-    _id: "bsfeatarcanejolt0",
+    _id: "bsfeatarcanejolt",
     name: "Arcane Jolt",
     type: "feat",
     img: "icons/magic/lightning/bolt-strike-blue.webp",
@@ -750,7 +750,7 @@ const features = [
     }
   },
   {
-    _id: "cartfeatatlas0000",
+    _id: "cartfeatatlas000",
     name: "Adventurer's Atlas",
     type: "feat",
     img: "icons/tools/navigation/map-marked-blue.webp",
@@ -765,7 +765,7 @@ const features = [
     }
   },
   {
-    _id: "cartfeatmapping00",
+    _id: "cartfeatmapping0",
     name: "Mapping Magic",
     type: "feat",
     img: "icons/magic/movement/portal-vortex-teal.webp",
@@ -791,7 +791,7 @@ const features = [
     }
   },
   {
-    _id: "cartfeatprecis000",
+    _id: "cartfeatprecis00",
     name: "Guided Precision",
     type: "feat",
     img: "icons/magic/perception/eye-ringed-glow-purple-teal.webp",
@@ -806,7 +806,7 @@ const features = [
     }
   },
   {
-    _id: "cartfeatmovemen00",
+    _id: "cartfeatmovemen0",
     name: "Ingenious Movement",
     type: "feat",
     img: "icons/magic/movement/trail-streak-zigzag-teal.webp",
@@ -821,7 +821,7 @@ const features = [
     }
   },
   {
-    _id: "cartfeatsuperio00",
+    _id: "cartfeatsuperio0",
     name: "Superior Atlas",
     type: "feat",
     img: "icons/tools/navigation/compass-brass-vintage.webp",
@@ -845,7 +845,7 @@ const features = [
 fs.writeFileSync(path.join(DATA_DIR, "features.json"), JSON.stringify(features, null, 2));
 
 // =============================================================
-// 2. CLASSES (classes.json)
+// 2. CLASSES (classes.json) - All _ids MUST be 16 characters!
 // =============================================================
 const classes = [
   {
@@ -964,8 +964,8 @@ const classes = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatspellcast0", optional: false },
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeattinkermag0", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatspellcast", optional: false },
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeattinkermag", optional: false }
             ],
             optional: false,
             spell: null
@@ -978,7 +978,7 @@ const classes = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatreplicatm0", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatreplicatm", optional: false }
             ],
             optional: false,
             spell: null
@@ -991,7 +991,7 @@ const classes = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog000", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog00", optional: false }
             ],
             optional: false,
             spell: null
@@ -1004,7 +1004,7 @@ const classes = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatmagtinker0", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatmagictink", optional: false }
             ],
             optional: false,
             spell: null
@@ -1017,7 +1017,7 @@ const classes = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatflashgen00", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatflashgen0", optional: false }
             ],
             optional: false,
             spell: null
@@ -1030,7 +1030,7 @@ const classes = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog000", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog00", optional: false }
             ],
             optional: false,
             spell: null
@@ -1043,7 +1043,7 @@ const classes = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatmagicadept", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatmagicadep", optional: false }
             ],
             optional: false,
             spell: null
@@ -1056,7 +1056,7 @@ const classes = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatspellstore", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatspellstor", optional: false }
             ],
             optional: false,
             spell: null
@@ -1069,7 +1069,7 @@ const classes = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog000", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog00", optional: false }
             ],
             optional: false,
             spell: null
@@ -1082,7 +1082,7 @@ const classes = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatadvartifi0", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatadvartif0", optional: false }
             ],
             optional: false,
             spell: null
@@ -1095,7 +1095,7 @@ const classes = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog000", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog00", optional: false }
             ],
             optional: false,
             spell: null
@@ -1108,7 +1108,7 @@ const classes = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatmagicmast0", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatmagicmas0", optional: false }
             ],
             optional: false,
             spell: null
@@ -1121,7 +1121,7 @@ const classes = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatepicboon00", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatepicboon0", optional: false }
             ],
             optional: false,
             spell: null
@@ -1134,7 +1134,7 @@ const classes = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatsoulartif0", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artfeatsoulartif", optional: false }
             ],
             optional: false,
             spell: null
@@ -1205,7 +1205,7 @@ const classes = [
 fs.writeFileSync(path.join(DATA_DIR, "classes.json"), JSON.stringify(classes, null, 2));
 
 // =============================================================
-// 3. SUBCLASSES (subclasses.json)
+// 3. SUBCLASSES (subclasses.json) - All _ids MUST be 16 characters!
 // =============================================================
 const subclasses = [
   {
@@ -1239,8 +1239,8 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.alcfeattoolstrad0", optional: false },
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.alcfeatelixir0000", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.alcfeattoolstrad", optional: false },
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.alcfeatelixir000", optional: false }
             ],
             optional: false,
             spell: null
@@ -1253,7 +1253,7 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.alcfeatsavant0000", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.alcfeatsavant000", optional: false }
             ],
             optional: false,
             spell: null
@@ -1266,7 +1266,7 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.alcfeatreagents00", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.alcfeatreagents0", optional: false }
             ],
             optional: false,
             spell: null
@@ -1279,7 +1279,7 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.alcfeatmastery000", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.alcfeatmastery00", optional: false }
             ],
             optional: false,
             spell: null
@@ -1321,9 +1321,9 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.armfeattoolstrad0", optional: false },
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.armfeatarcanearm0", optional: false },
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.armfeatarmormod00", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.armfeattoolstrad", optional: false },
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.armfeatarcanearm", optional: false },
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.armfeatarmormod0", optional: false }
             ],
             optional: false,
             spell: null
@@ -1336,7 +1336,7 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.armfeatextraatt00", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.armfeatextraatt0", optional: false }
             ],
             optional: false,
             spell: null
@@ -1349,7 +1349,7 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.armfeatimparmor00", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.armfeatimparmor0", optional: false }
             ],
             optional: false,
             spell: null
@@ -1362,7 +1362,7 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.armfeatperfect000", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.armfeatperfect00", optional: false }
             ],
             optional: false,
             spell: null
@@ -1374,7 +1374,7 @@ const subclasses = [
     }
   },
   {
-    _id: "artilleristsubcl",
+    _id: "artilleristsub00",
     name: "Artillerist",
     type: "subclass",
     img: "icons/weapons/artillery/cannon-wooden-bronze.webp",
@@ -1405,7 +1405,7 @@ const subclasses = [
           configuration: {
             items: [
               { uuid: "Compendium.artificer-onednd.artificer-features.Item.artifeattoolstr0", optional: false },
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artifeatcannon000", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artifeatcannon00", optional: false }
             ],
             optional: false,
             spell: null
@@ -1418,7 +1418,7 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artifeatfirearm00", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artifeatfirearm0", optional: false }
             ],
             optional: false,
             spell: null
@@ -1431,7 +1431,7 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artifeatexplosiv0", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artifeatexplosiv", optional: false }
             ],
             optional: false,
             spell: null
@@ -1444,7 +1444,7 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artifeatfortifie0", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.artifeatfortifi0", optional: false }
             ],
             optional: false,
             spell: null
@@ -1456,7 +1456,7 @@ const subclasses = [
     }
   },
   {
-    _id: "battlesmithsubcl",
+    _id: "battlesmithsub00",
     name: "Battle Smith",
     type: "subclass",
     img: "icons/tools/smithing/anvil.webp",
@@ -1486,9 +1486,9 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.bsfeattoolstrad00", optional: false },
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.bsfeatbattleread0", optional: false },
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.bsfeatdefender000", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.bsfeattoolstrad0", optional: false },
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.bsfeatbattleread", optional: false },
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.bsfeatdefender00", optional: false }
             ],
             optional: false,
             spell: null
@@ -1501,7 +1501,7 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.bsfeatextraatt000", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.bsfeatextraatt00", optional: false }
             ],
             optional: false,
             spell: null
@@ -1514,7 +1514,7 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.bsfeatarcanejolt0", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.bsfeatarcanejolt", optional: false }
             ],
             optional: false,
             spell: null
@@ -1539,7 +1539,7 @@ const subclasses = [
     }
   },
   {
-    _id: "cartographersubc",
+    _id: "cartographersub0",
     name: "Cartographer",
     type: "subclass",
     img: "icons/tools/navigation/map-chart-tan.webp",
@@ -1570,8 +1570,8 @@ const subclasses = [
           configuration: {
             items: [
               { uuid: "Compendium.artificer-onednd.artificer-features.Item.cartfeattoolstr0", optional: false },
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.cartfeatatlas0000", optional: false },
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.cartfeatmapping00", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.cartfeatatlas000", optional: false },
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.cartfeatmapping0", optional: false }
             ],
             optional: false,
             spell: null
@@ -1584,7 +1584,7 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.cartfeatprecis000", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.cartfeatprecis00", optional: false }
             ],
             optional: false,
             spell: null
@@ -1597,7 +1597,7 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.cartfeatmovemen00", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.cartfeatmovemen0", optional: false }
             ],
             optional: false,
             spell: null
@@ -1610,7 +1610,7 @@ const subclasses = [
           type: "ItemGrant",
           configuration: {
             items: [
-              { uuid: "Compendium.artificer-onednd.artificer-features.Item.cartfeatsuperio00", optional: false }
+              { uuid: "Compendium.artificer-onednd.artificer-features.Item.cartfeatsuperio0", optional: false }
             ],
             optional: false,
             spell: null
@@ -1626,11 +1626,11 @@ const subclasses = [
 fs.writeFileSync(path.join(DATA_DIR, "subclasses.json"), JSON.stringify(subclasses, null, 2));
 
 // =============================================================
-// 4. SPELLS (spells.json)
+// 4. SPELLS (spells.json) - All _ids MUST be 16 characters!
 // =============================================================
 const spells = [
   {
-    _id: "splhomunculus00",
+    _id: "splhomunculus000",
     name: "Homunculus Servant",
     type: "spell",
     img: "icons/creatures/magical/construct-gargoyle-stone-grey.webp",
@@ -1664,7 +1664,7 @@ const spells = [
 fs.writeFileSync(path.join(DATA_DIR, "spells.json"), JSON.stringify(spells, null, 2));
 
 // =============================================================
-// 5. ITEMS & CONSUMABLES (items.json)
+// 5. ITEMS & CONSUMABLES (items.json) - All _ids MUST be 16 characters!
 // =============================================================
 const items = [
   // --- Experimental Elixirs ---
@@ -1848,7 +1848,7 @@ const items = [
 fs.writeFileSync(path.join(DATA_DIR, "items.json"), JSON.stringify(items, null, 2));
 
 // =============================================================
-// 6. ACTORS (actors.json)
+// 6. ACTORS (actors.json) - All _ids MUST be 16 characters!
 // =============================================================
 const actors = [
   {
@@ -1887,6 +1887,7 @@ const actors = [
     },
     items: [
       {
+        _id: "itemrend00000001",
         name: "Force-Empowered Rend",
         type: "weapon",
         img: "icons/skills/melee/unarmed-punch-fist.webp",
@@ -1901,6 +1902,7 @@ const actors = [
         }
       },
       {
+        _id: "itemrepair000001",
         name: "Repair (3/Day)",
         type: "feat",
         img: "icons/tools/smithing/tongs-steel.webp",
@@ -1914,6 +1916,7 @@ const actors = [
         }
       },
       {
+        _id: "itemdeflect00001",
         name: "Deflect Attack",
         type: "feat",
         img: "icons/equipment/shield/round-shield-buckler-boss-steel.webp",
@@ -1962,6 +1965,7 @@ const actors = [
     },
     items: [
       {
+        _id: "itemfstrike00001",
         name: "Force Strike",
         type: "weapon",
         img: "icons/magic/symbols/star-rising-purple.webp",
@@ -1975,6 +1979,7 @@ const actors = [
         }
       },
       {
+        _id: "itemchanmag00001",
         name: "Channel Magic",
         type: "feat",
         img: "icons/magic/light/hand-sparks-glow-yellow.webp",
@@ -1986,6 +1991,7 @@ const actors = [
         }
       },
       {
+        _id: "itemevasion00001",
         name: "Evasion",
         type: "feat",
         img: "icons/skills/movement/body-turn-dodge-blue.webp",
@@ -2031,6 +2037,7 @@ const actors = [
     },
     items: [
       {
+        _id: "itemflamethr0001",
         name: "Flamethrower",
         type: "feat",
         img: "icons/magic/fire/beam-jet-stream-red.webp",
@@ -2046,6 +2053,7 @@ const actors = [
         }
       },
       {
+        _id: "itemforceballis1",
         name: "Force Ballista",
         type: "weapon",
         img: "icons/weapons/artillery/ballista-iron.webp",
@@ -2060,6 +2068,7 @@ const actors = [
         }
       },
       {
+        _id: "itemprotector001",
         name: "Protector",
         type: "feat",
         img: "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
@@ -2078,5 +2087,4 @@ const actors = [
 
 fs.writeFileSync(path.join(DATA_DIR, "actors.json"), JSON.stringify(actors, null, 2));
 
-console.log("All Artificer data files successfully generated in scripts/data/!");
-
+console.log("All Artificer data files successfully generated in scripts/data/ with valid 16-character IDs!");

@@ -1,6 +1,6 @@
 [
   {
-    "_id": "artfeatspellcast0",
+    "_id": "artfeatspellcast",
     "name": "Spellcasting (Artificer)",
     "type": "feat",
     "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
@@ -20,7 +20,7 @@
     }
   },
   {
-    "_id": "artfeattinkermag0",
+    "_id": "artfeattinkermag",
     "name": "Tinker's Magic",
     "type": "feat",
     "img": "icons/tools/instruments/measuring-compass-brass.webp",
@@ -54,7 +54,7 @@
     }
   },
   {
-    "_id": "artfeatreplicatm0",
+    "_id": "artfeatreplicatm",
     "name": "Replicate Magic Item",
     "type": "feat",
     "img": "icons/commodities/treasure/chest-wooden-steel-gold.webp",
@@ -74,7 +74,7 @@
     }
   },
   {
-    "_id": "artfeatasiprog000",
+    "_id": "artfeatasiprog00",
     "name": "Ability Score Improvement",
     "type": "feat",
     "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
@@ -94,7 +94,7 @@
     }
   },
   {
-    "_id": "artfeatmagtinker0",
+    "_id": "artfeatmagictink",
     "name": "Magic Item Tinker",
     "type": "feat",
     "img": "icons/magic/symbols/gear-sparks-teal.webp",
@@ -122,7 +122,7 @@
     }
   },
   {
-    "_id": "artfeatflashgen00",
+    "_id": "artfeatflashgen0",
     "name": "Flash of Genius",
     "type": "feat",
     "img": "icons/magic/light/bulb-glow-yellow-blue.webp",
@@ -156,7 +156,7 @@
     }
   },
   {
-    "_id": "artfeatmagicadept",
+    "_id": "artfeatmagicadep",
     "name": "Magic Item Adept",
     "type": "feat",
     "img": "icons/equipment/finger/ring-cabochon-gold-purple.webp",
@@ -176,7 +176,7 @@
     }
   },
   {
-    "_id": "artfeatspellstore",
+    "_id": "artfeatspellstor",
     "name": "Spell-Storing Item",
     "type": "feat",
     "img": "icons/sundries/books/book-embossed-jeweled-purple.webp",
@@ -202,7 +202,7 @@
     }
   },
   {
-    "_id": "artfeatadvartifi0",
+    "_id": "artfeatadvartif0",
     "name": "Advanced Artifice",
     "type": "feat",
     "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
@@ -222,7 +222,7 @@
     }
   },
   {
-    "_id": "artfeatmagicmast0",
+    "_id": "artfeatmagicmas0",
     "name": "Magic Item Master",
     "type": "feat",
     "img": "icons/equipment/finger/ring-band-engraved-gold.webp",
@@ -242,7 +242,7 @@
     }
   },
   {
-    "_id": "artfeatepicboon00",
+    "_id": "artfeatepicboon0",
     "name": "Epic Boon",
     "type": "feat",
     "img": "icons/magic/light/explosion-star-glow-orange.webp",
@@ -262,7 +262,7 @@
     }
   },
   {
-    "_id": "artfeatsoulartif0",
+    "_id": "artfeatsoulartif",
     "name": "Soul of Artifice",
     "type": "feat",
     "img": "icons/magic/life/heart-cross-strong-green.webp",
@@ -282,7 +282,7 @@
     }
   },
   {
-    "_id": "alcfeattoolstrad0",
+    "_id": "alcfeattoolstrad",
     "name": "Tools of the Trade (Alchemist)",
     "type": "feat",
     "img": "icons/tools/laboratory/alembic-glass-copper.webp",
@@ -302,7 +302,7 @@
     }
   },
   {
-    "_id": "alcfeatelixir0000",
+    "_id": "alcfeatelixir000",
     "name": "Experimental Elixir",
     "type": "feat",
     "img": "icons/consumables/potions/potion-bottle-corked-glowing-green.webp",
@@ -326,7 +326,7 @@
     }
   },
   {
-    "_id": "alcfeatsavant0000",
+    "_id": "alcfeatsavant000",
     "name": "Alchemical Savant",
     "type": "feat",
     "img": "icons/magic/fire/flame-burning-flask-teal.webp",
@@ -346,7 +346,7 @@
     }
   },
   {
-    "_id": "alcfeatreagents00",
+    "_id": "alcfeatreagents0",
     "name": "Restorative Reagents",
     "type": "feat",
     "img": "icons/magic/life/cross-burst-teal.webp",
@@ -372,7 +372,7 @@
     }
   },
   {
-    "_id": "alcfeatmastery000",
+    "_id": "alcfeatmastery00",
     "name": "Chemical Mastery",
     "type": "feat",
     "img": "icons/magic/unholy/cauldron-bubbling-green.webp",
@@ -392,7 +392,7 @@
     }
   },
   {
-    "_id": "armfeattoolstrad0",
+    "_id": "armfeattoolstrad",
     "name": "Tools of the Trade (Armorer)",
     "type": "feat",
     "img": "icons/tools/smithing/hammer-sledge.webp",
@@ -412,7 +412,7 @@
     }
   },
   {
-    "_id": "armfeatarcanearm0",
+    "_id": "armfeatarcanearm",
     "name": "Arcane Armor",
     "type": "feat",
     "img": "icons/equipment/chest/breastplate-metal-scaled-grey.webp",
@@ -436,7 +436,7 @@
     }
   },
   {
-    "_id": "armfeatarmormod00",
+    "_id": "armfeatarmormod0",
     "name": "Armor Model",
     "type": "feat",
     "img": "icons/equipment/shield/tower-crest-steel-blue.webp",
@@ -456,7 +456,7 @@
     }
   },
   {
-    "_id": "armfeatextraatt00",
+    "_id": "armfeatextraatt0",
     "name": "Extra Attack (Armorer)",
     "type": "feat",
     "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
@@ -476,7 +476,7 @@
     }
   },
   {
-    "_id": "armfeatimparmor00",
+    "_id": "armfeatimparmor0",
     "name": "Improved Armorer",
     "type": "feat",
     "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
@@ -496,7 +496,7 @@
     }
   },
   {
-    "_id": "armfeatperfect000",
+    "_id": "armfeatperfect00",
     "name": "Perfected Armor",
     "type": "feat",
     "img": "icons/equipment/chest/armor-plate-gilded-purple.webp",
@@ -536,7 +536,7 @@
     }
   },
   {
-    "_id": "artifeatcannon000",
+    "_id": "artifeatcannon00",
     "name": "Eldritch Cannon",
     "type": "feat",
     "img": "icons/weapons/artillery/cannon-wooden-bronze.webp",
@@ -560,7 +560,7 @@
     }
   },
   {
-    "_id": "artifeatfirearm00",
+    "_id": "artifeatfirearm0",
     "name": "Arcane Firearm",
     "type": "feat",
     "img": "icons/weapons/wands/wand-carved-glowing-gold.webp",
@@ -580,7 +580,7 @@
     }
   },
   {
-    "_id": "artifeatexplosiv0",
+    "_id": "artifeatexplosiv",
     "name": "Explosive Cannon",
     "type": "feat",
     "img": "icons/magic/fire/explosion-fireball-large-orange.webp",
@@ -600,7 +600,7 @@
     }
   },
   {
-    "_id": "artifeatfortifie0",
+    "_id": "artifeatfortifi0",
     "name": "Fortified Position",
     "type": "feat",
     "img": "icons/environment/settlement/watchtower-stone-snow.webp",
@@ -620,7 +620,7 @@
     }
   },
   {
-    "_id": "bsfeattoolstrad00",
+    "_id": "bsfeattoolstrad0",
     "name": "Tools of the Trade (Battle Smith)",
     "type": "feat",
     "img": "icons/tools/smithing/anvil.webp",
@@ -640,7 +640,7 @@
     }
   },
   {
-    "_id": "bsfeatbattleread0",
+    "_id": "bsfeatbattleread",
     "name": "Battle Ready",
     "type": "feat",
     "img": "icons/weapons/swords/sword-broad-crystal-blue.webp",
@@ -660,7 +660,7 @@
     }
   },
   {
-    "_id": "bsfeatdefender000",
+    "_id": "bsfeatdefender00",
     "name": "Steel Defender",
     "type": "feat",
     "img": "icons/creatures/magical/construct-iron-golem-purple.webp",
@@ -680,7 +680,7 @@
     }
   },
   {
-    "_id": "bsfeatextraatt000",
+    "_id": "bsfeatextraatt00",
     "name": "Extra Attack (Battle Smith)",
     "type": "feat",
     "img": "icons/skills/melee/strike-sword-blood-red.webp",
@@ -700,7 +700,7 @@
     }
   },
   {
-    "_id": "bsfeatarcanejolt0",
+    "_id": "bsfeatarcanejolt",
     "name": "Arcane Jolt",
     "type": "feat",
     "img": "icons/magic/lightning/bolt-strike-blue.webp",
@@ -766,7 +766,7 @@
     }
   },
   {
-    "_id": "cartfeatatlas0000",
+    "_id": "cartfeatatlas000",
     "name": "Adventurer's Atlas",
     "type": "feat",
     "img": "icons/tools/navigation/map-marked-blue.webp",
@@ -786,7 +786,7 @@
     }
   },
   {
-    "_id": "cartfeatmapping00",
+    "_id": "cartfeatmapping0",
     "name": "Mapping Magic",
     "type": "feat",
     "img": "icons/magic/movement/portal-vortex-teal.webp",
@@ -812,7 +812,7 @@
     }
   },
   {
-    "_id": "cartfeatprecis000",
+    "_id": "cartfeatprecis00",
     "name": "Guided Precision",
     "type": "feat",
     "img": "icons/magic/perception/eye-ringed-glow-purple-teal.webp",
@@ -832,7 +832,7 @@
     }
   },
   {
-    "_id": "cartfeatmovemen00",
+    "_id": "cartfeatmovemen0",
     "name": "Ingenious Movement",
     "type": "feat",
     "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
@@ -852,7 +852,7 @@
     }
   },
   {
-    "_id": "cartfeatsuperio00",
+    "_id": "cartfeatsuperio0",
     "name": "Superior Atlas",
     "type": "feat",
     "img": "icons/tools/navigation/compass-brass-vintage.webp",

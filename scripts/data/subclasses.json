@@ -18,11 +18,11 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeattoolstrad0",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeattoolstrad",
                 "optional": false
               },
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeatelixir0000",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeatelixir000",
                 "optional": false
               }
             ],
@@ -38,7 +38,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeatsavant0000",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeatsavant000",
                 "optional": false
               }
             ],
@@ -54,7 +54,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeatreagents00",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeatreagents0",
                 "optional": false
               }
             ],
@@ -70,7 +70,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeatmastery000",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeatmastery00",
                 "optional": false
               }
             ],
@@ -102,15 +102,15 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeattoolstrad0",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeattoolstrad",
                 "optional": false
               },
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatarcanearm0",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatarcanearm",
                 "optional": false
               },
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatarmormod00",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatarmormod0",
                 "optional": false
               }
             ],
@@ -126,7 +126,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatextraatt00",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatextraatt0",
                 "optional": false
               }
             ],
@@ -142,7 +142,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatimparmor00",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatimparmor0",
                 "optional": false
               }
             ],
@@ -158,7 +158,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatperfect000",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatperfect00",
                 "optional": false
               }
             ],
@@ -172,7 +172,7 @@
     }
   },
   {
-    "_id": "artilleristsubcl",
+    "_id": "artilleristsub00",
     "name": "Artillerist",
     "type": "subclass",
     "img": "icons/weapons/artillery/cannon-wooden-bronze.webp",
@@ -194,7 +194,7 @@
                 "optional": false
               },
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artifeatcannon000",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artifeatcannon00",
                 "optional": false
               }
             ],
@@ -210,7 +210,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artifeatfirearm00",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artifeatfirearm0",
                 "optional": false
               }
             ],
@@ -226,7 +226,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artifeatexplosiv0",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artifeatexplosiv",
                 "optional": false
               }
             ],
@@ -242,7 +242,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artifeatfortifie0",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artifeatfortifi0",
                 "optional": false
               }
             ],
@@ -256,7 +256,7 @@
     }
   },
   {
-    "_id": "battlesmithsubcl",
+    "_id": "battlesmithsub00",
     "name": "Battle Smith",
     "type": "subclass",
     "img": "icons/tools/smithing/anvil.webp",
@@ -274,15 +274,15 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeattoolstrad00",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeattoolstrad0",
                 "optional": false
               },
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeatbattleread0",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeatbattleread",
                 "optional": false
               },
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeatdefender000",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeatdefender00",
                 "optional": false
               }
             ],
@@ -298,7 +298,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeatextraatt000",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeatextraatt00",
                 "optional": false
               }
             ],
@@ -314,7 +314,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeatarcanejolt0",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeatarcanejolt",
                 "optional": false
               }
             ],
@@ -344,7 +344,7 @@
     }
   },
   {
-    "_id": "cartographersubc",
+    "_id": "cartographersub0",
     "name": "Cartographer",
     "type": "subclass",
     "img": "icons/tools/navigation/map-chart-tan.webp",
@@ -366,11 +366,11 @@
                 "optional": false
               },
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatatlas0000",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatatlas000",
                 "optional": false
               },
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatmapping00",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatmapping0",
                 "optional": false
               }
             ],
@@ -386,7 +386,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatprecis000",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatprecis00",
                 "optional": false
               }
             ],
@@ -402,7 +402,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatmovemen00",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatmovemen0",
                 "optional": false
               }
             ],
@@ -418,7 +418,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatsuperio00",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatsuperio0",
                 "optional": false
               }
             ],

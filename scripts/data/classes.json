@@ -118,11 +118,11 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatspellcast0",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatspellcast",
                 "optional": false
               },
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeattinkermag0",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeattinkermag",
                 "optional": false
               }
             ],
@@ -138,7 +138,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatreplicatm0",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatreplicatm",
                 "optional": false
               }
             ],
@@ -154,7 +154,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog000",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog00",
                 "optional": false
               }
             ],
@@ -170,7 +170,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatmagtinker0",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatmagictink",
                 "optional": false
               }
             ],
@@ -186,7 +186,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatflashgen00",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatflashgen0",
                 "optional": false
               }
             ],
@@ -202,7 +202,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog000",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog00",
                 "optional": false
               }
             ],
@@ -218,7 +218,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatmagicadept",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatmagicadep",
                 "optional": false
               }
             ],
@@ -234,7 +234,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatspellstore",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatspellstor",
                 "optional": false
               }
             ],
@@ -250,7 +250,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog000",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog00",
                 "optional": false
               }
             ],
@@ -266,7 +266,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatadvartifi0",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatadvartif0",
                 "optional": false
               }
             ],
@@ -282,7 +282,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog000",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog00",
                 "optional": false
               }
             ],
@@ -298,7 +298,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatmagicmast0",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatmagicmas0",
                 "optional": false
               }
             ],
@@ -314,7 +314,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatepicboon00",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatepicboon0",
                 "optional": false
               }
             ],
@@ -330,7 +330,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatsoulartif0",
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatsoulartif",
                 "optional": false
               }
             ],

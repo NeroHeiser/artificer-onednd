@@ -74,6 +74,7 @@
     },
     "items": [
       {
+        "_id": "itemrend00000001",
         "name": "Force-Empowered Rend",
         "type": "weapon",
         "img": "icons/skills/melee/unarmed-punch-fist.webp",
@@ -98,6 +99,7 @@
         }
       },
       {
+        "_id": "itemrepair000001",
         "name": "Repair (3/Day)",
         "type": "feat",
         "img": "icons/tools/smithing/tongs-steel.webp",
@@ -125,6 +127,7 @@
         }
       },
       {
+        "_id": "itemdeflect00001",
         "name": "Deflect Attack",
         "type": "feat",
         "img": "icons/equipment/shield/round-shield-buckler-boss-steel.webp",
@@ -215,6 +218,7 @@
     },
     "items": [
       {
+        "_id": "itemfstrike00001",
         "name": "Force Strike",
         "type": "weapon",
         "img": "icons/magic/symbols/star-rising-purple.webp",
@@ -238,6 +242,7 @@
         }
       },
       {
+        "_id": "itemchanmag00001",
         "name": "Channel Magic",
         "type": "feat",
         "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
@@ -252,6 +257,7 @@
         }
       },
       {
+        "_id": "itemevasion00001",
         "name": "Evasion",
         "type": "feat",
         "img": "icons/skills/movement/body-turn-dodge-blue.webp",
@@ -335,6 +341,7 @@
     },
     "items": [
       {
+        "_id": "itemflamethr0001",
         "name": "Flamethrower",
         "type": "feat",
         "img": "icons/magic/fire/beam-jet-stream-red.webp",
@@ -368,6 +375,7 @@
         }
       },
       {
+        "_id": "itemforceballis1",
         "name": "Force Ballista",
         "type": "weapon",
         "img": "icons/weapons/artillery/ballista-iron.webp",
@@ -395,6 +403,7 @@
         }
       },
       {
+        "_id": "itemprotector001",
         "name": "Protector",
         "type": "feat",
         "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
