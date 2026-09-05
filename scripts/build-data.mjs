@@ -378,6 +378,19 @@ const enFeatures = [
     name: "Chemical Mastery",
     type: "feat",
     img: "icons/magic/unholy/cauldron-bubbling-green.webp",
+    effects: [
+      {
+        _id: "effchemmaster000",
+        name: "Chemical Mastery",
+        img: "icons/magic/unholy/cauldron-bubbling-green.webp",
+        changes: [
+          { key: "system.traits.dr.value", mode: 2, value: "acid", priority: 20 },
+          { key: "system.traits.dr.value", mode: 2, value: "poison", priority: 20 },
+          { key: "system.traits.ci.value", mode: 2, value: "poisoned", priority: 20 }
+        ],
+        transfer: true
+      }
+    ],
     system: {
       description: {
         value: `
@@ -1308,6 +1321,19 @@ const ptFeatures = [
     name: "Maestria Química",
     type: "feat",
     img: "icons/magic/unholy/cauldron-bubbling-green.webp",
+    effects: [
+      {
+        _id: "effchemmaster000",
+        name: "Maestria Química",
+        img: "icons/magic/unholy/cauldron-bubbling-green.webp",
+        changes: [
+          { key: "system.traits.dr.value", mode: 2, value: "acid", priority: 20 },
+          { key: "system.traits.dr.value", mode: 2, value: "poison", priority: 20 },
+          { key: "system.traits.ci.value", mode: 2, value: "poisoned", priority: 20 }
+        ],
+        transfer: true
+      }
+    ],
     system: {
       description: {
         value: `
@@ -2711,6 +2737,8 @@ function generateItems(isPt) {
         uses: { value: 1, max: "1", per: "charges", autoDestroy: true },
         activation: { type: "bonus", cost: 1 },
         actionType: "heal",
+        target: { value: 1, units: "", type: "creature" },
+        range: { units: "touch" },
         damage: { parts: [["2d8 + @abilities.int.mod", "healing"]] }
       }
     },
@@ -2719,6 +2747,18 @@ function generateItems(isPt) {
       name: isPt ? "Elixir Experimental: Rapidez" : "Experimental Elixir: Swiftness",
       type: "consumable",
       img: "icons/consumables/potions/potion-bottle-corked-yellow.webp",
+      effects: [
+        {
+          _id: "effelixirswift00",
+          name: isPt ? "Elixir: Rapidez" : "Elixir: Swiftness",
+          img: "icons/consumables/potions/potion-bottle-corked-yellow.webp",
+          changes: [
+            { key: "system.attributes.movement.walk", mode: 2, value: "+10", priority: 20 }
+          ],
+          duration: { seconds: 3600 },
+          transfer: false
+        }
+      ],
       system: {
         description: {
           value: isPt
@@ -2729,6 +2769,9 @@ function generateItems(isPt) {
         consumableType: "potion",
         uses: { value: 1, max: "1", per: "charges", autoDestroy: true },
         activation: { type: "bonus", cost: 1 },
+        actionType: "util",
+        target: { value: 1, units: "", type: "creature" },
+        range: { units: "touch" },
         duration: { value: 1, units: "hour" }
       }
     },
@@ -2737,6 +2780,18 @@ function generateItems(isPt) {
       name: isPt ? "Elixir Experimental: Resiliência" : "Experimental Elixir: Resilience",
       type: "consumable",
       img: "icons/consumables/potions/potion-bottle-corked-blue.webp",
+      effects: [
+        {
+          _id: "effelixirresili0",
+          name: isPt ? "Elixir: Resiliência" : "Elixir: Resilience",
+          img: "icons/consumables/potions/potion-bottle-corked-blue.webp",
+          changes: [
+            { key: "system.attributes.ac.bonus", mode: 2, value: "1", priority: 20 }
+          ],
+          duration: { seconds: 600 },
+          transfer: false
+        }
+      ],
       system: {
         description: {
           value: isPt
@@ -2747,6 +2802,9 @@ function generateItems(isPt) {
         consumableType: "potion",
         uses: { value: 1, max: "1", per: "charges", autoDestroy: true },
         activation: { type: "bonus", cost: 1 },
+        actionType: "util",
+        target: { value: 1, units: "", type: "creature" },
+        range: { units: "touch" },
         duration: { value: 10, units: "minute" }
       }
     },
@@ -2755,6 +2813,19 @@ function generateItems(isPt) {
       name: isPt ? "Elixir Experimental: Audácia" : "Experimental Elixir: Boldness",
       type: "consumable",
       img: "icons/consumables/potions/potion-bottle-corked-orange.webp",
+      effects: [
+        {
+          _id: "effelixirboldns0",
+          name: isPt ? "Elixir: Audácia" : "Elixir: Boldness",
+          img: "icons/consumables/potions/potion-bottle-corked-orange.webp",
+          changes: [
+            { key: "system.bonuses.All-Attacks", mode: 2, value: "1d4", priority: 20 },
+            { key: "system.bonuses.abilities.save", mode: 2, value: "1d4", priority: 20 }
+          ],
+          duration: { seconds: 60 },
+          transfer: false
+        }
+      ],
       system: {
         description: {
           value: isPt
@@ -2765,6 +2836,9 @@ function generateItems(isPt) {
         consumableType: "potion",
         uses: { value: 1, max: "1", per: "charges", autoDestroy: true },
         activation: { type: "bonus", cost: 1 },
+        actionType: "util",
+        target: { value: 1, units: "", type: "creature" },
+        range: { units: "touch" },
         duration: { value: 1, units: "minute" }
       }
     },
@@ -2773,6 +2847,18 @@ function generateItems(isPt) {
       name: isPt ? "Elixir Experimental: Voo" : "Experimental Elixir: Flight",
       type: "consumable",
       img: "icons/consumables/potions/potion-bottle-corked-purple.webp",
+      effects: [
+        {
+          _id: "effelixirflight0",
+          name: isPt ? "Elixir: Voo" : "Elixir: Flight",
+          img: "icons/consumables/potions/potion-bottle-corked-purple.webp",
+          changes: [
+            { key: "system.attributes.movement.fly", mode: 4, value: "10", priority: 20 }
+          ],
+          duration: { seconds: 600 },
+          transfer: false
+        }
+      ],
       system: {
         description: {
           value: isPt
@@ -2783,6 +2869,9 @@ function generateItems(isPt) {
         consumableType: "potion",
         uses: { value: 1, max: "1", per: "charges", autoDestroy: true },
         activation: { type: "bonus", cost: 1 },
+        actionType: "util",
+        target: { value: 1, units: "", type: "creature" },
+        range: { units: "touch" },
         duration: { value: 10, units: "minute" }
       }
     },
@@ -2808,6 +2897,18 @@ function generateItems(isPt) {
       name: isPt ? "Disparo Repetidor" : "Repeating Shot",
       type: "weapon",
       img: "icons/weapons/crossbows/crossbow-loaded-repeater.webp",
+      effects: [
+        {
+          _id: "effrepeating0000",
+          name: isPt ? "Disparo Repetidor (+1)" : "Repeating Shot (+1)",
+          img: "icons/weapons/crossbows/crossbow-loaded-repeater.webp",
+          changes: [
+            { key: "system.bonuses.rwak.attack", mode: 2, value: "1", priority: 20 },
+            { key: "system.bonuses.rwak.damage", mode: 2, value: "1", priority: 20 }
+          ],
+          transfer: true
+        }
+      ],
       system: {
         description: {
           value: isPt
@@ -2818,7 +2919,8 @@ function generateItems(isPt) {
         attunement: 1,
         rarity: "common",
         equipped: true,
-        actionType: "rwak"
+        actionType: "rwak",
+        ability: "dex"
       }
     },
     {
@@ -2826,6 +2928,20 @@ function generateItems(isPt) {
       name: isPt ? "Arma Retornável" : "Returning Weapon",
       type: "weapon",
       img: "icons/weapons/daggers/dagger-thrown-glow-blue.webp",
+      effects: [
+        {
+          _id: "effreturningweap",
+          name: isPt ? "Arma Retornável (+1)" : "Returning Weapon (+1)",
+          img: "icons/weapons/daggers/dagger-thrown-glow-blue.webp",
+          changes: [
+            { key: "system.bonuses.mwak.attack", mode: 2, value: "1", priority: 20 },
+            { key: "system.bonuses.mwak.damage", mode: 2, value: "1", priority: 20 },
+            { key: "system.bonuses.rwak.attack", mode: 2, value: "1", priority: 20 },
+            { key: "system.bonuses.rwak.damage", mode: 2, value: "1", priority: 20 }
+          ],
+          transfer: true
+        }
+      ],
       system: {
         description: {
           value: isPt
@@ -2848,29 +2964,34 @@ function generateItems(isPt) {
         description: {
           value: isPt
             ? "<p>Manto ou armadura infundida. Exige Sintonização. Ao falhar em uma salvaguarda de Constituição para manter concentração em uma magia, use sua Reação para ser bem-sucedido em vez disso (4 cargas, recupera 1d4 ao amanhecer).</p>"
-            : "<p>Infused robes or armor. Requires Attunement. The infused item can send a jolt to the wearer to refocus their mind: when the wearer fails a Constitution saving throw to maintain concentration on a spell, the wearer can use its reaction to succeed instead (4 charges, regains 1d4 at dawn).</p>",
+            : "<p>Infused suit of armor or robes. Requires Attunement. The item has 4 charges. When the wearer fails a Constitution saving throw to maintain concentration on a spell, they can use their reaction to succeed instead (regains 1d4 at dawn).</p>",
           chat: ""
         },
         attunement: 1,
-        rarity: "uncommon",
-        equipped: true
+        rarity: "common",
+        equipped: true,
+        activation: { type: "reaction", cost: 1 },
+        uses: { value: 4, max: "4", per: "charges" }
       }
     },
     {
-      _id: "repwndingpath000",
+      _id: "repwindingboots0",
       name: isPt ? "Botas do Caminho Sinuoso" : "Boots of the Winding Path",
       type: "equipment",
-      img: "icons/equipment/feet/boots-leather-fur-cuffed-purple.webp",
+      img: "icons/equipment/feet/boots-leather-strapped.webp",
       system: {
         description: {
           value: isPt
-            ? "<p>Exige Sintonização. Como Ação Bônus, teletransporte-se até 4,5m (15 pés) para um espaço desocupado que você tenha ocupado em algum momento durante o turno atual.</p>"
-            : "<p>Requires Attunement. While wearing these boots, a creature can teleport up to 15 feet as a Bonus Action to an unoccupied space the creature occupied at some point during the current turn.</p>",
+            ? "<p>Botas infundidas com magia de dobra espacial. Exige Sintonização. Como uma Ação Bônus, teleporte-se até 4,5m (15 pés) para um espaço desocupado que você possa ver.</p>"
+            : "<p>Infused boots of spatial folding. Requires Attunement. As a Bonus Action, the wearer can teleport up to 15 feet to an unoccupied space they can see.</p>",
           chat: ""
         },
         attunement: 1,
         rarity: "uncommon",
-        equipped: true
+        equipped: true,
+        activation: { type: "bonus", cost: 1 },
+        range: { value: 15, units: "ft" },
+        actionType: "util"
       }
     },
     {
@@ -2878,6 +2999,17 @@ function generateItems(isPt) {
       name: isPt ? "Escudo de Repulsão" : "Repulsion Shield",
       type: "equipment",
       img: "icons/equipment/shield/heater-crystal-blue.webp",
+      effects: [
+        {
+          _id: "effrepulsionshld",
+          name: isPt ? "Escudo de Repulsão (+1 CA)" : "Repulsion Shield (+1 AC)",
+          img: "icons/equipment/shield/heater-crystal-blue.webp",
+          changes: [
+            { key: "system.attributes.ac.bonus", mode: 2, value: "1", priority: 20 }
+          ],
+          transfer: true
+        }
+      ],
       system: {
         description: {
           value: isPt
@@ -2887,7 +3019,9 @@ function generateItems(isPt) {
         },
         attunement: 0,
         rarity: "uncommon",
-        equipped: true
+        equipped: true,
+        activation: { type: "reaction", cost: 1 },
+        uses: { value: 4, max: "4", per: "charges" }
       }
     }
   ];
@@ -2944,9 +3078,10 @@ function generateActors(isPt) {
           img: "icons/skills/melee/unarmed-punch-fist.webp",
           system: {
             actionType: "mwak",
-            damage: { parts: [["1d8 + 2 + @abilities.int.mod", "force"]] },
-            range: { value: 5, units: "ft" },
             ability: "str",
+            target: { value: 1, units: "", type: "creature" },
+            range: { value: 5, units: "ft" },
+            damage: { parts: [["1d8 + 2 + @abilities.int.mod", "force"]] },
             description: {
               value: isPt
                 ? "<p>Ataque Corpo a Corpo: Alcance 1,5m. Acerto: 1d8 + 2 + mod Int de dano de Força.</p>"
@@ -2962,6 +3097,9 @@ function generateActors(isPt) {
           system: {
             activation: { type: "action", cost: 1 },
             uses: { value: 3, max: "3", per: "day" },
+            actionType: "heal",
+            target: { value: 1, units: "", type: "creature" },
+            range: { value: 5, units: "ft" },
             damage: { parts: [["2d8 + @abilities.int.mod", "healing"]] },
             description: {
               value: isPt
@@ -2977,6 +3115,7 @@ function generateActors(isPt) {
           img: "icons/equipment/shield/round-shield-buckler-boss-steel.webp",
           system: {
             activation: { type: "reaction", cost: 1 },
+            range: { value: 5, units: "ft" },
             description: {
               value: isPt
                 ? "<p>Impõe Desvantagem na jogada de ataque feita contra um aliado a até 1,5m.</p>"
@@ -3029,13 +3168,15 @@ function generateActors(isPt) {
           type: "weapon",
           img: "icons/magic/symbols/star-rising-purple.webp",
           system: {
-            actionType: "rwak",
-            damage: { parts: [["1d6 + 2", "force"]] },
+            actionType: "rsak",
+            ability: "dex",
+            target: { value: 1, units: "", type: "creature" },
             range: { value: 30, units: "ft" },
+            damage: { parts: [["1d4 + 2 + @prof", "force"]] },
             description: {
               value: isPt
-                ? "<p>Ataque Corpo a Corpo ou à Distância (9m). Acerto: 1d6 + círculo da magia de dano de Força.</p>"
-                : "<p>Melee or Ranged Attack (30 ft). Hit: 1d6 + spell level Force damage.</p>"
+                ? "<p>Ataque Mágico à Distância (9m). Acerto: 1d4 + 2 + bônus de proficiência de dano de Força.</p>"
+                : "<p>Ranged Spell Attack (30 ft). Hit: 1d4 + 2 + proficiency bonus Force damage.</p>"
             }
           }
         },
@@ -3046,6 +3187,7 @@ function generateActors(isPt) {
           img: "icons/magic/light/hand-sparks-glow-yellow.webp",
           system: {
             activation: { type: "reaction", cost: 1 },
+            range: { value: 120, units: "ft" },
             description: {
               value: isPt
                 ? "<p>Entrega magias de toque conjuradas pelo seu criador a até 36m (120 pés).</p>"
@@ -3112,7 +3254,7 @@ function generateActors(isPt) {
             activation: { type: "bonus", cost: 1 },
             target: { value: 15, units: "ft", type: "cone" },
             actionType: "save",
-            save: { ability: "dex", dc: 15, scaling: "int" },
+            save: { ability: "dex", dc: 15, scaling: "spell" },
             damage: { parts: [["2d8", "fire"]] },
             description: {
               value: isPt
@@ -3129,6 +3271,8 @@ function generateActors(isPt) {
           system: {
             activation: { type: "bonus", cost: 1 },
             actionType: "rsak",
+            ability: "int",
+            target: { value: 1, units: "", type: "creature" },
             range: { value: 120, units: "ft" },
             damage: { parts: [["2d8", "force"]] },
             description: {
@@ -3145,6 +3289,7 @@ function generateActors(isPt) {
           img: "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
           system: {
             activation: { type: "bonus", cost: 1 },
+            actionType: "heal",
             target: { value: 10, units: "ft", type: "radius" },
             damage: { parts: [["1d8 + @abilities.int.mod", "temphp"]] },
             description: {

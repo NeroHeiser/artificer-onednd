@@ -1,8 +1,8 @@
 {
   "id": "artificer-onednd",
-  "title": "Artificer: Forge of the Artificer (D&D 5e / One D&D)",
-  "description": "Adiciona a classe Artífice (Unearthed Arcana 2024: Forge of the Artificer) para o sistema D&D 5e no Foundry VTT, incluindo as 5 subclasses (Alchemist, Armorer, Artillerist, Battle Smith, Cartographer), compêndios completos, magias, itens replicáveis, invocações e a Oficina do Artífice.",
-  "version": "1.0.0",
+  "title": "Expansão de Classes e Arquétipos",
+  "description": "Adiciona classes completas e arquétipos de Unearthed Arcana (One D&D / 2024) para o sistema D&D 5e no Foundry VTT, com suporte nativo e automações para Midi QOL e compêndios bilíngues (pt-BR / en).",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12",

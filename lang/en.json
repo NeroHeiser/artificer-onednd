@@ -4,9 +4,9 @@
       "Name": "Artificer"
     },
     "Workshop": {
-      "Title": "Artificer's Workshop",
-      "HeaderButton": "Artificer Workshop",
-      "NoActor": "No Character selected. Select an Artificer to manage inventions.",
+      "Title": "Expansão de Classes e Arquétipos",
+      "HeaderButton": "Expansão de Classes e Arquétipos",
+      "NoActor": "No Character selected. Open the tool from a character sheet.",
       "SearchPlaceholder": "Filter items...",
       "ConjureItem": "Conjure this item into inventory",
       "Craft": "Craft",
@@ -44,7 +44,7 @@
         "Description": "Special mechanical companions and arcane constructs available to Artificer specializations."
       },
       "Admin": {
-        "Description": "Administrative tools for Game Masters to populate and synchronize the Artificer compendiums.",
+        "Description": "Administrative tools for Game Masters to populate and synchronize the compendiums.",
         "SyncButton": "Re-synchronize All Compendiums"
       }
     },
@@ -89,7 +89,7 @@
       }
     },
     "Notifications": {
-      "CompendiumsSynced": "Artificer 5e: Successfully synchronized {count} documents across all compendiums!",
+      "CompendiumsSynced": "Expansão de Classes e Arquétipos: Successfully synchronized {count} documents across all compendiums!",
       "ElixirCreated": "Created {name} in {actor}'s inventory!",
       "TinkerItemCreated": "Conjured {name} in {actor}'s inventory (lasts until next Long Rest)!",
       "ItemCreated": "Created {name} in {actor}'s inventory!",
@@ -99,20 +99,20 @@
     "Settings": {
       "EnableSheetButton": {
         "Name": "Enable Sheet Button",
-        "Hint": "Adds an Artificer Workshop button to the header of character sheets."
+        "Hint": "Adds an Expansão de Classes e Arquétipos button to the header of character sheets."
       },
       "AutoSync": {
         "Name": "Auto-sync Compendiums",
-        "Hint": "Automatically checks and synchronizes Artificer compendium packs upon world launch if empty or language changes."
+        "Hint": "Automatically checks and synchronizes compendium packs upon world launch if empty or language changes."
       },
       "SyncedLanguage": {
         "Name": "Synced Compendiums Language",
         "Hint": "Tracks which language was populated into the compendiums for automatic synchronization."
       },
       "Menu": {
-        "Name": "Artificer Workshop",
-        "Label": "Open Workshop",
-        "Hint": "Open the Artificer's Workshop invention management window."
+        "Name": "Expansão de Classes e Arquétipos",
+        "Label": "Open Expansão de Classes e Arquétipos",
+        "Hint": "Open the Expansão de Classes e Arquétipos management window."
       }
     }
   }

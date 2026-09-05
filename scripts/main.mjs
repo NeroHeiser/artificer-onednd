@@ -7,6 +7,7 @@
 
 import { CompendiumSync } from "./compendium-sync.mjs";
 import { ArtificerWorkshopApp } from "./apps/artificer-workshop.mjs";
+import { MidiQOLCompat } from "./midi-qol-compat.mjs";
 
 const MODULE_ID = "artificer-onednd";
 
@@ -14,7 +15,10 @@ const MODULE_ID = "artificer-onednd";
  * Hook de Inicialização do Foundry VTT (init).
  */
 Hooks.once("init", () => {
-  console.log("Artificer OneD&D | Inicializando módulo Forge of the Artificer...");
+  console.log("Expansão de Classes e Arquétipos | Inicializando módulo...");
+
+  // Inicializar suporte ao Midi QOL
+  MidiQOLCompat.init();
 
   // Registrar configurações do módulo
   game.settings.register(MODULE_ID, "enableSheetButton", {
@@ -92,7 +96,7 @@ Hooks.once("init", () => {
  * Hook quando o Foundry VTT está pronto para uso (ready).
  */
 Hooks.once("ready", async () => {
-  console.log("Artificer OneD&D | Sistema D&D 5e carregado e pronto para o Artífice!");
+  console.log("Expansão de Classes e Arquétipos | Sistema D&D 5e carregado e pronto!");
 
   // Sincronização automática dos compêndios se habilitado
   if (game.user.isGM && game.settings.get(MODULE_ID, "autoSyncCompendiums")) {

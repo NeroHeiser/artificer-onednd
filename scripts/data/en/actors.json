@@ -80,6 +80,16 @@
         "img": "icons/skills/melee/unarmed-punch-fist.webp",
         "system": {
           "actionType": "mwak",
+          "ability": "str",
+          "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+          },
+          "range": {
+            "value": 5,
+            "units": "ft"
+          },
           "damage": {
             "parts": [
               [
@@ -88,11 +98,6 @@
               ]
             ]
           },
-          "range": {
-            "value": 5,
-            "units": "ft"
-          },
-          "ability": "str",
           "description": {
             "value": "<p>Melee Attack: Reach 5 ft. Hit: 1d8 + 2 + Int mod Force damage.</p>"
           }
@@ -112,6 +117,16 @@
             "value": 3,
             "max": "3",
             "per": "day"
+          },
+          "actionType": "heal",
+          "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+          },
+          "range": {
+            "value": 5,
+            "units": "ft"
           },
           "damage": {
             "parts": [
@@ -135,6 +150,10 @@
           "activation": {
             "type": "reaction",
             "cost": 1
+          },
+          "range": {
+            "value": 5,
+            "units": "ft"
           },
           "description": {
             "value": "<p>Impose Disadvantage on an attack against an ally within 5 ft.</p>"
@@ -223,21 +242,27 @@
         "type": "weapon",
         "img": "icons/magic/symbols/star-rising-purple.webp",
         "system": {
-          "actionType": "rwak",
-          "damage": {
-            "parts": [
-              [
-                "1d6 + 2",
-                "force"
-              ]
-            ]
+          "actionType": "rsak",
+          "ability": "dex",
+          "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
           },
           "range": {
             "value": 30,
             "units": "ft"
           },
+          "damage": {
+            "parts": [
+              [
+                "1d4 + 2 + @prof",
+                "force"
+              ]
+            ]
+          },
           "description": {
-            "value": "<p>Melee or Ranged Attack (30 ft). Hit: 1d6 + spell level Force damage.</p>"
+            "value": "<p>Ranged Spell Attack (30 ft). Hit: 1d4 + 2 + proficiency bonus Force damage.</p>"
           }
         }
       },
@@ -250,6 +275,10 @@
           "activation": {
             "type": "reaction",
             "cost": 1
+          },
+          "range": {
+            "value": 120,
+            "units": "ft"
           },
           "description": {
             "value": "<p>Delivers touch spells cast within 120 ft by its creator.</p>"
@@ -359,7 +388,7 @@
           "save": {
             "ability": "dex",
             "dc": 15,
-            "scaling": "int"
+            "scaling": "spell"
           },
           "damage": {
             "parts": [
@@ -385,6 +414,12 @@
             "cost": 1
           },
           "actionType": "rsak",
+          "ability": "int",
+          "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+          },
           "range": {
             "value": 120,
             "units": "ft"
@@ -412,6 +447,7 @@
             "type": "bonus",
             "cost": 1
           },
+          "actionType": "heal",
           "target": {
             "value": 10,
             "units": "ft",

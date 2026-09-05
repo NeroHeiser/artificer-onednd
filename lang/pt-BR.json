@@ -4,9 +4,9 @@
       "Name": "Artífice"
     },
     "Workshop": {
-      "Title": "Oficina do Artífice",
-      "HeaderButton": "Oficina do Artífice",
-      "NoActor": "Nenhum Personagem selecionado. Abra a oficina a partir da ficha de um Artífice.",
+      "Title": "Expansão de Classes e Arquétipos",
+      "HeaderButton": "Expansão de Classes e Arquétipos",
+      "NoActor": "Nenhum Personagem selecionado. Abra a ferramenta a partir da ficha de um personagem.",
       "SearchPlaceholder": "Filtrar itens...",
       "ConjureItem": "Conjurar este item no inventário",
       "Craft": "Forjar",
@@ -89,7 +89,7 @@
       }
     },
     "Notifications": {
-      "CompendiumsSynced": "Artífice 5e: Sincronizados com sucesso {count} documentos em todos os compêndios!",
+      "CompendiumsSynced": "Expansão de Classes e Arquétipos: Sincronizados com sucesso {count} documentos em todos os compêndios!",
       "ElixirCreated": "Criado {name} no inventário de {actor}!",
       "TinkerItemCreated": "Conjurado {name} no inventário de {actor} (dura até o próximo Descanso Longo)!",
       "ItemCreated": "Criado {name} no inventário de {actor}!",
@@ -99,20 +99,20 @@
     "Settings": {
       "EnableSheetButton": {
         "Name": "Habilitar Botão na Ficha",
-        "Hint": "Exibe o botão 'Oficina do Artífice' no topo das fichas de personagem."
+        "Hint": "Exibe o botão 'Expansão de Classes e Arquétipos' no topo das fichas de personagem."
       },
       "AutoSync": {
         "Name": "Auto-sincronizar Compêndios",
-        "Hint": "Verifica e popula automaticamente os compêndios do Artífice ao abrir o mundo caso estejam vazios ou o idioma mude."
+        "Hint": "Verifica e popula automaticamente os compêndios ao abrir o mundo caso estejam vazios ou o idioma mude."
       },
       "SyncedLanguage": {
         "Name": "Idioma dos Compêndios Sincronizados",
         "Hint": "Registra qual idioma foi gravado nos compêndios para sincronização automática."
       },
       "Menu": {
-        "Name": "Oficina do Artífice",
-        "Label": "Abrir Oficina",
-        "Hint": "Abre a janela interativa de invenções e gerenciamento do Artífice."
+        "Name": "Expansão de Classes e Arquétipos",
+        "Label": "Abrir Expansão de Classes e Arquétipos",
+        "Hint": "Abre a janela interativa de invenções e gerenciamento da Expansão de Classes e Arquétipos."
       }
     }
   }

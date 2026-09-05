@@ -396,6 +396,34 @@
     "name": "Maestria Química",
     "type": "feat",
     "img": "icons/magic/unholy/cauldron-bubbling-green.webp",
+    "effects": [
+      {
+        "_id": "effchemmaster000",
+        "name": "Maestria Química",
+        "img": "icons/magic/unholy/cauldron-bubbling-green.webp",
+        "changes": [
+          {
+            "key": "system.traits.dr.value",
+            "mode": 2,
+            "value": "acid",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "mode": 2,
+            "value": "poison",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.ci.value",
+            "mode": 2,
+            "value": "poisoned",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
     "system": {
       "description": {
         "value": "\n          <ul>\n            <li><strong>Erupção Alquímica:</strong> Uma vez por turno, quando uma magia causar dano de Ácido, Fogo ou Veneno, adicione <strong>2d8 de dano de Força</strong> ao alvo.</li>\n            <li><strong>Resistência Química:</strong> Você ganha resistência a dano de Ácido e Veneno, e imunidade à condição Envenenado.</li>\n            <li><strong>Caldeirão Conjurado:</strong> Você pode conjurar <em>Caldeirão Borbulhante de Tasha (Tasha's Bubbling Cauldron)</em> uma vez por Descanso Longo sem gastar espaços ou componentes.</li>\n          </ul>\n        ",

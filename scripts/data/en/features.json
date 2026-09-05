@@ -396,6 +396,34 @@
     "name": "Chemical Mastery",
     "type": "feat",
     "img": "icons/magic/unholy/cauldron-bubbling-green.webp",
+    "effects": [
+      {
+        "_id": "effchemmaster000",
+        "name": "Chemical Mastery",
+        "img": "icons/magic/unholy/cauldron-bubbling-green.webp",
+        "changes": [
+          {
+            "key": "system.traits.dr.value",
+            "mode": 2,
+            "value": "acid",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "mode": 2,
+            "value": "poison",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.ci.value",
+            "mode": 2,
+            "value": "poisoned",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
     "system": {
       "description": {
         "value": "\n          <ul>\n            <li><strong>Alchemical Eruption:</strong> Once per turn, when a spell deals Acid, Fire, or Poison damage, add <strong>2d8 Force damage</strong> to the target.</li>\n            <li><strong>Chemical Resistance:</strong> Resistance to Acid and Poison damage; immunity to Poisoned condition.</li>\n            <li><strong>Conjured Cauldron:</strong> Cast <em>Tasha's Bubbling Cauldron</em> once per Long Rest without expending a spell slot or components.</li>\n          </ul>\n        ",

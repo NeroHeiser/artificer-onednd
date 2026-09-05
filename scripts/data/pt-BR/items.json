@@ -21,6 +21,14 @@
         "cost": 1
       },
       "actionType": "heal",
+      "target": {
+        "value": 1,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "units": "touch"
+      },
       "damage": {
         "parts": [
           [
@@ -36,6 +44,25 @@
     "name": "Elixir Experimental: Rapidez",
     "type": "consumable",
     "img": "icons/consumables/potions/potion-bottle-corked-yellow.webp",
+    "effects": [
+      {
+        "_id": "effelixirswift00",
+        "name": "Elixir: Rapidez",
+        "img": "icons/consumables/potions/potion-bottle-corked-yellow.webp",
+        "changes": [
+          {
+            "key": "system.attributes.movement.walk",
+            "mode": 2,
+            "value": "+10",
+            "priority": 20
+          }
+        ],
+        "duration": {
+          "seconds": 3600
+        },
+        "transfer": false
+      }
+    ],
     "system": {
       "description": {
         "value": "<p>Uma criatura pode beber este elixir como <strong>Ação Bônus</strong>. O Deslocamento aumenta em <strong>3 metros (10 ft) por 1 hora</strong> (+4,5m no nv 9, +6m no nv 15).</p>",
@@ -52,6 +79,15 @@
         "type": "bonus",
         "cost": 1
       },
+      "actionType": "util",
+      "target": {
+        "value": 1,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "units": "touch"
+      },
       "duration": {
         "value": 1,
         "units": "hour"
@@ -63,6 +99,25 @@
     "name": "Elixir Experimental: Resiliência",
     "type": "consumable",
     "img": "icons/consumables/potions/potion-bottle-corked-blue.webp",
+    "effects": [
+      {
+        "_id": "effelixirresili0",
+        "name": "Elixir: Resiliência",
+        "img": "icons/consumables/potions/potion-bottle-corked-blue.webp",
+        "changes": [
+          {
+            "key": "system.attributes.ac.bonus",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          }
+        ],
+        "duration": {
+          "seconds": 600
+        },
+        "transfer": false
+      }
+    ],
     "system": {
       "description": {
         "value": "<p>Uma criatura pode beber este elixir como <strong>Ação Bônus</strong>. O bebedor recebe <strong>+1 de bônus na CA por 10 minutos</strong> (1h no nv 9, 8h no nv 15).</p>",
@@ -79,6 +134,15 @@
         "type": "bonus",
         "cost": 1
       },
+      "actionType": "util",
+      "target": {
+        "value": 1,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "units": "touch"
+      },
       "duration": {
         "value": 10,
         "units": "minute"
@@ -90,6 +154,31 @@
     "name": "Elixir Experimental: Audácia",
     "type": "consumable",
     "img": "icons/consumables/potions/potion-bottle-corked-orange.webp",
+    "effects": [
+      {
+        "_id": "effelixirboldns0",
+        "name": "Elixir: Audácia",
+        "img": "icons/consumables/potions/potion-bottle-corked-orange.webp",
+        "changes": [
+          {
+            "key": "system.bonuses.All-Attacks",
+            "mode": 2,
+            "value": "1d4",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.abilities.save",
+            "mode": 2,
+            "value": "1d4",
+            "priority": 20
+          }
+        ],
+        "duration": {
+          "seconds": 60
+        },
+        "transfer": false
+      }
+    ],
     "system": {
       "description": {
         "value": "<p>Uma criatura pode beber este elixir como <strong>Ação Bônus</strong>. O bebedor adiciona <strong>1d4 a todas as jogadas de ataque e salvaguardas por 1 minuto</strong> (10m no nv 9, 1h no nv 15).</p>",
@@ -106,6 +195,15 @@
         "type": "bonus",
         "cost": 1
       },
+      "actionType": "util",
+      "target": {
+        "value": 1,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "units": "touch"
+      },
       "duration": {
         "value": 1,
         "units": "minute"
@@ -117,6 +215,25 @@
     "name": "Elixir Experimental: Voo",
     "type": "consumable",
     "img": "icons/consumables/potions/potion-bottle-corked-purple.webp",
+    "effects": [
+      {
+        "_id": "effelixirflight0",
+        "name": "Elixir: Voo",
+        "img": "icons/consumables/potions/potion-bottle-corked-purple.webp",
+        "changes": [
+          {
+            "key": "system.attributes.movement.fly",
+            "mode": 4,
+            "value": "10",
+            "priority": 20
+          }
+        ],
+        "duration": {
+          "seconds": 600
+        },
+        "transfer": false
+      }
+    ],
     "system": {
       "description": {
         "value": "<p>Uma criatura pode beber este elixir como <strong>Ação Bônus</strong>. O bebedor ganha <strong>Deslocamento de Voo de 3 metros (10 ft) por 10 minutos</strong> (6m no nv 9, 9m no nv 15).</p>",
@@ -132,6 +249,15 @@
       "activation": {
         "type": "bonus",
         "cost": 1
+      },
+      "actionType": "util",
+      "target": {
+        "value": 1,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "units": "touch"
       },
       "duration": {
         "value": 10,
@@ -159,6 +285,28 @@
     "name": "Disparo Repetidor",
     "type": "weapon",
     "img": "icons/weapons/crossbows/crossbow-loaded-repeater.webp",
+    "effects": [
+      {
+        "_id": "effrepeating0000",
+        "name": "Disparo Repetidor (+1)",
+        "img": "icons/weapons/crossbows/crossbow-loaded-repeater.webp",
+        "changes": [
+          {
+            "key": "system.bonuses.rwak.attack",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.rwak.damage",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
     "system": {
       "description": {
         "value": "<p>Arma à distância infundida com engenharia arcana. Exige Sintonização. +1 nas jogadas de ataque e dano. Ignora a propriedade de recarga e cria sua própria munição mágica infinita.</p>",
@@ -167,7 +315,8 @@
       "attunement": 1,
       "rarity": "common",
       "equipped": true,
-      "actionType": "rwak"
+      "actionType": "rwak",
+      "ability": "dex"
     }
   },
   {
@@ -175,6 +324,40 @@
     "name": "Arma Retornável",
     "type": "weapon",
     "img": "icons/weapons/daggers/dagger-thrown-glow-blue.webp",
+    "effects": [
+      {
+        "_id": "effreturningweap",
+        "name": "Arma Retornável (+1)",
+        "img": "icons/weapons/daggers/dagger-thrown-glow-blue.webp",
+        "changes": [
+          {
+            "key": "system.bonuses.mwak.attack",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.mwak.damage",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.rwak.attack",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.rwak.damage",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
     "system": {
       "description": {
         "value": "<p>Esta arma mágica concede +1 de bônus nas jogadas de ataque e dano feitas com ela, e retorna instantaneamente à mão do usuário logo após um ataque de arremesso.</p>",
@@ -197,23 +380,41 @@
         "chat": ""
       },
       "attunement": 1,
-      "rarity": "uncommon",
-      "equipped": true
+      "rarity": "common",
+      "equipped": true,
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      },
+      "uses": {
+        "value": 4,
+        "max": "4",
+        "per": "charges"
+      }
     }
   },
   {
-    "_id": "repwndingpath000",
+    "_id": "repwindingboots0",
     "name": "Botas do Caminho Sinuoso",
     "type": "equipment",
-    "img": "icons/equipment/feet/boots-leather-fur-cuffed-purple.webp",
+    "img": "icons/equipment/feet/boots-leather-strapped.webp",
     "system": {
       "description": {
-        "value": "<p>Exige Sintonização. Como Ação Bônus, teletransporte-se até 4,5m (15 pés) para um espaço desocupado que você tenha ocupado em algum momento durante o turno atual.</p>",
+        "value": "<p>Botas infundidas com magia de dobra espacial. Exige Sintonização. Como uma Ação Bônus, teleporte-se até 4,5m (15 pés) para um espaço desocupado que você possa ver.</p>",
         "chat": ""
       },
       "attunement": 1,
       "rarity": "uncommon",
-      "equipped": true
+      "equipped": true,
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "range": {
+        "value": 15,
+        "units": "ft"
+      },
+      "actionType": "util"
     }
   },
   {
@@ -221,6 +422,22 @@
     "name": "Escudo de Repulsão",
     "type": "equipment",
     "img": "icons/equipment/shield/heater-crystal-blue.webp",
+    "effects": [
+      {
+        "_id": "effrepulsionshld",
+        "name": "Escudo de Repulsão (+1 CA)",
+        "img": "icons/equipment/shield/heater-crystal-blue.webp",
+        "changes": [
+          {
+            "key": "system.attributes.ac.bonus",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
     "system": {
       "description": {
         "value": "<p>Escudo com +1 de bônus na CA. Como uma Reação imediatamente após ser atingido por um ataque corpo a corpo, empurre o atacante até 4,5m (15 pés) para longe (4 cargas, recupera 1d4 ao amanhecer).</p>",
@@ -228,7 +445,16 @@
       },
       "attunement": 0,
       "rarity": "uncommon",
-      "equipped": true
+      "equipped": true,
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      },
+      "uses": {
+        "value": 4,
+        "max": "4",
+        "per": "charges"
+      }
     }
   }
 ]

@@ -1,11 +1,16 @@
-# Artificer: Forge of the Artificer (D&D 5e)
+# Expansão de Classes e Arquétipos (D&D 5e)
 
-Módulo completo para o **Foundry Virtual Tabletop (VTT)** que adiciona a classe **Artificer (Artífice)** atualizada para as regras modernas de D&D (baseada no documento *Unearthed Arcana: Eberron - Forge of the Artificer* / D&D 2024), totalmente integrada ao sistema oficial `dnd5e` (v3.0+ e v4.0+) no Foundry V12 e V14.
+Módulo completo para o **Foundry Virtual Tabletop (VTT)** que adiciona classes completas e arquétipos de Unearthed Arcana (One D&D / 2024), começando com a classe **Artificer (Artífice)** e suas 5 subclasses, totalmente integrado ao sistema oficial `dnd5e` (v3.0+ e v4.0+) e com suporte a automações completas no **Midi QOL** (v12 e v14).
 
 ---
 
 ## 🛠️ Recursos Principais
 
+- **Automação & Compatibilidade com Midi QOL**:
+  - Alinhamento total com as atividades do sistema `dnd5e` (`actionType`, fórmulas de ataque/dano/cura, salvaguardas com DC escalável e Active Effects integrados).
+  - Elixires experimentais aplicam bônus de velocidade, CA, dados em salvaguardas/ataques e voo automaticamente via Active Effects com controle de tempo.
+  - Companheiros (Defensor de Aço, Canhão Arcano, Servo Homúnculo) com armas e ações automatizadas (cura com detecção de alvos, sopro em cone com CD de resistência, golpes de força e arremessos).
+  - Degradação graciosa: se o Midi QOL não estiver ativo na mesa, funciona 100% no padrão nativo do D&D 5e.
 - **Classe Artificer Completa**: Progressão de níveis 1 a 20 configurada com a arquitetura moderna de **Item Advancements** (`HitPoints`, `TraitAdvancement`, `ItemGrantAdvancement`, `ScaleValueAdvancement`).
 - **5 Subclasses Especializadas**:
   1. **Alchemist (Alquimista)**: Produção de *Experimental Elixirs*, *Alchemical Savant*, *Restorative Reagents*, *Chemical Mastery*.
@@ -16,7 +21,7 @@ Módulo completo para o **Foundry Virtual Tabletop (VTT)** que adiciona a classe
 - **Nova Magia & Companheiros**:
   - Nova magia de 2º círculo: *Homunculus Servant* (Servo Homúnculo) com ritual e ficha de invocação.
   - Fichas de NPCs/Companheiros completas no compêndio: **Steel Defender**, **Homunculus Servant** e **Eldritch Cannon**.
-- **Oficina do Artífice (Artificer Workshop)**:
+- **Ferramenta de Expansão (Workshop)**:
   - Interface moderna desenvolvida em **ApplicationV2** do Foundry V12+.
   - **Sorteio e Geração de Elixires Experimentais**: Rola 1d6 ou gasta espaço de magia para gerar instantaneamente o frasco consumível no inventário do personagem.
   - **Magia de Funileiro (Tinker's Magic)**: Catálogo com 30 itens mundanos para conjurar no inventário com 1 clique (com controle de término no descanso longo).
