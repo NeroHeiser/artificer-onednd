@@ -86,6 +86,15 @@ Hooks.once("init", () => {
       "battle-smith": "Compendium.artificer-onednd.artificer-subclasses.Item.battlesmithsub00",
       cartographer: "Compendium.artificer-onednd.artificer-subclasses.Item.cartographersub0"
     };
+
+    // Registrar as 4 ordens do Caçador de Bruxas no CONFIG.DND5E
+    CONFIG.DND5E.subclasses["witch-hunter"] = {
+      ghostslayer: "Compendium.artificer-onednd.witch-hunter-subclasses.Item.whsubghostslayer",
+      lycan: "Compendium.artificer-onednd.witch-hunter-subclasses.Item.whsublycan000000",
+      mutant: "Compendium.artificer-onednd.witch-hunter-subclasses.Item.whsubmutant00000",
+      "profane-soul": "Compendium.artificer-onednd.witch-hunter-subclasses.Item.whsubprofanesoul"
+    };
+    CONFIG.DND5E.subclasses.witchhunter = CONFIG.DND5E.subclasses["witch-hunter"];
   }
 
   // Pré-carregamento de templates Handlebars

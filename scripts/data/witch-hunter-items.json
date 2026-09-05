@@ -1,0 +1,825 @@
+[
+  {
+    "_id": "whriteflame00001",
+    "name": "Ritual das Chamas",
+    "type": "feat",
+    "img": "icons/magic/fire/dagger-rune-enchant-flame-red.webp",
+    "effects": [
+      {
+        "_id": "effriteflame0001",
+        "name": "Ritual das Chamas (+Fogo)",
+        "img": "icons/magic/fire/dagger-rune-enchant-flame-red.webp",
+        "changes": [
+          {
+            "key": "system.bonuses.mwak.damage",
+            "mode": 2,
+            "value": "+@scale.witch-hunter.hemocraft-die[fire]",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.rwak.damage",
+            "mode": 2,
+            "value": "+@scale.witch-hunter.hemocraft-die[fire]",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>Adiciona dano de <strong>Fogo</strong> igual ao seu Dado de Hemomancia aos ataques feitos com esta arma.</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whritefrozen0001",
+    "name": "Ritual do Congelamento",
+    "type": "feat",
+    "img": "icons/magic/water/dagger-rune-enchant-ice-blue.webp",
+    "effects": [
+      {
+        "_id": "effritefrozen001",
+        "name": "Ritual do Congelamento (+Gelo)",
+        "img": "icons/magic/water/dagger-rune-enchant-ice-blue.webp",
+        "changes": [
+          {
+            "key": "system.bonuses.mwak.damage",
+            "mode": 2,
+            "value": "+@scale.witch-hunter.hemocraft-die[cold]",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.rwak.damage",
+            "mode": 2,
+            "value": "+@scale.witch-hunter.hemocraft-die[cold]",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>Adiciona dano de <strong>Frio</strong> igual ao seu Dado de Hemomancia aos ataques feitos com esta arma.</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whritestorm00001",
+    "name": "Ritual da Tempestade",
+    "type": "feat",
+    "img": "icons/magic/lightning/bolt-strike-blue.webp",
+    "effects": [
+      {
+        "_id": "effritestorm0001",
+        "name": "Ritual da Tempestade (+Elétrico)",
+        "img": "icons/magic/lightning/bolt-strike-blue.webp",
+        "changes": [
+          {
+            "key": "system.bonuses.mwak.damage",
+            "mode": 2,
+            "value": "+@scale.witch-hunter.hemocraft-die[lightning]",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.rwak.damage",
+            "mode": 2,
+            "value": "+@scale.witch-hunter.hemocraft-die[lightning]",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>Adiciona dano <strong>Elétrico</strong> igual ao seu Dado de Hemomancia aos ataques feitos com esta arma.</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whriteroar000001",
+    "name": "Ritual do Rugido",
+    "type": "feat",
+    "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+    "effects": [
+      {
+        "_id": "effriteroar00001",
+        "name": "Ritual do Rugido (+Trovejante)",
+        "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+        "changes": [
+          {
+            "key": "system.bonuses.mwak.damage",
+            "mode": 2,
+            "value": "+@scale.witch-hunter.hemocraft-die[thunder]",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.rwak.damage",
+            "mode": 2,
+            "value": "+@scale.witch-hunter.hemocraft-die[thunder]",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>Adiciona dano <strong>Trovejante</strong> igual ao seu Dado de Hemomancia aos ataques feitos com esta arma.</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whriteoracle0001",
+    "name": "Ritual do Oráculo",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-ringed-glow-purple.webp",
+    "effects": [
+      {
+        "_id": "effriteoracle001",
+        "name": "Ritual do Oráculo (+Psíquico)",
+        "img": "icons/magic/perception/eye-ringed-glow-purple.webp",
+        "changes": [
+          {
+            "key": "system.bonuses.mwak.damage",
+            "mode": 2,
+            "value": "+@scale.witch-hunter.hemocraft-die[psychic]",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.rwak.damage",
+            "mode": 2,
+            "value": "+@scale.witch-hunter.hemocraft-die[psychic]",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>Adiciona dano <strong>Psíquico</strong> igual ao seu Dado de Hemomancia aos ataques feitos com esta arma.</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whritedead000001",
+    "name": "Ritual do Morto",
+    "type": "feat",
+    "img": "icons/magic/death/skull-energy-green.webp",
+    "effects": [
+      {
+        "_id": "effritedead00001",
+        "name": "Ritual do Morto (+Necrótico)",
+        "img": "icons/magic/death/skull-energy-green.webp",
+        "changes": [
+          {
+            "key": "system.bonuses.mwak.damage",
+            "mode": 2,
+            "value": "+@scale.witch-hunter.hemocraft-die[necrotic]",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.rwak.damage",
+            "mode": 2,
+            "value": "+@scale.witch-hunter.hemocraft-die[necrotic]",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>Adiciona dano <strong>Necrótico</strong> igual ao seu Dado de Hemomancia aos ataques feitos com esta arma.</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whritedawn000001",
+    "name": "Ritual da Alvorada",
+    "type": "feat",
+    "img": "icons/magic/holy/sun-radiant-yellow.webp",
+    "effects": [
+      {
+        "_id": "effritedawn00001",
+        "name": "Ritual da Alvorada (+Radiante)",
+        "img": "icons/magic/holy/sun-radiant-yellow.webp",
+        "changes": [
+          {
+            "key": "system.bonuses.mwak.damage",
+            "mode": 2,
+            "value": "+@scale.witch-hunter.hemocraft-die[radiant]",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.rwak.damage",
+            "mode": 2,
+            "value": "+@scale.witch-hunter.hemocraft-die[radiant]",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>Adiciona dano <strong>Radiante</strong> igual ao seu Dado de Hemomancia aos ataques com esta arma (dobrado contra mortos-vivos).</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whcursebinding01",
+    "name": "Maldição de Sangue da Amarração",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma <strong>Ação Bônus</strong>, você tenta aprisionar um inimigo a até 9 metros. O alvo deve ter sucesso em uma salvaguarda de Força (CD de Hemomancia) ou seu deslocamento é reduzido a 0 até o início do seu próximo turno.</p>\n               <p><strong>Amplificar:</strong> Afeta criaturas de qualquer tamanho e a maldição dura 1 minuto (o alvo repete o teste ao final de cada um dos seus turnos).</p>",
+        "chat": ""
+      },
+      "actionType": "save",
+      "save": {
+        "ability": "str",
+        "dc": null,
+        "scaling": "int"
+      },
+      "target": {
+        "value": 1,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": 30,
+        "units": "ft"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whcurseeyeless01",
+    "name": "Maldição de Sangue do Sem Olhos",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-blind-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma <strong>Reação</strong> quando uma criatura a até 9 metros atacar você ou um aliado, você rola seu Dado de Hemomancia e subtrai o valor rolado da jogada de ataque da criatura.</p>\n               <p><strong>Amplificar:</strong> A penalidade se aplica a todas as jogadas de ataque da criatura até o início do próximo turno dela.</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      },
+      "range": {
+        "value": 30,
+        "units": "ft"
+      }
+    }
+  },
+  {
+    "_id": "whcursefallenpup",
+    "name": "Maldição de Sangue do Fantoche Caído",
+    "type": "feat",
+    "img": "icons/magic/death/undead-skeleton-energy-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma <strong>Reação</strong> quando uma criatura cair a 0 pontos de vida a até 9 metros, você a faz atacar imediatamente uma criatura à sua escolha ao alcance dela.</p>\n               <p><strong>Amplificar:</strong> O ataque recebe um bônus na jogada de ataque igual ao seu modificador de Inteligência e um bônus no dano igual a uma rolagem do seu Dado de Hemomancia.</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      },
+      "range": {
+        "value": 30,
+        "units": "ft"
+      }
+    }
+  },
+  {
+    "_id": "whcursemarked001",
+    "name": "Maldição de Sangue do Marcado",
+    "type": "feat",
+    "img": "icons/magic/fire/flame-burning-mark-symbol.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma <strong>Ação Bônus</strong>, você marca um inimigo a até 9 metros. Até o final do seu turno, todo o dano do seu Ritual Carmesim contra o alvo é dobrado.</p>\n               <p><strong>Amplificar:</strong> A criatura marcada também perde qualquer resistência ao tipo de dano do seu ritual ativo até o final do seu turno.</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "range": {
+        "value": 30,
+        "units": "ft"
+      }
+    }
+  },
+  {
+    "_id": "whcursemutualsuf",
+    "name": "Maldição de Sangue do Sofrimento Mútuo",
+    "type": "feat",
+    "img": "icons/magic/unholy/blood-drop-spatter-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma <strong>Ação Bônus</strong>, você amaldiçoa uma criatura a até 9 metros. Sempre que ela causar dano a você, ela sofre dano necrótico igual a metade do dano sofrido por você.</p>\n               <p><strong>Amplificar:</strong> A criatura sofre dano necrótico total igual a todo o dano sofrido por você.</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "range": {
+        "value": 30,
+        "units": "ft"
+      }
+    }
+  },
+  {
+    "_id": "whcurseanxious01",
+    "name": "Maldição de Sangue do Inquieto",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-slit-glow-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma <strong>Ação Bônus</strong>, você instila pavor em um alvo a até 9 metros. Você tem vantagem em testes de Carisma (Intimidação) contra o alvo até o final do seu próximo turno.</p>\n               <p><strong>Amplificar:</strong> O alvo tem desvantagem na próxima salvaguarda de Sabedoria que fizer antes do término da maldição.</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "range": {
+        "value": 30,
+        "units": "ft"
+      }
+    }
+  },
+  {
+    "_id": "whcursebloatedag",
+    "name": "Maldição de Sangue da Agonia Inchada",
+    "type": "feat",
+    "img": "icons/magic/unholy/curse-cloud-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma <strong>Ação Bônus</strong>, você infla dolorosamente o corpo de um alvo a até 9 metros. O alvo deve ser bem-sucedido em uma salvaguarda de Constituição ou terá desvantagem em testes de Força e Destreza por 1 minuto. Além disso, se fizer mais de um ataque em um turno, sofre 1d8 de dano necrótico imediatamente.</p>\n               <p><strong>Amplificar:</strong> O dano aumenta para 2d8 necrótico.</p>",
+        "chat": ""
+      },
+      "actionType": "save",
+      "save": {
+        "ability": "con",
+        "dc": null,
+        "scaling": "int"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "range": {
+        "value": 30,
+        "units": "ft"
+      }
+    }
+  },
+  {
+    "_id": "whcurseexposure1",
+    "name": "Maldição de Sangue da Exposição",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-broken-flame-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma <strong>Reação</strong> quando uma criatura a até 9 metros sofrer dano, você remove a resistência da criatura àquele tipo de dano contra o ataque desencadeante.</p>\n               <p><strong>Amplificar:</strong> O alvo perde a resistência àquele dano até o final do seu próximo turno.</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      },
+      "range": {
+        "value": 30,
+        "units": "ft"
+      }
+    }
+  },
+  {
+    "_id": "whcursesouleater",
+    "name": "Maldição de Sangue do Devorador de Almas",
+    "type": "feat",
+    "img": "icons/magic/unholy/soul-drain-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma <strong>Reação</strong> quando uma criatura que possua alma cair a 0 pontos de vida a até 9 metros, você consome sua energia residual para ganhar vantagem na sua próxima jogada de ataque, teste de habilidade ou salvaguarda.</p>\n               <p><strong>Amplificar:</strong> Você também recupera pontos de vida iguais a uma rolagem do seu Dado de Hemomancia.</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      },
+      "range": {
+        "value": 30,
+        "units": "ft"
+      }
+    }
+  },
+  {
+    "_id": "whcurseexorcist1",
+    "name": "Maldição de Sangue do Exorcista",
+    "type": "feat",
+    "img": "icons/magic/holy/exorcism-cross-light-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma <strong>Ação Bônus</strong>, você liberta um aliado a até 9 metros de qualquer efeito que o esteja deixando Encantado, Amedrontado ou Possuído.</p>\n               <p><strong>Amplificar:</strong> A criatura que causou o efeito sofre dano psíquico igual a uma rolagem do seu Dado de Hemomancia + seu modificador de Inteligência.</p>",
+        "chat": ""
+      },
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "range": {
+        "value": 30,
+        "units": "ft"
+      }
+    }
+  },
+  {
+    "_id": "whmutagencelerit",
+    "name": "Mutagênico: Celeridade",
+    "type": "consumable",
+    "img": "icons/consumables/potions/potion-bottle-corked-yellow.webp",
+    "effects": [
+      {
+        "_id": "effmutcelerity01",
+        "name": "Mutagênico: Celeridade",
+        "img": "icons/consumables/potions/potion-bottle-corked-yellow.webp",
+        "changes": [
+          {
+            "key": "system.abilities.dex.value",
+            "mode": 2,
+            "value": "3",
+            "priority": 20
+          },
+          {
+            "key": "system.abilities.wis.value",
+            "mode": 2,
+            "value": "-3",
+            "priority": 20
+          }
+        ],
+        "transfer": false,
+        "duration": {
+          "seconds": 3600
+        }
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p><strong>Benefício:</strong> Seu valor de Destreza (e máximo) aumenta em +3 (+4 no 11º nível, +5 no 18º nível).</p>\n               <p><strong>Efeito Colateral:</strong> Seu valor de Sabedoria diminui em -3 (-4 no 11º nível, -5 no 18º nível).</p>",
+        "chat": ""
+      },
+      "consumableType": "potion",
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whmutagenpotency",
+    "name": "Mutagênico: Potência",
+    "type": "consumable",
+    "img": "icons/consumables/potions/potion-bottle-corked-red.webp",
+    "effects": [
+      {
+        "_id": "effmutpotency001",
+        "name": "Mutagênico: Potência",
+        "img": "icons/consumables/potions/potion-bottle-corked-red.webp",
+        "changes": [
+          {
+            "key": "system.abilities.str.value",
+            "mode": 2,
+            "value": "3",
+            "priority": 20
+          },
+          {
+            "key": "system.abilities.dex.value",
+            "mode": 2,
+            "value": "-3",
+            "priority": 20
+          }
+        ],
+        "transfer": false,
+        "duration": {
+          "seconds": 3600
+        }
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p><strong>Benefício:</strong> Seu valor de Força (e máximo) aumenta em +3 (+4 no 11º nível, +5 no 18º nível).</p>\n               <p><strong>Efeito Colateral:</strong> Seu valor de Destreza diminui em -3 (-4 no 11º nível, -5 no 18º nível).</p>",
+        "chat": ""
+      },
+      "consumableType": "potion",
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whmutagensagaci1",
+    "name": "Mutagênico: Sagacidade",
+    "type": "consumable",
+    "img": "icons/consumables/potions/potion-bottle-corked-blue.webp",
+    "effects": [
+      {
+        "_id": "effmutsagacity01",
+        "name": "Mutagênico: Sagacidade",
+        "img": "icons/consumables/potions/potion-bottle-corked-blue.webp",
+        "changes": [
+          {
+            "key": "system.abilities.int.value",
+            "mode": 2,
+            "value": "3",
+            "priority": 20
+          },
+          {
+            "key": "system.abilities.cha.value",
+            "mode": 2,
+            "value": "-3",
+            "priority": 20
+          }
+        ],
+        "transfer": false,
+        "duration": {
+          "seconds": 3600
+        }
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p><strong>Benefício:</strong> Seu valor de Inteligência (e máximo) aumenta em +3 (+4 no 11º nível, +5 no 18º nível).</p>\n               <p><strong>Efeito Colateral:</strong> Seu valor de Carisma diminui em -3 (-4 no 11º nível, -5 no 18º nível).</p>",
+        "chat": ""
+      },
+      "consumableType": "potion",
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whmutagenimperme",
+    "name": "Mutagênico: Impermeável",
+    "type": "consumable",
+    "img": "icons/consumables/potions/potion-bottle-corked-grey.webp",
+    "effects": [
+      {
+        "_id": "effmutimperme001",
+        "name": "Mutagênico: Impermeável",
+        "img": "icons/consumables/potions/potion-bottle-corked-grey.webp",
+        "changes": [
+          {
+            "key": "system.traits.dr.value",
+            "mode": 2,
+            "value": "piercing",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dv.value",
+            "mode": 2,
+            "value": "slashing",
+            "priority": 20
+          }
+        ],
+        "transfer": false,
+        "duration": {
+          "seconds": 3600
+        }
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p><strong>Benefício:</strong> Você ganha resistência a dano Perfurante.</p>\n               <p><strong>Efeito Colateral:</strong> Você ganha vulnerabilidade a dano Cortante.</p>",
+        "chat": ""
+      },
+      "consumableType": "potion",
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whmutagenshield1",
+    "name": "Mutagênico: Blindado",
+    "type": "consumable",
+    "img": "icons/consumables/potions/potion-bottle-corked-teal.webp",
+    "effects": [
+      {
+        "_id": "effmutshielded01",
+        "name": "Mutagênico: Blindado",
+        "img": "icons/consumables/potions/potion-bottle-corked-teal.webp",
+        "changes": [
+          {
+            "key": "system.traits.dr.value",
+            "mode": 2,
+            "value": "slashing",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dv.value",
+            "mode": 2,
+            "value": "bludgeoning",
+            "priority": 20
+          }
+        ],
+        "transfer": false,
+        "duration": {
+          "seconds": 3600
+        }
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p><strong>Benefício:</strong> Você ganha resistência a dano Cortante.</p>\n               <p><strong>Efeito Colateral:</strong> Você ganha vulnerabilidade a dano Concussão.</p>",
+        "chat": ""
+      },
+      "consumableType": "potion",
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whmutagenunbreak",
+    "name": "Mutagênico: Inquebrável",
+    "type": "consumable",
+    "img": "icons/consumables/potions/potion-bottle-corked-brown.webp",
+    "effects": [
+      {
+        "_id": "effmutunbreak001",
+        "name": "Mutagênico: Inquebrável",
+        "img": "icons/consumables/potions/potion-bottle-corked-brown.webp",
+        "changes": [
+          {
+            "key": "system.traits.dr.value",
+            "mode": 2,
+            "value": "bludgeoning",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dv.value",
+            "mode": 2,
+            "value": "piercing",
+            "priority": 20
+          }
+        ],
+        "transfer": false,
+        "duration": {
+          "seconds": 3600
+        }
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p><strong>Benefício:</strong> Você ganha resistência a dano Concussão.</p>\n               <p><strong>Efeito Colateral:</strong> Você ganha vulnerabilidade a dano Perfurante.</p>",
+        "chat": ""
+      },
+      "consumableType": "potion",
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whmutagenaether1",
+    "name": "Mutagênico: Éter",
+    "type": "consumable",
+    "img": "icons/consumables/potions/potion-bottle-corked-purple.webp",
+    "effects": [
+      {
+        "_id": "effmutaether0001",
+        "name": "Mutagênico: Éter",
+        "img": "icons/consumables/potions/potion-bottle-corked-purple.webp",
+        "changes": [
+          {
+            "key": "system.attributes.movement.fly",
+            "mode": 4,
+            "value": "20",
+            "priority": 20
+          }
+        ],
+        "transfer": false,
+        "duration": {
+          "seconds": 3600
+        }
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p><strong>Pré-requisito:</strong> 11º nível.</p>\n               <p><strong>Benefício:</strong> Você ganha deslocamento de Voo de 6 metros (20 pés) por 1 hora.</p>\n               <p><strong>Efeito Colateral:</strong> Você tem desvantagem em todos os testes de Força e Destreza por 1 hora.</p>",
+        "chat": ""
+      },
+      "consumableType": "potion",
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whmutagencruelty",
+    "name": "Mutagênico: Crueldade",
+    "type": "consumable",
+    "img": "icons/consumables/potions/potion-bottle-corked-black.webp",
+    "effects": [
+      {
+        "_id": "effmutcruelty001",
+        "name": "Mutagênico: Crueldade",
+        "img": "icons/consumables/potions/potion-bottle-corked-black.webp",
+        "changes": [],
+        "transfer": false,
+        "duration": {
+          "seconds": 3600
+        }
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p><strong>Pré-requisito:</strong> 11º nível.</p>\n               <p><strong>Benefício:</strong> Você pode fazer um ataque adicional com arma como uma Ação Bônus.</p>\n               <p><strong>Efeito Colateral:</strong> Você tem desvantagem em todas as salvaguardas de Inteligência, Sabedoria e Carisma.</p>",
+        "chat": ""
+      },
+      "consumableType": "potion",
+      "actionType": "util",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  }
+]

@@ -44,6 +44,30 @@ export class CompendiumSync {
       file: "actors.json",
       documentName: "Actor",
       label: "Artificer Companions & Summons"
+    },
+    {
+      id: "witch-hunter-classes",
+      file: "witch-hunter-classes.json",
+      documentName: "Item",
+      label: "Witch Hunter Classes"
+    },
+    {
+      id: "witch-hunter-subclasses",
+      file: "witch-hunter-subclasses.json",
+      documentName: "Item",
+      label: "Witch Hunter Orders"
+    },
+    {
+      id: "witch-hunter-features",
+      file: "witch-hunter-features.json",
+      documentName: "Item",
+      label: "Witch Hunter Features"
+    },
+    {
+      id: "witch-hunter-items",
+      file: "witch-hunter-items.json",
+      documentName: "Item",
+      label: "Witch Hunter Items & Mutagens"
     }
   ];
 

@@ -1,0 +1,929 @@
+[
+  {
+    "_id": "whfeatbane000001",
+    "name": "Hunter's Bane",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-slit-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>You have survived the Hunter's Bane, a secret ritual that alters your blood with dark magic.</p>\n               <p>You add your <strong>Intelligence modifier</strong> to Wisdom (Survival) checks to track fey, fiends, and undead, and to Intelligence checks to recall lore about them.</p>\n               <p>In addition, you gain advantage on Wisdom (Insight) and Charisma (Intimidation) checks.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Witch Hunter 1"
+    }
+  },
+  {
+    "_id": "whfeatbloodmaled",
+    "name": "Blood Maledict",
+    "type": "feat",
+    "img": "icons/magic/unholy/strike-body-explode-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>You gain the ability to channel, and sacrifice, a part of your vital essence to curse and manipulate creatures through hemocraft.</p>\n               <p>You can invoke a <strong>Blood Curse</strong> you know by expending one use of Blood Maledict. You regain all expended uses when you finish a Short or Long Rest.</p>\n               <p><strong>Amplify:</strong> When invoking a blood curse, you can choose to amplify it by suffering damage equal to one roll of your <strong>Hemocraft die</strong>. This damage can't be reduced or avoided in any way.</p>\n               <p><strong>Hemocraft Save DC:</strong> 8 + your Proficiency Bonus + your Intelligence modifier.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Witch Hunter 1",
+      "uses": {
+        "value": 1,
+        "max": "@scale.witch-hunter.blood-maledict-uses",
+        "per": "sr",
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "whfeatwepmaster1",
+    "name": "Weapon Mastery (2024)",
+    "type": "feat",
+    "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>Your rigorous training with weapons allows you to tap into the mastery properties of weapons (One D&D / 2024).</p>\n               <p>Choose <strong>2 weapon types</strong> (simple or martial) with which you are proficient. Whenever you wield a chosen weapon, you can use its weapon mastery property (such as <em>Cleave</em>, <em>Graze</em>, <em>Nick</em>, <em>Push</em>, <em>Sap</em>, <em>Slow</em>, <em>Topple</em>, or <em>Vex</em>).</p>\n               <p>Whenever you finish a <strong>Long Rest</strong>, you can change your weapon choices to other eligible weapon types.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Player's Handbook (2024) / One D&D"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Witch Hunter 1"
+    }
+  },
+  {
+    "_id": "whfeatfightstyl1",
+    "name": "Fighting Style",
+    "type": "feat",
+    "img": "icons/skills/melee/sword-shield-silver.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options:</p>\n               <ul>\n                 <li><strong>Archery:</strong> +2 bonus to attack rolls made with ranged weapons.</li>\n                 <li><strong>Dueling:</strong> +2 bonus to damage rolls when wielding a melee weapon in one hand and no other weapons.</li>\n                 <li><strong>Great Weapon Fighting:</strong> Reroll a 1 or 2 on damage dice for attacks made with a two-handed melee weapon.</li>\n                 <li><strong>Two-Weapon Fighting:</strong> Add your ability modifier to the damage of the bonus action attack.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Witch Hunter 2"
+    }
+  },
+  {
+    "_id": "whfeatcrimsonrit",
+    "name": "Crimson Rite",
+    "type": "feat",
+    "img": "icons/magic/fire/dagger-rune-enchant-flame-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 2nd level, you learn to invoke a rite of hemocraft that infuses your weapon strikes with elemental energy.</p>\n               <p>As a <strong>Bonus Action</strong>, you can activate a crimson rite on a single weapon you are holding. When you do, you suffer damage equal to <strong>one roll of your Hemocraft die</strong>. This damage cannot be reduced or prevented in any way.</p>\n               <p>While active, attacks from this weapon deal an <strong>extra elemental damage equal to one roll of your Hemocraft die</strong>. The rite lasts until you finish a Short or Long Rest, or until the weapon leaves your grip.</p>\n               <p><strong>Primal Rites:</strong> You choose one primal rite at 2nd level (Rite of the Flame, Frozen, or Storm) and another at 7th level.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Witch Hunter 2",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whfeatextraattk1",
+    "name": "Extra Attack",
+    "type": "feat",
+    "img": "icons/skills/melee/strike-weapons-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Witch Hunter 5"
+    }
+  },
+  {
+    "_id": "whfeatbrandcast1",
+    "name": "Brand of Castigation",
+    "type": "feat",
+    "img": "icons/magic/fire/flame-burning-mark-symbol.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, whenever you damage a creature with a weapon for which a crimson rite is active, you can sear an arcane brand into it (once per short or long rest).</p>\n               <p>You always know the direction and distance to the branded creature as long as it's on the same plane within 5 miles. Additionally, each time the creature deals damage to you or a creature within 5 feet of you, it suffers psychic damage equal to your <strong>Intelligence modifier</strong> (minimum 1).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Witch Hunter 6",
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "sr"
+      }
+    }
+  },
+  {
+    "_id": "whfeatcrimsonim7",
+    "name": "Crimson Rite Improvement",
+    "type": "feat",
+    "img": "icons/magic/fire/dagger-rune-enchant-flame-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, you learn an additional Primal Rite of your choice.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Witch Hunter 7"
+    }
+  },
+  {
+    "_id": "whfeatgrimpsych1",
+    "name": "Grim Psychometry",
+    "type": "feat",
+    "img": "icons/magic/death/skull-glow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 9th level, you gain a supernatural affinity for the echoes of tragedy. When making an Intelligence (History) check to recall information about the sinister past of an object or location you are touching, you have advantage on the roll.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Witch Hunter 9"
+    }
+  },
+  {
+    "_id": "whfeatdarkaugmnt",
+    "name": "Dark Augmentation",
+    "type": "feat",
+    "img": "icons/magic/unholy/shadow-silhouette-wings-purple.webp",
+    "effects": [
+      {
+        "_id": "effdarkaugmnt001",
+        "name": "Dark Augmentation",
+        "img": "icons/magic/unholy/shadow-silhouette-wings-purple.webp",
+        "changes": [
+          {
+            "key": "system.attributes.movement.walk",
+            "mode": 2,
+            "value": "+5",
+            "priority": 20
+          },
+          {
+            "key": "system.abilities.str.bonuses.save",
+            "mode": 2,
+            "value": "@abilities.int.mod",
+            "priority": 20
+          },
+          {
+            "key": "system.abilities.dex.bonuses.save",
+            "mode": 2,
+            "value": "@abilities.int.mod",
+            "priority": 20
+          },
+          {
+            "key": "system.abilities.con.bonuses.save",
+            "mode": 2,
+            "value": "@abilities.int.mod",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, the hemocraft magic permanently augments your physical form.</p>\n               <p>Your walking speed increases by <strong>5 feet</strong>, and you add your <strong>Intelligence modifier</strong> to all <strong>Strength, Dexterity, and Constitution</strong> saving throws.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Witch Hunter 10"
+    }
+  },
+  {
+    "_id": "whfeatbrandteth1",
+    "name": "Brand of Tethering",
+    "type": "feat",
+    "img": "icons/magic/unholy/chain-link-glowing-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 13th level, your Brand of Castigation anchors the target. The branded creature can't take the Dash action.</p>\n               <p>If it attempts to teleport or travel to another plane, it suffers <strong>4d6 psychic damage</strong> and must succeed on a Wisdom saving throw against your Hemocraft save DC or the teleportation fails.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Witch Hunter 13"
+    }
+  },
+  {
+    "_id": "whfeathardeneds1",
+    "name": "Hardened Soul",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
+    "effects": [
+      {
+        "_id": "effhardenedsou01",
+        "name": "Hardened Soul",
+        "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
+        "changes": [
+          {
+            "key": "system.traits.ci.value",
+            "mode": 2,
+            "value": "frightened",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, you gain immunity to the <strong>Frightened</strong> condition and advantage on saving throws against being <strong>Charmed</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Witch Hunter 14"
+    }
+  },
+  {
+    "_id": "whfeatesoteric14",
+    "name": "Esoteric Rites",
+    "type": "feat",
+    "img": "icons/magic/death/skull-horned-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, you unlock esoteric crimson rites. Choose one of the following to learn:</p>\n               <ul>\n                 <li><strong>Rite of the Roar:</strong> Thunder damage.</li>\n                 <li><strong>Rite of the Oracle:</strong> Psychic damage.</li>\n                 <li><strong>Rite of the Dead:</strong> Necrotic damage.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Witch Hunter 14"
+    }
+  },
+  {
+    "_id": "whfeatsanguinem1",
+    "name": "Sanguine Mastery",
+    "type": "feat",
+    "img": "icons/magic/unholy/heart-crystal-ruby.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 20th level, you achieve true mastery over hemocraft.</p>\n               <p>Once per turn, whenever you roll a Hemocraft die for rite damage or curse damage, you can choose to maximize the roll instead.</p>\n               <p>Additionally, whenever you score a <strong>Critical Hit</strong> with a weapon imbued by your Crimson Rite, you regain one expended use of Blood Maledict.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Witch Hunter 20"
+    }
+  },
+  {
+    "_id": "whghostritedawn1",
+    "name": "Rite of the Dawn",
+    "type": "feat",
+    "img": "icons/magic/holy/sun-radiant-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>When you join this order at 3rd level, you learn the <strong>Rite of the Dawn</strong>. The extra damage dealt by your rite is <strong>Radiant</strong>.</p>\n               <p>While active, you gain resistance to necrotic damage and your hemocraft die damage is doubled against Undead creatures.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Ghostslayer"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Ghostslayer 3"
+    }
+  },
+  {
+    "_id": "whghostetherstep",
+    "name": "Ethereal Step",
+    "type": "feat",
+    "img": "icons/magic/movement/trail-streak-zigzag-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Beginning at 7th level, as a Bonus Action, you can step into the Ethereal Plane for a number of rounds equal to your Intelligence modifier (minimum 1 round, 1/short rest).</p>\n               <p>You can move through creatures and objects as if they were difficult terrain, and you can't be perceived or affected by anything on the material plane.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Ghostslayer"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Ghostslayer 7",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "sr"
+      }
+    }
+  },
+  {
+    "_id": "whghostbrandsund",
+    "name": "Brand of the Sundering",
+    "type": "feat",
+    "img": "icons/magic/light/beam-strike-vertical-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 11th level, your Brand of Castigation severs the target's link to other planes. It cannot enter the Ethereal Plane or become invisible.</p>\n               <p>In addition, whenever you damage the marked creature with a weapon with Rite of the Dawn active, it takes an extra roll of your hemocraft die.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Ghostslayer"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Ghostslayer 11"
+    }
+  },
+  {
+    "_id": "whghostgravesigh",
+    "name": "Grave Sight",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-slit-glow-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, you can see invisible creatures and spirits on the Ethereal Plane within 30 feet of you.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Ghostslayer"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Ghostslayer 15"
+    }
+  },
+  {
+    "_id": "whghostvengspir1",
+    "name": "Vengeful Spirit",
+    "type": "feat",
+    "img": "icons/magic/death/ghost-silhouette-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 18th level, upon dropping to 0 hit points, your ethereal spirit projects outward and can continue fighting and casting curses until the end of your next turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Ghostslayer"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Ghostslayer 18"
+    }
+  },
+  {
+    "_id": "whlycansenses001",
+    "name": "Heightened Senses",
+    "type": "feat",
+    "img": "icons/magic/perception/ear-glowing-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you gain heightened predator senses. You have advantage on Wisdom (Perception) checks relying on hearing or smell.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Lycan"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Lycan 3"
+    }
+  },
+  {
+    "_id": "whlycantransform",
+    "name": "Hybrid Transformation",
+    "type": "feat",
+    "img": "icons/creatures/abilities/werewolf-howl-moon-blue.webp",
+    "effects": [
+      {
+        "_id": "efflycanhybrid01",
+        "name": "Hybrid Form (Lycan)",
+        "img": "icons/creatures/abilities/werewolf-howl-moon-blue.webp",
+        "changes": [
+          {
+            "key": "system.attributes.ac.bonus",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "mode": 2,
+            "value": "bludgeoning",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "mode": 2,
+            "value": "piercing",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "mode": 2,
+            "value": "slashing",
+            "priority": 20
+          }
+        ],
+        "transfer": false,
+        "duration": {
+          "seconds": 3600
+        }
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>As a <strong>Bonus Action</strong>, you transform into a hybrid predator form for 1 hour (1/rest, 2/rest at 7th level, unlimited at 18th level).</p>\n               <ul>\n                 <li><strong>Supernatural Resilience:</strong> +1 AC and resistance to bludgeoning, piercing, and slashing damage from nonmagical, nonsilvered attacks.</li>\n                 <li><strong>Predatory Strikes:</strong> Your unarmed strikes deal 1d6 slashing damage and can be imbued with your Crimson Rite.</li>\n                 <li><strong>Feral Flurry:</strong> You can make one unarmed strike as a bonus action when taking the Attack action with claws.</li>\n                 <li><strong>Bloodlust:</strong> If you start your turn with under half your maximum hit points, you must succeed on a DC 8 Wisdom save or attack the nearest creature.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Lycan"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Lycan 3",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "sr"
+      }
+    }
+  },
+  {
+    "_id": "whlycanstalker01",
+    "name": "Stalker's Prowess",
+    "type": "feat",
+    "img": "icons/skills/movement/feet-winged-sandals-gold.webp",
+    "effects": [
+      {
+        "_id": "effstalkerprow01",
+        "name": "Stalker's Prowess",
+        "img": "icons/skills/movement/feet-winged-sandals-gold.webp",
+        "changes": [
+          {
+            "key": "system.attributes.movement.walk",
+            "mode": 2,
+            "value": "+10",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, your speed increases by <strong>10 feet</strong> and jump distance increases by 10 feet.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Lycan"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Lycan 7"
+    }
+  },
+  {
+    "_id": "whlycanadvanced1",
+    "name": "Advanced Transformation",
+    "type": "feat",
+    "img": "icons/magic/life/heart-shadow-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 11th level, your predatory strikes count as magical. Also in hybrid form, if you have under half your maximum hit points at the start of your turn, you regain HP equal to 1 + your Constitution modifier.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Lycan"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Lycan 11"
+    }
+  },
+  {
+    "_id": "whlycanironwill1",
+    "name": "Iron Will",
+    "type": "feat",
+    "img": "icons/magic/control/buff-strength-muscle-glow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, you have advantage on Wisdom saving throws against your Bloodlust and advantage against being Charmed.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Lycan"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Lycan 15"
+    }
+  },
+  {
+    "_id": "whlycanmastery01",
+    "name": "Hybrid Transformation Mastery",
+    "type": "feat",
+    "img": "icons/creatures/abilities/werewolf-howl-blood-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 18th level, you can use your Hybrid Transformation an <strong>unlimited</strong> number of times.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Lycan"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Lycan 18"
+    }
+  },
+  {
+    "_id": "whmutantcraft001",
+    "name": "Mutagen Craft",
+    "type": "feat",
+    "img": "icons/consumables/potions/vial-cork-empty-glass.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you learn to craft toxic mutagens that modify your physiology. At the end of a Short or Long Rest, you craft 1 mutagen (2 at 7th level, 3 at 15th level).</p>\n               <p>Consuming a mutagen takes a Bonus Action, and effects last until your next rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Mutant"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Mutant 3"
+    }
+  },
+  {
+    "_id": "whmutantformulas",
+    "name": "Mutagen Formulas",
+    "type": "feat",
+    "img": "icons/sundries/books/book-embossed-poison-skull.webp",
+    "system": {
+      "description": {
+        "value": "<p>You discover 4 mutagen formulas at 3rd level, and additional formulas at 7th, 11th, 15th, and 18th level.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Mutant"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Mutant 3"
+    }
+  },
+  {
+    "_id": "whmutantadvanced",
+    "name": "Advanced Mutagen Craft",
+    "type": "feat",
+    "img": "icons/consumables/potions/potion-tube-corked-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, you can craft 2 mutagens per rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Mutant"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Mutant 7"
+    }
+  },
+  {
+    "_id": "whmutantstrangem",
+    "name": "Strange Metabolism",
+    "type": "feat",
+    "img": "icons/magic/life/heart-cross-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 11th level, as a Bonus Action, you can suppress the negative side effects of an active mutagen for 1 minute (1/long rest).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Mutant"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Mutant 11",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "lr"
+      }
+    }
+  },
+  {
+    "_id": "whmutantrobust01",
+    "name": "Robust Physiology",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-glowing-green.webp",
+    "effects": [
+      {
+        "_id": "effrobustphys001",
+        "name": "Robust Physiology",
+        "img": "icons/magic/defensive/shield-barrier-glowing-green.webp",
+        "changes": [
+          {
+            "key": "system.traits.di.value",
+            "mode": 2,
+            "value": "poison",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.ci.value",
+            "mode": 2,
+            "value": "poisoned",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, you become immune to <strong>Poison</strong> damage and the <strong>Poisoned</strong> condition. You can also craft 3 mutagens per rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Mutant"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Mutant 15"
+    }
+  },
+  {
+    "_id": "whmutantexalted1",
+    "name": "Exalted Mutation",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-sigil-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 18th level, your body permanently adopts one mutagen formula, gaining its benefit (and drawback) constantly without taking up a crafted mutagen slot.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Mutant"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Mutant 18"
+    }
+  },
+  {
+    "_id": "whprofanepatron1",
+    "name": "Otherworldly Patron",
+    "type": "feat",
+    "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you strike a pact with an otherworldly patron (The Fiend, The Archfey, The Great Old One, The Celestial, The Hexblade, or The Undying).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Profane Soul"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Profane Soul 3"
+    }
+  },
+  {
+    "_id": "whprofanepactmag",
+    "name": "Pact Magic",
+    "type": "feat",
+    "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you gain pact magic casting from the warlock spell list. Your pact slots recover on a Short or Long Rest, and your spellcasting ability is <strong>Intelligence</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Profane Soul"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Profane Soul 3"
+    }
+  },
+  {
+    "_id": "whprofaneritefoc",
+    "name": "Rite Focus",
+    "type": "feat",
+    "img": "icons/magic/fire/dagger-rune-enchant-flame-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Your weapon with active Crimson Rite acts as a spellcasting focus for your warlock spells, and grants special benefits depending on your chosen patron.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Profane Soul"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Profane Soul 3"
+    }
+  },
+  {
+    "_id": "whprofanefrenzy1",
+    "name": "Mystic Frenzy",
+    "type": "feat",
+    "img": "icons/skills/melee/strike-blade-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Starting at 7th level, whenever you use your action to cast a cantrip, you can make one weapon attack as a Bonus Action.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Profane Soul"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Profane Soul 7"
+    }
+  },
+  {
+    "_id": "whprofanedichan1",
+    "name": "Diabolic Channel",
+    "type": "feat",
+    "img": "icons/magic/fire/flame-burst-magic-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 11th level, you can infuse a warlock pact spell into a weapon attack. If the attack hits, the target suffers weapon damage and the spell effect simultaneously.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Profane Soul"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Profane Soul 11"
+    }
+  },
+  {
+    "_id": "whprofanearcana1",
+    "name": "Unrevealed Arcana",
+    "type": "feat",
+    "img": "icons/sundries/books/book-open-glow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, your patron grants access to a secret 3rd-level spell without expending a spell slot (1/long rest).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Profane Soul"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Profane Soul 15"
+    }
+  },
+  {
+    "_id": "whprofanesoulsyp",
+    "name": "Soul Syphon",
+    "type": "feat",
+    "img": "icons/magic/unholy/silhouette-robe-spirit-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 18th level, scoring a critical hit with a rite-infused weapon or reducing a significant creature to 0 HP restores one expended warlock pact slot.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Profane Soul"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Order of the Profane Soul 18"
+    }
+  }
+]

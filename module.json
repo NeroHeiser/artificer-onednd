@@ -109,6 +109,50 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "witch-hunter-classes",
+      "label": "Witch Hunter Classes",
+      "path": "packs/witch-hunter-classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "witch-hunter-subclasses",
+      "label": "Witch Hunter Orders",
+      "path": "packs/witch-hunter-subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "witch-hunter-features",
+      "label": "Witch Hunter Features",
+      "path": "packs/witch-hunter-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "witch-hunter-items",
+      "label": "Witch Hunter Items & Mutagens",
+      "path": "packs/witch-hunter-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "url": "https://github.com/NeroHeiser/artificer-onednd",

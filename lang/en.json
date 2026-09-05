@@ -115,6 +115,25 @@
         "Hint": "Open the Expansão de Classes e Arquétipos management window."
       }
     }
+  },
+  "WITCH_HUNTER_5E": {
+    "Class": {
+      "Name": "Witch Hunter",
+      "Description": "Warriors who utilize forbidden hemocraft and dark rituals to hunt the most terrible evils of the multiverse."
+    },
+    "Orders": {
+      "Ghostslayer": "Order of the Ghostslayer",
+      "Lycan": "Order of the Lycan",
+      "Mutant": "Order of the Mutant",
+      "ProfaneSoul": "Order of the Profane Soul"
+    },
+    "Hemocraft": {
+      "Die": "Hemocraft Die",
+      "Rite": "Crimson Rite",
+      "Curse": "Blood Curse",
+      "Amplify": "Amplify Curse",
+      "Brand": "Brand of Castigation"
+    }
   }
 }
 

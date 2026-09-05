@@ -115,6 +115,25 @@
         "Hint": "Abre a janela interativa de invenções e gerenciamento da Expansão de Classes e Arquétipos."
       }
     }
+  },
+  "WITCH_HUNTER_5E": {
+    "Class": {
+      "Name": "Caçador de Bruxas",
+      "Description": "Guerreiros que utilizam magia de sangue proibida e rituais sombrios para caçar os males mais terríveis do multiverso."
+    },
+    "Orders": {
+      "Ghostslayer": "Ordem do Caçador de Espectros",
+      "Lycan": "Ordem do Licantropo",
+      "Mutant": "Ordem do Mutante",
+      "ProfaneSoul": "Ordem da Alma Profana"
+    },
+    "Hemocraft": {
+      "Die": "Dado de Hemomancia",
+      "Rite": "Ritual Carmesim",
+      "Curse": "Maldição de Sangue",
+      "Amplify": "Amplificar Maldição",
+      "Brand": "Marca do Castigo"
+    }
   }
 }
 
