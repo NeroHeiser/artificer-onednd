@@ -1,0 +1,275 @@
+[
+  {
+    "_id": "witchhuntercls00",
+    "name": "Caçador de Bruxas",
+    "type": "class",
+    "img": "icons/magic/death/skull-horned-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Guerreiros fanáticos que cruzam a linha tênue entre a humanidade e as monstruosidades que caçam. Sacrificando a própria vitalidade através da magia de sangue e alquimia sombria, o Caçador de Bruxas transforma seu corpo em uma arma viva contra o sobrenatural.</p>\n               <h3>Construção Rápida</h3>\n               <p>Coloque seu valor de atributo mais alto em <strong>Destreza</strong> ou <strong>Força</strong>, dependendo de você se concentrar em combate corpo-a-corpo ou à distância. Seu próximo valor mais alto deve ser <strong>Inteligência</strong>, que rege a potência de suas maldições de sangue e CDs de salvaguarda, seguido por <strong>Constituição</strong>.</p>",
+        "chat": ""
+      },
+      "identifier": "witch-hunter",
+      "hitDice": "d10",
+      "advancement": [
+        {
+          "_id": "advhitpoints0001",
+          "type": "HitPoints",
+          "configuration": {}
+        },
+        {
+          "_id": "advtraits0000001",
+          "type": "Trait",
+          "level": 1,
+          "configuration": {
+            "grants": [
+              "armor:lgt",
+              "armor:med",
+              "armor:shl",
+              "weapon:sim",
+              "weapon:mar",
+              "tool:alchemist"
+            ],
+            "choices": [
+              {
+                "count": 3,
+                "pool": [
+                  "skills:acr",
+                  "skills:arc",
+                  "skills:ath",
+                  "skills:his",
+                  "skills:ins",
+                  "skills:inv",
+                  "skills:rel",
+                  "skills:sur"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advscalehemodie1",
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "hemocraft-die",
+            "type": "dice",
+            "scale": {
+              "1": {
+                "number": 1,
+                "faces": 4
+              },
+              "5": {
+                "number": 1,
+                "faces": 6
+              },
+              "11": {
+                "number": 1,
+                "faces": 8
+              },
+              "17": {
+                "number": 1,
+                "faces": 10
+              }
+            }
+          }
+        },
+        {
+          "_id": "advscalecurses01",
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "curses-known",
+            "type": "numeric",
+            "scale": {
+              "1": {
+                "value": 1
+              },
+              "6": {
+                "value": 2
+              },
+              "10": {
+                "value": 3
+              },
+              "14": {
+                "value": 4
+              },
+              "18": {
+                "value": 5
+              }
+            }
+          }
+        },
+        {
+          "_id": "advscalemaledi01",
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "blood-maledict-uses",
+            "type": "numeric",
+            "scale": {
+              "1": {
+                "value": 1
+              },
+              "6": {
+                "value": 2
+              },
+              "11": {
+                "value": 3
+              },
+              "17": {
+                "value": 4
+              }
+            }
+          }
+        },
+        {
+          "_id": "advitemgrant0001",
+          "type": "ItemGrant",
+          "level": 1,
+          "title": "Recursos de 1º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whfeatbane000001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whfeatbloodmaled"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whfeatwepmaster1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advitemgrant0002",
+          "type": "ItemGrant",
+          "level": 2,
+          "title": "Recursos de 2º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whfeatfightstyl1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whfeatcrimsonrit"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advitemgrantsub3",
+          "type": "Subclass",
+          "level": 3,
+          "title": "Ordem do Caçador (Subclasse)",
+          "configuration": {}
+        },
+        {
+          "_id": "advitemgrant0005",
+          "type": "ItemGrant",
+          "level": 5,
+          "title": "Recurso de 5º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whfeatextraattk1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advitemgrant0006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso de 6º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whfeatbrandcast1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advitemgrant0007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recurso de 7º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whfeatcrimsonim7"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advitemgrant0009",
+          "type": "ItemGrant",
+          "level": 9,
+          "title": "Recurso de 9º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whfeatgrimpsych1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advitemgrant0010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso de 10º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whfeatdarkaugmnt"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advitemgrant0013",
+          "type": "ItemGrant",
+          "level": 13,
+          "title": "Recurso de 13º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whfeatbrandteth1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advitemgrant0014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recursos de 14º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whfeathardeneds1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whfeatesoteric14"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advitemgrant0020",
+          "type": "ItemGrant",
+          "level": 20,
+          "title": "Recurso de 20º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whfeatsanguinem1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

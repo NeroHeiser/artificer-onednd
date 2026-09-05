@@ -1,0 +1,341 @@
+[
+  {
+    "_id": "whsubghostslayer",
+    "name": "Ordem do Caçador de Espectros",
+    "type": "subclass",
+    "img": "icons/magic/holy/sun-radiant-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>A Ordem do Caçador de Espectros é a mais antiga das ordens de caçadores de sangue. Focados em destruir os mortos-vivos e libertar espíritos atormentados, eles dominam a energia sagrada da alvorada e viajam pelo plano etéreo.</p>",
+        "chat": ""
+      },
+      "identifier": "ghostslayer",
+      "classIdentifier": "witch-hunter",
+      "advancement": [
+        {
+          "_id": "advghostsubnv003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos da Ordem (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whghostritedawn1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-items.Item.whcurseexorcist1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advghostsubnv007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recurso da Ordem (Nível 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whghostetherstep"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advghostsubnv011",
+          "type": "ItemGrant",
+          "level": 11,
+          "title": "Recurso da Ordem (Nível 11)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whghostbrandsund"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advghostsubnv015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso da Ordem (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whghostgravesigh"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advghostsubnv018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso da Ordem (Nível 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whghostvengspir1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "whsublycan000000",
+    "name": "Ordem do Licantropo",
+    "type": "subclass",
+    "img": "icons/creatures/abilities/werewolf-howl-moon-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Caçadores de sangue da Ordem do Licantropo submetem seus corpos à temível maldição da licantropia, controlando a besta interior através de treinamento e rituais de sangue para rasgar seus inimigos.</p>",
+        "chat": ""
+      },
+      "identifier": "lycan",
+      "classIdentifier": "witch-hunter",
+      "advancement": [
+        {
+          "_id": "advlycansubnv003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos da Ordem (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whlycansenses001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whlycantransform"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advlycansubnv007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recurso da Ordem (Nível 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whlycanstalker01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advlycansubnv011",
+          "type": "ItemGrant",
+          "level": 11,
+          "title": "Recurso da Ordem (Nível 11)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whlycanadvanced1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advlycansubnv015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso da Ordem (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whlycanironwill1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advlycansubnv018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso da Ordem (Nível 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whlycanmastery01"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "whsubmutant00000",
+    "name": "Ordem do Mutante",
+    "type": "subclass",
+    "img": "icons/consumables/potions/potion-tube-corked-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>A Ordem do Mutante estuda as toxinas e a alquimia dos monstros que caçam, forjando elixires e compostos químicos voláteis para mutar seu próprio corpo em uma arma adaptativa.</p>",
+        "chat": ""
+      },
+      "identifier": "mutant",
+      "classIdentifier": "witch-hunter",
+      "advancement": [
+        {
+          "_id": "advmutantsubnv03",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos da Ordem (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whmutantcraft001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whmutantformulas"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmutantsubnv07",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recurso da Ordem (Nível 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whmutantadvanced"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmutantsubnv11",
+          "type": "ItemGrant",
+          "level": 11,
+          "title": "Recurso da Ordem (Nível 11)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whmutantstrangem"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmutantsubnv15",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso da Ordem (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whmutantrobust01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmutantsubnv18",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso da Ordem (Nível 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whmutantexalted1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "whsubprofanesoul",
+    "name": "Ordem da Alma Profana",
+    "type": "subclass",
+    "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+    "system": {
+      "description": {
+        "value": "<p>Para enfrentar os poderes abissais e entidades do cosmos, caçadores da Alma Profana usam a própria magia dos inimigos contra eles, forjando pactos com patronos do outro mundo.</p>",
+        "chat": ""
+      },
+      "identifier": "profane-soul",
+      "classIdentifier": "witch-hunter",
+      "advancement": [
+        {
+          "_id": "advprofanesubn03",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos da Ordem (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whprofanepatron1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whprofanepactmag"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whprofaneritefoc"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advprofanesubn07",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recurso da Ordem (Nível 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whprofanefrenzy1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advprofanesubn11",
+          "type": "ItemGrant",
+          "level": 11,
+          "title": "Recurso da Ordem (Nível 11)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whprofanedichan1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advprofanesubn15",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso da Ordem (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whprofanearcana1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advprofanesubn18",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso da Ordem (Nível 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.witch-hunter-features.Item.whprofanesoulsyp"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

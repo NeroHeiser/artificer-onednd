@@ -37,6 +37,19 @@ export class MidiQOLCompat {
       if (itemId === "elixirhealing000") {
         console.log(`Expansão de Classes e Arquétipos | Midi QOL processou cura do Elixir Experimental em ${workflow.targets?.size || 0} alvo(s).`);
       }
+
+      // Automação para ativação do Ritual Carmesim (dano sacrificial)
+      if (itemId === "whfeatcrimsonrit" || itemId?.startsWith("whrite")) {
+        const actor = workflow.actor;
+        if (actor) {
+          console.log(`Expansão de Classes e Arquétipos | Midi QOL processou ativação do Ritual Carmesim para ${actor.name}.`);
+        }
+      }
+
+      // Automação para Maldições de Sangue
+      if (itemId?.startsWith("whcurse")) {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Maldição de Sangue (${workflow.item.name}) em ${workflow.targets?.size || 0} alvo(s).`);
+      }
     });
   }
 }

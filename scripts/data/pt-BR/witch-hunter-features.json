@@ -1,0 +1,929 @@
+[
+  {
+    "_id": "whfeatbane000001",
+    "name": "Perdição do Caçador",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-slit-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sobreviveu à Perdição do Caçador, um ritual secreto que altera seu sangue com magia sombria.</p>\n               <p>Você adiciona seu modificador de <strong>Inteligência</strong> a testes de Sabedoria (Sobrevivência) para rastrear Fadas, Corruptores e Mortos-vivos, bem como a testes de Inteligência para recordar informações sobre eles.</p>\n               <p>Além disso, você tem vantagem em testes de Sabedoria (Intuição) e Carisma (Intimidação).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Caçador de Bruxas 1"
+    }
+  },
+  {
+    "_id": "whfeatbloodmaled",
+    "name": "Sangue Maldito",
+    "type": "feat",
+    "img": "icons/magic/unholy/strike-body-explode-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você aprende a controlar a magia de sangue para amaldiçoar seus inimigos.</p>\n               <p>Você pode invocar uma <strong>Maldição de Sangue</strong> que conheça gastando um uso de Sangue Maldito. Você recupera todos os usos ao terminar um Descanso Curto ou Longo.</p>\n               <p><strong>Amplificar:</strong> Ao invocar uma maldição, você pode optar por amplificá-la sofrendo dano igual a uma rolagem do seu <strong>Dado de Hemomancia</strong>. Este dano não pode ser reduzido ou evitado.</p>\n               <p><strong>CD de Hemomancia:</strong> 8 + seu Bônus de Proficiência + seu modificador de Inteligência.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Caçador de Bruxas 1",
+      "uses": {
+        "value": 1,
+        "max": "@scale.witch-hunter.blood-maledict-uses",
+        "per": "sr",
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "whfeatwepmaster1",
+    "name": "Maestria em Armas (2024)",
+    "type": "feat",
+    "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>Seu rigoroso treinamento em combate marcial permite que você utilize as propriedades de maestria de armas com maestria mortal (One D&D / 2024).</p>\n               <p>Escolha <strong>2 tipos de armas</strong> simples ou marciais com as quais você tem proficiência (como Espada Grande, Arco Longo, Rapieira ou Machado Grande). Sempre que empunhar uma arma escolhida, você pode ativar sua propriedade de maestria (ex: <em>Cleave</em>, <em>Graze</em>, <em>Nick</em>, <em>Push</em>, <em>Sap</em>, <em>Slow</em>, <em>Topple</em> ou <em>Vex</em>).</p>\n               <p>Sempre que terminar um <strong>Descanso Longo</strong>, você pode trocar qualquer uma das armas escolhidas por outro tipo de arma qualificado.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Player's Handbook (2024) / One D&D"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Caçador de Bruxas 1"
+    }
+  },
+  {
+    "_id": "whfeatfightstyl1",
+    "name": "Estilo de Luta",
+    "type": "feat",
+    "img": "icons/skills/melee/sword-shield-silver.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 2º nível, você adota um estilo de combate particular como sua especialidade. Escolha uma das seguintes opções:</p>\n               <ul>\n                 <li><strong>Arquearia:</strong> +2 de bônus nas jogadas de ataque com armas à distância.</li>\n                 <li><strong>Duelismo:</strong> +2 de dano quando empunhar uma arma corpo-a-corpo em uma mão e nenhuma outra arma.</li>\n                 <li><strong>Combate com Armas Grandes:</strong> Re-rola resultados 1 ou 2 no dano com armas empunhadas com duas mãos.</li>\n                 <li><strong>Combate com Duas Armas:</strong> Adiciona o modificador de atributo no dano do ataque feito como Ação Bônus.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Caçador de Bruxas 2"
+    }
+  },
+  {
+    "_id": "whfeatcrimsonrit",
+    "name": "Ritual Carmesim",
+    "type": "feat",
+    "img": "icons/magic/fire/dagger-rune-enchant-flame-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 2º nível, você aprende a despertar o poder elemental oculto no seu sangue para imbuir suas armas.</p>\n               <p>Como uma <strong>Ação Bônus</strong>, você pode ativar um ritual carmesim em uma única arma que estiver segurando. Ao fazê-lo, você sofre dano igual a <strong>1 rolagem do seu Dado de Hemomancia</strong>. Este dano não pode ser reduzido nem prevenido.</p>\n               <p>Enquanto o ritual estiver ativo, ataques com essa arma causam <strong>dano elemental extra igual a uma rolagem do seu Dado de Hemomancia</strong>. O ritual dura até você terminar um Descanso Curto ou Longo, ou até que a arma saia das suas mãos.</p>\n               <p><strong>Rituais Primais:</strong> Você escolhe um ritual primal no 2º nível (Ritual das Chamas, do Congelamento ou da Tempestade) e outro no 7º nível.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Caçador de Bruxas 2",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "whfeatextraattk1",
+    "name": "Ataque Extra",
+    "type": "feat",
+    "img": "icons/skills/melee/strike-weapons-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>A partir do 5º nível, você pode atacar duas vezes, em vez de uma, sempre que realizar a ação de Ataque no seu turno.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Caçador de Bruxas 5"
+    }
+  },
+  {
+    "_id": "whfeatbrandcast1",
+    "name": "Marca do Castigo",
+    "type": "feat",
+    "img": "icons/magic/fire/flame-burning-mark-symbol.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, sempre que atingir uma criatura com uma arma imbuída pelo seu Ritual Carmesim, você pode gravar uma marca arcana de hemomancia na criatura (1 vez por descanso curto ou longo).</p>\n               <p>Você sempre sabe a direção e distância exata do alvo enquanto ele estiver no mesmo plano a até 8 km (5 milhas). Além disso, sempre que a criatura marcada causar dano a você ou a uma criatura a até 1,5m de você, ela sofre dano psíquico igual ao seu modificador de <strong>Inteligência</strong> (mínimo de 1).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Caçador de Bruxas 6",
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "sr"
+      }
+    }
+  },
+  {
+    "_id": "whfeatcrimsonim7",
+    "name": "Aprimoramento de Ritual (Primal)",
+    "type": "feat",
+    "img": "icons/magic/fire/dagger-rune-enchant-flame-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 7º nível, você aprende um Ritual Primal adicional à sua escolha da lista de Rituais Primais.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Caçador de Bruxas 7"
+    }
+  },
+  {
+    "_id": "whfeatgrimpsych1",
+    "name": "Psicometria Sinistra",
+    "type": "feat",
+    "img": "icons/magic/death/skull-glow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 9º nível, você desenvolve uma conexão sobrenatural com os ecos de morte e maldade. Ao fazer um teste de Inteligência (História) para recordar informações sobre o passado sombrio ou violento de um objeto ou local que esteja tocando, você tem vantagem no teste.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Caçador de Bruxas 9"
+    }
+  },
+  {
+    "_id": "whfeatdarkaugmnt",
+    "name": "Amplificação Sombria",
+    "type": "feat",
+    "img": "icons/magic/unholy/shadow-silhouette-wings-purple.webp",
+    "effects": [
+      {
+        "_id": "effdarkaugmnt001",
+        "name": "Amplificação Sombria",
+        "img": "icons/magic/unholy/shadow-silhouette-wings-purple.webp",
+        "changes": [
+          {
+            "key": "system.attributes.movement.walk",
+            "mode": 2,
+            "value": "+5",
+            "priority": 20
+          },
+          {
+            "key": "system.abilities.str.bonuses.save",
+            "mode": 2,
+            "value": "@abilities.int.mod",
+            "priority": 20
+          },
+          {
+            "key": "system.abilities.dex.bonuses.save",
+            "mode": 2,
+            "value": "@abilities.int.mod",
+            "priority": 20
+          },
+          {
+            "key": "system.abilities.con.bonuses.save",
+            "mode": 2,
+            "value": "@abilities.int.mod",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>A partir do 10º nível, a magia de sangue fortalece permanentemente seu corpo físico.</p>\n               <p>Seu deslocamento aumenta em <strong>+1,5 metro (5 pés)</strong> e você adiciona seu modificador de <strong>Inteligência</strong> a todas as salvaguardas de <strong>Força, Destreza e Constituição</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Caçador de Bruxas 10"
+    }
+  },
+  {
+    "_id": "whfeatbrandteth1",
+    "name": "Marca da Punição",
+    "type": "feat",
+    "img": "icons/magic/unholy/chain-link-glowing-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 13º nível, sua Marca do Castigo aprisiona os movimentos da vítima. A criatura marcada não pode usar a ação Disparada (Dash).</p>\n               <p>Se ela tentar se teletransportar ou viajar para outro plano, ela sofre <strong>4d6 de dano psíquico</strong> e deve ser bem-sucedida em uma salvaguarda de Sabedoria contra a sua CD de Hemomancia ou o teletransporte falha completamente.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Caçador de Bruxas 13"
+    }
+  },
+  {
+    "_id": "whfeathardeneds1",
+    "name": "Alma Endurecida",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
+    "effects": [
+      {
+        "_id": "effhardenedsou01",
+        "name": "Alma Endurecida",
+        "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
+        "changes": [
+          {
+            "key": "system.traits.ci.value",
+            "mode": 2,
+            "value": "frightened",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, você se torna imune à condição <strong>Amedrontado</strong> e tem vantagem em salvaguardas contra ser <strong>Encantado</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Caçador de Bruxas 14"
+    }
+  },
+  {
+    "_id": "whfeatesoteric14",
+    "name": "Rituais Esotéricos",
+    "type": "feat",
+    "img": "icons/magic/death/skull-horned-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, você desbloqueia o conhecimento de rituais carmesins exóticos e devastadores. Escolha um dos seguintes rituais para aprender:</p>\n               <ul>\n                 <li><strong>Ritual do Rugido:</strong> Dano Trovejante.</li>\n                 <li><strong>Ritual do Oráculo:</strong> Dano Psíquico.</li>\n                 <li><strong>Ritual do Morto:</strong> Dano Necrótico.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Caçador de Bruxas 14"
+    }
+  },
+  {
+    "_id": "whfeatsanguinem1",
+    "name": "Maestria Sanguinária",
+    "type": "feat",
+    "img": "icons/magic/unholy/heart-crystal-ruby.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 20º nível, você domina completamente os rituais e maldições de hemomancia.</p>\n               <p>Uma vez por turno, ao rolar seu Dado de Hemomancia para dano de ritual ou para amplificar uma maldição, você pode maximizar o resultado da rolagem em vez de rolar.</p>\n               <p>Além disso, sempre que obtiver um <strong>Acerto Crítico</strong> com uma arma que esteja com um Ritual Carmesim ativo, você recupera um uso gasto da característica Sangue Maldito.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Blood Hunter"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Caçador de Bruxas 20"
+    }
+  },
+  {
+    "_id": "whghostritedawn1",
+    "name": "Ritual da Alvorada",
+    "type": "feat",
+    "img": "icons/magic/holy/sun-radiant-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>Ao escolher esta ordem no 3º nível, você aprende o <strong>Ritual da Alvorada</strong>. O dano extra do ritual é do tipo <strong>Radiante</strong>.</p>\n               <p>Enquanto este ritual estiver ativo, você tem resistência a dano necrótico e seu dado de hemomancia causa o dobro de dano contra criaturas Mortas-vivas.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Ghostslayer"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Caçador de Espectros 3"
+    }
+  },
+  {
+    "_id": "whghostetherstep",
+    "name": "Passo Etéreo",
+    "type": "feat",
+    "img": "icons/magic/movement/trail-streak-zigzag-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>A partir do 7º nível, como uma Ação Bônus, você pode cruzar a fronteira para o Plano Etéreo por um número de rodadas igual ao seu modificador de Inteligência (mínimo de 1 rodada, 1x por descanso curto ou longo).</p>\n               <p>Você pode se mover através de criaturas e objetos sólidos como se fossem terreno difícil, e não pode ser atingido por ataques ou magias do plano material.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Ghostslayer"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Caçador de Espectros 7",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "sr"
+      }
+    }
+  },
+  {
+    "_id": "whghostbrandsund",
+    "name": "Marca do Sepulcro",
+    "type": "feat",
+    "img": "icons/magic/light/beam-strike-vertical-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 11º nível, sua Marca do Castigo corta a ligação da presa com planos alternativos. Ela não pode se esconder no Plano Etéreo ou ficar invisível.</p>\n               <p>Além disso, sempre que você atingir a criatura com uma arma com Ritual da Alvorada ativo, ela sofre uma rolagem adicional do dado de hemomancia.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Ghostslayer"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Caçador de Espectros 11"
+    }
+  },
+  {
+    "_id": "whghostgravesigh",
+    "name": "Visão da Sepultura",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-slit-glow-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 15º nível, você pode ver criaturas invisíveis e espíritos no Plano Etéreo a até 9 metros (30 pés) de você.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Ghostslayer"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Caçador de Espectros 15"
+    }
+  },
+  {
+    "_id": "whghostvengspir1",
+    "name": "Espírito Vingativo",
+    "type": "feat",
+    "img": "icons/magic/death/ghost-silhouette-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 18º nível, ao ser reduzido a 0 pontos de vida, você projeta uma forma espiritual etérea de si mesmo que permanece lutando e conjurando maldições até o final do seu próximo turno, permitindo que você continue lutando além da morte.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Ghostslayer"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Caçador de Espectros 18"
+    }
+  },
+  {
+    "_id": "whlycansenses001",
+    "name": "Sentidos Aguçados",
+    "type": "feat",
+    "img": "icons/magic/perception/ear-glowing-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você ganha sentidos de predador. Você tem vantagem em testes de Sabedoria (Percepção) que dependam de audição ou olfato.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Lycan"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Licantropo 3"
+    }
+  },
+  {
+    "_id": "whlycantransform",
+    "name": "Transformação Híbrida",
+    "type": "feat",
+    "img": "icons/creatures/abilities/werewolf-howl-moon-blue.webp",
+    "effects": [
+      {
+        "_id": "efflycanhybrid01",
+        "name": "Forma Híbrida (Licantropo)",
+        "img": "icons/creatures/abilities/werewolf-howl-moon-blue.webp",
+        "changes": [
+          {
+            "key": "system.attributes.ac.bonus",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "mode": 2,
+            "value": "bludgeoning",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "mode": 2,
+            "value": "piercing",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "mode": 2,
+            "value": "slashing",
+            "priority": 20
+          }
+        ],
+        "transfer": false,
+        "duration": {
+          "seconds": 3600
+        }
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>Como uma <strong>Ação Bônus</strong>, você assume uma forma híbrida de predador por 1 hora (1x por descanso curto ou longo, 2x no 7º nível, ilimitado no 18º nível).</p>\n               <ul>\n                 <li><strong>Resiliência Sobrenatural:</strong> +1 de bônus na CA e resistência a dano concussão, cortante e perfurante de ataques não mágicos e não prateados.</li>\n                 <li><strong>Garras Predadoras:</strong> Seus ataques desarmados causam 1d6 de dano cortante e você pode aplicar o Ritual Carmesim às suas garras.</li>\n                 <li><strong>Golpes Selvagens:</strong> Ao usar a ação de Ataque com garras, você pode fazer um ataque desarmado adicional como Ação Bônus.</li>\n                 <li><strong>Fúria Sanguinolenta:</strong> Se iniciar seu turno com menos da metade dos seus pontos de vida máximos, deve fazer uma salvaguarda de Sabedoria CD 8 ou atacar a criatura mais próxima.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Lycan"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Licantropo 3",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "sr"
+      }
+    }
+  },
+  {
+    "_id": "whlycanstalker01",
+    "name": "Proeza do Perseguidor",
+    "type": "feat",
+    "img": "icons/skills/movement/feet-winged-sandals-gold.webp",
+    "effects": [
+      {
+        "_id": "effstalkerprow01",
+        "name": "Proeza do Perseguidor",
+        "img": "icons/skills/movement/feet-winged-sandals-gold.webp",
+        "changes": [
+          {
+            "key": "system.attributes.movement.walk",
+            "mode": 2,
+            "value": "+10",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>No 7º nível, sua velocidade aumenta em <strong>3 metros (10 pés)</strong> e a distância de seus saltos é aumentada em 3 metros.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Lycan"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Licantropo 7"
+    }
+  },
+  {
+    "_id": "whlycanadvanced1",
+    "name": "Transformação Avançada",
+    "type": "feat",
+    "img": "icons/magic/life/heart-shadow-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 11º nível, suas garras predadoras são consideradas mágicas. Além disso, na forma híbrida, se estiver com menos da metade dos seus pontos de vida máximos no início do seu turno, você recupera 1 + seu modificador de Constituição em pontos de vida.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Lycan"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Licantropo 11"
+    }
+  },
+  {
+    "_id": "whlycanironwill1",
+    "name": "Vontade de Ferro",
+    "type": "feat",
+    "img": "icons/magic/control/buff-strength-muscle-glow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 15º nível, você tem vantagem nas salvaguardas contra a Fúria Sanguinolenta e vantagem em salvaguardas contra ser Encantado.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Lycan"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Licantropo 15"
+    }
+  },
+  {
+    "_id": "whlycanmastery01",
+    "name": "Maestria da Transformação",
+    "type": "feat",
+    "img": "icons/creatures/abilities/werewolf-howl-blood-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 18º nível, você pode usar a Transformação Híbrida um número <strong>ilimitado</strong> de vezes.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Lycan"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Licantropo 18"
+    }
+  },
+  {
+    "_id": "whmutantcraft001",
+    "name": "Criação de Mutagênicos",
+    "type": "feat",
+    "img": "icons/consumables/potions/vial-cork-empty-glass.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você aprende a preparar frascos mutagênicos que alteram sua fisiologia. Ao terminar um Descanso Curto ou Longo, você pode preparar 1 mutagênico (2 no 7º nível, 3 no 15º nível).</p>\n               <p>Consumir um mutagênico é uma Ação Bônus e os efeitos duram até seu próximo descanso curto ou longo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Mutant"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Mutante 3"
+    }
+  },
+  {
+    "_id": "whmutantformulas",
+    "name": "Fórmulas Mutagênicas",
+    "type": "feat",
+    "img": "icons/sundries/books/book-embossed-poison-skull.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você conhece 4 fórmulas mutagênicas no 3º nível, aprendendo fórmulas adicionais no 7º, 11º, 15º e 18º níveis.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Mutant"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Mutante 3"
+    }
+  },
+  {
+    "_id": "whmutantadvanced",
+    "name": "Criação Avançada de Mutagênicos",
+    "type": "feat",
+    "img": "icons/consumables/potions/potion-tube-corked-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 7º nível, você pode preparar 2 mutagênicos a cada descanso curto ou longo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Mutant"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Mutante 7"
+    }
+  },
+  {
+    "_id": "whmutantstrangem",
+    "name": "Metabolismo Estranho",
+    "type": "feat",
+    "img": "icons/magic/life/heart-cross-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 11º nível, como uma Ação Bônus, você pode suprimir temporariamente os efeitos colaterais negativos de um mutagênico que esteja afetando você por 1 minuto (1x por descanso longo).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Mutant"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Mutante 11",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "lr"
+      }
+    }
+  },
+  {
+    "_id": "whmutantrobust01",
+    "name": "Fisiologia Robusta",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-glowing-green.webp",
+    "effects": [
+      {
+        "_id": "effrobustphys001",
+        "name": "Fisiologia Robusta",
+        "img": "icons/magic/defensive/shield-barrier-glowing-green.webp",
+        "changes": [
+          {
+            "key": "system.traits.di.value",
+            "mode": 2,
+            "value": "poison",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.ci.value",
+            "mode": 2,
+            "value": "poisoned",
+            "priority": 20
+          }
+        ],
+        "transfer": true
+      }
+    ],
+    "system": {
+      "description": {
+        "value": "<p>No 15º nível, você se torna imune a dano de <strong>Veneno</strong> e à condição <strong>Envenenado</strong>. Além disso, pode preparar até 3 mutagênicos por descanso.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Mutant"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Mutante 15"
+    }
+  },
+  {
+    "_id": "whmutantexalted1",
+    "name": "Mutação Exaltada",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-sigil-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 18º nível, seu corpo sintetiza permanentemente uma das suas fórmulas de mutagênicos conhecidas, recebendo seus benefícios (e efeitos colaterais) sem ocupar espaço de preparação.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Mutant"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem do Mutante 18"
+    }
+  },
+  {
+    "_id": "whprofanepatron1",
+    "name": "Patrono do Outro Mundo",
+    "type": "feat",
+    "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você fecha um pacto com uma entidade do outro mundo (O Corruptor, A Arquifada, O Grande Antigo, O Celestial, A Lâmina Maldita ou O Imperecível), guiando o tipo de magia e rituais que você domina.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Profane Soul"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem da Alma Profana 3"
+    }
+  },
+  {
+    "_id": "whprofanepactmag",
+    "name": "Magia de Pacto",
+    "type": "feat",
+    "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você aprende a conjurar magias da lista de Bruxo. Seus espaços de magia de pacto recarregam em um Descanso Curto ou Longo, e sua habilidade de conjuração é <strong>Inteligência</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Profane Soul"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem da Alma Profana 3"
+    }
+  },
+  {
+    "_id": "whprofaneritefoc",
+    "name": "Foco Ritual",
+    "type": "feat",
+    "img": "icons/magic/fire/dagger-rune-enchant-flame-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Sua arma com Ritual Carmesim ativo atua como seu foco de conjuração para magias de Bruxo. Além disso, concede benefícios especiais baseados no patrono escolhido.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Profane Soul"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem da Alma Profana 3"
+    }
+  },
+  {
+    "_id": "whprofanefrenzy1",
+    "name": "Frenezi Místico",
+    "type": "feat",
+    "img": "icons/skills/melee/strike-blade-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>A partir do 7º nível, sempre que você usar sua ação para conjurar um truque, você pode fazer um ataque com arma como uma Ação Bônus.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Profane Soul"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem da Alma Profana 7"
+    }
+  },
+  {
+    "_id": "whprofanedichan1",
+    "name": "Canalização Diabólica",
+    "type": "feat",
+    "img": "icons/magic/fire/flame-burst-magic-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 11º nível, você pode imbuir uma magia de pacto em um ataque com arma. Se o ataque atingir, a criatura sofre o dano da arma e o efeito da magia simultaneamente.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Profane Soul"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem da Alma Profana 11"
+    }
+  },
+  {
+    "_id": "whprofanearcana1",
+    "name": "Arcana Revelada",
+    "type": "feat",
+    "img": "icons/sundries/books/book-open-glow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 15º nível, seu patrono concede acesso a uma magia secreta de 3º círculo sem gastar espaços de magia (1x por descanso longo).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Profane Soul"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem da Alma Profana 15"
+    }
+  },
+  {
+    "_id": "whprofanesoulsyp",
+    "name": "Sifão de Almas",
+    "type": "feat",
+    "img": "icons/magic/unholy/silhouette-robe-spirit-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 18º nível, ao conseguir um acerto crítico com uma arma imbuída pelo seu ritual ou abater uma criatura significativa, você recupera um espaço de magia de pacto gasto.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "D&D Beyond (2020) - Order of the Profane Soul"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ordem da Alma Profana 18"
+    }
+  }
+]

@@ -12,12 +12,20 @@ Módulo completo para o **Foundry Virtual Tabletop (VTT)** que adiciona classes 
   - Companheiros (Defensor de Aço, Canhão Arcano, Servo Homúnculo) com armas e ações automatizadas (cura com detecção de alvos, sopro em cone com CD de resistência, golpes de força e arremessos).
   - Degradação graciosa: se o Midi QOL não estiver ativo na mesa, funciona 100% no padrão nativo do D&D 5e.
 - **Classe Artificer Completa**: Progressão de níveis 1 a 20 configurada com a arquitetura moderna de **Item Advancements** (`HitPoints`, `TraitAdvancement`, `ItemGrantAdvancement`, `ScaleValueAdvancement`).
-- **5 Subclasses Especializadas**:
+- **5 Subclasses Especializadas do Artífice**:
   1. **Alchemist (Alquimista)**: Produção de *Experimental Elixirs*, *Alchemical Savant*, *Restorative Reagents*, *Chemical Mastery*.
   2. **Armorer (Armeiro)**: *Arcane Armor*, modelos de armadura (**Dreadnaught**, **Guardian** e **Infiltrator**), *Extra Attack*, *Improved Armorer*, *Perfected Armor*.
   3. **Artillerist (Artilheiro)**: *Eldritch Cannon* (Flamethrower, Force Ballista, Protector), *Arcane Firearm*, *Explosive Cannon*, *Fortified Position*.
   4. **Battle Smith (Ferreiro de Batalha)**: *Battle Ready* (Int para ataque e dano mágico), companheiro *Steel Defender*, *Extra Attack*, *Arcane Jolt*, *Improved Defender*.
   5. **Cartographer (Cartógrafo)**: *Adventurer's Atlas*, *Mapping Magic* (teleporte *Portal Jump* e *Faerie Fire* grátis), *Guided Precision*, *Ingenious Movement*, *Superior Atlas*.
+- **Classe Caçador de Bruxas (Witch Hunter / Blood Hunter)**:
+  - Progressão completa de níveis 1 a 20 baseada na versão oficial de 2020 do D&D Beyond (Matthew Mercer), com **Inteligência** como atributo-chave e **Maestria em Armas (One D&D / 2024)** no 1º nível.
+  - **4 Ordens Especializadas**:
+    1. **Ordem do Caçador de Espectros (Ghostslayer)**: *Ritual da Alvorada* (Radiante), *Passo Etéreo*, *Marca do Sepulcro*, *Visão da Sepultura*, *Espírito Vingativo*.
+    2. **Ordem do Licantropo (Lycan)**: *Transformação Híbrida* (resistências a armas, bônus de CA, garras desarmadas e ataque bônus), *Proeza do Perseguidor*, *Transformação Avançada*, *Vontade de Ferro*, *Maestria Híbrida*.
+    3. **Ordem do Mutante (Mutant)**: *Criação de Mutagênicos* com 19 fórmulas completas em itens consumíveis (bônus e penalidades automatizadas via ActiveEffect), *Metabolismo Estranho*, *Fisiologia Robusta*, *Mutação Exaltada*.
+    4. **Ordem da Alma Profana (Profane Soul)**: *Magia de Pacto* com Inteligência, Patronos do Outro Mundo, *Foco Ritual*, *Frenezi Místico*, *Canalização Diabólica*, *Arcana Revelada*, *Sifão de Almas*.
+  - **Rituais Carmesins & Maldições de Sangue**: 7 Rituais com ActiveEffects e 10 Maldições de Sangue completas com salvaguardas e automações no Midi QOL.
 - **Nova Magia & Companheiros**:
   - Nova magia de 2º círculo: *Homunculus Servant* (Servo Homúnculo) com ritual e ficha de invocação.
   - Fichas de NPCs/Companheiros completas no compêndio: **Steel Defender**, **Homunculus Servant** e **Eldritch Cannon**.
