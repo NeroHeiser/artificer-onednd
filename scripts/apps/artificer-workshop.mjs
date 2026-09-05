@@ -106,106 +106,108 @@ export class ArtificerWorkshopApp extends BaseApplication {
       );
     }
 
+    const isPt = game.i18n?.lang?.startsWith("pt");
+
     const tinkerItems = [
-      { id: "ball-bearings", name: "Ball Bearings", label: "Ball Bearings (Esferas)", icon: "fas fa-circle" },
-      { id: "basket", name: "Basket", label: "Basket (Cesto)", icon: "fas fa-shopping-basket" },
-      { id: "bedroll", name: "Bedroll", label: "Bedroll (Saco de Dormir)", icon: "fas fa-bed" },
-      { id: "bell", name: "Bell", label: "Bell (Sino)", icon: "fas fa-bell" },
-      { id: "blanket", name: "Blanket", label: "Blanket (Cobertor)", icon: "fas fa-couch" },
-      { id: "block-and-tackle", name: "Block and Tackle", label: "Block & Tackle (Talha)", icon: "fas fa-dolly" },
-      { id: "bottle-glass", name: "Bottle (Glass)", label: "Bottle, Glass (Garrafa)", icon: "fas fa-wine-bottle" },
-      { id: "bucket", name: "Bucket", label: "Bucket (Balde)", icon: "fas fa-fill" },
-      { id: "caltrops", name: "Caltrops", label: "Caltrops (Abrolhos)", icon: "fas fa-asterisk" },
-      { id: "candle", name: "Candle", label: "Candle (Vela)", icon: "fas fa-fire" },
-      { id: "crowbar", name: "Crowbar", label: "Crowbar (Pé de Cabra)", icon: "fas fa-gavel" },
-      { id: "flask", name: "Flask", label: "Flask (Frasco)", icon: "fas fa-flask" },
-      { id: "grappling-hook", name: "Grappling Hook", label: "Grappling Hook (Gancho)", icon: "fas fa-anchor" },
-      { id: "hunting-trap", name: "Hunting Trap", label: "Hunting Trap (Armadilha)", icon: "fas fa-teeth" },
-      { id: "jug", name: "Jug", label: "Jug (Jarra)", icon: "fas fa-wine-glass" },
-      { id: "lamp", name: "Lamp", label: "Lamp (Lâmpada)", icon: "fas fa-lightbulb" },
-      { id: "manacles", name: "Manacles", label: "Manacles (Algemas)", icon: "fas fa-link" },
-      { id: "net", name: "Net", label: "Net (Rede)", icon: "fas fa-border-all" },
-      { id: "oil", name: "Oil", label: "Oil, Flask (Óleo)", icon: "fas fa-tint" },
-      { id: "paper", name: "Paper", label: "Paper (Papel)", icon: "fas fa-scroll" },
-      { id: "parchment", name: "Parchment", label: "Parchment (Pergaminho)", icon: "fas fa-file-alt" },
-      { id: "pole", name: "Pole", label: "Pole, 10-ft (Vara)", icon: "fas fa-ruler-vertical" },
-      { id: "pouch", name: "Pouch", label: "Pouch (Bolsa)", icon: "fas fa-archive" },
-      { id: "rope", name: "Rope", label: "Rope, Hempen 50ft (Corda)", icon: "fas fa-ring" },
-      { id: "sack", name: "Sack", label: "Sack (Saco)", icon: "fas fa-box" },
-      { id: "shovel", name: "Shovel", label: "Shovel (Pá)", icon: "fas fa-shovel" },
-      { id: "spikes-iron", name: "Spikes (Iron)", label: "Spikes, Iron (Picos)", icon: "fas fa-thumbtack" },
-      { id: "string", name: "String", label: "String (Barbante)", icon: "fas fa-tape" },
-      { id: "tinderbox", name: "Tinderbox", label: "Tinderbox (Pederneira)", icon: "fas fa-fire-alt" },
-      { id: "torch", name: "Torch", label: "Torch (Tocha)", icon: "fas fa-burn" },
-      { id: "vial", name: "Vial", label: "Vial (Vidreto)", icon: "fas fa-vial" }
+      { id: "ball-bearings", name: isPt ? "Esferas de Metal" : "Ball Bearings", label: isPt ? "Esferas de Metal" : "Ball Bearings", icon: "fas fa-circle" },
+      { id: "basket", name: isPt ? "Cesto" : "Basket", label: isPt ? "Cesto" : "Basket", icon: "fas fa-shopping-basket" },
+      { id: "bedroll", name: isPt ? "Saco de Dormir" : "Bedroll", label: isPt ? "Saco de Dormir" : "Bedroll", icon: "fas fa-bed" },
+      { id: "bell", name: isPt ? "Sino" : "Bell", label: isPt ? "Sino" : "Bell", icon: "fas fa-bell" },
+      { id: "blanket", name: isPt ? "Cobertor" : "Blanket", label: isPt ? "Cobertor" : "Blanket", icon: "fas fa-couch" },
+      { id: "block-and-tackle", name: isPt ? "Talha" : "Block and Tackle", label: isPt ? "Talha" : "Block and Tackle", icon: "fas fa-dolly" },
+      { id: "bottle-glass", name: isPt ? "Garrafa de Vidro" : "Bottle (Glass)", label: isPt ? "Garrafa de Vidro" : "Bottle (Glass)", icon: "fas fa-wine-bottle" },
+      { id: "bucket", name: isPt ? "Balde" : "Bucket", label: isPt ? "Balde" : "Bucket", icon: "fas fa-fill" },
+      { id: "caltrops", name: isPt ? "Abrolhos" : "Caltrops", label: isPt ? "Abrolhos" : "Caltrops", icon: "fas fa-asterisk" },
+      { id: "candle", name: isPt ? "Vela" : "Candle", label: isPt ? "Vela" : "Candle", icon: "fas fa-fire" },
+      { id: "crowbar", name: isPt ? "Pé de Cabra" : "Crowbar", label: isPt ? "Pé de Cabra" : "Crowbar", icon: "fas fa-gavel" },
+      { id: "flask", name: isPt ? "Frasco" : "Flask", label: isPt ? "Frasco" : "Flask", icon: "fas fa-flask" },
+      { id: "grappling-hook", name: isPt ? "Gancho de Escalada" : "Grappling Hook", label: isPt ? "Gancho de Escalada" : "Grappling Hook", icon: "fas fa-anchor" },
+      { id: "hunting-trap", name: isPt ? "Armadilha de Caça" : "Hunting Trap", label: isPt ? "Armadilha de Caça" : "Hunting Trap", icon: "fas fa-teeth" },
+      { id: "jug", name: isPt ? "Jarra" : "Jug", label: isPt ? "Jarra" : "Jug", icon: "fas fa-wine-glass" },
+      { id: "lamp", name: isPt ? "Lâmpada" : "Lamp", label: isPt ? "Lâmpada" : "Lamp", icon: "fas fa-lightbulb" },
+      { id: "manacles", name: isPt ? "Algemas" : "Manacles", label: isPt ? "Algemas" : "Manacles", icon: "fas fa-link" },
+      { id: "net", name: isPt ? "Rede" : "Net", label: isPt ? "Rede" : "Net", icon: "fas fa-border-all" },
+      { id: "oil", name: isPt ? "Óleo (Frasco)" : "Oil (Flask)", label: isPt ? "Óleo (Frasco)" : "Oil (Flask)", icon: "fas fa-tint" },
+      { id: "paper", name: isPt ? "Papel" : "Paper", label: isPt ? "Papel" : "Paper", icon: "fas fa-scroll" },
+      { id: "parchment", name: isPt ? "Pergaminho" : "Parchment", label: isPt ? "Pergaminho" : "Parchment", icon: "fas fa-file-alt" },
+      { id: "pole", name: isPt ? "Vara (3 metros)" : "Pole (10-ft)", label: isPt ? "Vara (3 metros)" : "Pole (10-ft)", icon: "fas fa-ruler-vertical" },
+      { id: "pouch", name: isPt ? "Bolsa" : "Pouch", label: isPt ? "Bolsa" : "Pouch", icon: "fas fa-archive" },
+      { id: "rope", name: isPt ? "Corda de Cânhamo (15m)" : "Rope, Hempen (50ft)", label: isPt ? "Corda de Cânhamo (15m)" : "Rope, Hempen (50ft)", icon: "fas fa-ring" },
+      { id: "sack", name: isPt ? "Saco" : "Sack", label: isPt ? "Saco" : "Sack", icon: "fas fa-box" },
+      { id: "shovel", name: isPt ? "Pá" : "Shovel", label: isPt ? "Pá" : "Shovel", icon: "fas fa-shovel" },
+      { id: "spikes-iron", name: isPt ? "Pítons de Ferro" : "Spikes (Iron)", label: isPt ? "Pítons de Ferro" : "Spikes (Iron)", icon: "fas fa-thumbtack" },
+      { id: "string", name: isPt ? "Barbante" : "String", label: isPt ? "Barbante" : "String", icon: "fas fa-tape" },
+      { id: "tinderbox", name: isPt ? "Isqueiro / Pederneira" : "Tinderbox", label: isPt ? "Isqueiro / Pederneira" : "Tinderbox", icon: "fas fa-fire-alt" },
+      { id: "torch", name: isPt ? "Tocha" : "Torch", label: isPt ? "Tocha" : "Torch", icon: "fas fa-burn" },
+      { id: "vial", name: isPt ? "Vidreto" : "Vial", label: isPt ? "Vidreto" : "Vial", icon: "fas fa-vial" }
     ];
 
     const plansTier2 = [
-      { name: "Alchemy Jug", attunement: false },
-      { name: "Bag of Holding", attunement: false },
-      { name: "Cap of Water Breathing", attunement: false },
-      { name: "Common magic item (non-potion/scroll)", attunement: false },
-      { name: "Goggles of Night", attunement: false },
-      { name: "Manifold Tool", attunement: true },
-      { name: "Repeating Shot", attunement: true },
-      { name: "Returning Weapon", attunement: false },
-      { name: "Rope of Climbing", attunement: false },
-      { name: "Sending Stones", attunement: false },
-      { name: "Shield, +1", attunement: false },
-      { name: "Wand of Magic Detection", attunement: false },
-      { name: "Wand of Secrets", attunement: false },
-      { name: "Wand of the War Mage, +1", attunement: true },
-      { name: "Weapon, +1", attunement: false },
-      { name: "Wraps of Unarmed Power, +1", attunement: false }
+      { name: isPt ? "Jarra de Alquimia" : "Alchemy Jug", attunement: false },
+      { name: isPt ? "Bolsa Espaçosa" : "Bag of Holding", attunement: false },
+      { name: isPt ? "Capuz de Respirar na Água" : "Cap of Water Breathing", attunement: false },
+      { name: isPt ? "Item Mágico Comum (não-poção/pergaminho)" : "Common magic item (non-potion/scroll)", attunement: false },
+      { name: isPt ? "Óculos Noturnos" : "Goggles of Night", attunement: false },
+      { name: isPt ? "Ferramenta Multifuncional" : "Manifold Tool", attunement: true },
+      { name: isPt ? "Disparo Repetidor" : "Repeating Shot", attunement: true },
+      { name: isPt ? "Arma Retornável" : "Returning Weapon", attunement: false },
+      { name: isPt ? "Corda de Escalar" : "Rope of Climbing", attunement: false },
+      { name: isPt ? "Pedras de Mensagem" : "Sending Stones", attunement: false },
+      { name: isPt ? "Escudo +1" : "Shield, +1", attunement: false },
+      { name: isPt ? "Varinha de Detectar Magia" : "Wand of Magic Detection", attunement: false },
+      { name: isPt ? "Varinha dos Segredos" : "Wand of Secrets", attunement: false },
+      { name: isPt ? "Varinha do Mago de Guerra +1" : "Wand of the War Mage, +1", attunement: true },
+      { name: isPt ? "Arma +1" : "Weapon, +1", attunement: false },
+      { name: isPt ? "Faixas de Poder Desarmado +1" : "Wraps of Unarmed Power, +1", attunement: false }
     ];
 
     const plansTier6 = [
-      { name: "Armor, +1", attunement: false },
-      { name: "Boots of Elvenkind", attunement: false },
-      { name: "Boots of the Winding Path", attunement: true },
-      { name: "Cloak of Elvenkind", attunement: true },
-      { name: "Cloak of the Manta Ray", attunement: true },
-      { name: "Dazzling Weapon", attunement: true },
-      { name: "Eyes of Charming", attunement: true },
-      { name: "Eyes of Minute Seeing", attunement: false },
-      { name: "Gloves of Thievery", attunement: false }
+      { name: isPt ? "Armadura +1" : "Armor, +1", attunement: false },
+      { name: isPt ? "Botas Élficas" : "Boots of Elvenkind", attunement: false },
+      { name: isPt ? "Botas do Caminho Sinuoso" : "Boots of the Winding Path", attunement: true },
+      { name: isPt ? "Manto Élfico" : "Cloak of Elvenkind", attunement: true },
+      { name: isPt ? "Manto da Arraia" : "Cloak of the Manta Ray", attunement: true },
+      { name: isPt ? "Arma Deslumbrante" : "Dazzling Weapon", attunement: true },
+      { name: isPt ? "Olhos de Fascinação" : "Eyes of Charming", attunement: true },
+      { name: isPt ? "Olhos de Visão Minuciosa" : "Eyes of Minute Seeing", attunement: false },
+      { name: isPt ? "Luvas do Ladrão" : "Gloves of Thievery", attunement: false }
     ];
 
     const plansTier10 = [
-      { name: "Armor of Resistance", attunement: true },
-      { name: "Dagger of Venom", attunement: false },
-      { name: "Elven Chain", attunement: false },
-      { name: "Helm of Awareness", attunement: false },
-      { name: "Lantern of Revealing", attunement: false },
-      { name: "Mind Sharpener", attunement: true },
-      { name: "Necklace of Adaptation", attunement: true },
-      { name: "Pipes of Haunting", attunement: false },
-      { name: "Repulsion Shield", attunement: false },
-      { name: "Ring of Feather Falling", attunement: true },
-      { name: "Ring of Jumping", attunement: true },
-      { name: "Ring of Mind Shielding", attunement: true },
-      { name: "Ring of Swimming", attunement: false },
-      { name: "Ring of Water Walking", attunement: false },
-      { name: "Sentinel Shield", attunement: false },
-      { name: "Shield, +2", attunement: false },
-      { name: "Spell-Refueling Ring", attunement: true },
-      { name: "Uncommon Wondrous Item (non-cursed)", attunement: false },
-      { name: "Wand of Magic Missiles", attunement: false },
-      { name: "Wand of the War Mage, +2", attunement: true },
-      { name: "Wand of Web", attunement: true },
-      { name: "Weapon, +2", attunement: false },
-      { name: "Weapon of Warning", attunement: true },
-      { name: "Wraps of Unarmed Power, +2", attunement: false }
+      { name: isPt ? "Armadura de Resistência" : "Armor of Resistance", attunement: true },
+      { name: isPt ? "Adaga do Veneno" : "Dagger of Venom", attunement: false },
+      { name: isPt ? "Cota Élfica" : "Elven Chain", attunement: false },
+      { name: isPt ? "Elmo da Prontidão" : "Helm of Awareness", attunement: false },
+      { name: isPt ? "Lanterna da Revelação" : "Lantern of Revealing", attunement: false },
+      { name: isPt ? "Focalizador Mental" : "Mind Sharpener", attunement: true },
+      { name: isPt ? "Colar de Adaptação" : "Necklace of Adaptation", attunement: true },
+      { name: isPt ? "Gaita Assombrada" : "Pipes of Haunting", attunement: false },
+      { name: isPt ? "Escudo de Repulsão" : "Repulsion Shield", attunement: false },
+      { name: isPt ? "Anel de Queda Suave" : "Ring of Feather Falling", attunement: true },
+      { name: isPt ? "Anel de Pulo" : "Ring of Jumping", attunement: true },
+      { name: isPt ? "Anel de Proteção Mental" : "Ring of Mind Shielding", attunement: true },
+      { name: isPt ? "Anel de Natação" : "Ring of Swimming", attunement: false },
+      { name: isPt ? "Anel de Caminhar na Água" : "Ring of Water Walking", attunement: false },
+      { name: isPt ? "Escudo Sentinela" : "Sentinel Shield", attunement: false },
+      { name: isPt ? "Escudo +2" : "Shield, +2", attunement: false },
+      { name: isPt ? "Anel Reabastecedor de Magia" : "Spell-Refueling Ring", attunement: true },
+      { name: isPt ? "Item Maravilhoso Incomum (não-amaldiçoado)" : "Uncommon Wondrous Item (non-cursed)", attunement: false },
+      { name: isPt ? "Varinha de Mísseis Mágicos" : "Wand of Magic Missiles", attunement: false },
+      { name: isPt ? "Varinha do Mago de Guerra +2" : "Wand of the War Mage, +2", attunement: true },
+      { name: isPt ? "Varinha de Teia" : "Wand of Web", attunement: true },
+      { name: isPt ? "Arma +2" : "Weapon, +2", attunement: false },
+      { name: isPt ? "Arma de Alerta" : "Weapon of Warning", attunement: true },
+      { name: isPt ? "Faixas de Poder Desarmado +2" : "Wraps of Unarmed Power, +2", attunement: false }
     ];
 
     const plansTier14 = [
-      { name: "Armor, +2", attunement: false },
-      { name: "Arrow-Catching Shield", attunement: true },
-      { name: "Flame Tongue", attunement: true },
-      { name: "Rare Wondrous Item (non-cursed)", attunement: false },
-      { name: "Ring of Free Action", attunement: true },
-      { name: "Ring of Protection", attunement: true },
-      { name: "Ring of the Ram", attunement: true }
+      { name: isPt ? "Armadura +2" : "Armor, +2", attunement: false },
+      { name: isPt ? "Escudo de Apanhar Flechas" : "Arrow-Catching Shield", attunement: true },
+      { name: isPt ? "Língua Flamejante" : "Flame Tongue", attunement: true },
+      { name: isPt ? "Item Maravilhoso Raro (não-amaldiçoado)" : "Rare Wondrous Item (non-cursed)", attunement: false },
+      { name: isPt ? "Anel de Movimentação Livre" : "Ring of Free Action", attunement: true },
+      { name: isPt ? "Anel de Proteção" : "Ring of Protection", attunement: true },
+      { name: isPt ? "Anel do Carneiro" : "Ring of the Ram", attunement: true }
     ];
 
     return {
@@ -351,7 +353,8 @@ export class ArtificerWorkshopApp extends BaseApplication {
 
     if (!itemData) {
       // Fallback a partir de JSON local caso o compêndio ainda não esteja indexado
-      const res = await fetch(`modules/${MODULE_ID}/scripts/data/items.json`);
+      const langFolder = game.i18n?.lang?.startsWith("pt") ? "pt-BR" : "en";
+      const res = await fetch(`modules/${MODULE_ID}/scripts/data/${langFolder}/items.json`);
       const items = await res.json();
       itemData = items.find(i => i._id === targetId);
     }
@@ -378,15 +381,19 @@ export class ArtificerWorkshopApp extends BaseApplication {
       return;
     }
 
-    const itemName = target.dataset.name || "Mundane Item";
+    const isPt = game.i18n?.lang?.startsWith("pt");
+    const itemName = target.dataset.name || (isPt ? "Item Mundano" : "Mundane Item");
+    const suffix = isPt ? "(Magia de Funileiro)" : "(Tinker's Magic)";
+    const desc = isPt
+      ? "<p>Criado através da <strong>Magia de Funileiro</strong> do Artífice. Este item dura até você terminar um Descanso Longo, quando então desaparece.</p>"
+      : "<p>Created via Artificer <strong>Tinker's Magic</strong>. This item lasts until you finish a Long Rest, at which point it vanishes.</p>";
+
     const newItemData = {
-      name: `${itemName} (Tinker's Magic)`,
+      name: `${itemName} ${suffix}`,
       type: "loot",
       img: "icons/tools/instruments/measuring-compass-brass.webp",
       system: {
-        description: {
-          value: `<p>Created via Artificer <strong>Tinker's Magic</strong>. This item lasts until you finish a Long Rest, at which point it vanishes.</p>`
-        },
+        description: { value: desc },
         quantity: 1,
         weight: 1,
         price: { value: 0, denomination: "gp" }
@@ -414,9 +421,32 @@ export class ArtificerWorkshopApp extends BaseApplication {
 
     const itemName = target.dataset.itemName;
     const pack = game.packs.get(`${MODULE_ID}.artificer-items`);
+    const isPt = game.i18n?.lang?.startsWith("pt");
 
+    const planItemMap = {
+      "manifold tool": "itemmanifoldtool",
+      "ferramenta multifuncional": "itemmanifoldtool",
+      "repeating shot": "itemrepeating001",
+      "disparo repetidor": "itemrepeating001",
+      "returning weapon": "itemreturning001",
+      "arma retornável": "itemreturning001",
+      "mind sharpener": "itemmindsharp001",
+      "focalizador mental": "itemmindsharp001",
+      "boots of the winding path": "itemwindingboot1",
+      "botas do caminho sinuoso": "itemwindingboot1",
+      "repulsion shield": "itemrepulsionsh1",
+      "escudo de repulsão": "itemrepulsionsh1"
+    };
+
+    const targetDocId = planItemMap[itemName.toLowerCase()];
     let itemData = null;
-    if (pack) {
+
+    if (pack && targetDocId) {
+      const doc = await pack.getDocument(targetDocId);
+      if (doc) itemData = doc.toObject();
+    }
+
+    if (!itemData && pack) {
       const entry = pack.index.find(i => i.name.toLowerCase() === itemName.toLowerCase());
       if (entry) {
         const doc = await pack.getDocument(entry._id);
@@ -426,14 +456,17 @@ export class ArtificerWorkshopApp extends BaseApplication {
 
     if (!itemData) {
       // Fallback genérico para itens padrão D&D 5e
+      const suffix = isPt ? "(Replicado)" : "(Replicated)";
+      const desc = isPt
+        ? "<p>Um item mágico replicado criado por um Artífice. Permanece ativo até 1d4 dias após sua morte ou imediatamente ao substituir este plano.</p>"
+        : "<p>A replicated magic item created by an Artificer. Vanishes 1d4 days after your death or immediately if you replace this plan.</p>";
+
       itemData = {
-        name: `${itemName} (Replicated)`,
+        name: `${itemName} ${suffix}`,
         type: "equipment",
         img: "icons/commodities/treasure/chest-wooden-steel-gold.webp",
         system: {
-          description: {
-            value: `<p>A replicated magic item created by an Artificer. Vanishes 1d4 days after your death or immediately if you replace this plan.</p>`
-          },
+          description: { value: desc },
           equipped: true
         }
       };
@@ -442,7 +475,12 @@ export class ArtificerWorkshopApp extends BaseApplication {
     }
 
     await this.actor.createEmbeddedDocuments("Item", [itemData]);
-    ui.notifications.info(`Criado ${itemData.name} no inventário de ${this.actor.name}!`);
+    ui.notifications.info(
+      game.i18n.format("ARTIFICER_5E.Notifications.ItemCreated", {
+        name: itemData.name,
+        actor: this.actor.name
+      })
+    );
   }
 
   /**
@@ -454,7 +492,7 @@ export class ArtificerWorkshopApp extends BaseApplication {
     const pack = game.packs.get(`${MODULE_ID}.artificer-actors`);
 
     if (!pack) {
-      ui.notifications.warn("Pacote de companheiros não encontrado.");
+      ui.notifications.warn(game.i18n.localize("ARTIFICER_5E.Notifications.CompanionPackNotFound"));
       return;
     }
 
@@ -462,7 +500,7 @@ export class ArtificerWorkshopApp extends BaseApplication {
     if (doc) {
       doc.sheet.render(true);
     } else {
-      ui.notifications.warn("Ficha do companheiro não encontrada no compêndio.");
+      ui.notifications.warn(game.i18n.localize("ARTIFICER_5E.Notifications.CompanionNotFound"));
     }
   }
 

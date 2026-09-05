@@ -1,12 +1,12 @@
 [
   {
     "_id": "elixirhealing000",
-    "name": "Elixir Experimental: Cura",
+    "name": "Experimental Elixir: Healing",
     "type": "consumable",
     "img": "icons/consumables/potions/potion-bottle-corked-red.webp",
     "system": {
       "description": {
-        "value": "<p>Uma criatura pode beber este elixir ou administrá-lo a uma criatura adjacente como <strong>Ação Bônus</strong>. O bebedor recupera <strong>2d8 + mod Inteligência PV</strong> (3d8 no nv 9, 4d8 no nv 15).</p>",
+        "value": "<p>A creature can drink this elixir or administer it to an adjacent creature as a <strong>Bonus Action</strong>. The drinker regains <strong>2d8 + Intelligence modifier HP</strong> (3d8 at lvl 9, 4d8 at lvl 15).</p>",
         "chat": ""
       },
       "consumableType": "potion",
@@ -33,12 +33,12 @@
   },
   {
     "_id": "elixirswiftnes00",
-    "name": "Elixir Experimental: Rapidez",
+    "name": "Experimental Elixir: Swiftness",
     "type": "consumable",
     "img": "icons/consumables/potions/potion-bottle-corked-yellow.webp",
     "system": {
       "description": {
-        "value": "<p>Uma criatura pode beber este elixir como <strong>Ação Bônus</strong>. O Deslocamento aumenta em <strong>3 metros (10 ft) por 1 hora</strong> (+4,5m no nv 9, +6m no nv 15).</p>",
+        "value": "<p>A creature can drink this elixir or administer it to an adjacent creature as a <strong>Bonus Action</strong>. The drinker's Speed increases by <strong>10 feet for 1 hour</strong> (15 ft at lvl 9, 20 ft at lvl 15).</p>",
         "chat": ""
       },
       "consumableType": "potion",
@@ -60,12 +60,12 @@
   },
   {
     "_id": "elixirresilien00",
-    "name": "Elixir Experimental: Resiliência",
+    "name": "Experimental Elixir: Resilience",
     "type": "consumable",
     "img": "icons/consumables/potions/potion-bottle-corked-blue.webp",
     "system": {
       "description": {
-        "value": "<p>Uma criatura pode beber este elixir como <strong>Ação Bônus</strong>. O bebedor recebe <strong>+1 de bônus na CA por 10 minutos</strong> (1h no nv 9, 8h no nv 15).</p>",
+        "value": "<p>A creature can drink this elixir or administer it to an adjacent creature as a <strong>Bonus Action</strong>. The drinker gains a <strong>+1 bonus to AC for 10 minutes</strong> (1 hour at lvl 9, 8 hours at lvl 15).</p>",
         "chat": ""
       },
       "consumableType": "potion",
@@ -87,12 +87,12 @@
   },
   {
     "_id": "elixirboldness00",
-    "name": "Elixir Experimental: Audácia",
+    "name": "Experimental Elixir: Boldness",
     "type": "consumable",
     "img": "icons/consumables/potions/potion-bottle-corked-orange.webp",
     "system": {
       "description": {
-        "value": "<p>Uma criatura pode beber este elixir como <strong>Ação Bônus</strong>. O bebedor adiciona <strong>1d4 a todas as jogadas de ataque e salvaguardas por 1 minuto</strong> (10m no nv 9, 1h no nv 15).</p>",
+        "value": "<p>A creature can drink this elixir or administer it to an adjacent creature as a <strong>Bonus Action</strong>. The drinker adds <strong>1d4 to every attack roll and saving throw for 1 minute</strong> (10 minutes at lvl 9, 1 hour at lvl 15).</p>",
         "chat": ""
       },
       "consumableType": "potion",
@@ -114,12 +114,12 @@
   },
   {
     "_id": "elixirflight0000",
-    "name": "Elixir Experimental: Voo",
+    "name": "Experimental Elixir: Flight",
     "type": "consumable",
     "img": "icons/consumables/potions/potion-bottle-corked-purple.webp",
     "system": {
       "description": {
-        "value": "<p>Uma criatura pode beber este elixir como <strong>Ação Bônus</strong>. O bebedor ganha <strong>Deslocamento de Voo de 3 metros (10 ft) por 10 minutos</strong> (6m no nv 9, 9m no nv 15).</p>",
+        "value": "<p>A creature can drink this elixir or administer it to an adjacent creature as a <strong>Bonus Action</strong>. The drinker gains a <strong>Fly Speed of 10 feet for 10 minutes</strong> (20 ft at lvl 9, 30 ft at lvl 15).</p>",
         "chat": ""
       },
       "consumableType": "potion",
@@ -141,12 +141,12 @@
   },
   {
     "_id": "repmanifoldtool0",
-    "name": "Ferramenta Multifuncional",
+    "name": "Manifold Tool",
     "type": "equipment",
     "img": "icons/tools/instruments/multitool-brass.webp",
     "system": {
       "description": {
-        "value": "<p>Uma ferramenta canivete-suíço miraculosa. Exige Sintonização. Como uma ação, pode transformar-se em qualquer conjunto de ferramentas de ladrão ou de artesão.</p>",
+        "value": "<p>A miraculous Swiss Army tool crafted by an Artificer. Requires Attunement. As an action, it can transform into any type of artisan's tools or thieves' tools.</p>",
         "chat": ""
       },
       "attunement": 1,
@@ -156,12 +156,12 @@
   },
   {
     "_id": "reprepeating0000",
-    "name": "Disparo Repetidor",
+    "name": "Repeating Shot",
     "type": "weapon",
     "img": "icons/weapons/crossbows/crossbow-loaded-repeater.webp",
     "system": {
       "description": {
-        "value": "<p>Arma à distância infundida com engenharia arcana. Exige Sintonização. +1 nas jogadas de ataque e dano. Ignora a propriedade de recarga e cria sua própria munição mágica infinita.</p>",
+        "value": "<p>A ranged weapon infused with arcane machinery. Requires Attunement. +1 bonus to attack and damage rolls. Automatically produces its own magical ammunition if none is loaded, and ignores the loading property.</p>",
         "chat": ""
       },
       "attunement": 1,
@@ -172,12 +172,12 @@
   },
   {
     "_id": "repreturningweap",
-    "name": "Arma Retornável",
+    "name": "Returning Weapon",
     "type": "weapon",
     "img": "icons/weapons/daggers/dagger-thrown-glow-blue.webp",
     "system": {
       "description": {
-        "value": "<p>Esta arma mágica concede +1 de bônus nas jogadas de ataque e dano feitas com ela, e retorna instantaneamente à mão do usuário logo após um ataque de arremesso.</p>",
+        "value": "<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack.</p>",
         "chat": ""
       },
       "attunement": 0,
@@ -188,12 +188,12 @@
   },
   {
     "_id": "repmindsharpener",
-    "name": "Focalizador Mental",
+    "name": "Mind Sharpener",
     "type": "equipment",
     "img": "icons/equipment/chest/vest-leather-studded-glowing.webp",
     "system": {
       "description": {
-        "value": "<p>Manto ou armadura infundida. Exige Sintonização. Ao falhar em uma salvaguarda de Constituição para manter concentração em uma magia, use sua Reação para ser bem-sucedido em vez disso (4 cargas, recupera 1d4 ao amanhecer).</p>",
+        "value": "<p>Infused robes or armor. Requires Attunement. The infused item can send a jolt to the wearer to refocus their mind: when the wearer fails a Constitution saving throw to maintain concentration on a spell, the wearer can use its reaction to succeed instead (4 charges, regains 1d4 at dawn).</p>",
         "chat": ""
       },
       "attunement": 1,
@@ -203,12 +203,12 @@
   },
   {
     "_id": "repwndingpath000",
-    "name": "Botas do Caminho Sinuoso",
+    "name": "Boots of the Winding Path",
     "type": "equipment",
     "img": "icons/equipment/feet/boots-leather-fur-cuffed-purple.webp",
     "system": {
       "description": {
-        "value": "<p>Exige Sintonização. Como Ação Bônus, teletransporte-se até 4,5m (15 pés) para um espaço desocupado que você tenha ocupado em algum momento durante o turno atual.</p>",
+        "value": "<p>Requires Attunement. While wearing these boots, a creature can teleport up to 15 feet as a Bonus Action to an unoccupied space the creature occupied at some point during the current turn.</p>",
         "chat": ""
       },
       "attunement": 1,
@@ -218,12 +218,12 @@
   },
   {
     "_id": "reprepulsionshld",
-    "name": "Escudo de Repulsão",
+    "name": "Repulsion Shield",
     "type": "equipment",
     "img": "icons/equipment/shield/heater-crystal-blue.webp",
     "system": {
       "description": {
-        "value": "<p>Escudo com +1 de bônus na CA. Como uma Reação imediatamente após ser atingido por um ataque corpo a corpo, empurre o atacante até 4,5m (15 pés) para longe (4 cargas, recupera 1d4 ao amanhecer).</p>",
+        "value": "<p>A shield granting a +1 bonus to Armor Class. As a reaction immediately after being hit by a melee attack, the wielder can push the attacker up to 15 feet away (4 charges, regains 1d4 at dawn).</p>",
         "chat": ""
       },
       "attunement": 0,

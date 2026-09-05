@@ -1,12 +1,12 @@
 [
   {
     "_id": "artificerclass00",
-    "name": "Artífice",
+    "name": "Artificer",
     "type": "class",
     "img": "icons/tools/smithing/anvil.webp",
     "system": {
       "description": {
-        "value": "\n              <p>Mestres da invenção, Artífices usam engenhosidade e magia para desbloquear capacidades extraordinárias em objetos. Eles veem a magia como um sistema complexo esperando para ser decodificado e canalizado em invenções e feitiços.</p>\n              <h3>Características Básicas</h3>\n              <ul>\n                <li><strong>Habilidade Primária:</strong> Inteligência</li>\n                <li><strong>Dado de Vida:</strong> d8 por nível de Artífice</li>\n                <li><strong>Salvaguardas:</strong> Constituição e Inteligência</li>\n                <li><strong>Perícias:</strong> Escolha 2: Arcanismo, História, Investigação, Medicina, Natureza, Percepção ou Prestidigitação</li>\n                <li><strong>Armas:</strong> Armas simples</li>\n                <li><strong>Ferramentas:</strong> Ferramentas de Ladrão, Ferramentas de Funileiro e 1 ferramenta de artesão à sua escolha</li>\n                <li><strong>Armaduras:</strong> Armaduras leves, médias e escudos</li>\n              </ul>\n            ",
+        "value": "\n              <p>Masters of invention, Artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions.</p>\n              <h3>Core Artificer Traits</h3>\n              <ul>\n                <li><strong>Primary Ability:</strong> Intelligence</li>\n                <li><strong>Hit Point Die:</strong> D8 per Artificer level</li>\n                <li><strong>Saving Throw Proficiencies:</strong> Constitution and Intelligence</li>\n                <li><strong>Skill Proficiencies:</strong> Choose 2: Arcana, History, Investigation, Medicine, Nature, Perception, or Sleight of Hand</li>\n                <li><strong>Weapon Proficiencies:</strong> Simple weapons</li>\n                <li><strong>Tool Proficiencies:</strong> Thieves' Tools, Tinker's Tools, and one type of Artisan's Tools of your choice</li>\n                <li><strong>Armor Training:</strong> Light and Medium armor and Shields</li>\n              </ul>\n            ",
         "chat": ""
       },
       "identifier": "artificer",
@@ -33,7 +33,7 @@
             "choices": []
           },
           "level": 1,
-          "title": "Testes de Resistência"
+          "title": "Saving Throws"
         },
         {
           "_id": "advtraitarmor001",
@@ -49,7 +49,7 @@
             "choices": []
           },
           "level": 1,
-          "title": "Treinamento em Armaduras"
+          "title": "Armor Training"
         },
         {
           "_id": "advtraitweapon01",
@@ -63,7 +63,7 @@
             "choices": []
           },
           "level": 1,
-          "title": "Proficiência com Armas"
+          "title": "Weapon Proficiencies"
         },
         {
           "_id": "advtraittools001",
@@ -85,7 +85,7 @@
             ]
           },
           "level": 1,
-          "title": "Proficiência com Ferramentas"
+          "title": "Tool Proficiencies"
         },
         {
           "_id": "advtraitskills01",
@@ -110,7 +110,7 @@
             ]
           },
           "level": 1,
-          "title": "Perícias de Artífice"
+          "title": "Skill Proficiencies"
         },
         {
           "_id": "advitemgrant0001",
@@ -130,7 +130,7 @@
             "spell": null
           },
           "level": 1,
-          "title": "Características de 1º Nível"
+          "title": "Level 1 Features"
         },
         {
           "_id": "advitemgrant0002",
@@ -146,14 +146,14 @@
             "spell": null
           },
           "level": 2,
-          "title": "Replicar Item Mágico"
+          "title": "Replicate Magic Item"
         },
         {
           "_id": "advsubclass00003",
           "type": "Subclass",
           "configuration": {},
           "level": 3,
-          "title": "Subclasse de Artífice"
+          "title": "Artificer Subclass"
         },
         {
           "_id": "advitemgrant0004",
@@ -169,7 +169,7 @@
             "spell": null
           },
           "level": 4,
-          "title": "Aumento no Valor de Habilidade"
+          "title": "Ability Score Improvement"
         },
         {
           "_id": "advitemgrant0006",
@@ -185,7 +185,7 @@
             "spell": null
           },
           "level": 6,
-          "title": "Funileiro de Itens Mágicos"
+          "title": "Magic Item Tinker"
         },
         {
           "_id": "advitemgrant0007",
@@ -201,7 +201,7 @@
             "spell": null
           },
           "level": 7,
-          "title": "Lampejo de Genialidade"
+          "title": "Flash of Genius"
         },
         {
           "_id": "advitemgrant0008",
@@ -217,7 +217,7 @@
             "spell": null
           },
           "level": 8,
-          "title": "Aumento no Valor de Habilidade"
+          "title": "Ability Score Improvement"
         },
         {
           "_id": "advitemgrant0010",
@@ -233,7 +233,7 @@
             "spell": null
           },
           "level": 10,
-          "title": "Adepto de Itens Mágicos"
+          "title": "Magic Item Adept"
         },
         {
           "_id": "advitemgrant0011",
@@ -249,7 +249,7 @@
             "spell": null
           },
           "level": 11,
-          "title": "Item de Armazenar Magias"
+          "title": "Spell-Storing Item"
         },
         {
           "_id": "advitemgrant0012",
@@ -265,7 +265,7 @@
             "spell": null
           },
           "level": 12,
-          "title": "Aumento no Valor de Habilidade"
+          "title": "Ability Score Improvement"
         },
         {
           "_id": "advitemgrant0014",
@@ -281,7 +281,7 @@
             "spell": null
           },
           "level": 14,
-          "title": "Artifício Avançado"
+          "title": "Advanced Artifice"
         },
         {
           "_id": "advitemgrant0016",
@@ -297,7 +297,7 @@
             "spell": null
           },
           "level": 16,
-          "title": "Aumento no Valor de Habilidade"
+          "title": "Ability Score Improvement"
         },
         {
           "_id": "advitemgrant0018",
@@ -313,7 +313,7 @@
             "spell": null
           },
           "level": 18,
-          "title": "Mestre de Itens Mágicos"
+          "title": "Magic Item Master"
         },
         {
           "_id": "advitemgrant0019",
@@ -329,7 +329,7 @@
             "spell": null
           },
           "level": 19,
-          "title": "Dádiva Épica"
+          "title": "Epic Boon"
         },
         {
           "_id": "advitemgrant0020",
@@ -345,7 +345,7 @@
             "spell": null
           },
           "level": 20,
-          "title": "Alma do Artifício"
+          "title": "Soul of Artifice"
         },
         {
           "_id": "advscaleplans000",
@@ -374,7 +374,7 @@
               }
             }
           },
-          "title": "Planos Conhecidos"
+          "title": "Plans Known"
         },
         {
           "_id": "advscaleitems000",
@@ -403,7 +403,7 @@
               }
             }
           },
-          "title": "Itens Mágicos Ativos"
+          "title": "Magic Items Active"
         },
         {
           "_id": "advscaleprep0000",
@@ -477,7 +477,7 @@
               }
             }
           },
-          "title": "Magias Preparadas"
+          "title": "Prepared Spells"
         }
       ],
       "spellcasting": {

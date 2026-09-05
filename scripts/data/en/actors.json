@@ -1,7 +1,7 @@
 [
   {
     "_id": "actsteeldefende0",
-    "name": "Defensor de Aço",
+    "name": "Steel Defender",
     "type": "npc",
     "img": "icons/creatures/magical/construct-iron-golem-purple.webp",
     "system": {
@@ -68,14 +68,14 @@
         },
         "alignment": "Neutral",
         "biography": {
-          "value": "<p>O companheiro mecânico leal forjado por um Ferreiro de Batalha.</p>"
+          "value": "<p>The mechanical companion created by a Battle Smith Artificer.</p>"
         }
       }
     },
     "items": [
       {
         "_id": "itemrend00000001",
-        "name": "Lacerar Forçado",
+        "name": "Force-Empowered Rend",
         "type": "weapon",
         "img": "icons/skills/melee/unarmed-punch-fist.webp",
         "system": {
@@ -94,13 +94,13 @@
           },
           "ability": "str",
           "description": {
-            "value": "<p>Ataque Corpo a Corpo: Alcance 1,5m. Acerto: 1d8 + 2 + mod Int de dano de Força.</p>"
+            "value": "<p>Melee Attack: Reach 5 ft. Hit: 1d8 + 2 + Int mod Force damage.</p>"
           }
         }
       },
       {
         "_id": "itemrepair000001",
-        "name": "Reparar (3/Dia)",
+        "name": "Repair (3/Day)",
         "type": "feat",
         "img": "icons/tools/smithing/tongs-steel.webp",
         "system": {
@@ -122,13 +122,13 @@
             ]
           },
           "description": {
-            "value": "<p>Restaura 2d8 + mod Int PV a si mesmo ou a um construto/objeto a até 1,5m.</p>"
+            "value": "<p>Restores 2d8 + Int mod HP to itself or a construct/object within 5 ft.</p>"
           }
         }
       },
       {
         "_id": "itemdeflect00001",
-        "name": "Defletir Ataque",
+        "name": "Deflect Attack",
         "type": "feat",
         "img": "icons/equipment/shield/round-shield-buckler-boss-steel.webp",
         "system": {
@@ -137,7 +137,7 @@
             "cost": 1
           },
           "description": {
-            "value": "<p>Impõe Desvantagem na jogada de ataque feita contra um aliado a até 1,5m.</p>"
+            "value": "<p>Impose Disadvantage on an attack against an ally within 5 ft.</p>"
           }
         }
       }
@@ -145,7 +145,7 @@
   },
   {
     "_id": "acthomunculusser",
-    "name": "Servo Homúnculo",
+    "name": "Homunculus Servant",
     "type": "npc",
     "img": "icons/creatures/magical/construct-gargoyle-stone-grey.webp",
     "system": {
@@ -212,14 +212,14 @@
         },
         "alignment": "Neutral",
         "biography": {
-          "value": "<p>Um servo construto diminuto criado através da magia Servo Homúnculo.</p>"
+          "value": "<p>A magical construct servant created via the Homunculus Servant spell.</p>"
         }
       }
     },
     "items": [
       {
         "_id": "itemfstrike00001",
-        "name": "Golpe de Força",
+        "name": "Force Strike",
         "type": "weapon",
         "img": "icons/magic/symbols/star-rising-purple.webp",
         "system": {
@@ -237,13 +237,13 @@
             "units": "ft"
           },
           "description": {
-            "value": "<p>Ataque Corpo a Corpo ou à Distância (9m). Acerto: 1d6 + círculo da magia de dano de Força.</p>"
+            "value": "<p>Melee or Ranged Attack (30 ft). Hit: 1d6 + spell level Force damage.</p>"
           }
         }
       },
       {
         "_id": "itemchanmag00001",
-        "name": "Canalizar Magia",
+        "name": "Channel Magic",
         "type": "feat",
         "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
         "system": {
@@ -252,18 +252,18 @@
             "cost": 1
           },
           "description": {
-            "value": "<p>Entrega magias de toque conjuradas pelo seu criador a até 36m (120 pés).</p>"
+            "value": "<p>Delivers touch spells cast within 120 ft by its creator.</p>"
           }
         }
       },
       {
         "_id": "itemevasion00001",
-        "name": "Evasão",
+        "name": "Evasion",
         "type": "feat",
         "img": "icons/skills/movement/body-turn-dodge-blue.webp",
         "system": {
           "description": {
-            "value": "<p>Não sofre dano em sucesso numa salvaguarda de Destreza, e sofre metade em falha.</p>"
+            "value": "<p>Takes no damage on successful Dex save, half on failure.</p>"
           }
         }
       }
@@ -271,7 +271,7 @@
   },
   {
     "_id": "acteldritchcann0",
-    "name": "Canhão Arcano",
+    "name": "Eldritch Cannon",
     "type": "npc",
     "img": "icons/weapons/artillery/cannon-wooden-bronze.webp",
     "system": {
@@ -335,14 +335,14 @@
         },
         "alignment": "Neutral",
         "biography": {
-          "value": "<p>Um canhão mágico ambulante ou estacionário criado por um Artilheiro.</p>"
+          "value": "<p>A magical walking or stationary cannon created by an Artillerist.</p>"
         }
       }
     },
     "items": [
       {
         "_id": "itemflamethr0001",
-        "name": "Lança-Chamas",
+        "name": "Flamethrower",
         "type": "feat",
         "img": "icons/magic/fire/beam-jet-stream-red.webp",
         "system": {
@@ -370,13 +370,13 @@
             ]
           },
           "description": {
-            "value": "<p>Cone de 4,5m (15 pés), salvaguarda de Destreza, 2d8 de dano de Fogo (metade no sucesso).</p>"
+            "value": "<p>15-foot Cone, Dexterity save, 2d8 Fire damage (half on save).</p>"
           }
         }
       },
       {
         "_id": "itemforceballis1",
-        "name": "Balista de Força",
+        "name": "Force Ballista",
         "type": "weapon",
         "img": "icons/weapons/artillery/ballista-iron.webp",
         "system": {
@@ -398,13 +398,13 @@
             ]
           },
           "description": {
-            "value": "<p>Ataque mágico à distância (36m), 2d8 de dano de Força e empurra o alvo 1,5m para trás.</p>"
+            "value": "<p>Ranged spell attack (120 ft), 2d8 Force damage and pushed 5 ft back.</p>"
           }
         }
       },
       {
         "_id": "itemprotector001",
-        "name": "Protetor",
+        "name": "Protector",
         "type": "feat",
         "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
         "system": {
@@ -426,7 +426,7 @@
             ]
           },
           "description": {
-            "value": "<p>Raio de 3m concede 1d8 + mod Inteligência em Pontos de Vida Temporários.</p>"
+            "value": "<p>10-foot radius grants 1d8 + Int mod Temporary Hit Points.</p>"
           }
         }
       }

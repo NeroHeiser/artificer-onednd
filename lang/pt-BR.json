@@ -91,7 +91,10 @@
     "Notifications": {
       "CompendiumsSynced": "Artífice 5e: Sincronizados com sucesso {count} documentos em todos os compêndios!",
       "ElixirCreated": "Criado {name} no inventário de {actor}!",
-      "TinkerItemCreated": "Conjurado {name} no inventário de {actor} (dura até o próximo Descanso Longo)!"
+      "TinkerItemCreated": "Conjurado {name} no inventário de {actor} (dura até o próximo Descanso Longo)!",
+      "ItemCreated": "Criado {name} no inventário de {actor}!",
+      "CompanionNotFound": "Ficha do companheiro não encontrada no compêndio.",
+      "CompanionPackNotFound": "Pacote de compêndio de companheiros não encontrado."
     },
     "Settings": {
       "EnableSheetButton": {
@@ -100,7 +103,11 @@
       },
       "AutoSync": {
         "Name": "Auto-sincronizar Compêndios",
-        "Hint": "Verifica e popula automaticamente os compêndios do Artífice ao abrir o mundo caso estejam vazios."
+        "Hint": "Verifica e popula automaticamente os compêndios do Artífice ao abrir o mundo caso estejam vazios ou o idioma mude."
+      },
+      "SyncedLanguage": {
+        "Name": "Idioma dos Compêndios Sincronizados",
+        "Hint": "Registra qual idioma foi gravado nos compêndios para sincronização automática."
       },
       "Menu": {
         "Name": "Oficina do Artífice",

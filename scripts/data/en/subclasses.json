@@ -1,12 +1,12 @@
 [
   {
     "_id": "alchemistsubcl00",
-    "name": "Alquimista",
+    "name": "Alchemist",
     "type": "subclass",
     "img": "icons/tools/laboratory/alembic-glass-copper.webp",
     "system": {
       "description": {
-        "value": "<p>O Alquimista é perito em misturar reagentes para gerar elixires de cura, vapores letais e efeitos místicos velozes.</p>",
+        "value": "<p>An Alchemist is an expert at combining exotic reagents to produce mystical effects. They create swift healing, toxic coatings, and volatile concoctions.</p>",
         "chat": ""
       },
       "classIdentifier": "artificer",
@@ -34,7 +34,7 @@
             "spell": null
           },
           "level": 3,
-          "title": "Características de 3º Nível (Alquimista)"
+          "title": "Alchemist Level 3 Features"
         },
         {
           "_id": "alcadvent0000005",
@@ -50,7 +50,7 @@
             "spell": null
           },
           "level": 5,
-          "title": "Sábio Alquímico"
+          "title": "Alchemical Savant"
         },
         {
           "_id": "alcadvent0000009",
@@ -66,7 +66,7 @@
             "spell": null
           },
           "level": 9,
-          "title": "Reagentes Restauradores"
+          "title": "Restorative Reagents"
         },
         {
           "_id": "alcadvent0000015",
@@ -82,19 +82,19 @@
             "spell": null
           },
           "level": 15,
-          "title": "Maestria Química"
+          "title": "Chemical Mastery"
         }
       ]
     }
   },
   {
     "_id": "armorersubclass0",
-    "name": "Armeiro",
+    "name": "Armorer",
     "type": "subclass",
     "img": "icons/equipment/chest/breastplate-metal-scaled-grey.webp",
     "system": {
       "description": {
-        "value": "<p>O Armeiro modifica armaduras para agir como uma segunda pele, integrando armas arcanas, defesas formidáveis e mobilidade extraordinária.</p>",
+        "value": "<p>An Armorer augments armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense.</p>",
         "chat": ""
       },
       "classIdentifier": "artificer",
@@ -126,7 +126,7 @@
             "spell": null
           },
           "level": 3,
-          "title": "Características de 3º Nível (Armeiro)"
+          "title": "Armorer Level 3 Features"
         },
         {
           "_id": "armadvent0000005",
@@ -142,7 +142,7 @@
             "spell": null
           },
           "level": 5,
-          "title": "Ataque Extra"
+          "title": "Extra Attack"
         },
         {
           "_id": "armadvent0000009",
@@ -158,7 +158,7 @@
             "spell": null
           },
           "level": 9,
-          "title": "Armeiro Aprimorado"
+          "title": "Improved Armorer"
         },
         {
           "_id": "armadvent0000015",
@@ -174,19 +174,19 @@
             "spell": null
           },
           "level": 15,
-          "title": "Armadura Aperfeiçoada"
+          "title": "Perfected Armor"
         }
       ]
     }
   },
   {
     "_id": "artilleristsub00",
-    "name": "Artilheiro",
+    "name": "Artillerist",
     "type": "subclass",
     "img": "icons/weapons/artillery/cannon-wooden-bronze.webp",
     "system": {
       "description": {
-        "value": "<p>O Artilheiro é perito em artilharia mágica, criando canhões arcanos móveis e projetando rajadas devastadoras de energia pelo campo de batalha.</p>",
+        "value": "<p>An Artillerist specializes in using magic to hurl energy, projectiles, and explosions upon the battlefield, creating magical cannons and wielding empowered firearms.</p>",
         "chat": ""
       },
       "classIdentifier": "artificer",
@@ -214,7 +214,7 @@
             "spell": null
           },
           "level": 3,
-          "title": "Características de 3º Nível (Artilheiro)"
+          "title": "Artillerist Level 3 Features"
         },
         {
           "_id": "artadvent0000005",
@@ -230,7 +230,7 @@
             "spell": null
           },
           "level": 5,
-          "title": "Arma de Fogo Arcana"
+          "title": "Arcane Firearm"
         },
         {
           "_id": "artadvent0000009",
@@ -246,7 +246,7 @@
             "spell": null
           },
           "level": 9,
-          "title": "Canhão Explosivo"
+          "title": "Explosive Cannon"
         },
         {
           "_id": "artadvent0000015",
@@ -262,19 +262,19 @@
             "spell": null
           },
           "level": 15,
-          "title": "Posição Fortificada"
+          "title": "Fortified Position"
         }
       ]
     }
   },
   {
     "_id": "battlesmithsub00",
-    "name": "Ferreiro de Batalha",
+    "name": "Battle Smith",
     "type": "subclass",
     "img": "icons/tools/smithing/anvil.webp",
     "system": {
       "description": {
-        "value": "<p>O Ferreiro de Batalha une forja bélica e magia, lutando lado a lado com seu companheiro mecânico, o Defensor de Aço.</p>",
+        "value": "<p>Armored in purpose and backed by a loyal mechanical companion, the Battle Smith repairs what is broken, protects comrades, and smites foes with arcane power.</p>",
         "chat": ""
       },
       "classIdentifier": "artificer",
@@ -306,7 +306,7 @@
             "spell": null
           },
           "level": 3,
-          "title": "Características de 3º Nível (Ferreiro de Batalha)"
+          "title": "Battle Smith Level 3 Features"
         },
         {
           "_id": "bsadvent00000005",
@@ -322,7 +322,7 @@
             "spell": null
           },
           "level": 5,
-          "title": "Ataque Extra"
+          "title": "Extra Attack"
         },
         {
           "_id": "bsadvent00000009",
@@ -338,7 +338,7 @@
             "spell": null
           },
           "level": 9,
-          "title": "Choque Arcano"
+          "title": "Arcane Jolt"
         },
         {
           "_id": "bsadvent00000015",
@@ -354,19 +354,19 @@
             "spell": null
           },
           "level": 15,
-          "title": "Defensor Aprimorado"
+          "title": "Improved Defender"
         }
       ]
     }
   },
   {
     "_id": "cartographersub0",
-    "name": "Cartógrafo",
+    "name": "Cartographer",
     "type": "subclass",
     "img": "icons/tools/navigation/map-chart-tan.webp",
     "system": {
       "description": {
-        "value": "<p>O Cartógrafo traça as coordenadas arcanas do espaço e da realidade, navegando pelo campo de batalha e teletransportando aliados com precisão cirúrgica.</p>",
+        "value": "<p>Cartographers chart the arcane lay of the land, navigating chaos and teleporting allies through metaphysical coordinates.</p>",
         "chat": ""
       },
       "classIdentifier": "artificer",
@@ -398,7 +398,7 @@
             "spell": null
           },
           "level": 3,
-          "title": "Características de 3º Nível (Cartógrafo)"
+          "title": "Cartographer Level 3 Features"
         },
         {
           "_id": "cartadvent000005",
@@ -414,7 +414,7 @@
             "spell": null
           },
           "level": 5,
-          "title": "Precisão Guiada"
+          "title": "Guided Precision"
         },
         {
           "_id": "cartadvent000009",
@@ -430,7 +430,7 @@
             "spell": null
           },
           "level": 9,
-          "title": "Movimento Engenhoso"
+          "title": "Ingenious Movement"
         },
         {
           "_id": "cartadvent000015",
@@ -446,7 +446,7 @@
             "spell": null
           },
           "level": 15,
-          "title": "Atlas Superior"
+          "title": "Superior Atlas"
         }
       ]
     }

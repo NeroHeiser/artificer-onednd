@@ -91,7 +91,10 @@
     "Notifications": {
       "CompendiumsSynced": "Artificer 5e: Successfully synchronized {count} documents across all compendiums!",
       "ElixirCreated": "Created {name} in {actor}'s inventory!",
-      "TinkerItemCreated": "Conjured {name} in {actor}'s inventory (lasts until next Long Rest)!"
+      "TinkerItemCreated": "Conjured {name} in {actor}'s inventory (lasts until next Long Rest)!",
+      "ItemCreated": "Created {name} in {actor}'s inventory!",
+      "CompanionNotFound": "Companion sheet not found in the compendium.",
+      "CompanionPackNotFound": "Companions compendium pack not found."
     },
     "Settings": {
       "EnableSheetButton": {
@@ -100,7 +103,11 @@
       },
       "AutoSync": {
         "Name": "Auto-sync Compendiums",
-        "Hint": "Automatically checks and synchronizes Artificer compendium packs upon world launch if empty."
+        "Hint": "Automatically checks and synchronizes Artificer compendium packs upon world launch if empty or language changes."
+      },
+      "SyncedLanguage": {
+        "Name": "Synced Compendiums Language",
+        "Hint": "Tracks which language was populated into the compendiums for automatic synchronization."
       },
       "Menu": {
         "Name": "Artificer Workshop",

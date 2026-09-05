@@ -35,6 +35,15 @@ Hooks.once("init", () => {
     default: true
   });
 
+  game.settings.register(MODULE_ID, "syncedLanguage", {
+    name: "ARTIFICER_5E.Settings.SyncedLanguage.Name",
+    hint: "ARTIFICER_5E.Settings.SyncedLanguage.Hint",
+    scope: "world",
+    config: false,
+    type: String,
+    default: ""
+  });
+
   // Registrar menu de atalho da Oficina no menu de configurações
   game.settings.registerMenu(MODULE_ID, "workshopMenu", {
     name: "ARTIFICER_5E.Settings.Menu.Name",
@@ -45,7 +54,7 @@ Hooks.once("init", () => {
     restricted: false
   });
 
-  // Configurar a progressão de magias do Artífice no D&D 5e caso necessário
+  // Configurar a progressão de magias e subclasses do Artífice no D&D 5e
   if (CONFIG.DND5E) {
     if (!CONFIG.DND5E.spellProgression) {
       CONFIG.DND5E.spellProgression = {};
@@ -61,6 +70,18 @@ Hooks.once("init", () => {
         }
       };
     }
+
+    // Registrar as 5 subclasses do Artífice no CONFIG.DND5E
+    if (!CONFIG.DND5E.subclasses) {
+      CONFIG.DND5E.subclasses = {};
+    }
+    CONFIG.DND5E.subclasses.artificer = {
+      alchemist: "Compendium.artificer-onednd.artificer-subclasses.Item.alchemistsubcl00",
+      armorer: "Compendium.artificer-onednd.artificer-subclasses.Item.armorersubclass0",
+      artillerist: "Compendium.artificer-onednd.artificer-subclasses.Item.artilleristsub00",
+      "battle-smith": "Compendium.artificer-onednd.artificer-subclasses.Item.battlesmithsub00",
+      cartographer: "Compendium.artificer-onednd.artificer-subclasses.Item.cartographersub0"
+    };
   }
 
   // Pré-carregamento de templates Handlebars
