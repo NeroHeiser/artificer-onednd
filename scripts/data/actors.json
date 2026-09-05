@@ -1,0 +1,426 @@
+[
+  {
+    "_id": "actsteeldefende0",
+    "name": "Steel Defender",
+    "type": "npc",
+    "img": "icons/creatures/magical/construct-iron-golem-purple.webp",
+    "system": {
+      "abilities": {
+        "str": {
+          "value": 14,
+          "mod": 2
+        },
+        "dex": {
+          "value": 12,
+          "mod": 1
+        },
+        "con": {
+          "value": 14,
+          "mod": 2
+        },
+        "int": {
+          "value": 4,
+          "mod": -3
+        },
+        "wis": {
+          "value": 10,
+          "mod": 0
+        },
+        "cha": {
+          "value": 6,
+          "mod": -2
+        }
+      },
+      "attributes": {
+        "ac": {
+          "value": 15
+        },
+        "hp": {
+          "value": 20,
+          "max": 20
+        },
+        "movement": {
+          "walk": 40
+        },
+        "senses": {
+          "darkvision": 60
+        }
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [
+            "poison"
+          ]
+        },
+        "ci": {
+          "value": [
+            "charmed",
+            "exhaustion",
+            "poisoned"
+          ]
+        }
+      },
+      "details": {
+        "cr": null,
+        "type": {
+          "value": "construct"
+        },
+        "alignment": "Neutral",
+        "biography": {
+          "value": "<p>The mechanical companion created by a Battle Smith Artificer.</p>"
+        }
+      }
+    },
+    "items": [
+      {
+        "name": "Force-Empowered Rend",
+        "type": "weapon",
+        "img": "icons/skills/melee/unarmed-punch-fist.webp",
+        "system": {
+          "actionType": "mwak",
+          "damage": {
+            "parts": [
+              [
+                "1d8 + 2 + @abilities.int.mod",
+                "force"
+              ]
+            ]
+          },
+          "range": {
+            "value": 5,
+            "units": "ft"
+          },
+          "ability": "str",
+          "description": {
+            "value": "<p>Melee Attack: Reach 5 ft. Hit: 1d8 + 2 + Int mod Force damage.</p>"
+          }
+        }
+      },
+      {
+        "name": "Repair (3/Day)",
+        "type": "feat",
+        "img": "icons/tools/smithing/tongs-steel.webp",
+        "system": {
+          "activation": {
+            "type": "action",
+            "cost": 1
+          },
+          "uses": {
+            "value": 3,
+            "max": "3",
+            "per": "day"
+          },
+          "damage": {
+            "parts": [
+              [
+                "2d8 + @abilities.int.mod",
+                "healing"
+              ]
+            ]
+          },
+          "description": {
+            "value": "<p>Restores 2d8 + Int mod HP to itself or a construct/object within 5 ft.</p>"
+          }
+        }
+      },
+      {
+        "name": "Deflect Attack",
+        "type": "feat",
+        "img": "icons/equipment/shield/round-shield-buckler-boss-steel.webp",
+        "system": {
+          "activation": {
+            "type": "reaction",
+            "cost": 1
+          },
+          "description": {
+            "value": "<p>Impose Disadvantage on an attack against an ally within 5 ft.</p>"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "acthomunculusser",
+    "name": "Homunculus Servant",
+    "type": "npc",
+    "img": "icons/creatures/magical/construct-gargoyle-stone-grey.webp",
+    "system": {
+      "abilities": {
+        "str": {
+          "value": 4,
+          "mod": -3
+        },
+        "dex": {
+          "value": 15,
+          "mod": 2
+        },
+        "con": {
+          "value": 12,
+          "mod": 1
+        },
+        "int": {
+          "value": 10,
+          "mod": 0
+        },
+        "wis": {
+          "value": 10,
+          "mod": 0
+        },
+        "cha": {
+          "value": 7,
+          "mod": -2
+        }
+      },
+      "attributes": {
+        "ac": {
+          "value": 13
+        },
+        "hp": {
+          "value": 15,
+          "max": 15
+        },
+        "movement": {
+          "walk": 20,
+          "fly": 30
+        },
+        "senses": {
+          "darkvision": 60
+        }
+      },
+      "traits": {
+        "size": "tiny",
+        "di": {
+          "value": [
+            "poison"
+          ]
+        },
+        "ci": {
+          "value": [
+            "exhaustion",
+            "poisoned"
+          ]
+        }
+      },
+      "details": {
+        "cr": null,
+        "type": {
+          "value": "construct"
+        },
+        "alignment": "Neutral",
+        "biography": {
+          "value": "<p>A magical construct servant created via the Homunculus Servant spell.</p>"
+        }
+      }
+    },
+    "items": [
+      {
+        "name": "Force Strike",
+        "type": "weapon",
+        "img": "icons/magic/symbols/star-rising-purple.webp",
+        "system": {
+          "actionType": "rwak",
+          "damage": {
+            "parts": [
+              [
+                "1d6 + 2",
+                "force"
+              ]
+            ]
+          },
+          "range": {
+            "value": 30,
+            "units": "ft"
+          },
+          "description": {
+            "value": "<p>Melee or Ranged Attack (30 ft). Hit: 1d6 + spell level Force damage.</p>"
+          }
+        }
+      },
+      {
+        "name": "Channel Magic",
+        "type": "feat",
+        "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+        "system": {
+          "activation": {
+            "type": "reaction",
+            "cost": 1
+          },
+          "description": {
+            "value": "<p>Delivers touch spells cast within 120 ft by its creator.</p>"
+          }
+        }
+      },
+      {
+        "name": "Evasion",
+        "type": "feat",
+        "img": "icons/skills/movement/body-turn-dodge-blue.webp",
+        "system": {
+          "description": {
+            "value": "<p>Takes no damage on successful Dex save, half on failure.</p>"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "acteldritchcann0",
+    "name": "Eldritch Cannon",
+    "type": "npc",
+    "img": "icons/weapons/artillery/cannon-wooden-bronze.webp",
+    "system": {
+      "abilities": {
+        "str": {
+          "value": 10,
+          "mod": 0
+        },
+        "dex": {
+          "value": 10,
+          "mod": 0
+        },
+        "con": {
+          "value": 10,
+          "mod": 0
+        },
+        "int": {
+          "value": 10,
+          "mod": 0
+        },
+        "wis": {
+          "value": 10,
+          "mod": 0
+        },
+        "cha": {
+          "value": 10,
+          "mod": 0
+        }
+      },
+      "attributes": {
+        "ac": {
+          "value": 18
+        },
+        "hp": {
+          "value": 15,
+          "max": 15
+        },
+        "movement": {
+          "walk": 15
+        }
+      },
+      "traits": {
+        "size": "sm",
+        "di": {
+          "value": [
+            "poison",
+            "psychic"
+          ]
+        },
+        "ci": {
+          "value": [
+            "charmed",
+            "frightened",
+            "poisoned"
+          ]
+        }
+      },
+      "details": {
+        "type": {
+          "value": "construct"
+        },
+        "alignment": "Neutral",
+        "biography": {
+          "value": "<p>A magical walking or stationary cannon created by an Artillerist.</p>"
+        }
+      }
+    },
+    "items": [
+      {
+        "name": "Flamethrower",
+        "type": "feat",
+        "img": "icons/magic/fire/beam-jet-stream-red.webp",
+        "system": {
+          "activation": {
+            "type": "bonus",
+            "cost": 1
+          },
+          "target": {
+            "value": 15,
+            "units": "ft",
+            "type": "cone"
+          },
+          "actionType": "save",
+          "save": {
+            "ability": "dex",
+            "dc": 15,
+            "scaling": "int"
+          },
+          "damage": {
+            "parts": [
+              [
+                "2d8",
+                "fire"
+              ]
+            ]
+          },
+          "description": {
+            "value": "<p>15-foot Cone, Dexterity save, 2d8 Fire damage (half on save).</p>"
+          }
+        }
+      },
+      {
+        "name": "Force Ballista",
+        "type": "weapon",
+        "img": "icons/weapons/artillery/ballista-iron.webp",
+        "system": {
+          "activation": {
+            "type": "bonus",
+            "cost": 1
+          },
+          "actionType": "rsak",
+          "range": {
+            "value": 120,
+            "units": "ft"
+          },
+          "damage": {
+            "parts": [
+              [
+                "2d8",
+                "force"
+              ]
+            ]
+          },
+          "description": {
+            "value": "<p>Ranged spell attack (120 ft), 2d8 Force damage and pushed 5 ft back.</p>"
+          }
+        }
+      },
+      {
+        "name": "Protector",
+        "type": "feat",
+        "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
+        "system": {
+          "activation": {
+            "type": "bonus",
+            "cost": 1
+          },
+          "target": {
+            "value": 10,
+            "units": "ft",
+            "type": "radius"
+          },
+          "damage": {
+            "parts": [
+              [
+                "1d8 + @abilities.int.mod",
+                "temphp"
+              ]
+            ]
+          },
+          "description": {
+            "value": "<p>10-foot radius grants 1d8 + Int mod Temporary Hit Points.</p>"
+          }
+        }
+      }
+    ]
+  }
+]

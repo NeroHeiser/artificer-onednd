@@ -1,0 +1,49 @@
+[
+  {
+    "_id": "splhomunculus00",
+    "name": "Homunculus Servant",
+    "type": "spell",
+    "img": "icons/creatures/magical/construct-gargoyle-stone-grey.webp",
+    "system": {
+      "description": {
+        "value": "\n          <p>You summon a special homunculus in an unoccupied space within range using the stat block below. In combat, it shares your Initiative count and takes its turn immediately after yours, obeying commands with no action required.</p>\n          <p>See the <strong>Homunculus Servant</strong> companion in the Artificer Companions & Summons compendium.</p>\n        ",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana: Eberron - Forge of the Artificer (2024)"
+      },
+      "level": 2,
+      "school": "con",
+      "properties": [
+        "vocal",
+        "somatic",
+        "material",
+        "ritual"
+      ],
+      "materials": {
+        "value": "a gem worth 100+ GP",
+        "consumed": false,
+        "cost": 100,
+        "supply": 0
+      },
+      "target": {
+        "value": 1,
+        "units": "",
+        "type": "space"
+      },
+      "range": {
+        "value": 10,
+        "units": "ft"
+      },
+      "activation": {
+        "type": "hour",
+        "cost": 1
+      },
+      "duration": {
+        "value": "",
+        "units": "inst"
+      },
+      "actionType": "util"
+    }
+  }
+]

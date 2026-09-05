@@ -1,0 +1,113 @@
+{
+  "ARTIFICER_5E": {
+    "Class": {
+      "Name": "Artificer"
+    },
+    "Workshop": {
+      "Title": "Artificer's Workshop",
+      "HeaderButton": "Artificer Workshop",
+      "NoActor": "No Character selected. Select an Artificer to manage inventions.",
+      "SearchPlaceholder": "Filter items...",
+      "ConjureItem": "Conjure this item into inventory",
+      "Craft": "Craft",
+      "AttunementYes": "Attunement",
+      "AttunementNo": "No Attunement",
+      "OpenSheet": "Open Sheet",
+      "Tabs": {
+        "Elixirs": "Experimental Elixirs",
+        "Tinker": "Tinker's Magic",
+        "Replicate": "Replicate Magic Item",
+        "Companions": "Companions & Summons",
+        "Admin": "Compendiums"
+      },
+      "Elixirs": {
+        "Description": "Whenever you finish a Long Rest while holding Alchemist's Supplies, produce experimental elixirs. You can also expend a spell slot (Magic action) to create an additional elixir with a chosen effect.",
+        "RollTitle": "Roll Random Elixir",
+        "RollHint": "Rolls 1d6 and creates the rolled elixir in your inventory.",
+        "RollButton": "Roll Elixir (1d6)",
+        "ChoiceTitle": "Create Chosen Elixir",
+        "ChoiceHint": "Expend a spell slot to produce an elixir with a specific effect.",
+        "CreateButton": "Create Elixir",
+        "TableTitle": "Elixir Effects Reference"
+      },
+      "Tinker": {
+        "Description": "As a Magic action while holding Tinker's Tools, you can create one mundane item in an unoccupied space within 5 feet. It lasts until your next Long Rest."
+      },
+      "Replicate": {
+        "Description": "Arcane plans used to replicate magic items. Created items last until you die (1d4 days after) or replace the plan.",
+        "Tier2": "Plans (Level 2+)",
+        "Tier6": "Plans (Level 6+)",
+        "Tier10": "Plans (Level 10+)",
+        "Tier14": "Plans (Level 14+)"
+      },
+      "Companions": {
+        "Description": "Special mechanical companions and arcane constructs available to Artificer specializations."
+      },
+      "Admin": {
+        "Description": "Administrative tools for Game Masters to populate and synchronize the Artificer compendiums.",
+        "SyncButton": "Re-synchronize All Compendiums"
+      }
+    },
+    "Elixir": {
+      "Healing": {
+        "Name": "Experimental Elixir: Healing",
+        "Desc": "Drinker regains 2d8 + Int modifier HP (3d8 at lvl 9, 4d8 at lvl 15)."
+      },
+      "Swiftness": {
+        "Name": "Experimental Elixir: Swiftness",
+        "Desc": "Drinker's Speed increases by 10 ft for 1 hour (15 ft at lvl 9, 20 ft at lvl 15)."
+      },
+      "Resilience": {
+        "Name": "Experimental Elixir: Resilience",
+        "Desc": "+1 bonus to AC for 10 minutes (1 hour at lvl 9, 8 hours at lvl 15)."
+      },
+      "Boldness": {
+        "Name": "Experimental Elixir: Boldness",
+        "Desc": "Add 1d4 to every attack roll and saving throw for 1 minute (10m at lvl 9, 1h at lvl 15)."
+      },
+      "Flight": {
+        "Name": "Experimental Elixir: Flight",
+        "Desc": "Gain Fly Speed of 10 ft for 10 minutes (20 ft at lvl 9, 30 ft at lvl 15)."
+      },
+      "Choice": {
+        "Name": "Experimental Elixir: Choice",
+        "Desc": "Choose any one of the other effects on the table."
+      }
+    },
+    "Companions": {
+      "SteelDefender": {
+        "Name": "Steel Defender",
+        "Description": "Construct companion built by a Battle Smith. Uses Force-Empowered Rend, Repair, and Deflect Attack."
+      },
+      "Homunculus": {
+        "Name": "Homunculus Servant",
+        "Description": "Tiny flying construct summoned via the 2nd-level Homunculus Servant spell."
+      },
+      "EldritchCannon": {
+        "Name": "Eldritch Cannon",
+        "Description": "Magical cannon deployed by an Artillerist: Flamethrower, Force Ballista, or Protector."
+      }
+    },
+    "Notifications": {
+      "CompendiumsSynced": "Artificer 5e: Successfully synchronized {count} documents across all compendiums!",
+      "ElixirCreated": "Created {name} in {actor}'s inventory!",
+      "TinkerItemCreated": "Conjured {name} in {actor}'s inventory (lasts until next Long Rest)!"
+    },
+    "Settings": {
+      "EnableSheetButton": {
+        "Name": "Enable Sheet Button",
+        "Hint": "Adds an Artificer Workshop button to the header of character sheets."
+      },
+      "AutoSync": {
+        "Name": "Auto-sync Compendiums",
+        "Hint": "Automatically checks and synchronizes Artificer compendium packs upon world launch if empty."
+      },
+      "Menu": {
+        "Name": "Artificer Workshop",
+        "Label": "Open Workshop",
+        "Hint": "Open the Artificer's Workshop invention management window."
+      }
+    }
+  }
+}
+

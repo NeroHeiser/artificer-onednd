@@ -1,0 +1,277 @@
+<div class="artificer-workshop-window">
+  <!-- Cabeçalho com informações do Personagem -->
+  <header class="workshop-header">
+    <div class="actor-info">
+      {{#if actor}}
+        <img class="actor-img" src="{{actor.img}}" alt="{{actor.name}}" />
+        <div class="actor-details">
+          <h2>{{actor.name}}</h2>
+          <p class="actor-meta">
+            <span>{{localize "ARTIFICER_5E.Class.Name"}}</span>
+            {{#if artificerLevel}}
+              <span class="badge level-badge">{{localize "DND5E.Level"}} {{artificerLevel}}</span>
+            {{/if}}
+            {{#if subclass}}
+              <span class="badge subclass-badge">{{subclass.name}}</span>
+            {{/if}}
+          </p>
+        </div>
+      {{else}}
+        <div class="no-actor-selected">
+          <p><i class="fas fa-exclamation-triangle"></i> {{localize "ARTIFICER_5E.Workshop.NoActor"}}</p>
+        </div>
+      {{/if}}
+    </div>
+  </header>
+
+  <!-- Navegação por Abas -->
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item active" data-tab="elixirs">
+      <i class="fas fa-flask"></i> {{localize "ARTIFICER_5E.Workshop.Tabs.Elixirs"}}
+    </a>
+    <a class="item" data-tab="tinker">
+      <i class="fas fa-tools"></i> {{localize "ARTIFICER_5E.Workshop.Tabs.Tinker"}}
+    </a>
+    <a class="item" data-tab="replicate">
+      <i class="fas fa-magic"></i> {{localize "ARTIFICER_5E.Workshop.Tabs.Replicate"}}
+    </a>
+    <a class="item" data-tab="companions">
+      <i class="fas fa-robot"></i> {{localize "ARTIFICER_5E.Workshop.Tabs.Companions"}}
+    </a>
+    {{#if isGM}}
+      <a class="item" data-tab="admin">
+        <i class="fas fa-database"></i> {{localize "ARTIFICER_5E.Workshop.Tabs.Admin"}}
+      </a>
+    {{/if}}
+  </nav>
+
+  <!-- Conteúdo das Abas -->
+  <section class="tab-content">
+    <!-- ABA 1: ELIXIRES EXPERIMENTAIS -->
+    <div class="tab active" data-tab="elixirs">
+      <div class="tab-description">
+        <p>{{localize "ARTIFICER_5E.Workshop.Elixirs.Description"}}</p>
+      </div>
+
+      <div class="elixir-actions">
+        <div class="action-card">
+          <h4><i class="fas fa-dice"></i> {{localize "ARTIFICER_5E.Workshop.Elixirs.RollTitle"}}</h4>
+          <p class="hint">{{localize "ARTIFICER_5E.Workshop.Elixirs.RollHint"}}</p>
+          <button type="button" class="btn-primary" data-action="rollElixir">
+            <i class="fas fa-dice-d6"></i> {{localize "ARTIFICER_5E.Workshop.Elixirs.RollButton"}}
+          </button>
+        </div>
+
+        <div class="action-card">
+          <h4><i class="fas fa-hand-sparkles"></i> {{localize "ARTIFICER_5E.Workshop.Elixirs.ChoiceTitle"}}</h4>
+          <p class="hint">{{localize "ARTIFICER_5E.Workshop.Elixirs.ChoiceHint"}}</p>
+          <div class="form-row">
+            <select name="selectedElixir" class="elixir-select">
+              <option value="healing">{{localize "ARTIFICER_5E.Elixir.Healing.Name"}}</option>
+              <option value="swiftness">{{localize "ARTIFICER_5E.Elixir.Swiftness.Name"}}</option>
+              <option value="resilience">{{localize "ARTIFICER_5E.Elixir.Resilience.Name"}}</option>
+              <option value="boldness">{{localize "ARTIFICER_5E.Elixir.Boldness.Name"}}</option>
+              <option value="flight">{{localize "ARTIFICER_5E.Elixir.Flight.Name"}}</option>
+            </select>
+            <button type="button" class="btn-secondary" data-action="createElixir">
+              <i class="fas fa-plus"></i> {{localize "ARTIFICER_5E.Workshop.Elixirs.CreateButton"}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="elixir-reference-table">
+        <h4>{{localize "ARTIFICER_5E.Workshop.Elixirs.TableTitle"}}</h4>
+        <div class="elixir-grid">
+          <div class="elixir-pill healing">
+            <strong>1. {{localize "ARTIFICER_5E.Elixir.Healing.Name"}}</strong>
+            <span>2d8 + Int mod PV (3d8 no nv 9, 4d8 no nv 15)</span>
+          </div>
+          <div class="elixir-pill swiftness">
+            <strong>2. {{localize "ARTIFICER_5E.Elixir.Swiftness.Name"}}</strong>
+            <span>+10 ft Deslocamento por 1 hora (+15 ft no nv 9, +20 ft no nv 15)</span>
+          </div>
+          <div class="elixir-pill resilience">
+            <strong>3. {{localize "ARTIFICER_5E.Elixir.Resilience.Name"}}</strong>
+            <span>+1 na CA por 10 minutos (1h no nv 9, 8h no nv 15)</span>
+          </div>
+          <div class="elixir-pill boldness">
+            <strong>4. {{localize "ARTIFICER_5E.Elixir.Boldness.Name"}}</strong>
+            <span>+1d4 em ataques e salvaguardas por 1 minuto (10m no nv 9, 1h no nv 15)</span>
+          </div>
+          <div class="elixir-pill flight">
+            <strong>5. {{localize "ARTIFICER_5E.Elixir.Flight.Name"}}</strong>
+            <span>Voo 10 ft por 10 minutos (20 ft no nv 9, 30 ft no nv 15)</span>
+          </div>
+          <div class="elixir-pill choice">
+            <strong>6. {{localize "ARTIFICER_5E.Elixir.Choice.Name"}}</strong>
+            <span>Escolha qualquer um dos outros 5 efeitos da tabela!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABA 2: TINKER'S MAGIC -->
+    <div class="tab" data-tab="tinker">
+      <div class="tab-description">
+        <p>{{localize "ARTIFICER_5E.Workshop.Tinker.Description"}}</p>
+      </div>
+
+      <div class="tinker-search">
+        <input type="text" class="tinker-filter" placeholder="{{localize 'ARTIFICER_5E.Workshop.SearchPlaceholder'}}" />
+      </div>
+
+      <div class="tinker-items-grid">
+        {{#each tinkerItems}}
+          <div class="tinker-card" data-name="{{this.name}}" data-action="createTinkerItem" data-item-id="{{this.id}}">
+            <i class="{{this.icon}}"></i>
+            <span class="tinker-name">{{this.label}}</span>
+            <button type="button" class="btn-mini" title="{{localize 'ARTIFICER_5E.Workshop.ConjureItem'}}">
+              <i class="fas fa-magic"></i>
+            </button>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+
+    <!-- ABA 3: REPLICATE MAGIC ITEM -->
+    <div class="tab" data-tab="replicate">
+      <div class="tab-description">
+        <p>{{localize "ARTIFICER_5E.Workshop.Replicate.Description"}}</p>
+      </div>
+
+      <div class="replicate-tiers">
+        <div class="tier-section">
+          <h3><i class="fas fa-hammer"></i> {{localize "ARTIFICER_5E.Workshop.Replicate.Tier2"}}</h3>
+          <div class="plan-list">
+            {{#each plansTier2}}
+              <div class="plan-item">
+                <span class="plan-name">{{this.name}}</span>
+                <span class="plan-attunement {{#if this.attunement}}attuned{{/if}}">
+                  {{#if this.attunement}}{{localize "ARTIFICER_5E.Workshop.AttunementYes"}}{{else}}{{localize "ARTIFICER_5E.Workshop.AttunementNo"}}{{/if}}
+                </span>
+                <button type="button" class="btn-mini" data-action="craftReplicatedItem" data-item-name="{{this.name}}">
+                  <i class="fas fa-wrench"></i> {{localize "ARTIFICER_5E.Workshop.Craft"}}
+                </button>
+              </div>
+            {{/each}}
+          </div>
+        </div>
+
+        <div class="tier-section">
+          <h3><i class="fas fa-shield-alt"></i> {{localize "ARTIFICER_5E.Workshop.Replicate.Tier6"}}</h3>
+          <div class="plan-list">
+            {{#each plansTier6}}
+              <div class="plan-item">
+                <span class="plan-name">{{this.name}}</span>
+                <span class="plan-attunement {{#if this.attunement}}attuned{{/if}}">
+                  {{#if this.attunement}}{{localize "ARTIFICER_5E.Workshop.AttunementYes"}}{{else}}{{localize "ARTIFICER_5E.Workshop.AttunementNo"}}{{/if}}
+                </span>
+                <button type="button" class="btn-mini" data-action="craftReplicatedItem" data-item-name="{{this.name}}">
+                  <i class="fas fa-wrench"></i> {{localize "ARTIFICER_5E.Workshop.Craft"}}
+                </button>
+              </div>
+            {{/each}}
+          </div>
+        </div>
+
+        <div class="tier-section">
+          <h3><i class="fas fa-gem"></i> {{localize "ARTIFICER_5E.Workshop.Replicate.Tier10"}}</h3>
+          <div class="plan-list">
+            {{#each plansTier10}}
+              <div class="plan-item">
+                <span class="plan-name">{{this.name}}</span>
+                <span class="plan-attunement {{#if this.attunement}}attuned{{/if}}">
+                  {{#if this.attunement}}{{localize "ARTIFICER_5E.Workshop.AttunementYes"}}{{else}}{{localize "ARTIFICER_5E.Workshop.AttunementNo"}}{{/if}}
+                </span>
+                <button type="button" class="btn-mini" data-action="craftReplicatedItem" data-item-name="{{this.name}}">
+                  <i class="fas fa-wrench"></i> {{localize "ARTIFICER_5E.Workshop.Craft"}}
+                </button>
+              </div>
+            {{/each}}
+          </div>
+        </div>
+
+        <div class="tier-section">
+          <h3><i class="fas fa-crown"></i> {{localize "ARTIFICER_5E.Workshop.Replicate.Tier14"}}</h3>
+          <div class="plan-list">
+            {{#each plansTier14}}
+              <div class="plan-item">
+                <span class="plan-name">{{this.name}}</span>
+                <span class="plan-attunement {{#if this.attunement}}attuned{{/if}}">
+                  {{#if this.attunement}}{{localize "ARTIFICER_5E.Workshop.AttunementYes"}}{{else}}{{localize "ARTIFICER_5E.Workshop.AttunementNo"}}{{/if}}
+                </span>
+                <button type="button" class="btn-mini" data-action="craftReplicatedItem" data-item-name="{{this.name}}">
+                  <i class="fas fa-wrench"></i> {{localize "ARTIFICER_5E.Workshop.Craft"}}
+                </button>
+              </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABA 4: COMPANHEIROS & INVOCAÇÕES -->
+    <div class="tab" data-tab="companions">
+      <div class="tab-description">
+        <p>{{localize "ARTIFICER_5E.Workshop.Companions.Description"}}</p>
+      </div>
+
+      <div class="companion-cards">
+        <div class="companion-card">
+          <img src="icons/creatures/magical/construct-iron-golem-purple.webp" alt="Steel Defender" />
+          <div class="companion-info">
+            <h4>{{localize "ARTIFICER_5E.Companions.SteelDefender.Name"}}</h4>
+            <p>{{localize "ARTIFICER_5E.Companions.SteelDefender.Description"}}</p>
+            <div class="companion-buttons">
+              <button type="button" class="btn-secondary" data-action="openCompanionSheet" data-companion-id="actsteeldefende0">
+                <i class="fas fa-id-card"></i> {{localize "ARTIFICER_5E.Workshop.OpenSheet"}}
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="companion-card">
+          <img src="icons/creatures/magical/construct-gargoyle-stone-grey.webp" alt="Homunculus Servant" />
+          <div class="companion-info">
+            <h4>{{localize "ARTIFICER_5E.Companions.Homunculus.Name"}}</h4>
+            <p>{{localize "ARTIFICER_5E.Companions.Homunculus.Description"}}</p>
+            <div class="companion-buttons">
+              <button type="button" class="btn-secondary" data-action="openCompanionSheet" data-companion-id="acthomunculusser">
+                <i class="fas fa-id-card"></i> {{localize "ARTIFICER_5E.Workshop.OpenSheet"}}
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="companion-card">
+          <img src="icons/weapons/artillery/cannon-wooden-bronze.webp" alt="Eldritch Cannon" />
+          <div class="companion-info">
+            <h4>{{localize "ARTIFICER_5E.Companions.EldritchCannon.Name"}}</h4>
+            <p>{{localize "ARTIFICER_5E.Companions.EldritchCannon.Description"}}</p>
+            <div class="companion-buttons">
+              <button type="button" class="btn-secondary" data-action="openCompanionSheet" data-companion-id="acteldritchcann0">
+                <i class="fas fa-id-card"></i> {{localize "ARTIFICER_5E.Workshop.OpenSheet"}}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABA 5: ADMIN / SINCRONIZAÇÃO (GM) -->
+    {{#if isGM}}
+      <div class="tab" data-tab="admin">
+        <div class="tab-description">
+          <p>{{localize "ARTIFICER_5E.Workshop.Admin.Description"}}</p>
+        </div>
+        <div class="admin-actions">
+          <button type="button" class="btn-primary" data-action="syncCompendiums">
+            <i class="fas fa-sync-alt"></i> {{localize "ARTIFICER_5E.Workshop.Admin.SyncButton"}}
+          </button>
+        </div>
+      </div>
+    {{/if}}
+  </section>
+</div>
+

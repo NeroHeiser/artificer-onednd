@@ -1,0 +1,310 @@
+/* artificer.css - Estilos temáticos para a Oficina do Artífice */
+
+.artificer-workshop-window {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 8px;
+  font-family: var(--dnd5e-font-roboto, "Signika", sans-serif);
+}
+
+.artificer-workshop-window .workshop-header {
+  padding: 10px 14px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.artificer-workshop-window .actor-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.artificer-workshop-window .actor-img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #7a6645;
+}
+
+.artificer-workshop-window .actor-details h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  border: none;
+}
+
+.artificer-workshop-window .actor-meta {
+  display: flex;
+  gap: 8px;
+  margin: 2px 0 0 0;
+  font-size: 0.85rem;
+}
+
+.artificer-workshop-window .badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  font-weight: bold;
+}
+
+.artificer-workshop-window .subclass-badge {
+  background: #2b4c6f;
+  color: #d1ecf1;
+}
+
+.artificer-workshop-window .sheet-tabs {
+  display: flex;
+  gap: 4px;
+  border-bottom: 2px solid #7a6645;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+}
+
+.artificer-workshop-window .sheet-tabs .item {
+  padding: 4px 10px;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+  color: var(--color-text-dark-secondary, #666);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.artificer-workshop-window .sheet-tabs .item:hover {
+  color: var(--color-text-dark-primary, #000);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.artificer-workshop-window .sheet-tabs .item.active {
+  color: var(--color-text-dark-primary, #000);
+  background: rgba(122, 102, 69, 0.25);
+  font-weight: bold;
+}
+
+.artificer-workshop-window .tab-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 4px 2px;
+}
+
+.artificer-workshop-window .tab {
+  display: none;
+}
+
+.artificer-workshop-window .tab.active {
+  display: block;
+}
+
+.artificer-workshop-window .tab-description {
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Elixires */
+.artificer-workshop-window .elixir-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.artificer-workshop-window .action-card {
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.artificer-workshop-window .action-card h4 {
+  margin: 0 0 4px 0;
+  font-size: 1rem;
+}
+
+.artificer-workshop-window .action-card .hint {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 10px;
+}
+
+.artificer-workshop-window .form-row {
+  display: flex;
+  gap: 6px;
+}
+
+.artificer-workshop-window .elixir-select {
+  flex: 1;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.artificer-workshop-window .elixir-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.artificer-workshop-window .elixir-pill {
+  padding: 8px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.25);
+  border-left: 4px solid #888;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.82rem;
+}
+
+.artificer-workshop-window .elixir-pill.healing { border-left-color: #c93d3d; }
+.artificer-workshop-window .elixir-pill.swiftness { border-left-color: #d1b834; }
+.artificer-workshop-window .elixir-pill.resilience { border-left-color: #3b82f6; }
+.artificer-workshop-window .elixir-pill.boldness { border-left-color: #e67e22; }
+.artificer-workshop-window .elixir-pill.flight { border-left-color: #9b59b6; }
+.artificer-workshop-window .elixir-pill.choice { border-left-color: #27ae60; }
+
+/* Tinker's Magic Grid */
+.artificer-workshop-window .tinker-search {
+  margin-bottom: 10px;
+}
+
+.artificer-workshop-window .tinker-filter {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.artificer-workshop-window .tinker-items-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  max-height: 380px;
+  overflow-y: auto;
+}
+
+.artificer-workshop-window .tinker-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 6px 8px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.artificer-workshop-window .tinker-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.artificer-workshop-window .tinker-name {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Replicate Plans */
+.artificer-workshop-window .tier-section {
+  margin-bottom: 16px;
+}
+
+.artificer-workshop-window .tier-section h3 {
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+.artificer-workshop-window .plan-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+}
+
+.artificer-workshop-window .plan-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 8px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-size: 0.82rem;
+}
+
+.artificer-workshop-window .plan-attunement {
+  font-size: 0.72rem;
+  padding: 1px 4px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.artificer-workshop-window .plan-attunement.attuned {
+  background: #5c3566;
+  color: #fce94f;
+}
+
+/* Companions */
+.artificer-workshop-window .companion-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.artificer-workshop-window .companion-card {
+  display: flex;
+  gap: 12px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  align-items: center;
+}
+
+.artificer-workshop-window .companion-card img {
+  width: 54px;
+  height: 54px;
+  border-radius: 4px;
+  object-fit: cover;
+  border: 1px solid #7a6645;
+}
+
+.artificer-workshop-window .companion-info h4 {
+  margin: 0 0 4px 0;
+}
+
+.artificer-workshop-window .companion-info p {
+  margin: 0 0 6px 0;
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Botões */
+.artificer-workshop-window button {
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.artificer-workshop-window .btn-mini {
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+/* Header button na ficha de Personagem */
+.artificer-header-btn {
+  color: #d4af37 !important;
+}
+

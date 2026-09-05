@@ -1,0 +1,482 @@
+[
+  {
+    "_id": "artificerclass00",
+    "name": "Artificer",
+    "type": "class",
+    "img": "icons/tools/smithing/anvil.webp",
+    "system": {
+      "description": {
+        "value": "\n          <p>Masters of invention, Artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions.</p>\n          <h3>Core Artificer Traits</h3>\n          <ul>\n            <li><strong>Primary Ability:</strong> Intelligence</li>\n            <li><strong>Hit Point Die:</strong> D8 per Artificer level</li>\n            <li><strong>Saving Throw Proficiencies:</strong> Constitution and Intelligence</li>\n            <li><strong>Skill Proficiencies:</strong> Choose 2: Arcana, History, Investigation, Medicine, Nature, Perception, or Sleight of Hand</li>\n            <li><strong>Weapon Proficiencies:</strong> Simple weapons</li>\n            <li><strong>Tool Proficiencies:</strong> Thieves' Tools, Tinker's Tools, and one type of Artisan's Tools of your choice</li>\n            <li><strong>Armor Training:</strong> Light and Medium armor and Shields</li>\n          </ul>\n        ",
+        "chat": ""
+      },
+      "identifier": "artificer",
+      "levels": 1,
+      "hitDice": "d8",
+      "hitDiceUsed": 0,
+      "advancement": [
+        {
+          "_id": "advhitpoints0001",
+          "type": "HitPoints",
+          "configuration": {},
+          "value": {}
+        },
+        {
+          "_id": "advtraitsaving01",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "savingThrow:con",
+              "savingThrow:int"
+            ],
+            "choices": []
+          },
+          "level": 1,
+          "title": "Saving Throws"
+        },
+        {
+          "_id": "advtraitarmor001",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "armor:lgt",
+              "armor:med",
+              "armor:shl"
+            ],
+            "choices": []
+          },
+          "level": 1,
+          "title": "Armor Training"
+        },
+        {
+          "_id": "advtraitweapon01",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "weapon:sim"
+            ],
+            "choices": []
+          },
+          "level": 1,
+          "title": "Weapon Proficiencies"
+        },
+        {
+          "_id": "advtraittools001",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "tool:thief",
+              "tool:tinker"
+            ],
+            "choices": [
+              {
+                "count": 1,
+                "pool": [
+                  "tool:art:*"
+                ]
+              }
+            ]
+          },
+          "level": 1,
+          "title": "Tool Proficiencies"
+        },
+        {
+          "_id": "advtraitskills01",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [],
+            "choices": [
+              {
+                "count": 2,
+                "pool": [
+                  "skills:arc",
+                  "skills:his",
+                  "skills:inv",
+                  "skills:med",
+                  "skills:nat",
+                  "skills:prc",
+                  "skills:slt"
+                ]
+              }
+            ]
+          },
+          "level": 1,
+          "title": "Skill Proficiencies"
+        },
+        {
+          "_id": "advitemgrant0001",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatspellcast0",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeattinkermag0",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 1,
+          "title": "Level 1 Features"
+        },
+        {
+          "_id": "advitemgrant0002",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatreplicatm0",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 2,
+          "title": "Replicate Magic Item"
+        },
+        {
+          "_id": "advitemgrant0004",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog000",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 4,
+          "title": "Ability Score Improvement"
+        },
+        {
+          "_id": "advitemgrant0006",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatmagtinker0",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 6,
+          "title": "Magic Item Tinker"
+        },
+        {
+          "_id": "advitemgrant0007",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatflashgen00",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 7,
+          "title": "Flash of Genius"
+        },
+        {
+          "_id": "advitemgrant0008",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog000",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 8,
+          "title": "Ability Score Improvement"
+        },
+        {
+          "_id": "advitemgrant0010",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatmagicadept",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 10,
+          "title": "Magic Item Adept"
+        },
+        {
+          "_id": "advitemgrant0011",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatspellstore",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 11,
+          "title": "Spell-Storing Item"
+        },
+        {
+          "_id": "advitemgrant0012",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog000",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 12,
+          "title": "Ability Score Improvement"
+        },
+        {
+          "_id": "advitemgrant0014",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatadvartifi0",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 14,
+          "title": "Advanced Artifice"
+        },
+        {
+          "_id": "advitemgrant0016",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatasiprog000",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 16,
+          "title": "Ability Score Improvement"
+        },
+        {
+          "_id": "advitemgrant0018",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatmagicmast0",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 18,
+          "title": "Magic Item Master"
+        },
+        {
+          "_id": "advitemgrant0019",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatepicboon00",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 19,
+          "title": "Epic Boon"
+        },
+        {
+          "_id": "advitemgrant0020",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artfeatsoulartif0",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 20,
+          "title": "Soul of Artifice"
+        },
+        {
+          "_id": "advscaleplans000",
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "plans-known",
+            "type": "numeric",
+            "distance": {
+              "units": ""
+            },
+            "scale": {
+              "2": {
+                "value": 4
+              },
+              "6": {
+                "value": 5
+              },
+              "10": {
+                "value": 6
+              },
+              "14": {
+                "value": 7
+              },
+              "18": {
+                "value": 8
+              }
+            }
+          },
+          "title": "Plans Known"
+        },
+        {
+          "_id": "advscaleitems000",
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "magic-items-active",
+            "type": "numeric",
+            "distance": {
+              "units": ""
+            },
+            "scale": {
+              "2": {
+                "value": 2
+              },
+              "6": {
+                "value": 3
+              },
+              "10": {
+                "value": 4
+              },
+              "14": {
+                "value": 5
+              },
+              "18": {
+                "value": 6
+              }
+            }
+          },
+          "title": "Magic Items Active"
+        },
+        {
+          "_id": "advscaleprep0000",
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "prepared-spells",
+            "type": "numeric",
+            "distance": {
+              "units": ""
+            },
+            "scale": {
+              "1": {
+                "value": 2
+              },
+              "2": {
+                "value": 3
+              },
+              "3": {
+                "value": 4
+              },
+              "4": {
+                "value": 5
+              },
+              "5": {
+                "value": 6
+              },
+              "6": {
+                "value": 6
+              },
+              "7": {
+                "value": 7
+              },
+              "8": {
+                "value": 7
+              },
+              "9": {
+                "value": 9
+              },
+              "10": {
+                "value": 9
+              },
+              "11": {
+                "value": 10
+              },
+              "12": {
+                "value": 10
+              },
+              "13": {
+                "value": 11
+              },
+              "14": {
+                "value": 11
+              },
+              "15": {
+                "value": 12
+              },
+              "16": {
+                "value": 12
+              },
+              "17": {
+                "value": 14
+              },
+              "18": {
+                "value": 14
+              },
+              "19": {
+                "value": 15
+              },
+              "20": {
+                "value": 15
+              }
+            }
+          },
+          "title": "Prepared Spells"
+        }
+      ],
+      "spellcasting": {
+        "progression": "artificer",
+        "ability": "int"
+      }
+    }
+  }
+]

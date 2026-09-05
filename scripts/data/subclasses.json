@@ -1,0 +1,434 @@
+[
+  {
+    "_id": "alchemistsubcl00",
+    "name": "Alchemist",
+    "type": "subclass",
+    "img": "icons/tools/laboratory/alembic-glass-copper.webp",
+    "system": {
+      "description": {
+        "value": "\n          <p>An Alchemist is an expert at combining exotic reagents to produce mystical effects. They create swift healing, toxic coatings, and volatile concoctions.</p>\n          <h3>Alchemist Spells</h3>\n          <table>\n            <thead><tr><th>Artificer Level</th><th>Spells</th></tr></thead>\n            <tbody>\n              <tr><td>3rd</td><td><em>Healing Word, Ray of Sickness</em></td></tr>\n              <tr><td>5th</td><td><em>Flaming Sphere, Melf's Acid Arrow</em></td></tr>\n              <tr><td>9th</td><td><em>Gaseous Form, Mass Healing Word</em></td></tr>\n              <tr><td>13th</td><td><em>Death Ward, Vitriolic Sphere</em></td></tr>\n              <tr><td>17th</td><td><em>Cloudkill, Raise Dead</em></td></tr>\n            </tbody>\n          </table>\n        ",
+        "chat": ""
+      },
+      "classIdentifier": "artificer",
+      "identifier": "alchemist",
+      "advancement": [
+        {
+          "_id": "alcadvent0000003",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeattoolstrad0",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeatelixir0000",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 3,
+          "title": "Alchemist Level 3 Features"
+        },
+        {
+          "_id": "alcadvent0000005",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeatsavant0000",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 5,
+          "title": "Alchemical Savant"
+        },
+        {
+          "_id": "alcadvent0000009",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeatreagents00",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 9,
+          "title": "Restorative Reagents"
+        },
+        {
+          "_id": "alcadvent0000015",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.alcfeatmastery000",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 15,
+          "title": "Chemical Mastery"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "armorersubclass0",
+    "name": "Armorer",
+    "type": "subclass",
+    "img": "icons/equipment/chest/breastplate-metal-scaled-grey.webp",
+    "system": {
+      "description": {
+        "value": "\n          <p>An Armorer augments armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense.</p>\n          <h3>Armorer Spells</h3>\n          <table>\n            <thead><tr><th>Artificer Level</th><th>Spells</th></tr></thead>\n            <tbody>\n              <tr><td>3rd</td><td><em>Magic Missile, Thunderwave</em></td></tr>\n              <tr><td>5th</td><td><em>Mirror Image, Shatter</em></td></tr>\n              <tr><td>9th</td><td><em>Hypnotic Pattern, Lightning Bolt</em></td></tr>\n              <tr><td>13th</td><td><em>Fire Shield, Greater Invisibility</em></td></tr>\n              <tr><td>17th</td><td><em>Passwall, Wall of Force</em></td></tr>\n            </tbody>\n          </table>\n        ",
+        "chat": ""
+      },
+      "classIdentifier": "artificer",
+      "identifier": "armorer",
+      "advancement": [
+        {
+          "_id": "armadvent0000003",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeattoolstrad0",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatarcanearm0",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatarmormod00",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 3,
+          "title": "Armorer Level 3 Features"
+        },
+        {
+          "_id": "armadvent0000005",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatextraatt00",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 5,
+          "title": "Extra Attack"
+        },
+        {
+          "_id": "armadvent0000009",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatimparmor00",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 9,
+          "title": "Improved Armorer"
+        },
+        {
+          "_id": "armadvent0000015",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.armfeatperfect000",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 15,
+          "title": "Perfected Armor"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "artilleristsubcl",
+    "name": "Artillerist",
+    "type": "subclass",
+    "img": "icons/weapons/artillery/cannon-wooden-bronze.webp",
+    "system": {
+      "description": {
+        "value": "\n          <p>An Artillerist specializes in using magic to hurl energy, projectiles, and explosions upon the battlefield, creating magical cannons and wielding empowered firearms.</p>\n          <h3>Artillerist Spells</h3>\n          <table>\n            <thead><tr><th>Artificer Level</th><th>Spells</th></tr></thead>\n            <tbody>\n              <tr><td>3rd</td><td><em>Shield, Thunderwave</em></td></tr>\n              <tr><td>5th</td><td><em>Scorching Ray, Shatter</em></td></tr>\n              <tr><td>9th</td><td><em>Fireball, Wind Wall</em></td></tr>\n              <tr><td>13th</td><td><em>Ice Storm, Wall of Fire</em></td></tr>\n              <tr><td>17th</td><td><em>Cone of Cold, Wall of Force</em></td></tr>\n            </tbody>\n          </table>\n        ",
+        "chat": ""
+      },
+      "classIdentifier": "artificer",
+      "identifier": "artillerist",
+      "advancement": [
+        {
+          "_id": "artadvent0000003",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artifeattoolstr0",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artifeatcannon000",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 3,
+          "title": "Artillerist Level 3 Features"
+        },
+        {
+          "_id": "artadvent0000005",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artifeatfirearm00",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 5,
+          "title": "Arcane Firearm"
+        },
+        {
+          "_id": "artadvent0000009",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artifeatexplosiv0",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 9,
+          "title": "Explosive Cannon"
+        },
+        {
+          "_id": "artadvent0000015",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.artifeatfortifie0",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 15,
+          "title": "Fortified Position"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "battlesmithsubcl",
+    "name": "Battle Smith",
+    "type": "subclass",
+    "img": "icons/tools/smithing/anvil.webp",
+    "system": {
+      "description": {
+        "value": "\n          <p>Armored in purpose and backed by a loyal mechanical companion, the Battle Smith repairs what is broken, protects comrades, and smites foes with arcane power.</p>\n          <h3>Battle Smith Spells</h3>\n          <table>\n            <thead><tr><th>Artificer Level</th><th>Spells</th></tr></thead>\n            <tbody>\n              <tr><td>3rd</td><td><em>Heroism, Shield</em></td></tr>\n              <tr><td>5th</td><td><em>Shining Smite, Warding Bond</em></td></tr>\n              <tr><td>9th</td><td><em>Aura of Vitality, Conjure Barrage</em></td></tr>\n              <tr><td>13th</td><td><em>Aura of Purity, Fire Shield</em></td></tr>\n              <tr><td>17th</td><td><em>Banishing Smite, Mass Cure Wounds</em></td></tr>\n            </tbody>\n          </table>\n        ",
+        "chat": ""
+      },
+      "classIdentifier": "artificer",
+      "identifier": "battle-smith",
+      "advancement": [
+        {
+          "_id": "bsadvent00000003",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeattoolstrad00",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeatbattleread0",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeatdefender000",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 3,
+          "title": "Battle Smith Level 3 Features"
+        },
+        {
+          "_id": "bsadvent00000005",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeatextraatt000",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 5,
+          "title": "Extra Attack"
+        },
+        {
+          "_id": "bsadvent00000009",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeatarcanejolt0",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 9,
+          "title": "Arcane Jolt"
+        },
+        {
+          "_id": "bsadvent00000015",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.bsfeatimprdefen0",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 15,
+          "title": "Improved Defender"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "cartographersubc",
+    "name": "Cartographer",
+    "type": "subclass",
+    "img": "icons/tools/navigation/map-chart-tan.webp",
+    "system": {
+      "description": {
+        "value": "\n          <p>Cartographers chart the arcane lay of the land, navigating chaos and teleporting allies through metaphysical coordinates.</p>\n          <h3>Cartographer Spells</h3>\n          <table>\n            <thead><tr><th>Artificer Level</th><th>Spells</th></tr></thead>\n            <tbody>\n              <tr><td>3rd</td><td><em>Faerie Fire, Guiding Bolt, Healing Word</em></td></tr>\n              <tr><td>5th</td><td><em>Locate Object, Mind Spike</em></td></tr>\n              <tr><td>9th</td><td><em>Call Lightning, Clairvoyance</em></td></tr>\n              <tr><td>13th</td><td><em>Banishment, Locate Creature</em></td></tr>\n              <tr><td>17th</td><td><em>Scrying, Teleportation Circle</em></td></tr>\n            </tbody>\n          </table>\n        ",
+        "chat": ""
+      },
+      "classIdentifier": "artificer",
+      "identifier": "cartographer",
+      "advancement": [
+        {
+          "_id": "cartadvent000003",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeattoolstr0",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatatlas0000",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatmapping00",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 3,
+          "title": "Cartographer Level 3 Features"
+        },
+        {
+          "_id": "cartadvent000005",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatprecis000",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 5,
+          "title": "Guided Precision"
+        },
+        {
+          "_id": "cartadvent000009",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatmovemen00",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 9,
+          "title": "Ingenious Movement"
+        },
+        {
+          "_id": "cartadvent000015",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.artificer-features.Item.cartfeatsuperio00",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "level": 15,
+          "title": "Superior Atlas"
+        }
+      ]
+    }
+  }
+]

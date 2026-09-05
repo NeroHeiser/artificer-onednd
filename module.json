@@ -1,0 +1,118 @@
+{
+  "id": "artificer-onednd",
+  "title": "Artificer: Forge of the Artificer (D&D 5e / One D&D)",
+  "description": "Adiciona a classe Artífice (Unearthed Arcana 2024: Forge of the Artificer) para o sistema D&D 5e no Foundry VTT, incluindo as 5 subclasses (Alchemist, Armorer, Artillerist, Battle Smith, Cartographer), compêndios completos, magias, itens replicáveis, invocações e a Oficina do Artífice.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Lopes",
+      "url": "https://github.com/NeroHeiser"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/artificer.css"
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "artificer-classes",
+      "label": "Artificer Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "artificer-subclasses",
+      "label": "Artificer Subclasses",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "artificer-features",
+      "label": "Artificer Features",
+      "path": "packs/features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "artificer-spells",
+      "label": "Artificer Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "artificer-items",
+      "label": "Artificer Magic Items & Inventions",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "artificer-actors",
+      "label": "Artificer Companions & Summons",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://github.com/NeroHeiser/artificer-onednd",
+  "manifest": "https://raw.githubusercontent.com/NeroHeiser/artificer-onednd/main/module.json",
+  "download": "https://github.com/NeroHeiser/artificer-onednd/archive/refs/heads/main.zip",
+  "readme": "https://github.com/NeroHeiser/artificer-onednd/blob/main/README.md"
+}

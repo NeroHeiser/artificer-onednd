@@ -1,0 +1,234 @@
+[
+  {
+    "_id": "elixirhealing000",
+    "name": "Experimental Elixir: Healing",
+    "type": "consumable",
+    "img": "icons/consumables/potions/potion-bottle-corked-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>A creature can drink this elixir or administer it to an adjacent creature as a <strong>Bonus Action</strong>. The drinker regains <strong>2d8 + Intelligence modifier HP</strong> (3d8 at lvl 9, 4d8 at lvl 15).</p>",
+        "chat": ""
+      },
+      "consumableType": "potion",
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "charges",
+        "autoDestroy": true
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "actionType": "heal",
+      "damage": {
+        "parts": [
+          [
+            "2d8 + @abilities.int.mod",
+            "healing"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "_id": "elixirswiftnes00",
+    "name": "Experimental Elixir: Swiftness",
+    "type": "consumable",
+    "img": "icons/consumables/potions/potion-bottle-corked-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>A creature can drink this elixir or administer it to an adjacent creature as a <strong>Bonus Action</strong>. The drinker's Speed increases by <strong>10 feet for 1 hour</strong> (15 ft at lvl 9, 20 ft at lvl 15).</p>",
+        "chat": ""
+      },
+      "consumableType": "potion",
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "charges",
+        "autoDestroy": true
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "duration": {
+        "value": 1,
+        "units": "hour"
+      }
+    }
+  },
+  {
+    "_id": "elixirresilien00",
+    "name": "Experimental Elixir: Resilience",
+    "type": "consumable",
+    "img": "icons/consumables/potions/potion-bottle-corked-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>A creature can drink this elixir or administer it to an adjacent creature as a <strong>Bonus Action</strong>. The drinker gains a <strong>+1 bonus to AC for 10 minutes</strong> (1 hour at lvl 9, 8 hours at lvl 15).</p>",
+        "chat": ""
+      },
+      "consumableType": "potion",
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "charges",
+        "autoDestroy": true
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "duration": {
+        "value": 10,
+        "units": "minute"
+      }
+    }
+  },
+  {
+    "_id": "elixirboldness00",
+    "name": "Experimental Elixir: Boldness",
+    "type": "consumable",
+    "img": "icons/consumables/potions/potion-bottle-corked-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>A creature can drink this elixir or administer it to an adjacent creature as a <strong>Bonus Action</strong>. The drinker adds <strong>1d4 to every attack roll and saving throw for 1 minute</strong> (10 minutes at lvl 9, 1 hour at lvl 15).</p>",
+        "chat": ""
+      },
+      "consumableType": "potion",
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "charges",
+        "autoDestroy": true
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "duration": {
+        "value": 1,
+        "units": "minute"
+      }
+    }
+  },
+  {
+    "_id": "elixirflight0000",
+    "name": "Experimental Elixir: Flight",
+    "type": "consumable",
+    "img": "icons/consumables/potions/potion-bottle-corked-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>A creature can drink this elixir or administer it to an adjacent creature as a <strong>Bonus Action</strong>. The drinker gains a <strong>Fly Speed of 10 feet for 10 minutes</strong> (20 ft at lvl 9, 30 ft at lvl 15).</p>",
+        "chat": ""
+      },
+      "consumableType": "potion",
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "charges",
+        "autoDestroy": true
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "duration": {
+        "value": 10,
+        "units": "minute"
+      }
+    }
+  },
+  {
+    "_id": "repmanifoldtool0",
+    "name": "Manifold Tool",
+    "type": "equipment",
+    "img": "icons/tools/instruments/multitool-brass.webp",
+    "system": {
+      "description": {
+        "value": "<p>A miraculous Swiss Army tool crafted by an Artificer. Requires Attunement. As an action, it can transform into any type of artisan's tools or thieves' tools.</p>",
+        "chat": ""
+      },
+      "attunement": 1,
+      "rarity": "common",
+      "equipped": true
+    }
+  },
+  {
+    "_id": "reprepeating0000",
+    "name": "Repeating Shot",
+    "type": "weapon",
+    "img": "icons/weapons/crossbows/crossbow-loaded-repeater.webp",
+    "system": {
+      "description": {
+        "value": "<p>A ranged weapon infused with arcane machinery. Requires Attunement. +1 bonus to attack and damage rolls. Automatically produces its own magical ammunition if none is loaded, and ignores the loading property.</p>",
+        "chat": ""
+      },
+      "attunement": 1,
+      "rarity": "common",
+      "equipped": true,
+      "actionType": "rwak"
+    }
+  },
+  {
+    "_id": "repreturningweap",
+    "name": "Returning Weapon",
+    "type": "weapon",
+    "img": "icons/weapons/daggers/dagger-thrown-glow-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack.</p>",
+        "chat": ""
+      },
+      "attunement": 0,
+      "rarity": "common",
+      "equipped": true,
+      "actionType": "mwak"
+    }
+  },
+  {
+    "_id": "repmindsharpener",
+    "name": "Mind Sharpener",
+    "type": "equipment",
+    "img": "icons/equipment/chest/vest-leather-studded-glowing.webp",
+    "system": {
+      "description": {
+        "value": "<p>Infused robes or armor. Requires Attunement. The infused item can send a jolt to the wearer to refocus their mind: when the wearer fails a Constitution saving throw to maintain concentration on a spell, the wearer can use its reaction to succeed instead (4 charges, regains 1d4 at dawn).</p>",
+        "chat": ""
+      },
+      "attunement": 1,
+      "rarity": "uncommon",
+      "equipped": true
+    }
+  },
+  {
+    "_id": "repwndingpath000",
+    "name": "Boots of the Winding Path",
+    "type": "equipment",
+    "img": "icons/equipment/feet/boots-leather-fur-cuffed-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Requires Attunement. While wearing these boots, a creature can teleport up to 15 feet as a Bonus Action to an unoccupied space the creature occupied at some point during the current turn.</p>",
+        "chat": ""
+      },
+      "attunement": 1,
+      "rarity": "uncommon",
+      "equipped": true
+    }
+  },
+  {
+    "_id": "reprepulsionshld",
+    "name": "Repulsion Shield",
+    "type": "equipment",
+    "img": "icons/equipment/shield/heater-crystal-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>A shield granting a +1 bonus to Armor Class. As a reaction immediately after being hit by a melee attack, the wielder can push the attacker up to 15 feet away (4 charges, regains 1d4 at dawn).</p>",
+        "chat": ""
+      },
+      "attunement": 0,
+      "rarity": "uncommon",
+      "equipped": true
+    }
+  }
+]
