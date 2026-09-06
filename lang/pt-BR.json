@@ -158,6 +158,33 @@
       "Arcana": "Domínio da Arcana",
       "Ancestral": "Feitiçaria Ancestral"
     }
+  },
+  "PSION_5E": {
+    "Class": {
+      "Name": "Psion",
+      "Description": "Conjuradores mentais que canalizam poderes inatos do pensamento para dobrar a realidade, erguer barreiras e projetar ataques psíquicos devastadores."
+    },
+    "Subclasses": {
+      "Metamorph": "Metamorfo",
+      "Psykinetic": "Psicinético",
+      "Telepath": "Telepata"
+    },
+    "Disciplines": {
+      "Biofeedback": "Biofeedback",
+      "BolsteringPrecognition": "Precognição Fortalecedora",
+      "DestructiveThoughts": "Pensamentos Destrutivos",
+      "DevilishTongue": "Língua Diabólica",
+      "ExpandedAwareness": "Percepção Expandida",
+      "IdInsinuation": "Insinuação do Id",
+      "InerrantAim": "Mira Certeira",
+      "ObservantMind": "Mente Observadora",
+      "PsionicBacklash": "Contra-ataque Psiônico",
+      "PsionicGuards": "Guardas Psiônicos",
+      "SharpenedMind": "Mente Aguçada"
+    },
+    "EnergyDice": {
+      "Name": "Dados de Energia Psiônica",
+      "Description": "Dados que alimentam os poderes psiônicos e disciplinas da classe Psion."
+    }
   }
 }
-

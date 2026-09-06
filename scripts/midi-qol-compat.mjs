@@ -67,6 +67,20 @@ export class MidiQOLCompat {
       if (itemId === "uaarcaneshot0001") {
         console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Disparo Arcano (Arcane Shot) do Arqueiro Arcano.`);
       }
+
+      // Automação e logging para habilidades do Psion
+      if (itemId === "psionfeatpropel1") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Propulsão Telecinética (Telekinetic Propel) em ${workflow.targets?.size || 0} alvo(s).`);
+      }
+      if (itemId === "psiondiscbacklas") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Contra-ataque Psiônico (Psionic Backlash) para ${workflow.actor?.name}.`);
+      }
+      if (itemId === "psiondistraction") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Distração Telepática (Telepathic Distraction).`);
+      }
+      if (itemId === "psionpsyrebound1") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Campo Ricocheteante (Rebounding Field).`);
+      }
     });
   }
 }

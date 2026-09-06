@@ -155,6 +155,50 @@
       }
     },
     {
+      "name": "psion-classes",
+      "label": "Psion Classes",
+      "path": "packs/psion-classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "psion-subclasses",
+      "label": "Psion Subclasses",
+      "path": "packs/psion-subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "psion-features",
+      "label": "Psion Features",
+      "path": "packs/psion-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "psion-spells",
+      "label": "Psion Spells",
+      "path": "packs/psion-spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "ua-subclasses",
       "label": "Unearthed Arcana Subclasses",
       "path": "packs/ua-subclasses",

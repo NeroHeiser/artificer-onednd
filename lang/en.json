@@ -158,6 +158,33 @@
       "Arcana": "Arcana Domain",
       "Ancestral": "Ancestral Sorcery"
     }
+  },
+  "PSION_5E": {
+    "Class": {
+      "Name": "Psion",
+      "Description": "Mental spellcasters who channel innate thought powers to reshape reality, erect kinetic barriers, and unleash devastating psychic assaults."
+    },
+    "Subclasses": {
+      "Metamorph": "Metamorph",
+      "Psykinetic": "Psykinetic",
+      "Telepath": "Telepath"
+    },
+    "Disciplines": {
+      "Biofeedback": "Biofeedback",
+      "BolsteringPrecognition": "Bolstering Precognition",
+      "DestructiveThoughts": "Destructive Thoughts",
+      "DevilishTongue": "Devilish Tongue",
+      "ExpandedAwareness": "Expanded Awareness",
+      "IdInsinuation": "Id Insinuation",
+      "InerrantAim": "Inerrant Aim",
+      "ObservantMind": "Observant Mind",
+      "PsionicBacklash": "Psionic Backlash",
+      "PsionicGuards": "Psionic Guards",
+      "SharpenedMind": "Sharpened Mind"
+    },
+    "EnergyDice": {
+      "Name": "Psionic Energy Dice",
+      "Description": "Dice that fuel the psionic powers and disciplines of the Psion class."
+    }
   }
 }
-

@@ -26,6 +26,18 @@ Módulo completo para o **Foundry Virtual Tabletop (VTT)** que adiciona classes 
     3. **Ordem do Mutante (Mutant)**: *Criação de Mutagênicos* com 19 fórmulas completas em itens consumíveis (bônus e penalidades automatizadas via ActiveEffect), *Metabolismo Estranho*, *Fisiologia Robusta*, *Mutação Exaltada*.
     4. **Ordem da Alma Profana (Profane Soul)**: *Magia de Pacto* com Inteligência, Patronos do Outro Mundo, *Foco Ritual*, *Frenezi Místico*, *Canalização Diabólica*, *Arcana Revelada*, *Sifão de Almas*.
   - **Rituais Carmesins & Maldições de Sangue**: 7 Rituais com ActiveEffects e 10 Maldições de Sangue completas com salvaguardas e automações no Midi QOL.
+- **Classe Psion Completa (One D&D / UA 2025)**:
+  - Conjurador Pleno Mental (espaços de 1º a 9º círculo, Inteligência, d6 de vida, salvaguardas de Int e Sab).
+  - **Conjuração Psiônica**: Sem necessidade de componentes Verbais nem Materiais (a menos que consumidos ou com custo em ouro).
+  - **Telecinese Sutil**: *Mãos Mágicas* sem componentes somáticos e invisível.
+  - **Dados de Energia Psiônica**: Escala de `4d6` no nível 1 até `12d12` no nível 17.
+  - **Habilidades Básicas**: *Propulsão Telecinética* e *Conexão Telepática*.
+  - **11 Disciplinas Psiônicas**: *Biofeedback*, *Precognição Fortalecedora*, *Pensamentos Destrutivos*, *Língua Diabólica*, *Percepção Expandida*, *Insinuação do Id*, *Mira Certeira*, *Mente Observadora*, *Contra-ataque Psiônico*, *Guardas Psiônicos* e *Mente Aguçada*.
+  - **3 Subclasses Oficiais**:
+    1. **Metamorfo (Metamorph)**: Biopsiônica, *Forma Mutável*, 3 *Armas Orgânicas* baseadas em Inteligência (Lâmina de Osso, Maça de Carne, Lançador de Vísceras), *Ataque Extra* com truque, *Tecelão de Carne* (+2 CA e cura ampliada), *Forma Mutável Aprimorada* e *Armas que Dobram a Vida*.
+    2. **Psicinético (Psykinetic)**: Cinética destrutiva, *Telecinese Reforçada*, *Técnicas Telecinéticas* (uso gratuito de 1d4, Boost, Disorient, Telekinetic Bolt), *Transe Destrutivo* (Voo 6m e bônus de dano contínuo), *Campo Ricocheteante*, *Esmagamento Telecinético Aprimorado* e *Telecinese Elevada*.
+    3. **Telepata (Telepath)**: Domínio cognitivo, *Infiltrador Mental* (*Detectar Pensamentos* sem componentes e sem concentração), *Distração Telepática* (reação subtrai dado de ataque inimigo), *Baluarte Mental*, *Pensamentos Potentes* (telepatia 18m e Int em truques), *Apoio Telepático* e *Embaralhar Mentes* (*Confusão* em área ampliada controlando ações).
+  - **10 Novas Magias do UA 2025**: *Arremesso Telecinético*, *Sifão Vital*, *Rastro Ectoplásmico*, *Chicote do Ego*, *Escuridão Sangrenta*, *Esmagamento Telecinético*, *Campo de Inversão Vital*, *Explosão Psiônica*, *Forma de Pensamento* e *Invocar Entidade Astral*.
 - **16 Subclasses de Unearthed Arcana (One D&D / 2024 - Lote 1: Horror & Arcane)**:
   - Totalmente integradas às classes oficiais do sistema `dnd5e` através de `CONFIG.DND5E.subclasses` e concedidas automaticamente na progressão de níveis com Item Advancements:
   - **Subclasses de Horror (`UA2025-HorrorSubclasses.pdf`)**:
@@ -64,18 +76,22 @@ Módulo completo para o **Foundry Virtual Tabletop (VTT)** que adiciona classes 
 
 ## 📦 Compêndios Inclusos
 
-1. **Artificer Classes** (`artificer-classes`): O documento da classe Artífice.
+1. **Artificer Classes** (`artificer-classes`): O documento da classe Artífice completo.
 2. **Artificer Subclasses** (`artificer-subclasses`): As 5 subclasses do Artífice.
-3. **Artificer Features** (`artificer-features`): Todos os recursos de classe e subclasse do Artífice.
-4. **Artificer Spells** (`artificer-spells`): A nova magia *Homunculus Servant*.
+3. **Artificer Features** (`artificer-features`): Recursos de classe e subclasse do Artífice.
+4. **Artificer Spells** (`artificer-spells`): Magias do Artífice e a nova magia *Homunculus Servant*.
 5. **Artificer Magic Items & Inventions** (`artificer-items`): Elixires experimentais e itens replicados.
-6. **Artificer Companions & Summons** (`artificer-actors`): Atores pré-configurados.
+6. **Artificer Companions & Summons** (`artificer-actors`): Atores e companheiros pré-configurados.
 7. **Witch Hunter Classes** (`witch-hunter-classes`): A classe Caçador de Bruxas.
 8. **Witch Hunter Orders** (`witch-hunter-subclasses`): As 4 Ordens do Caçador de Bruxas.
 9. **Witch Hunter Features** (`witch-hunter-features`): Recursos, rituais carmesins e maldições de sangue.
-10. **Witch Hunter Items & Mutagens** (`witch-hunter-items`): As fórmulas de mutagênicos consumíveis.
-11. **Unearthed Arcana Subclasses** (`ua-subclasses`): As 16 subclasses de Unearthed Arcana (Horror & Arcane).
-12. **Unearthed Arcana Features** (`ua-features`): Todas as características de 3º ao 18º nível das 16 subclasses do UA.
+10. **Witch Hunter Items & Mutagens** (`witch-hunter-items`): As 19 fórmulas de mutagênicos consumíveis.
+11. **Psion Classes** (`psion-classes`): A classe Psion completa (conjurador pleno, 1º a 20º nível).
+12. **Psion Subclasses** (`psion-subclasses`): As 3 subclasses (*Metamorfo*, *Psicinético*, *Telepata*).
+13. **Psion Features** (`psion-features`): Recursos da classe, 11 Disciplinas Psiônicas e armas orgânicas.
+14. **Psion Spells** (`psion-spells`): As 10 novas magias oficiais do playtest Unearthed Arcana 2025.
+15. **Unearthed Arcana Subclasses** (`ua-subclasses`): As 16 subclasses de Unearthed Arcana (Horror & Arcane).
+16. **Unearthed Arcana Features** (`ua-features`): Todas as características de 3º ao 18º nível das 16 subclasses do UA.
 
 ---
 
