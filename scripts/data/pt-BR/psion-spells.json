@@ -1,0 +1,434 @@
+[
+  {
+    "_id": "psionspltkfling1",
+    "name": "Arremesso Telecinético",
+    "type": "spell",
+    "img": "icons/magic/control/energy-stream-link-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você escolhe um objeto não mágico pesando de 0,5 a 2,5 kg (1 a 5 libras) a até 3 metros de você que não esteja sendo vestido ou carregado, envolve-o em pura força psíquica e o arremessa contra uma criatura a até 18 metros (60 pés).</p>\n               <p>Faça um <strong>ataque de magia à distância</strong>. Em um acerto, o alvo sofre <strong>1d10 de dano de Força</strong>. Acertando ou errando, o objeto cai no chão intacto.</p>\n               <p><strong>Aprimoramento de Truque:</strong> O dano aumenta em 1d10 nos níveis 5 (2d10), 11 (3d10) e 17 (4d10).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "level": 0,
+      "school": "evo",
+      "actionType": "rsak",
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "target": {
+        "value": 1,
+        "type": "creature"
+      },
+      "components": {
+        "somatic": true,
+        "verbal": false,
+        "material": false
+      },
+      "damage": {
+        "parts": [
+          [
+            "1d10",
+            "force"
+          ]
+        ]
+      },
+      "scaling": {
+        "mode": "cantrip",
+        "formula": "1d10"
+      }
+    }
+  },
+  {
+    "_id": "psionspllifesiph",
+    "name": "Sifão Vital",
+    "type": "spell",
+    "img": "icons/magic/unholy/beam-impact-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você dispara uma esfera de energia psiônica alimentada pela sua força vital contra uma criatura a até 36 metros (120 pés). Faça um ataque de magia à distância.</p>\n               <p>Em um acerto, o alvo sofre <strong>1d10 de dano Psíquico</strong> e você pode <strong>gastar um Dado de Vida</strong> para aumentar o dano em <strong>+1d10</strong>.</p>\n               <p><strong>Espaços Superiores:</strong> O dano base aumenta em 1d10 e a quantidade de Dados de Vida que você pode gastar aumenta em 1 para cada nível de espaço acima do 1º.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "level": 1,
+      "school": "evo",
+      "actionType": "rsak",
+      "range": {
+        "value": 120,
+        "units": "ft"
+      },
+      "target": {
+        "value": 1,
+        "type": "creature"
+      },
+      "components": {
+        "somatic": true,
+        "verbal": false,
+        "material": false
+      },
+      "damage": {
+        "parts": [
+          [
+            "1d10",
+            "psychic"
+          ]
+        ]
+      },
+      "scaling": {
+        "mode": "level",
+        "formula": "1d10"
+      }
+    }
+  },
+  {
+    "_id": "psionsplectrotra",
+    "name": "Rastro Ectoplásmico",
+    "type": "spell",
+    "img": "icons/magic/death/skull-energy-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você se envolve em espíritos ectoplásmicos até o final do seu turno. Enquanto envolvido, você pode mover-se através de espaços ocupados como terreno difícil sem provocar Ataques de Oportunidade.</p>\n               <p>Sempre que você entrar no espaço de uma criatura, ela fica coberta de ectoplasma até o final do seu próximo turno: o <strong>deslocamento dela é reduzido em 3 metros (10 pés)</strong> e ela sofre <strong>2d8 de dano Necrótico</strong> no início do turno dela.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "level": 2,
+      "school": "nec",
+      "actionType": "other",
+      "range": {
+        "units": "self"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "components": {
+        "verbal": true,
+        "somatic": true,
+        "material": false
+      },
+      "damage": {
+        "parts": [
+          [
+            "2d8",
+            "necrotic"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "_id": "psionsplegowhip1",
+    "name": "Chicote do Ego",
+    "type": "spell",
+    "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+    "system": {
+      "description": {
+        "value": "<p><strong>Tempo de Conjuração:</strong> 1 Reação, quando uma criatura a até 9 metros fizer um teste de atributo ou salvaguarda baseada em Carisma.</p>\n               <p>A criatura faz uma <strong>Salvaguarda de Carisma</strong>. Em caso de falha, ela deve <strong>subtrair 1d8</strong> do teste ou salvaguarda.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "level": 2,
+      "school": "enc",
+      "actionType": "save",
+      "range": {
+        "value": 120,
+        "units": "ft"
+      },
+      "target": {
+        "value": 1,
+        "type": "creature"
+      },
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      },
+      "components": {
+        "verbal": true,
+        "somatic": false,
+        "material": false
+      },
+      "save": {
+        "ability": "cha",
+        "dc": null,
+        "scaling": "spell"
+      }
+    }
+  },
+  {
+    "_id": "psionsplblddarkn",
+    "name": "Escuridão Sangrenta",
+    "type": "spell",
+    "img": "icons/magic/unholy/barrier-shield-black.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você cria um vazio de tinta mágica em uma esfera de 3 metros de raio que derrama um cilindro de escuridão mágica de 12 metros de altura até o início do seu próximo turno. O cilindro é terreno difícil e nenhuma luz pode iluminar a área.</p>\n               <p>Criaturas na área devem passar em uma <strong>Salvaguarda de Constituição</strong> ou sofrem <strong>3d8 de dano de Frio</strong> e ficam <strong>Cegas</strong> até o final do próximo turno delas.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "level": 3,
+      "school": "evo",
+      "actionType": "save",
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "components": {
+        "verbal": true,
+        "somatic": true,
+        "material": true,
+        "materials": {
+          "value": "vial of rare ink worth 50+ GP",
+          "consumed": false,
+          "cost": 50
+        }
+      },
+      "duration": {
+        "concentration": true,
+        "value": 1,
+        "units": "minute"
+      },
+      "damage": {
+        "parts": [
+          [
+            "3d8",
+            "cold"
+          ]
+        ]
+      },
+      "save": {
+        "ability": "con",
+        "dc": null,
+        "scaling": "spell"
+      }
+    }
+  },
+  {
+    "_id": "psionspltkcrush1",
+    "name": "Esmagamento Telecinético",
+    "type": "spell",
+    "img": "icons/magic/earth/strike-fist-stone-gray.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você cria um campo de força telecinética esmagadora em um cubo de 9 metros (30 pés). Cada criatura na área faz uma <strong>Salvaguarda de Força</strong>.</p>\n               <p>Em caso de falha, sofre <strong>5d6 de dano de Força</strong> e fica <strong>Caída (Prone)</strong>. Em um sucesso, sofre metade do dano apenas.</p>\n               <p><strong>Espaços Superiores:</strong> O dano aumenta em 1d6 para cada nível de espaço acima do 3º.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "level": 3,
+      "school": "trs",
+      "actionType": "save",
+      "range": {
+        "value": 120,
+        "units": "ft"
+      },
+      "target": {
+        "value": 30,
+        "type": "cube"
+      },
+      "components": {
+        "verbal": true,
+        "somatic": false,
+        "material": false
+      },
+      "damage": {
+        "parts": [
+          [
+            "5d6",
+            "force"
+          ]
+        ]
+      },
+      "scaling": {
+        "mode": "level",
+        "formula": "1d6"
+      },
+      "save": {
+        "ability": "str",
+        "dc": null,
+        "scaling": "spell"
+      }
+    }
+  },
+  {
+    "_id": "psionspllifeinvf",
+    "name": "Campo de Inversão Vital",
+    "type": "spell",
+    "img": "icons/magic/life/cross-area-circle-green-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>Uma aura se irradia de você em uma Emanação de 9 metros (30 pés) por até 1 minuto (Concentração). Ao criar a aura, você <strong>recupera 4d8 Pontos de Vida</strong>.</p>\n               <p>Sempre que você recuperar PV, você pode escolher uma criatura na aura para fazer uma <strong>Salvaguarda de Constituição</strong>. Em caso de falha, ela sofre <strong>dano Necrótico</strong> igual à metade dos PV recuperados (arredondado para cima).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "level": 4,
+      "school": "abj",
+      "actionType": "heal",
+      "range": {
+        "units": "self"
+      },
+      "components": {
+        "verbal": true,
+        "somatic": true,
+        "material": false
+      },
+      "duration": {
+        "concentration": true,
+        "value": 1,
+        "units": "minute"
+      },
+      "damage": {
+        "parts": [
+          [
+            "4d8",
+            "healing"
+          ]
+        ]
+      },
+      "scaling": {
+        "mode": "level",
+        "formula": "1d8"
+      },
+      "save": {
+        "ability": "con",
+        "dc": null,
+        "scaling": "spell"
+      }
+    }
+  },
+  {
+    "_id": "psionsplpsiblast",
+    "name": "Explosão Psiônica",
+    "type": "spell",
+    "img": "icons/magic/sonic/beam-shock-wave-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você desencadeia uma explosão concussiva de pura energia mental. Cada criatura em um <strong>Cone de 18 metros (60 pés)</strong> faz uma <strong>Salvaguarda de Inteligência</strong>.</p>\n               <p>Em uma falha, sofre <strong>6d8 de dano Psíquico</strong> e fica <strong>Atordoada (Stunned)</strong> até o início do seu próximo turno. Em um sucesso, sofre metade do dano apenas.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "level": 6,
+      "school": "evo",
+      "actionType": "save",
+      "range": {
+        "units": "self"
+      },
+      "target": {
+        "value": 60,
+        "type": "cone"
+      },
+      "components": {
+        "verbal": true,
+        "somatic": true,
+        "material": true
+      },
+      "damage": {
+        "parts": [
+          [
+            "6d8",
+            "psychic"
+          ]
+        ]
+      },
+      "scaling": {
+        "mode": "level",
+        "formula": "1d8"
+      },
+      "save": {
+        "ability": "int",
+        "dc": null,
+        "scaling": "spell"
+      }
+    }
+  },
+  {
+    "_id": "psionsplthghtfrm",
+    "name": "Forma de Pensamento",
+    "type": "spell",
+    "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma Ação Bônus, você se transforma brevemente em um espírito psíquico por 1 minuto (Concentração):</p>\n               <ul>\n                 <li><strong>Forma Fantasmagórica:</strong> Imunidade a dano de Veneno e Psíquico, e Imunidade à condição Exaustão.</li>\n                 <li><strong>Movimento Incorpóreo:</strong> Deslocamento de voo de 18 metros (60 pés) e pode pairar. Pode mover-se através de espaços ocupados como terreno difícil.</li>\n                 <li><strong>Recarga Psiônica:</strong> Como uma Ação de Magia, toque uma criatura (pode ser você mesmo) e role 1d6. A criatura recupera um espaço de magia gasto de círculo igual a metade do número rolado (arredondado para cima) ou menor (1x por Descanso Longo).</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "level": 6,
+      "school": "trs",
+      "actionType": "other",
+      "range": {
+        "units": "self"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "components": {
+        "verbal": true,
+        "somatic": false,
+        "material": true,
+        "materials": {
+          "value": "brain matter in a vessel worth 500+ GP",
+          "cost": 500
+        }
+      },
+      "duration": {
+        "concentration": true,
+        "value": 1,
+        "units": "minute"
+      }
+    }
+  },
+  {
+    "_id": "psionsplsumastrl",
+    "name": "Invocar Entidade Astral",
+    "type": "spell",
+    "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você invoca o espírito de uma entidade psiônica astral em um espaço desocupado a até 27 metros (90 pés). Escolha Entidade Cristalina, Ectoplásmica ou Fantasmagórica.</p>\n               <p>Em combate, ela compartilha sua iniciativa agindo logo após o seu turno, obedecendo aos seus comandos verbais (sem exigir ação). Dura até 1 hora (Concentração).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "level": 3,
+      "school": "con",
+      "actionType": "summon",
+      "range": {
+        "value": 90,
+        "units": "ft"
+      },
+      "components": {
+        "verbal": true,
+        "somatic": true,
+        "material": true,
+        "materials": {
+          "value": "gem or crystal worth 300+ GP",
+          "cost": 300
+        }
+      },
+      "duration": {
+        "concentration": true,
+        "value": 1,
+        "units": "hour"
+      }
+    }
+  }
+]

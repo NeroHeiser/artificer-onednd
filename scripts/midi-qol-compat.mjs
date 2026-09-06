@@ -50,6 +50,20 @@ export class MidiQOLCompat {
       if (itemId?.startsWith("whcurse")) {
         console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Maldição de Sangue (${workflow.item.name}) em ${workflow.targets?.size || 0} alvo(s).`);
       }
+
+      // Automação e logging para habilidades do Psion
+      if (itemId === "psionfeatpropel1") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Propulsão Telecinética (Telekinetic Propel) em ${workflow.targets?.size || 0} alvo(s).`);
+      }
+      if (itemId === "psiondiscbacklas") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Contra-ataque Psiônico (Psionic Backlash) para ${workflow.actor?.name}.`);
+      }
+      if (itemId === "psiondistraction") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Distração Telepática (Telepathic Distraction).`);
+      }
+      if (itemId === "psionpsyrebound1") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Campo Ricocheteante (Rebounding Field).`);
+      }
     });
   }
 }

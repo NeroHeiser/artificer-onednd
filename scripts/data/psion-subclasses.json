@@ -1,0 +1,242 @@
+[
+  {
+    "_id": "psionsubmetamorp",
+    "name": "Metamorfo",
+    "type": "subclass",
+    "img": "icons/magic/unholy/hand-marked-pink.webp",
+    "system": {
+      "description": {
+        "value": "<p>O Metamorfo volta o domínio de seus poderes psiônicos para o interior do próprio corpo. Sua carne se torna maleável como argila, permitindo esculpir membros em lâminas orgânicas, maças de carne densa e atiradores cáusticos, manipulando a vitalidade de amigos e inimigos.</p>",
+        "chat": ""
+      },
+      "identifier": "metamorph",
+      "classIdentifier": "psion",
+      "advancement": [
+        {
+          "_id": "advmetasubnv0003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Metamorfo (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionmetaspells1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionmetamutable"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionmetaorganic"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionboneblade01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionfleshmaul01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionvisceralau1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmetasubnv0006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recursos do Metamorfo (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionmetaextraat"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionmetafleshwe"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmetasubnv0010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Metamorfo (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionmetaimprmut"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmetasubnv0014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Metamorfo (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionmetalifebnd"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "psionsubpsykine1",
+    "name": "Psicinético",
+    "type": "subclass",
+    "img": "icons/magic/force/barrier-shield-dome-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>O Psicinético controla o poder psiônico como uma força maleável irresistível. Dobrando energias telecinéticas em barreiras inexpugnáveis, campos refletores e arremessos esmagadores com o impacto de um aríete.</p>",
+        "chat": ""
+      },
+      "identifier": "psykinetic",
+      "classIdentifier": "psion",
+      "advancement": [
+        {
+          "_id": "advpsysubnv00003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Psicinético (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionpsyspells01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionpsystrongtk"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionpsytech0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpsysubnv00006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recursos do Psicinético (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionpsydestran1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionpsyrebound1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpsysubnv00010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Psicinético (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionpsyenhtkcr1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpsysubnv00014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Psicinético (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionpsyheighttk"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "psionsubtelepath",
+    "name": "Telepata",
+    "type": "subclass",
+    "img": "icons/magic/perception/eye-tendrils-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Mestres absolutos na magia da mente, os Telepatas infiltram os pensamentos alheios sem serem detectados, projetam distrações cognitivas para desviar ataques de aliados e erguem baluartes psíquicos indestrutíveis.</p>",
+        "chat": ""
+      },
+      "identifier": "telepath",
+      "classIdentifier": "psion",
+      "advancement": [
+        {
+          "_id": "advtelesubnv0003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Telepata (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psiontelespell01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psiontelemindinf"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psiondistraction"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtelesubnv0006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recursos do Telepata (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psiontelebulwark"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psiontelepotentt"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtelesubnv0010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Telepata (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psiontelebolster"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtelesubnv0014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Telepata (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psiontelescrambl"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

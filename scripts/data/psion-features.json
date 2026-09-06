@@ -1,0 +1,1028 @@
+[
+  {
+    "_id": "psionfeatpower01",
+    "name": "Poder Psiônico",
+    "type": "feat",
+    "img": "icons/magic/light/orbs-hand-gray.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você abriga uma fonte de energia psiônica dentro de si, representada pelos seus <strong>Dados de Energia Psiônica</strong>.</p>\n               <p>Seu nível de Psion determina o tamanho e a quantidade de dados que você possui (4d6 no nível 1, escalando até 12d12 no nível 17).</p>\n               <p><strong>Recuperação:</strong> Você recupera 1 dado gasto ao terminar um Descanso Curto, e recupera todos ao terminar um Descanso Longo.</p>\n               <p>Você começa com duas habilidades básicas: <strong>Propulsão Telecinética</strong> e <strong>Conexão Telepática</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 1"
+    }
+  },
+  {
+    "_id": "psionfeatpropel1",
+    "name": "Poder Psiônico: Propulsão Telecinética",
+    "type": "feat",
+    "img": "icons/magic/control/debuff-energy-hold-levitate-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma <strong>Ação Bônus</strong>, escolha uma criatura Grande ou menor a até 9 metros (30 pés) de você que você possa ver.</p>\n               <p>O alvo deve ser bem-sucedido em uma <strong>Salvaguarda de Força</strong> contra a sua CD de Conjuração ou será movido 1,5 metro (5 pés) em linha reta em sua direção ou para longe de você.</p>\n               <p><strong>Impulso Amplificado:</strong> Alternativamente, você pode rolar um Dado de Energia Psiônica ao usar esta Ação Bônus. Se o fizer, a distância movida é igual a <strong>5 vezes o número rolado em pés</strong>. O dado é gasto apenas se o alvo falhar na salvaguarda.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 1",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      },
+      "range": {
+        "value": 30,
+        "units": "ft"
+      },
+      "target": {
+        "value": 1,
+        "type": "creature"
+      },
+      "save": {
+        "ability": "str",
+        "dc": null,
+        "scaling": "spell"
+      }
+    }
+  },
+  {
+    "_id": "psionfeattelecon",
+    "name": "Poder Psiônico: Conexão Telepática",
+    "type": "feat",
+    "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você possui telepatia com alcance de <strong>9 metros (30 pés)</strong>.</p>\n               <p>Como uma <strong>Ação Bônus</strong>, você pode rolar um Dado de Energia Psiônica. Pela próxima 1 hora, o alcance da sua telepatia aumenta em uma quantidade de pés igual a <strong>10 vezes o número rolado</strong>.</p>\n               <p>A primeira vez que usar esta Ação Bônus após cada Descanso Longo, você <strong>não gasta</strong> o Dado de Energia Psiônica. Em todas as outras vezes, o dado é consumido.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 1",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "psionfeatsubtlet",
+    "name": "Telecinese Sutil",
+    "type": "feat",
+    "img": "icons/magic/symbols/hand-sparkles-glow-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você aprende o truque <em>Mãos Mágicas (Mage Hand)</em>.</p>\n               <p>Você pode conjurá-lo <strong>sem componentes Somáticos</strong> e pode tornar a mão espectral <strong>Invisível</strong> ao conjurá-la.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 1"
+    }
+  },
+  {
+    "_id": "psionfeatspell01",
+    "name": "Conjuração Psiônica",
+    "type": "feat",
+    "img": "icons/magic/light/projectile-smoke-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você aprendeu a canalizar energia mágica pura através do poder de sua mente.</p>\n               <p><strong>Atributo de Conjuração:</strong> Sua habilidade para conjurar magias de Psion é <strong>Inteligência</strong>.</p>\n               <p><strong>Conjuração Psiônica:</strong> Quando você conjura uma magia de Psion, ela <strong>não requer componentes Verbais nem Materiais</strong>, mesmo se a descrição indicar \"V\" ou \"M\", exceto componentes materiais consumidos pela magia ou que possuam custo em peças de ouro especificado.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 1"
+    }
+  },
+  {
+    "_id": "psionfeatdisc001",
+    "name": "Disciplinas Psiônicas",
+    "type": "feat",
+    "img": "icons/sundries/books/book-symbol-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 2º nível, você aprende técnicas psiônicas avançadas alimentadas por seus Dados de Energia Psiônica. Você escolhe <strong>duas disciplinas</strong> à sua escolha.</p>\n               <p>Você pode usar apenas uma Disciplina a cada turno e apenas uma vez por turno, salvo indicação em contrário.</p>\n               <p>Você aprende uma disciplina adicional nos níveis <strong>5, 10, 13 e 17</strong>. Sempre que ganha um nível de Psion, você pode substituir uma disciplina conhecida por outra.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 2"
+    }
+  },
+  {
+    "_id": "psionfeatrestor1",
+    "name": "Restauração Psiônica",
+    "type": "feat",
+    "img": "icons/magic/life/cross-sparkle-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 5º nível, você pode realizar uma meditação focada durante <strong>1 minuto</strong>. Ao final dela, você recupera todos os seus <strong>Dados de Energia Psiônica</strong> gastos.</p>\n               <p>Depois de usar este recurso, você só pode usá-lo novamente ao terminar um <strong>Descanso Longo</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 5",
+      "uses": {
+        "value": 1,
+        "max": 1,
+        "per": "lr",
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "psionfeatsurge01",
+    "name": "Surto Psiônico",
+    "type": "feat",
+    "img": "icons/magic/lightning/bolt-forked-large-cyan.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 7º nível, você pode forçar seus poderes psiônicos usando sua força vital.</p>\n               <p>Após rolar um ou mais Dados de Energia Psiônica, você pode gastar <strong>um dos seus Dados de Vida</strong> e tratar qualquer rolagem de <strong>1, 2 ou 3</strong> nesses dados psiônicos como um <strong>4</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 7"
+    }
+  },
+  {
+    "_id": "psionfeatreserv1",
+    "name": "Reservas Psiônicas",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 18º nível, quando você rolar <strong>Iniciativa</strong>, você recupera usos gastos de Dados de Energia Psiônica até ter <strong>quatro</strong>, caso possua menos do que isso.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 18"
+    }
+  },
+  {
+    "_id": "psionfeatepicb01",
+    "name": "Dádiva Épica",
+    "type": "feat",
+    "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 19º nível, você ganha um talento de Dádiva Épica (One D&D / 2024) ou outro talento para o qual você seja qualificado. A <em>Dádiva da Resistência Elemental</em> é recomendada.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Player's Handbook 2024 / Unearthed Arcana 2025"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 19"
+    }
+  },
+  {
+    "_id": "psionfeatenkindl",
+    "name": "Força Vital Inflamada",
+    "type": "feat",
+    "img": "icons/magic/fire/spirit-soul-flame-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 20º nível, você queima sua própria força vital para alcançar níveis supremos de psiônica.</p>\n               <p>Uma vez por turno, ao rolar um ou mais Dados de Energia Psiônica para um recurso de Psion ou Disciplina, você pode gastar <strong>um ou dois dos seus Dados de Vida</strong>.</p>\n               <p>Para cada Dado de Vida gasto, role um <strong>Dado de Energia Psiônica adicional</strong> e adicione o número rolado ao total. Essa rolagem adicional <strong>não gasta</strong> o Dado de Energia Psiônica.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 20"
+    }
+  },
+  {
+    "_id": "psiondiscbiofeed",
+    "name": "Disciplina: Biofeedback",
+    "type": "feat",
+    "img": "icons/magic/life/heart-shadow-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>Ao conjurar uma magia de Psion da escola de <strong>Necromancia ou Transmutação</strong>, você pode gastar uma quantidade de Dados de Energia Psiônica de até o seu modificador de Inteligência.</p>\n               <p>Role os dados: você ganha <strong>Pontos de Vida Temporários</strong> iguais ao total rolado mais seu modificador de Inteligência (mínimo de 1 PVT).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 2 (Disciplina)"
+    }
+  },
+  {
+    "_id": "psiondiscprecogn",
+    "name": "Disciplina: Precognição Fortalecedora",
+    "type": "feat",
+    "img": "icons/magic/time/hourglass-tilted-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>Ao conjurar uma magia de Psion da escola de <strong>Abjuração ou Adivinhação</strong>, você pode gastar um Dado de Energia Psiônica.</p>\n               <p>Role o dado e escolha uma criatura a até 18 metros (60 pés) que você possa ver (pode ser você mesmo). Até o final do seu próximo turno, a criatura ganha um <strong>bônus no próximo Teste d20</strong> igual ao número rolado.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 2 (Disciplina)",
+      "range": {
+        "value": 60,
+        "units": "ft"
+      }
+    }
+  },
+  {
+    "_id": "psiondiscdestruc",
+    "name": "Disciplina: Pensamentos Destrutivos",
+    "type": "feat",
+    "img": "icons/magic/fire/flame-burning-skeleton-head.webp",
+    "system": {
+      "description": {
+        "value": "<p>Ao conjurar uma magia de Psion da escola de <strong>Conjuração ou Evocação</strong> que force uma criatura que você possa ver a fazer uma salvaguarda, você pode gastar uma quantidade de Dados de Energia Psiônica de até o seu modificador de Inteligência.</p>\n               <p>Role os dados: a criatura sofre <strong>Dano Psíquico</strong> igual ao total rolado mais seu modificador de Inteligência (mínimo de 1), independentemente do resultado da salvaguarda.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 2 (Disciplina)"
+    }
+  },
+  {
+    "_id": "psiondiscdevtng1",
+    "name": "Disciplina: Língua Diabólica",
+    "type": "feat",
+    "img": "icons/magic/control/mouth-smile-fangs-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Ao realizar a ação de <strong>Influência</strong> (One D&D), você pode rolar um Dado de Energia Psiônica e adicionar o número rolado ao teste de atributo.</p>\n               <p>Se isso fizer você ter <strong>sucesso</strong> no teste, o dado é gasto. Em caso de falha, o dado é preservado.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 2 (Disciplina)"
+    }
+  },
+  {
+    "_id": "psiondiscexpndaw",
+    "name": "Disciplina: Percepção Expandida",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>Ao realizar a ação de <strong>Procura (Search)</strong>, você pode rolar um Dado de Energia Psiônica e adicionar o número rolado ao teste de atributo.</p>\n               <p>Se isso fizer você ter <strong>sucesso</strong> no teste, o dado é gasto. Em caso de falha, o dado é preservado.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 2 (Disciplina)"
+    }
+  },
+  {
+    "_id": "psiondiscidinsin",
+    "name": "Disciplina: Insinuação do Id",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-hold-beam-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Ao conjurar uma magia de Psion da escola de <strong>Encantamento ou Ilusão</strong> que force uma criatura a fazer uma salvaguarda, você pode gastar um Dado de Energia Psiônica e rolá-lo.</p>\n               <p>Um alvo da magia que você possa ver <strong>subtrai metade do número rolado (arredondado para cima)</strong> de sua salvaguarda contra a magia.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 2 (Disciplina)"
+    }
+  },
+  {
+    "_id": "psiondiscineraim",
+    "name": "Disciplina: Mira Certeira",
+    "type": "feat",
+    "img": "icons/skills/ranged/target-bullseye-arrow-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>Quando fizer uma jogada de ataque contra uma criatura e <strong>errar</strong>, você pode rolar um Dado de Energia Psiônica e adicionar o número rolado à jogada de ataque.</p>\n               <p>Se isso fizer o ataque acertar, o dado é gasto. Se continuar errando, o dado é preservado.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 2 (Disciplina)"
+    }
+  },
+  {
+    "_id": "psiondiscobsmind",
+    "name": "Disciplina: Mente Observadora",
+    "type": "feat",
+    "img": "icons/magic/knowledge/brain-science-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>Ao realizar a ação de <strong>Estudo (Study)</strong>, você pode rolar um Dado de Energia Psiônica e adicionar o número rolado ao teste de atributo.</p>\n               <p>Se isso fizer você ter <strong>sucesso</strong> no teste, o dado é gasto. Em caso de falha, o dado é preservado.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 2 (Disciplina)"
+    }
+  },
+  {
+    "_id": "psiondiscbacklas",
+    "name": "Disciplina: Contra-ataque Psiônico",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-glowing-triangle-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Imediatamente após uma criatura que você possa ver atingir você com uma jogada de ataque, você pode usar uma <strong>Reação</strong> para gastar um Dado de Energia Psiônica, rolá-lo e <strong>reduzir o dano sofrido</strong> pelo dobro do número rolado mais seu modificador de Inteligência (mínimo de 2 de redução).</p>\n               <p>Além disso, você força o atacante a fazer uma <strong>Salvaguarda de Sabedoria</strong>. Em caso de falha, o atacante sofre <strong>dano psíquico</strong> igual à quantidade de dano que você reduziu.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 2 (Disciplina)",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      },
+      "save": {
+        "ability": "wis",
+        "dc": null,
+        "scaling": "spell"
+      }
+    }
+  },
+  {
+    "_id": "psiondiscguards1",
+    "name": "Disciplina: Guardas Psiônicos",
+    "type": "feat",
+    "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No início do seu turno, você pode gastar um Dado de Energia Psiônica. Até o início do seu próximo turno, você tem <strong>Imunidade às condições Enfeitiçado e Amedrontado</strong> e <strong>Vantagem em salvaguardas de Inteligência</strong>.</p>\n               <p>Se você estiver Enfeitiçado ou Amedrontado ao usar esta disciplina, a condição é encerrada imediatamente.</p>\n               <p><em>Você ainda pode usar uma disciplina diferente neste mesmo turno.</em></p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 2 (Disciplina)",
+      "activation": {
+        "type": "special",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "psiondiscsharpmd",
+    "name": "Disciplina: Mente Aguçada",
+    "type": "feat",
+    "img": "icons/magic/symbols/triangle-glow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No início do seu turno, você pode gastar um Dado de Energia Psiônica para afiar sua mente destrutiva. Role o dado e registre o número rolado. Você ganha os benefícios abaixo por <strong>1 minuto</strong> ou até ficar Incapacitado:</p>\n               <ul>\n                 <li><strong>Transpor Psiônica:</strong> Dano de seus ataques de arma, magias de Psion e recursos de Psion <strong>ignora Resistência a dano Psíquico</strong>.</li>\n                 <li><strong>Modo de Ataque:</strong> Uma vez por turno, ao causar dano Psíquico, você pode substituir o número rolado em um dos dados de dano pelo <strong>número registrado</strong> nesta ativação.</li>\n               </ul>\n               <p><em>Você ainda pode usar uma disciplina diferente neste mesmo turno.</em></p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psion 2 (Disciplina)",
+      "activation": {
+        "type": "special",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "psionmetaspells1",
+    "name": "Magias do Metamorfo",
+    "type": "feat",
+    "img": "icons/magic/nature/plant-vines-healing-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas nos níveis correspondentes:</p>\n               <ul>\n                 <li><strong>3º Nível:</strong> <em>Alterar-se (Alter Self)</em>, <em>Curar Ferimentos (Cure Wounds)</em>, <em>Infligir Ferimentos (Inflict Wounds)</em>, <em>Restauração Menor (Lesser Restoration)</em></li>\n                 <li><strong>5º Nível:</strong> <em>Aura de Vitalidade (Aura of Vitality)</em>, <em>Velocidade (Haste)</em></li>\n                 <li><strong>7º Nível:</strong> <em>Metamorfose (Polymorph)</em>, <em>Pele de Pedra (Stoneskin)</em></li>\n                 <li><strong>9º Nível:</strong> <em>Contágio (Contagion)</em>, <em>Curar Ferimentos em Massa (Mass Cure Wounds)</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Metamorfo 3"
+    }
+  },
+  {
+    "_id": "psionmetamutable",
+    "name": "Forma Mutável",
+    "type": "feat",
+    "img": "icons/magic/unholy/hand-marked-pink.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma <strong>Ação Bônus</strong>, você gasta um Dado de Energia Psiônica para esticar psionicamente seus membros por <strong>1 minuto</strong>.</p>\n               <p>Role o dado gasto: você ganha <strong>Pontos de Vida Temporários</strong> iguais ao número rolado mais seu modificador de Inteligência (mínimo de 1 PVT).</p>\n               <p>Enquanto ativa, você ganha:</p>\n               <ul>\n                 <li><strong>Alcance:</strong> Seu alcance de ataque corpo a corpo aumenta em <strong>1,5 metro (5 pés)</strong>.</li>\n                 <li><strong>Deslocamento:</strong> Seu deslocamento aumenta em <strong>1,5 metro (5 pés)</strong>.</li>\n                 <li><strong>Toque:</strong> Ao conjurar uma magia com alcance de Toque e tempo de conjuração de 1 ação, você pode fazer o alcance ser de <strong>3 metros (10 pés)</strong>.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Metamorfo 3",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "psionmetaorganic",
+    "name": "Armas Orgânicas",
+    "type": "feat",
+    "img": "icons/skills/melee/strike-blade-bone-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você pode moldar seus membros em armas biológicas vivas. Como uma Ação de Magia (ou antes de fazer um ataque na ação de Ataque), você reforma sua mão livre em uma das armas:</p>\n               <ul>\n                 <li><strong>Lâmina de Osso:</strong> Arma simples corpo a corpo com a propriedade <em>Acuidade</em>, causa <strong>1d8 de dano perfurante</strong>. Você tem <strong>Vantagem</strong> na jogada de ataque se houver um aliado a até 1,5m do alvo não incapacitado.</li>\n                 <li><strong>Maça de Carne:</strong> Arma simples corpo a corpo, causa <strong>1d10 de dano contundente</strong>. Criatura atingida tem <strong>Desvantagem na próxima salvaguarda de Força ou Constituição</strong> antes do início do seu próximo turno.</li>\n                 <li><strong>Lançador de Vísceras:</strong> Arma simples à distância (alcance 9m/27m [30/90 ft]), causa <strong>1d6 de dano de ácido</strong>. Uma vez por turno ao acertar, causa <strong>+1d6 de dano de ácido extra</strong>.</li>\n               </ul>\n               <p>Você pode usar sua <strong>Inteligência</strong> em vez de Força ou Destreza nas jogadas de ataque e dano.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Metamorfo 3"
+    }
+  },
+  {
+    "_id": "psionboneblade01",
+    "name": "Arma Orgânica: Lâmina de Osso",
+    "type": "weapon",
+    "img": "icons/weapons/swords/sword-bone-glowing-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Lâmina biológica pontiaguda que brota do seu antebraço. Conta como arma simples corpo a corpo com <strong>Acuidade</strong>. Usa <strong>Inteligência</strong> no ataque e dano.</p>\n               <p><strong>Vantagem:</strong> Se houver pelo menos um aliado a até 1,5m do alvo não incapacitado.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "actionType": "mwak",
+      "ability": "int",
+      "damage": {
+        "parts": [
+          [
+            "1d8 + @mod",
+            "piercing"
+          ]
+        ]
+      },
+      "properties": {
+        "fin": true,
+        "mgc": true
+      },
+      "weaponType": "simpleM"
+    }
+  },
+  {
+    "_id": "psionfleshmaul01",
+    "name": "Arma Orgânica: Maça de Carne",
+    "type": "weapon",
+    "img": "icons/weapons/maces/mace-spiked-bone-brown.webp",
+    "system": {
+      "description": {
+        "value": "<p>Seu punho e antebraço se coalescem em uma massa endurecida de carne e osso. Conta como arma simples corpo a corpo. Usa <strong>Inteligência</strong> no ataque e dano.</p>\n               <p><strong>Impacto Debilitante:</strong> A criatura atingida tem Desvantagem na próxima salvaguarda de Força ou Constituição antes do início do seu próximo turno.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "actionType": "mwak",
+      "ability": "int",
+      "damage": {
+        "parts": [
+          [
+            "1d10 + @mod",
+            "bludgeoning"
+          ]
+        ]
+      },
+      "properties": {
+        "mgc": true
+      },
+      "weaponType": "simpleM"
+    }
+  },
+  {
+    "_id": "psionvisceralau1",
+    "name": "Arma Orgânica: Lançador de Vísceras",
+    "type": "weapon",
+    "img": "icons/weapons/crossbows/crossbow-organic-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Sua mão e antebraço se transformam em um disparador de músculo e tendão que dispara projéteis de bílis ácida (alcance 9m/27m [30/90 ft]). Usa <strong>Inteligência</strong> no ataque e dano.</p>\n               <p><strong>Carga Cáustica:</strong> Uma vez por turno ao acertar um ataque com esta arma, causa 1d6 de dano de ácido extra.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "actionType": "rwak",
+      "ability": "int",
+      "range": {
+        "value": 30,
+        "long": 90,
+        "units": "ft"
+      },
+      "damage": {
+        "parts": [
+          [
+            "1d6 + @mod",
+            "acid"
+          ]
+        ]
+      },
+      "properties": {
+        "mgc": true
+      },
+      "weaponType": "simpleR"
+    }
+  },
+  {
+    "_id": "psionmetaextraat",
+    "name": "Ataque Extra (Metamorfo)",
+    "type": "feat",
+    "img": "icons/skills/melee/blade-slash-swipe-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, você pode atacar duas vezes em vez de uma sempre que realizar a ação de Ataque no seu turno.</p>\n               <p>Além disso, você pode conjurar um de seus <strong>truques de Psion</strong> que tenha tempo de conjuração de uma ação no lugar de um desses ataques.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Metamorfo 6"
+    }
+  },
+  {
+    "_id": "psionmetafleshwe",
+    "name": "Tecelão de Carne",
+    "type": "feat",
+    "img": "icons/magic/life/shield-hand-healing-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, ao ativar a <strong>Forma Mutável</strong>, você pode gastar um Dado de Energia Psiônica adicional para obter os benefícios abaixo enquanto o efeito durar:</p>\n               <ul>\n                 <li><strong>Defesa Orgânica:</strong> Você ganha um bônus de <strong>+2 na Classe de Armadura (CA)</strong>.</li>\n                 <li><strong>Cura Fortalecida:</strong> Ao conjurar uma magia com espaço de magia que restaure PV a uma ou mais criaturas, você pode gastar um Dado de Energia Psiônica, rolá-lo e adicionar o número rolado aos PV recuperados.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Metamorfo 6"
+    }
+  },
+  {
+    "_id": "psionmetaimprmut",
+    "name": "Forma Mutável Aprimorada",
+    "type": "feat",
+    "img": "icons/magic/defensive/armor-stone-skin-gray.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, a duração da sua <strong>Forma Mutável</strong> aumenta para <strong>10 minutos</strong>, e ao ativá-la você escolhe um dos seguintes benefícios adicionais:</p>\n               <ul>\n                 <li><strong>Epiderme Pétrea:</strong> Vantagem em salvaguardas de Constituição para manter Concentração e <strong>Resistência</strong> a um tipo de dano à sua escolha (Ácido, Contundente, Frio, Fogo, Elétrico, Perfurante, Veneno, Cortante ou Trovão).</li>\n                 <li><strong>Passo Superior:</strong> Enquanto não usar armadura, pode disparar (Dash) como Ação Bônus e ganha deslocamento de Escalada e Natação iguais ao seu deslocamento terrestre.</li>\n                 <li><strong>Flexibilidade Sobrenatural:</strong> +1 de bônus na CA, move-se por espaços estreitos de até 2,5 cm (1 polegada) e gasta apenas 1,5m de movimento para escapar de amarras não mágicas ou encerrar a condição Agarrado.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Metamorfo 10"
+    }
+  },
+  {
+    "_id": "psionmetalifebnd",
+    "name": "Armas que Dobram a Vida",
+    "type": "feat",
+    "img": "icons/magic/unholy/energy-smoke-drain-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, suas armas orgânicas se envolvem em energias vitais e necróticas.</p>\n               <p>Ao acertar um ataque com sua Arma Orgânica, você pode rolar um Dado de Energia Psiônica e causar <strong>dano Necrótico extra</strong> igual ao valor rolado (esta rolagem <strong>não consome o dado</strong>).</p>\n               <p><strong>Dreno Vital em Área:</strong> Alternativamente, você pode optar por <strong>gastar o dado</strong>: o alvo sofre o dano necrótico e cada criatura à sua escolha em uma Emanação de 9 metros (30 pés) ao seu redor <strong>recupera PV</strong> iguais ao número rolado mais seu modificador de Inteligência (1x por rodada).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Metamorfo 14"
+    }
+  },
+  {
+    "_id": "psionpsyspells01",
+    "name": "Magias Psicinéticas",
+    "type": "feat",
+    "img": "icons/magic/force/barrier-shield-dome-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas nos níveis correspondentes:</p>\n               <ul>\n                 <li><strong>3º Nível:</strong> <em>Nuvem de Adagas (Cloud of Daggers)</em>, <em>Levitação (Levitate)</em>, <em>Escudo Arcano (Shield)</em>, <em>Onda Trovejante (Thunderwave)</em></li>\n                 <li><strong>5º Nível:</strong> <em>Lentidão (Slow)</em>, <em>Esmagamento Telecinético (Telekinetic Crush)</em></li>\n                 <li><strong>7º Nível:</strong> <em>Esfera Resiliente de Otiluke (Otiluke's Resilient Sphere)</em>, <em>Moldar Rochas (Stone Shape)</em></li>\n                 <li><strong>9º Nível:</strong> <em>Telecinese (Telekinesis)</em>, <em>Muralha de Energia (Wall of Force)</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psicinético 3"
+    }
+  },
+  {
+    "_id": "psionpsystrongtk",
+    "name": "Telecinese Reforçada",
+    "type": "feat",
+    "img": "icons/magic/control/energy-stream-link-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, quando você conjura <em>Mãos Mágicas (Mage Hand)</em>, o alcance da magia aumenta em <strong>9 metros (+30 pés)</strong> e a mão psíquica pode carregar até <strong>9 kg (20 libras)</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psicinético 3"
+    }
+  },
+  {
+    "_id": "psionpsytech0001",
+    "name": "Técnicas Telecinéticas",
+    "type": "feat",
+    "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, ao usar <strong>Propulsão Telecinética (Telekinetic Propel)</strong>, você pode rolar <strong>1d4</strong> e usar o resultado sem precisar gastar nenhum Dado de Energia Psiônica.</p>\n               <p>Além disso, quando um alvo falhar na salvaguarda contra sua Propulsão Telecinética, você pode impor um dos seguintes efeitos adicionais:</p>\n               <ul>\n                 <li><strong>Impulso (Boost):</strong> O deslocamento do alvo aumenta em 3 metros (10 pés) até o início do seu próximo turno.</li>\n                 <li><strong>Desorientar (Disorient):</strong> O alvo não pode fazer Ataques de Oportunidade até o início do seu próximo turno.</li>\n                 <li><strong>Raio Telecinético (Telekinetic Bolt):</strong> O alvo sofre dano de <strong>Força</strong> igual ao número rolado no dado psiônico/1d4.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psicinético 3"
+    }
+  },
+  {
+    "_id": "psionpsydestran1",
+    "name": "Transe Destrutivo",
+    "type": "feat",
+    "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, no início do seu turno, você pode gastar um Dado de Energia Psiônica para entrar em um transe destrutivo por <strong>10 minutos</strong>.</p>\n               <p>Enquanto durar, você ganha <strong>deslocamento de Voo de 6 metros (20 pés)</strong> e pode <strong>pairar</strong>.</p>\n               <p>Além disso, ao conjurar uma magia de Psion que gaste um espaço de magia, você pode rolar seu Dado de Energia Psiônica e adicionar o número rolado a <strong>uma rolagem de dano</strong> dessa magia (sem gastar o dado psiônico).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psicinético 6",
+      "activation": {
+        "type": "special",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "psionpsyrebound1",
+    "name": "Campo Ricocheteante",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, quando você conjura <em>Escudo Arcano (Shield)</em> em resposta a um ataque e faz o ataque errar, você pode gastar um Dado de Energia Psiônica para disparar a força cinética de volta ao atacante.</p>\n               <p>O atacante faz uma <strong>Salvaguarda de Destreza</strong>. Role o dado psiônico: em caso de falha, ele sofre <strong>dano de Força</strong> igual à rolagem + mod Inteligência (metade no sucesso).</p>\n               <p>Independentemente de passar ou falhar, você ganha <strong>Pontos de Vida Temporários</strong> iguais à quantidade de dano causado.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psicinético 6",
+      "save": {
+        "ability": "dex",
+        "dc": null,
+        "scaling": "spell"
+      }
+    }
+  },
+  {
+    "_id": "psionpsyenhtkcr1",
+    "name": "Esmagamento Telecinético Aprimorado",
+    "type": "feat",
+    "img": "icons/magic/earth/strike-fist-stone-gray.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, ao conjurar <em>Esmagamento Telecinético (Telekinetic Crush)</em>, você pode gastar um Dado de Energia Psiônica para modificar a magia:</p>\n               <ul>\n                 <li>Quer as criaturas passem ou falhem na salvaguarda, o <strong>deslocamento delas é reduzido pela metade</strong> até o início do seu próximo turno.</li>\n                 <li>Você rola o Dado de Energia Psiônica gasto e <strong>adiciona o valor a uma rolagem de dano</strong> da magia.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psicinético 10"
+    }
+  },
+  {
+    "_id": "psionpsyheighttk",
+    "name": "Telecinese Elevada",
+    "type": "feat",
+    "img": "icons/magic/control/energy-hold-levitate-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, você pode conjurar <em>Telecinese (Telekinesis)</em> <strong>sem gastar espaço de magia</strong> gastando <strong>quatro Dados de Energia Psiônica</strong>.</p>\n               <p>Ao fazer isso, você pode modificar a magia para que ela <strong>não exija Concentração</strong>. Sua duração se torna 1 minuto e você pode escolher criaturas e objetos de tamanho <strong>Gargantuesco</strong> como alvos.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Psicinético 14"
+    }
+  },
+  {
+    "_id": "psiontelespell01",
+    "name": "Magias Telepáticas",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-tendrils-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas nos níveis correspondentes:</p>\n               <ul>\n                 <li><strong>3º Nível:</strong> <em>Perdição (Bane)</em>, <em>Comando (Command)</em>, <em>Detectar Pensamentos (Detect Thoughts)</em>, <em>Espigão Mental (Mind Spike)</em></li>\n                 <li><strong>5º Nível:</strong> <em>Contramágica (Counterspell)</em>, <em>Lentidão (Slow)</em></li>\n                 <li><strong>7º Nível:</strong> <em>Compulsão (Compulsion)</em>, <em>Confusão (Confusion)</em></li>\n                 <li><strong>9º Nível:</strong> <em>Modificar Memória (Modify Memory)</em>, <em>Presença Régia de Yolande (Yolande's Regal Presence)</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Telepata 3"
+    }
+  },
+  {
+    "_id": "psiontelemindinf",
+    "name": "Infiltrador Mental",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-slit-glow-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, ao conjurar <em>Detectar Pensamentos (Detect Thoughts)</em>, você pode gastar um Dado de Energia Psiônica para modificar a magia para que <strong>não exija componentes nem Concentração</strong>.</p>\n               <p>Além disso, quando você usar o efeito Sondar Pensamentos (Read Thoughts), o alvo <strong>não percebe</strong> que você está investigando sua mente caso falhe na salvaguarda de Sabedoria.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Telepata 3"
+    }
+  },
+  {
+    "_id": "psiondistraction",
+    "name": "Distração Telepática",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-aura-energy-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, quando uma criatura que você possa ver dentro do alcance da sua telepatia acertar uma jogada de ataque, você pode usar uma <strong>Reação</strong> para rolar um Dado de Energia Psiônica e <strong>subtrair o valor rolado do ataque</strong>, potencialmente transformando o acerto em erro.</p>\n               <p>O dado é gasto <strong>apenas se o ataque errar</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Telepata 3",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "psiontelebulwark",
+    "name": "Baluarte Mental",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-flaming-diamond-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, no início do seu turno, você pode gastar um Dado de Energia Psiônica para fortalecer sua mente por <strong>10 minutos</strong>.</p>\n               <p>Você ganha <strong>Resistência a dano Psíquico</strong>, e sempre que fizer uma <strong>salvaguarda de Inteligência, Sabedoria ou Carisma</strong>, você adiciona uma rolagem do seu Dado de Energia Psiônica ao teste (essa rolagem não gasta o dado).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Telepata 6",
+      "activation": {
+        "type": "special",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "psiontelepotentt",
+    "name": "Pensamentos Potentes",
+    "type": "feat",
+    "img": "icons/magic/perception/mind-flayer-glowing-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, o alcance passivo da sua telepatia aumenta para <strong>18 metros (60 pés)</strong>.</p>\n               <p>Além disso, você adiciona seu <strong>modificador de Inteligência</strong> ao dano causado por qualquer <strong>truque de Psion</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Telepata 6"
+    }
+  },
+  {
+    "_id": "psiontelebolster",
+    "name": "Apoio Telepático",
+    "type": "feat",
+    "img": "icons/magic/light/hand-sparks-glow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, quando você ou uma criatura que você possa ver dentro do alcance da sua telepatia <strong>falhar em um teste de atributo ou errar um ataque</strong>, você pode usar uma <strong>Reação</strong> para gastar um Dado de Energia Psiônica.</p>\n               <p>Role o dado e adicione o número ao d20, potencialmente transformando a falha em sucesso. O dado é gasto <strong>apenas se o teste tiver sucesso ou o ataque acertar</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Telepata 10",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "psiontelescrambl",
+    "name": "Embaralhar Mentes",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-struggle-damage-magenta.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, você pode conjurar <em>Confusão (Confusion)</em> <strong>sem gastar espaço de magia</strong> gastando <strong>quatro Dados de Energia Psiônica</strong>.</p>\n               <p>Ao fazer isso, o raio da esfera se torna <strong>9 metros (30 pés)</strong> e você pode escolher uma criatura na área para passar automaticamente na salvaguarda.</p>\n               <p>Além disso, quando uma criatura sob efeito da magia iniciar seu turno, <strong>você escolhe o comportamento dela na tabela</strong> em vez de ela rolar o dado.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Psion Update"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Telepata 14"
+    }
+  }
+]
