@@ -197,6 +197,28 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "ua-subclasses",
+      "label": "Unearthed Arcana Subclasses",
+      "path": "packs/ua-subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ua-features",
+      "label": "Unearthed Arcana Features",
+      "path": "packs/ua-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "url": "https://github.com/NeroHeiser/artificer-onednd",

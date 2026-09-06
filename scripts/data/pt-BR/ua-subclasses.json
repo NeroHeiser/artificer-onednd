@@ -1,0 +1,1133 @@
+[
+  {
+    "_id": "uasubreanimator0",
+    "name": "Reanimador",
+    "type": "subclass",
+    "img": "icons/magic/death/skull-energy-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Reanimadores desafiam as leis naturais da biologia e da morte. Esses artífices sombrios costuram servos a partir de corpos disparatados, usam magia voltaica para fortalecer a vida e transformam a necromancia em uma ciência aterradora.</p>",
+        "chat": ""
+      },
+      "identifier": "reanimator",
+      "classIdentifier": "artificer",
+      "advancement": [
+        {
+          "_id": "advreannv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Reanimador (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uareanspells0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uajolttolife0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uareancompani001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advreannv0000005",
+          "type": "ItemGrant",
+          "level": 5,
+          "title": "Recurso do Reanimador (Nível 5)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uareanmodific001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advreannv0000009",
+          "type": "ItemGrant",
+          "level": 9,
+          "title": "Recurso do Reanimador (Nível 9)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uareanimproved01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advreannv0000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso do Reanimador (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uareanpromethe01"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubspiritbard0",
+    "name": "Colégio dos Espíritos",
+    "type": "subclass",
+    "img": "icons/magic/symbols/circle-outer-ring-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Bardos do Colégio dos Espíritos buscam contos do além, sussurrados por almas desencarnadas e assombrações ancestrais, canalizando seus poderes através de focos místicos.</p>",
+        "chat": ""
+      },
+      "identifier": "spirits",
+      "classIdentifier": "bard",
+      "advancement": [
+        {
+          "_id": "advspirnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos dos Espíritos (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspirchanneler1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspirbeyond0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advspirnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso dos Espíritos (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspirempowered1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advspirnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso dos Espíritos (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspirmysticconn"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubgravecleric",
+    "name": "Domínio do Túmulo",
+    "type": "subclass",
+    "img": "icons/magic/death/grave-tombstone-cross-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>Deuses da sepultura vigiam a fronteira sagrada entre a vida e a morte. Para esses clérigos, a morte é parte da jornada cósmica natural, e a morte-vida é uma abominação a ser expurgada.</p>",
+        "chat": ""
+      },
+      "identifier": "grave",
+      "classIdentifier": "cleric",
+      "advancement": [
+        {
+          "_id": "advgravnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Túmulo (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagravecircle001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagravespells001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapathtothegrav1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advgravnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso do Túmulo (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagravesentinel1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advgravnv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Recurso do Túmulo (Nível 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagravereaper001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubhollowward1",
+    "name": "Guardião Oco",
+    "type": "subclass",
+    "img": "icons/magic/nature/root-vine-glow-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Patrulheiros que se unem aos espíritos de florestas antigas e decaídas, canalizando a força do ciclo da podridão para punir violadores da natureza.</p>",
+        "chat": ""
+      },
+      "identifier": "hollow-warden",
+      "classIdentifier": "ranger",
+      "advancement": [
+        {
+          "_id": "advhollnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Guardião Oco (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uahollowspells01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawrathofthewild"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhollnv0000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recurso do Guardião Oco (Nível 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uahungeringmigh1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhollnv0000011",
+          "type": "ItemGrant",
+          "level": 11,
+          "title": "Recurso do Guardião Oco (Nível 11)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uarotandviolence"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhollnv0000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso do Guardião Oco (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaancientenduran"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubphantomrogu",
+    "name": "Fantasma",
+    "type": "subclass",
+    "img": "icons/magic/death/skull-screaming-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>Mestres da morte que caminham na tênue fronteira entre a vida e o mundo espiritual, colhendo fetiches das almas dos que tombam diante deles.</p>",
+        "chat": ""
+      },
+      "identifier": "phantom",
+      "classIdentifier": "rogue",
+      "advancement": [
+        {
+          "_id": "advphannv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Fantasma (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawhispersdead01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawailsfromgrav1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advphannv0000009",
+          "type": "ItemGrant",
+          "level": 9,
+          "title": "Recurso do Fantasma (Nível 9)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uatokensofdepart"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advphannv0000013",
+          "type": "ItemGrant",
+          "level": 13,
+          "title": "Recurso do Fantasma (Nível 13)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaghostwalk00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advphannv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Recurso do Fantasma (Nível 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadeathsfriend01"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubshadowsorce",
+    "name": "Feitiçaria das Sombras",
+    "type": "subclass",
+    "img": "icons/magic/unholy/silhouette-evil-horned-shadow.webp",
+    "system": {
+      "description": {
+        "value": "<p>Feiticeiros cuja faísca de magia provém da escuridão eterna do Pendor das Sombras (Shadowfell), moldando a escuridão em barreiras e convocando cães espectrais.</p>",
+        "chat": ""
+      },
+      "identifier": "shadow",
+      "classIdentifier": "sorcerer",
+      "advancement": [
+        {
+          "_id": "advshadnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos das Sombras (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaeyesofdark0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uashadowspells01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advshadnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso das Sombras (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspiritsillomen"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advshadnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso das Sombras (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uashadowwalk0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advshadnv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso das Sombras (Nível 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaumbralform0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubhexbladewar",
+    "name": "Patrono Lâmina Maldita",
+    "type": "subclass",
+    "img": "icons/weapons/swords/sword-broad-glowing-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Bruxos que firmaram pacto com uma entidade do Pendor das Sombras que se manifesta através de armas sencientes forjadas em sombras e almas ceifadas.</p>",
+        "chat": ""
+      },
+      "identifier": "hexblade",
+      "classIdentifier": "warlock",
+      "advancement": [
+        {
+          "_id": "advhexbnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos da Lâmina Maldita (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uahexbladespell1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uahexblademanif1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhexbnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso da Lâmina Maldita (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.ualifestealer001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhexbnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso da Lâmina Maldita (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarmorofhexes01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhexbnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso da Lâmina Maldita (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamasterfulhex01"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubundeadwlk01",
+    "name": "Patrono Insepulto",
+    "type": "subclass",
+    "img": "icons/magic/death/skull-horned-goat-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Seu patrono é um lorde da morte-vida — como um Lich primordial, vampiro ancestral ou múmia soberana — que compartilha os segredos além do túmulo.</p>",
+        "chat": ""
+      },
+      "identifier": "undead",
+      "classIdentifier": "warlock",
+      "advancement": [
+        {
+          "_id": "advunddnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Insepulto (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaformofdread001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaundeadspells01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advunddnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso do Insepulto (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagravetouched01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advunddnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Insepulto (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uanecrotichusk01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advunddnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Insepulto (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasuperiordread1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubfgtarcanear",
+    "name": "Arqueiro Arcano",
+    "type": "subclass",
+    "img": "icons/weapons/ammunition/arrows-broadhead-glowing-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Guerreiros que dominam a milenar arte élfica de fundir magia nas flechas e disparos de combate, desencadeando efeitos mágicos devastadores.</p>",
+        "chat": ""
+      },
+      "identifier": "arcane-archer",
+      "classIdentifier": "fighter",
+      "advancement": [
+        {
+          "_id": "advarcanv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Arqueiro Arcano (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarcherlore0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarcaneshot0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advarcanv0000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recursos do Arqueiro Arcano (Nível 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uacurvingshot001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamagicammo00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advarcanv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Arqueiro Arcano (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaeverreadyshot1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advarcanv0000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso do Arqueiro Arcano (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarcaneburst001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advarcanv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso do Arqueiro Arcano (Nível 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamasterfulshot1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubmonktattoo1",
+    "name": "Guerreiro Tatuado",
+    "type": "subclass",
+    "img": "icons/skills/wounds/injury-scar-stitched-pink.webp",
+    "system": {
+      "description": {
+        "value": "<p>Monges que transcrevem a energia do cosmos em tatuagens mágicas vivas sobre o corpo, manifestando o poder de feras ancestrais, celestiais e titãs.</p>",
+        "chat": ""
+      },
+      "identifier": "tattooed-warrior",
+      "classIdentifier": "monk",
+      "advancement": [
+        {
+          "_id": "advtatwnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Guerreiro Tatuado (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamagictattoos01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabeasttattoos01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtatwnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso do Guerreiro Tatuado (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uacelestialtatt1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtatwnv0000011",
+          "type": "ItemGrant",
+          "level": 11,
+          "title": "Recurso do Guerreiro Tatuado (Nível 11)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uanaturetattoo01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtatwnv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Recurso do Guerreiro Tatuado (Nível 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonstertattoo1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubwizconjurer",
+    "name": "Invocador",
+    "type": "subclass",
+    "img": "icons/magic/movement/portal-vortex-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Magos dedicados à escola de Conjuração, capazes de transpor o espaço instantaneamente e invocar criaturas resistentes e fortalecidas do multiverso.</p>",
+        "chat": ""
+      },
+      "identifier": "conjurer",
+      "classIdentifier": "wizard",
+      "advancement": [
+        {
+          "_id": "advcnjwnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Invocador (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabenigntransp01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaconjursavant01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advcnjwnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recursos do Invocador (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadistanttransp1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadurablesummons"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advcnjwnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Invocador (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafocusedconjur1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advcnjwnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Invocador (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasplintersummon"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubwizenchante",
+    "name": "Encantador",
+    "type": "subclass",
+    "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+    "system": {
+      "description": {
+        "value": "<p>Mestres da persuasão e manipulação mágica da mente, dobrando a vontade de adversários e dividindo feitiços sobre múltiplos alvos.</p>",
+        "chat": ""
+      },
+      "identifier": "enchanter",
+      "classIdentifier": "wizard",
+      "advancement": [
+        {
+          "_id": "advencwnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Encantador (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaenchantsavant1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uahypnoticpres01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advencwnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso do Encantador (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasplitenchant01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advencwnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Encantador (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uainstinctcharm1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advencwnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Encantador (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaaltermemories1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubwiznecroman",
+    "name": "Necromante",
+    "type": "subclass",
+    "img": "icons/magic/death/skull-energy-white-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Estudiosos dos mistérios da morte e forças necróticas que erguem legiões de mortos-vivos com vitalidade intensificada e colhem almas.</p>",
+        "chat": ""
+      },
+      "identifier": "necromancer",
+      "classIdentifier": "wizard",
+      "advancement": [
+        {
+          "_id": "advnecrnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Necromante (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uanecromansavant"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uanecromanspellb"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advnecrnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recursos do Necromante (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagravepower0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaundeadthralls1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advnecrnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Necromante (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaharvestundead1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advnecrnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Necromante (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadeathsmaster01"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubwiztransmut",
+    "name": "Transmutador",
+    "type": "subclass",
+    "img": "icons/magic/symbols/runes-carved-stone-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>Mestres da alquimia e modificação da matéria física que forjam a Pedra do Transmutador para conceder bênçãos arcanas e transmutar elementos.</p>",
+        "chat": ""
+      },
+      "identifier": "transmuter",
+      "classIdentifier": "wizard",
+      "advancement": [
+        {
+          "_id": "advtrnsnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Transmutador (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uatransmutsavant"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uatransmutstone1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawondrousalter1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtrnsnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso do Transmutador (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaempoweredtrans"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtrnsnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recursos do Transmutador (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapotentstone001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uashapechanger01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtrnsnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Transmutador (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamastertransmut"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubarcanacleri",
+    "name": "Domínio da Arcana",
+    "type": "subclass",
+    "img": "icons/sundries/books/book-runes-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>Clérigos que servem divindades da magia, tecendo a pureza da fé divina com os segredos dos conjuradores arcanos e desfazendo encantamentos.</p>",
+        "chat": ""
+      },
+      "identifier": "arcana",
+      "classIdentifier": "cleric",
+      "advancement": [
+        {
+          "_id": "advarcdnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos da Arcana (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarcanaspells01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarcanainitiate"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advarcdnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso da Arcana (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarcanaabjurat1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advarcdnv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Recurso da Arcana (Nível 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarcanamastery1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubancestrals1",
+    "name": "Feitiçaria Ancestral",
+    "type": "subclass",
+    "img": "icons/magic/fire/spirit-soul-flame-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Feiticeiros cujos poderes despertam da comunhão com os espíritos e legados imortais de seus honrados antepassados.</p>",
+        "chat": ""
+      },
+      "identifier": "ancestral",
+      "classIdentifier": "sorcerer",
+      "advancement": [
+        {
+          "_id": "advancsnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos Ancestrais (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaancestralspell"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaancestralguide"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advancsnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso Ancestral (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspiritualarmor"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advancsnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso Ancestral (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaancestralcall1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advancsnv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso Ancestral (Nível 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaancientavatars"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

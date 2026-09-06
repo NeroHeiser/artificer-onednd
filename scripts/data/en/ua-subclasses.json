@@ -1,0 +1,1133 @@
+[
+  {
+    "_id": "uasubreanimator0",
+    "name": "Reanimator",
+    "type": "subclass",
+    "img": "icons/magic/death/skull-energy-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Reanimators defy the laws of nature in pursuit of gruesome experiment, stitching together undead servants from disparate corpses and fusing necromancy with voltaic science.</p>",
+        "chat": ""
+      },
+      "identifier": "reanimator",
+      "classIdentifier": "artificer",
+      "advancement": [
+        {
+          "_id": "advreannv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Reanimator Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uareanspells0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uajolttolife0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uareancompani001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advreannv0000005",
+          "type": "ItemGrant",
+          "level": 5,
+          "title": "Reanimator Feature (Level 5)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uareanmodific001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advreannv0000009",
+          "type": "ItemGrant",
+          "level": 9,
+          "title": "Reanimator Feature (Level 9)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uareanimproved01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advreannv0000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Reanimator Feature (Level 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uareanpromethe01"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubspiritbard0",
+    "name": "College of Spirits",
+    "type": "subclass",
+    "img": "icons/magic/symbols/circle-outer-ring-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Bards of the College of Spirits seek tales from beyond, whispered by discarnate souls and ancestral phantoms, channeling otherworldy lore through spiritual foci.</p>",
+        "chat": ""
+      },
+      "identifier": "spirits",
+      "classIdentifier": "bard",
+      "advancement": [
+        {
+          "_id": "advspirnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Spirits Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspirchanneler1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspirbeyond0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advspirnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Spirits Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspirempowered1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advspirnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Spirits Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspirmysticconn"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubgravecleric",
+    "name": "Grave Domain",
+    "type": "subclass",
+    "img": "icons/magic/death/grave-tombstone-cross-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>Gods of the grave watch over the sacred boundary between life and death. To these clerics, death is a natural transition, and undeath is a desecration to be laid to rest.</p>",
+        "chat": ""
+      },
+      "identifier": "grave",
+      "classIdentifier": "cleric",
+      "advancement": [
+        {
+          "_id": "advgravnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Grave Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagravecircle001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagravespells001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapathtothegrav1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advgravnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Grave Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagravesentinel1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advgravnv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Grave Feature (Level 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagravereaper001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubhollowward1",
+    "name": "Hollow Warden",
+    "type": "subclass",
+    "img": "icons/magic/nature/root-vine-glow-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Rangers who commune with hollow, ancient, decayed woods, channeling rot and rebirth to hunt those who violate the wild.</p>",
+        "chat": ""
+      },
+      "identifier": "hollow-warden",
+      "classIdentifier": "ranger",
+      "advancement": [
+        {
+          "_id": "advhollnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Hollow Warden Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uahollowspells01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawrathofthewild"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhollnv0000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Hollow Warden Feature (Level 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uahungeringmigh1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhollnv0000011",
+          "type": "ItemGrant",
+          "level": 11,
+          "title": "Hollow Warden Feature (Level 11)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uarotandviolence"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhollnv0000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Hollow Warden Feature (Level 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaancientenduran"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubphantomrogu",
+    "name": "Phantom",
+    "type": "subclass",
+    "img": "icons/magic/death/skull-screaming-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>Masters of death who walk the borderline between life and the spirit world, harvesting soul trinkets from the fallen.</p>",
+        "chat": ""
+      },
+      "identifier": "phantom",
+      "classIdentifier": "rogue",
+      "advancement": [
+        {
+          "_id": "advphannv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Phantom Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawhispersdead01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawailsfromgrav1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advphannv0000009",
+          "type": "ItemGrant",
+          "level": 9,
+          "title": "Phantom Feature (Level 9)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uatokensofdepart"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advphannv0000013",
+          "type": "ItemGrant",
+          "level": 13,
+          "title": "Phantom Feature (Level 13)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaghostwalk00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advphannv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Phantom Feature (Level 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadeathsfriend01"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubshadowsorce",
+    "name": "Shadow Sorcery",
+    "type": "subclass",
+    "img": "icons/magic/unholy/silhouette-evil-horned-shadow.webp",
+    "system": {
+      "description": {
+        "value": "<p>Sorcerers whose innate spark of power is drawn from the Fell darkness of the Shadowfell, manipulating gloom and hounds of ill omen.</p>",
+        "chat": ""
+      },
+      "identifier": "shadow",
+      "classIdentifier": "sorcerer",
+      "advancement": [
+        {
+          "_id": "advshadnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Shadow Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaeyesofdark0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uashadowspells01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advshadnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Shadow Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspiritsillomen"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advshadnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Shadow Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uashadowwalk0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advshadnv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Shadow Feature (Level 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaumbralform0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubhexbladewar",
+    "name": "Hexblade Patron",
+    "type": "subclass",
+    "img": "icons/weapons/swords/sword-broad-glowing-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Warlocks who bind themselves to a mysterious entity of the Shadowfell that manifests through sentient blades carved of shadow and soulcraft.</p>",
+        "chat": ""
+      },
+      "identifier": "hexblade",
+      "classIdentifier": "warlock",
+      "advancement": [
+        {
+          "_id": "advhexbnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Hexblade Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uahexbladespell1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uahexblademanif1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhexbnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Hexblade Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.ualifestealer001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhexbnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Hexblade Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarmorofhexes01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhexbnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Hexblade Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamasterfulhex01"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubundeadwlk01",
+    "name": "Undead Patron",
+    "type": "subclass",
+    "img": "icons/magic/death/skull-horned-goat-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Your patron is a master of undeath — such as an ancient lich, elder vampire, or mummy lord — conferring the dark boons of eternity.</p>",
+        "chat": ""
+      },
+      "identifier": "undead",
+      "classIdentifier": "warlock",
+      "advancement": [
+        {
+          "_id": "advunddnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Undead Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaformofdread001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaundeadspells01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advunddnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Undead Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagravetouched01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advunddnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Undead Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uanecrotichusk01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advunddnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Undead Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasuperiordread1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubfgtarcanear",
+    "name": "Arcane Archer",
+    "type": "subclass",
+    "img": "icons/weapons/ammunition/arrows-broadhead-glowing-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Fighters who master the ancient elven tradition of weaving arcane magic into archery, producing supernatural and devastating effects.</p>",
+        "chat": ""
+      },
+      "identifier": "arcane-archer",
+      "classIdentifier": "fighter",
+      "advancement": [
+        {
+          "_id": "advarcanv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Arcane Archer Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarcherlore0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarcaneshot0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advarcanv0000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Arcane Archer Features (Level 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uacurvingshot001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamagicammo00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advarcanv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Arcane Archer Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaeverreadyshot1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advarcanv0000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Arcane Archer Feature (Level 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarcaneburst001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advarcanv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Arcane Archer Feature (Level 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamasterfulshot1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubmonktattoo1",
+    "name": "Tattooed Warrior",
+    "type": "subclass",
+    "img": "icons/skills/wounds/injury-scar-stitched-pink.webp",
+    "system": {
+      "description": {
+        "value": "<p>Monks who etch arcane cosmic power directly into living mystical tattoos across their skin, channeling beasts, celestials, and titans.</p>",
+        "chat": ""
+      },
+      "identifier": "tattooed-warrior",
+      "classIdentifier": "monk",
+      "advancement": [
+        {
+          "_id": "advtatwnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Tattooed Warrior Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamagictattoos01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabeasttattoos01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtatwnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Tattooed Warrior Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uacelestialtatt1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtatwnv0000011",
+          "type": "ItemGrant",
+          "level": 11,
+          "title": "Tattooed Warrior Feature (Level 11)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uanaturetattoo01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtatwnv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Tattooed Warrior Feature (Level 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonstertattoo1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubwizconjurer",
+    "name": "Conjurer",
+    "type": "subclass",
+    "img": "icons/magic/movement/portal-vortex-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Wizards who specialize in Conjuration magic, teleporting effortlessly through space and summoning durable thralls of the multiverse.</p>",
+        "chat": ""
+      },
+      "identifier": "conjurer",
+      "classIdentifier": "wizard",
+      "advancement": [
+        {
+          "_id": "advcnjwnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Conjurer Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabenigntransp01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaconjursavant01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advcnjwnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Conjurer Features (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadistanttransp1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadurablesummons"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advcnjwnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Conjurer Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafocusedconjur1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advcnjwnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Conjurer Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasplintersummon"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubwizenchante",
+    "name": "Enchanter",
+    "type": "subclass",
+    "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+    "system": {
+      "description": {
+        "value": "<p>Masters of magical charm and mental manipulation, bending minds and splitting enchantments across multiple adversaries.</p>",
+        "chat": ""
+      },
+      "identifier": "enchanter",
+      "classIdentifier": "wizard",
+      "advancement": [
+        {
+          "_id": "advencwnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Enchanter Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaenchantsavant1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uahypnoticpres01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advencwnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Enchanter Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasplitenchant01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advencwnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Enchanter Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uainstinctcharm1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advencwnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Enchanter Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaaltermemories1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubwiznecroman",
+    "name": "Necromancer",
+    "type": "subclass",
+    "img": "icons/magic/death/skull-energy-white-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Scholars of the mysteries of life and death, commanding empowered undead hordes and reaping the vitality of slain foes.</p>",
+        "chat": ""
+      },
+      "identifier": "necromancer",
+      "classIdentifier": "wizard",
+      "advancement": [
+        {
+          "_id": "advnecrnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Necromancer Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uanecromansavant"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uanecromanspellb"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advnecrnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Necromancer Features (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagravepower0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaundeadthralls1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advnecrnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Necromancer Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaharvestundead1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advnecrnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Necromancer Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadeathsmaster01"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubwiztransmut",
+    "name": "Transmuter",
+    "type": "subclass",
+    "img": "icons/magic/symbols/runes-carved-stone-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>Masters of alchemy and physical alteration who forge the Transmuter's Stone to bestow elemental resilience and miraculous transformations.</p>",
+        "chat": ""
+      },
+      "identifier": "transmuter",
+      "classIdentifier": "wizard",
+      "advancement": [
+        {
+          "_id": "advtrnsnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Transmuter Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uatransmutsavant"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uatransmutstone1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawondrousalter1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtrnsnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Transmuter Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaempoweredtrans"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtrnsnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Transmuter Features (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapotentstone001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uashapechanger01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtrnsnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Transmuter Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamastertransmut"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubarcanacleri",
+    "name": "Arcana Domain",
+    "type": "subclass",
+    "img": "icons/sundries/books/book-runes-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>Clerics who worship deities of magic, weaving divine reverence with arcane secrets and unraveling adverse enchantments.</p>",
+        "chat": ""
+      },
+      "identifier": "arcana",
+      "classIdentifier": "cleric",
+      "advancement": [
+        {
+          "_id": "advarcdnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Arcana Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarcanaspells01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarcanainitiate"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advarcdnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Arcana Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarcanaabjurat1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advarcdnv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Arcana Feature (Level 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaarcanamastery1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubancestrals1",
+    "name": "Ancestral Sorcery",
+    "type": "subclass",
+    "img": "icons/magic/fire/spirit-soul-flame-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Sorcerers whose powers awaken through communion with the enduring spirits and heroic legends of their ancestral bloodline.</p>",
+        "chat": ""
+      },
+      "identifier": "ancestral",
+      "classIdentifier": "sorcerer",
+      "advancement": [
+        {
+          "_id": "advancsnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Ancestral Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaancestralspell"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaancestralguide"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advancsnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Ancestral Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspiritualarmor"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advancsnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Ancestral Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaancestralcall1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advancsnv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Ancestral Feature (Level 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaancientavatars"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

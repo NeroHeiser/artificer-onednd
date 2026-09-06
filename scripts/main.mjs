@@ -96,6 +96,18 @@ Hooks.once("init", () => {
     };
     CONFIG.DND5E.subclasses.witchhunter = CONFIG.DND5E.subclasses["witch-hunter"];
 
+    // Registrar Subclasses de Unearthed Arcana (Horror & Arcane)
+    CONFIG.DND5E.subclasses.artificer.reanimator = "Compendium.artificer-onednd.ua-subclasses.Item.uasubreanimator0";
+    CONFIG.DND5E.subclasses.bard = { ...CONFIG.DND5E.subclasses.bard, spirits: "Compendium.artificer-onednd.ua-subclasses.Item.uasubspiritbard0" };
+    CONFIG.DND5E.subclasses.cleric = { ...CONFIG.DND5E.subclasses.cleric, grave: "Compendium.artificer-onednd.ua-subclasses.Item.uasubgravecleric", arcana: "Compendium.artificer-onednd.ua-subclasses.Item.uasubarcanacleri" };
+    CONFIG.DND5E.subclasses.fighter = { ...CONFIG.DND5E.subclasses.fighter, "arcane-archer": "Compendium.artificer-onednd.ua-subclasses.Item.uasubfgtarcanear" };
+    CONFIG.DND5E.subclasses.monk = { ...CONFIG.DND5E.subclasses.monk, "tattooed-warrior": "Compendium.artificer-onednd.ua-subclasses.Item.uasubmonktattoo1" };
+    CONFIG.DND5E.subclasses.ranger = { ...CONFIG.DND5E.subclasses.ranger, "hollow-warden": "Compendium.artificer-onednd.ua-subclasses.Item.uasubhollowward1" };
+    CONFIG.DND5E.subclasses.rogue = { ...CONFIG.DND5E.subclasses.rogue, phantom: "Compendium.artificer-onednd.ua-subclasses.Item.uasubphantomrogu" };
+    CONFIG.DND5E.subclasses.sorcerer = { ...CONFIG.DND5E.subclasses.sorcerer, shadow: "Compendium.artificer-onednd.ua-subclasses.Item.uasubshadowsorce", ancestral: "Compendium.artificer-onednd.ua-subclasses.Item.uasubancestrals1" };
+    CONFIG.DND5E.subclasses.warlock = { ...CONFIG.DND5E.subclasses.warlock, hexblade: "Compendium.artificer-onednd.ua-subclasses.Item.uasubhexbladewar", undead: "Compendium.artificer-onednd.ua-subclasses.Item.uasubundeadwlk01" };
+    CONFIG.DND5E.subclasses.wizard = { ...CONFIG.DND5E.subclasses.wizard, conjurer: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwizconjurer", enchanter: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwizenchante", necromancer: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwiznecroman", transmuter: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwiztransmut" };
+
     // Registrar Psion como Conjurador Pleno e suas 3 Subclasses
     CONFIG.DND5E.spellProgression.psion = "full";
     CONFIG.DND5E.subclasses.psion = {

@@ -135,6 +135,30 @@
       "Brand": "Brand of Castigation"
     }
   },
+  "UA_SUBCLASSES_5E": {
+    "Categories": {
+      "Horror": "Horror Archetypes",
+      "Arcane": "Arcane Archetypes"
+    },
+    "Subclasses": {
+      "Reanimator": "Reanimator",
+      "Spirits": "College of Spirits",
+      "Grave": "Grave Domain",
+      "HollowWarden": "Hollow Warden",
+      "Phantom": "Phantom",
+      "Shadow": "Shadow Sorcery",
+      "Hexblade": "Hexblade Patron",
+      "Undead": "Undead Patron",
+      "ArcaneArcher": "Arcane Archer",
+      "TattooedWarrior": "Tattooed Warrior",
+      "Conjurer": "Conjurer",
+      "Enchanter": "Enchanter",
+      "Necromancer": "Necromancer",
+      "Transmuter": "Transmuter",
+      "Arcana": "Arcana Domain",
+      "Ancestral": "Ancestral Sorcery"
+    }
+  },
   "PSION_5E": {
     "Class": {
       "Name": "Psion",
@@ -164,4 +188,3 @@
     }
   }
 }
-
