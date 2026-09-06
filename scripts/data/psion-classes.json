@@ -1,0 +1,220 @@
+[
+  {
+    "_id": "psionclassitem01",
+    "name": "Psion",
+    "type": "class",
+    "img": "icons/magic/light/orbs-hand-gray.webp",
+    "system": {
+      "description": {
+        "value": "<p>Mestres supremos do poder psiônico, os Psions utilizam a força primordial do pensamento para manifestar magias e dobrar a realidade. Eles transformam suas próprias mentes em fontes inesgotáveis de energia que crescem e se aprimoram ao longo de suas jornadas.</p>\n               <h3>Construção Rápida</h3>\n               <p>Coloque seu valor de atributo mais alto em <strong>Inteligência</strong>, que rege suas magias de Psion, CDs de salvaguarda e Dados de Energia Psiônica. Seu segundo valor mais alto deve ser <strong>Constituição</strong> ou <strong>Destreza</strong> para aumentar sua sobrevivência e Classe de Armadura.</p>",
+        "chat": ""
+      },
+      "identifier": "psion",
+      "hitDice": "d6",
+      "spellcasting": {
+        "progression": "full",
+        "ability": "int"
+      },
+      "advancement": [
+        {
+          "_id": "advhitpointsps01",
+          "type": "HitPoints",
+          "configuration": {}
+        },
+        {
+          "_id": "advtraitspsion01",
+          "type": "Trait",
+          "level": 1,
+          "configuration": {
+            "grants": [
+              "weapon:sim"
+            ],
+            "choices": [
+              {
+                "count": 2,
+                "pool": [
+                  "skills:arc",
+                  "skills:ins",
+                  "skills:itm",
+                  "skills:inv",
+                  "skills:med",
+                  "skills:prc",
+                  "skills:per"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advenergydie0001",
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "psionic-energy-die",
+            "type": "dice",
+            "scale": {
+              "1": {
+                "number": 4,
+                "faces": 6
+              },
+              "5": {
+                "number": 6,
+                "faces": 8
+              },
+              "9": {
+                "number": 8,
+                "faces": 8
+              },
+              "11": {
+                "number": 8,
+                "faces": 10
+              },
+              "13": {
+                "number": 10,
+                "faces": 10
+              },
+              "17": {
+                "number": 12,
+                "faces": 12
+              }
+            }
+          }
+        },
+        {
+          "_id": "advscalediscip01",
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "disciplines-known",
+            "type": "numeric",
+            "scale": {
+              "2": {
+                "value": 2
+              },
+              "5": {
+                "value": 3
+              },
+              "10": {
+                "value": 4
+              },
+              "13": {
+                "value": 5
+              },
+              "17": {
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "_id": "advitemgrant0001",
+          "type": "ItemGrant",
+          "level": 1,
+          "title": "Recursos de 1º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionfeatpower01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionfeatpropel1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionfeattelecon"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionfeatsubtlet"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionfeatspell01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advitemgrant0002",
+          "type": "ItemGrant",
+          "level": 2,
+          "title": "Disciplinas Psiônicas",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionfeatdisc001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpsionsubcl001",
+          "type": "Subclass",
+          "level": 3,
+          "title": "Subclasse do Psion",
+          "configuration": {}
+        },
+        {
+          "_id": "advitemgrant0005",
+          "type": "ItemGrant",
+          "level": 5,
+          "title": "Recurso de 5º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionfeatrestor1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advitemgrant0007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recurso de 7º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionfeatsurge01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advitemgrant0018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso de 18º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionfeatreserv1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advitemgrant0019",
+          "type": "ItemGrant",
+          "level": 19,
+          "title": "Dádiva Épica (Nível 19)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionfeatepicb01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advitemgrant0020",
+          "type": "ItemGrant",
+          "level": 20,
+          "title": "Recurso de 20º Nível",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionfeatenkindl"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

@@ -68,6 +68,30 @@ export class CompendiumSync {
       file: "witch-hunter-items.json",
       documentName: "Item",
       label: "Witch Hunter Items & Mutagens"
+    },
+    {
+      id: "psion-classes",
+      file: "psion-classes.json",
+      documentName: "Item",
+      label: "Psion Classes"
+    },
+    {
+      id: "psion-subclasses",
+      file: "psion-subclasses.json",
+      documentName: "Item",
+      label: "Psion Subclasses"
+    },
+    {
+      id: "psion-features",
+      file: "psion-features.json",
+      documentName: "Item",
+      label: "Psion Features"
+    },
+    {
+      id: "psion-spells",
+      file: "psion-spells.json",
+      documentName: "Item",
+      label: "Psion Spells"
     }
   ];
 

@@ -1,0 +1,242 @@
+[
+  {
+    "_id": "psionsubmetamorp",
+    "name": "Metamorph",
+    "type": "subclass",
+    "img": "icons/magic/unholy/hand-marked-pink.webp",
+    "system": {
+      "description": {
+        "value": "<p>The Metamorph turns psionic mastery inward. Flesh becomes like clay, molding into organic weapons of bone and muscle, adjusting life force and manipulating biology across friends and foes.</p>",
+        "chat": ""
+      },
+      "identifier": "metamorph",
+      "classIdentifier": "psion",
+      "advancement": [
+        {
+          "_id": "advmetasubnv0003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Metamorph Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionmetaspells1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionmetamutable"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionmetaorganic"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionboneblade01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionfleshmaul01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionvisceralau1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmetasubnv0006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Metamorph Features (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionmetaextraat"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionmetafleshwe"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmetasubnv0010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Metamorph Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionmetaimprmut"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmetasubnv0014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Metamorph Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionmetalifebnd"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "psionsubpsykine1",
+    "name": "Psykinetic",
+    "type": "subclass",
+    "img": "icons/magic/force/barrier-shield-dome-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>A Psykinetic controls psionic power like a malleable force, bending telekinetic energy into sturdy kinetic barriers, reflective fields, and devastating crushing impacts.</p>",
+        "chat": ""
+      },
+      "identifier": "psykinetic",
+      "classIdentifier": "psion",
+      "advancement": [
+        {
+          "_id": "advpsysubnv00003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Psykinetic Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionpsyspells01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionpsystrongtk"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionpsytech0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpsysubnv00006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Psykinetic Features (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionpsydestran1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionpsyrebound1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpsysubnv00010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Psykinetic Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionpsyenhtkcr1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpsysubnv00014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Psykinetic Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psionpsyheighttk"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "psionsubtelepath",
+    "name": "Telepath",
+    "type": "subclass",
+    "img": "icons/magic/perception/eye-tendrils-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Masters of mind magic, Telepaths probe thoughts undetected, project cognitive distractions to misdirect enemy strikes against allies, and maintain indestructible psionic bulwarks.</p>",
+        "chat": ""
+      },
+      "identifier": "telepath",
+      "classIdentifier": "psion",
+      "advancement": [
+        {
+          "_id": "advtelesubnv0003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Telepath Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psiontelespell01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psiontelemindinf"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psiondistraction"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtelesubnv0006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Telepath Features (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psiontelebulwark"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psiontelepotentt"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtelesubnv0010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Telepath Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psiontelebolster"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advtelesubnv0014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Telepath Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.psion-features.Item.psiontelescrambl"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

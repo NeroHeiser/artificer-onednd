@@ -95,6 +95,14 @@ Hooks.once("init", () => {
       "profane-soul": "Compendium.artificer-onednd.witch-hunter-subclasses.Item.whsubprofanesoul"
     };
     CONFIG.DND5E.subclasses.witchhunter = CONFIG.DND5E.subclasses["witch-hunter"];
+
+    // Registrar Psion como Conjurador Pleno e suas 3 Subclasses
+    CONFIG.DND5E.spellProgression.psion = "full";
+    CONFIG.DND5E.subclasses.psion = {
+      metamorph: "Compendium.artificer-onednd.psion-subclasses.Item.psionsubmetamorp",
+      psykinetic: "Compendium.artificer-onednd.psion-subclasses.Item.psionsubpsykine1",
+      telepath: "Compendium.artificer-onednd.psion-subclasses.Item.psionsubtelepath"
+    };
   }
 
   // Pré-carregamento de templates Handlebars
