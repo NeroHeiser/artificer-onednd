@@ -68,6 +68,18 @@ export class CompendiumSync {
       file: "witch-hunter-items.json",
       documentName: "Item",
       label: "Witch Hunter Items & Mutagens"
+    },
+    {
+      id: "ua-subclasses",
+      file: "ua-subclasses.json",
+      documentName: "Item",
+      label: "Unearthed Arcana Subclasses"
+    },
+    {
+      id: "ua-features",
+      file: "ua-features.json",
+      documentName: "Item",
+      label: "Unearthed Arcana Features"
     }
   ];
 

@@ -1,0 +1,1798 @@
+[
+  {
+    "_id": "uareanspells0001",
+    "name": "Reanimator Spells",
+    "type": "feat",
+    "img": "icons/magic/death/skull-energy-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared at the specified Artificer levels:</p>\n               <ul>\n                 <li><strong>Level 3:</strong> <em>False Life</em>, <em>Spare the Dying</em>, <em>Witch Bolt</em></li>\n                 <li><strong>Level 5:</strong> <em>Blindness/Deafness</em>, <em>Enhance Ability</em></li>\n                 <li><strong>Level 9:</strong> <em>Animate Dead</em>, <em>Lightning Bolt</em></li>\n                 <li><strong>Level 13:</strong> <em>Blight</em>, <em>Death Ward</em></li>\n                 <li><strong>Level 17:</strong> <em>Antilife Shell</em>, <em>Raise Dead</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Reanimator 3"
+    }
+  },
+  {
+    "_id": "uajolttolife0001",
+    "name": "Jolt to Life",
+    "type": "feat",
+    "img": "icons/magic/lightning/bolt-forked-large-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, when you cast <em>Spare the Dying</em>, you can modify the spell so that it sends a jolt of electricity through the target, reviving it:</p>\n               <ul>\n                 <li>The target regains <strong>1 Hit Point</strong>.</li>\n                 <li>Each creature in a 10-foot Emanation from the target makes a Dexterity saving throw against your spell save DC, taking Lightning damage equal to <strong>1d4 plus half your Artificer level (round up)</strong> on a failed save, or half as much on a success.</li>\n               </ul>\n               <p>You can modify the spell this way a number of times equal to your Intelligence modifier, regaining all uses after a Long Rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Reanimator 3",
+      "uses": {
+        "value": 3,
+        "max": "@abilities.int.mod",
+        "per": "lr",
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uareancompani001",
+    "name": "Reanimated Companion",
+    "type": "feat",
+    "img": "icons/creatures/magical/construct-golem-flesh-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, using Tinker's Tools or Artisan's Tools you are proficient with, you take a Magic action to create a <strong>Reanimated Companion</strong> (Medium Undead).</p>\n               <p>It takes its turn immediately after yours, obeys verbal commands, and attacks using your Intelligence modifier for attack and damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Reanimator 3"
+    }
+  },
+  {
+    "_id": "uareanmodific001",
+    "name": "Strange Modifications",
+    "type": "feat",
+    "img": "icons/commodities/biological/organ-heart-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 5th level, your reanimated companion gains surgical and alchemical upgrades of your choice: Acidic Spittle, Bony Carapace, Elastic Sinew, or Vile Vigor.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Reanimator 5"
+    }
+  },
+  {
+    "_id": "uareanimproved01",
+    "name": "Improved Reanimation",
+    "type": "feat",
+    "img": "icons/magic/lightning/bolt-forked-large-cyan.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 9th level, the lightning damage of Jolt to Life increases by 1d4, and the revived target regains HP equal to 1 + your Intelligence modifier. In addition, your companion can make two attacks.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Reanimator 9"
+    }
+  },
+  {
+    "_id": "uareanpromethe01",
+    "name": "Promethean Reanimation",
+    "type": "feat",
+    "img": "icons/magic/lightning/fist-unarmed-strike-strike-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, your companion gains Immunity to Lightning damage and regenerates 5 HP at start of its turn when subjected to lightning. You can also cast <em>Create Undead</em> once per Long Rest without a spell slot.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Reanimator 15"
+    }
+  },
+  {
+    "_id": "uaspirchanneler1",
+    "name": "Channeler",
+    "type": "feat",
+    "img": "icons/magic/symbols/circle-outer-ring-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you learn the <em>Guidance</em> cantrip, which counts as a Bard spell for you and has a range of 60 feet. You can also use a candle, tarokka deck, or spirit board as a spellcasting focus.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "College of Spirits 3"
+    }
+  },
+  {
+    "_id": "uaspirbeyond0001",
+    "name": "Tales from Beyond",
+    "type": "feat",
+    "img": "icons/sundries/books/book-skull-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, as a Bonus Action, you expend one use of Bardic Inspiration and roll on the <strong>Spirit Tales table</strong> to channel an otherworldly entity and bestow its magical tale onto a creature.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "College of Spirits 3",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uaspirempowered1",
+    "name": "Empowered Channeling",
+    "type": "feat",
+    "img": "icons/magic/sonic/silence-unholy-pink.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, when you cast a Bard spell through your Spiritual Focus that deals damage or restores HP, you add <strong>1d6</strong> to the damage or healing.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "College of Spirits 6"
+    }
+  },
+  {
+    "_id": "uaspirmysticconn",
+    "name": "Mystical Connection",
+    "type": "feat",
+    "img": "icons/magic/perception/mind-flayer-glowing-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, whenever you roll on the Spirit Tales table, you roll <strong>two dice</strong> and choose which tale to manifest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "College of Spirits 14"
+    }
+  },
+  {
+    "_id": "uagravecircle001",
+    "name": "Circle of Mortality",
+    "type": "feat",
+    "img": "icons/magic/life/cross-beam-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, when you cast a spell that restores HP to a creature at 0 HP, any dice rolled for healing use the <strong>highest possible result</strong>.</p>\n               <p>You also learn <em>Spare the Dying</em> with a range of 30 feet and can cast it as a Bonus Action.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Grave Domain 3"
+    }
+  },
+  {
+    "_id": "uagravespells001",
+    "name": "Grave Domain Spells",
+    "type": "feat",
+    "img": "icons/magic/death/grave-tombstone-cross-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared:</p>\n               <ul>\n                 <li><strong>Level 3:</strong> <em>Bane</em>, <em>False Life</em></li>\n                 <li><strong>Level 5:</strong> <em>Gentle Repose</em>, <em>Ray of Enfeeblement</em></li>\n                 <li><strong>Level 7:</strong> <em>Revivify</em>, <em>Vampiric Touch</em></li>\n                 <li><strong>Level 9:</strong> <em>Blight</em>, <em>Death Ward</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Grave Domain 3"
+    }
+  },
+  {
+    "_id": "uapathtothegrav1",
+    "name": "Channel Divinity: Path to the Grave",
+    "type": "feat",
+    "img": "icons/magic/death/skull-horned-black.webp",
+    "system": {
+      "description": {
+        "value": "<p>As a Magic action, expend one use of Channel Divinity to curse a creature within 30 feet. The target has <strong>Vulnerability to all damage</strong> of the next hit dealt to it before end of your next turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Grave Domain 3",
+      "activation": {
+        "type": "action",
+        "cost": 1
+      },
+      "range": {
+        "value": 30,
+        "units": "ft"
+      }
+    }
+  },
+  {
+    "_id": "uagravesentinel1",
+    "name": "Sentinel at Death's Door",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, when you or a creature within 30 feet suffers a <strong>Critical Hit</strong>, you can use a Reaction to negate the critical, turning it into a normal hit. Uses equal to Wisdom mod per Long Rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Grave Domain 6",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uagravereaper001",
+    "name": "Divine Reaper",
+    "type": "feat",
+    "img": "icons/magic/death/scythe-blade-skull-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 17th level, when you cast a Necromancy spell of 1st through 5th level that targets only one creature, you can target a <strong>second creature</strong> within range.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Grave Domain 17"
+    }
+  },
+  {
+    "_id": "uahollowspells01",
+    "name": "Hollow Warden Spells",
+    "type": "feat",
+    "img": "icons/magic/nature/root-vine-glow-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared: <em>Inflict Wounds</em>, <em>Pass without Trace</em>, <em>Animate Dead</em>, <em>Blight</em>, and <em>Contagion</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Hollow Warden 3"
+    }
+  },
+  {
+    "_id": "uawrathofthewild",
+    "name": "Wrath of the Wild",
+    "type": "feat",
+    "img": "icons/magic/unholy/beam-impact-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>As a Bonus Action, your strikes are wreathed in hollow woodland spirits for 1 minute. Once per turn on a hit, deals <strong>extra 1d6 Necrotic or Cold damage</strong> and reduces the target's Speed by 10 feet.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Hollow Warden 3",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uahungeringmigh1",
+    "name": "Hungering Might",
+    "type": "feat",
+    "img": "icons/magic/life/heart-shadow-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, when you deal damage with Wrath of the Wild, you gain Temporary HP equal to the damage dealt or grant it to an ally within 30 feet.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Hollow Warden 7"
+    }
+  },
+  {
+    "_id": "uarotandviolence",
+    "name": "Rot and Violence",
+    "type": "feat",
+    "img": "icons/magic/death/swarm-insects-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 11th level, the damage of Wrath of the Wild increases to <strong>1d10</strong>, and you can create a vortex of rot creating difficult terrain and dealing continuous damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Hollow Warden 11"
+    }
+  },
+  {
+    "_id": "uaancientenduran",
+    "name": "Ancient Endurance",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, when reduced to 0 HP, you drop to 1 HP instead and emit a necrotic burst within 30 feet dealing 3d10 damage and pushing enemies (1x per Long Rest).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Hollow Warden 15"
+    }
+  },
+  {
+    "_id": "uawhispersdead01",
+    "name": "Whispers of the Dead",
+    "type": "feat",
+    "img": "icons/magic/perception/ear-sound-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, whenever you finish a Short or Long Rest, you can gain <strong>proficiency</strong> with one skill or tool of your choice until your next rest, guided by the dead.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Phantom 3"
+    }
+  },
+  {
+    "_id": "uawailsfromgrav1",
+    "name": "Wails from the Grave",
+    "type": "feat",
+    "img": "icons/magic/death/skull-screaming-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, immediately after dealing <strong>Sneak Attack</strong> damage to a creature, you can cause a second creature within 30 feet to take <strong>Necrotic damage equal to half your Sneak Attack dice</strong> (round up).</p>\n               <p>Uses equal to Proficiency Bonus per Long Rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Phantom 3"
+    }
+  },
+  {
+    "_id": "uatokensofdepart",
+    "name": "Tokens of the Departed",
+    "type": "feat",
+    "img": "icons/commodities/materials/shard-glass-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 9th level, when a creature dies within 30 feet, take a Reaction to capture a soul sliver as a <em>Soul Trinket</em> (max = PB). While carrying one, you have Advantage on death saves and Con saves.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Phantom 9"
+    }
+  },
+  {
+    "_id": "uaghostwalk00001",
+    "name": "Ghost Walk",
+    "type": "feat",
+    "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 13th level, as a Bonus Action, assume a spectral form for 10 minutes: gain 10-foot Fly speed (hover), attacks against you have Disadvantage, and you can move through creatures and objects.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Phantom 13",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uadeathsfriend01",
+    "name": "Death's Friend",
+    "type": "feat",
+    "img": "icons/magic/death/skeleton-skull-horned-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 17th level, Wails from the Grave deals damage to <strong>both targets simultaneously</strong>. When you finish a Long Rest, a soul trinket manifests if you have none.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Phantom 17"
+    }
+  },
+  {
+    "_id": "uaeyesofdark0001",
+    "name": "Eyes of the Dark",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-slit-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you gain <strong>Darkvision up to 120 feet</strong>. You can also cast <em>Darkness</em> by expending 2 Sorcery Points and can see through the darkness created by this casting.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Shadow Sorcery 3"
+    }
+  },
+  {
+    "_id": "uashadowspells01",
+    "name": "Shadow Spells",
+    "type": "feat",
+    "img": "icons/magic/unholy/silhouette-evil-horned-shadow.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared: <em>False Life</em>, <em>Darkness</em>, <em>Fear</em>, <em>Evard's Black Tentacles</em>, and <em>Enervation</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Shadow Sorcery 3"
+    }
+  },
+  {
+    "_id": "uaspiritsillomen",
+    "name": "Hound of Ill Omen",
+    "type": "feat",
+    "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, as a Bonus Action, spend 3 Sorcery Points to summon a shadow hound next to an enemy within 120 feet. While the hound is within 5 feet, the target has <strong>Disadvantage on saving throws against your spells</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Shadow Sorcery 6",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uashadowwalk0001",
+    "name": "Shadow Walk",
+    "type": "feat",
+    "img": "icons/magic/movement/portal-vortex-dark-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, while in dim light or darkness, you can teleport as a Bonus Action up to <strong>120 feet</strong> to an unoccupied space you can see that is also in dim light or darkness.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Shadow Sorcery 14",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uaumbralform0001",
+    "name": "Umbral Form",
+    "type": "feat",
+    "img": "icons/magic/defensive/barrier-shield-dome-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 18th level, spend 5 Sorcery Points as a Bonus Action to transform into shadow for 1 minute: gain <strong>Resistance to all damage except Force and Radiant</strong>, and move through creatures/objects.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Shadow Sorcery 18",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uahexbladespell1",
+    "name": "Hexblade Spells",
+    "type": "feat",
+    "img": "icons/weapons/swords/sword-broad-glowing-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared: <em>Shield</em>, <em>Wrathful Smite</em>, <em>Blur</em>, <em>Branding Smite</em>, <em>Blink</em>, <em>Elemental Weapon</em>, <em>Phantasmal Killer</em>, and <em>Staggering Smite</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Hexblade 3"
+    }
+  },
+  {
+    "_id": "uahexblademanif1",
+    "name": "Hexblade Manifest",
+    "type": "feat",
+    "img": "icons/magic/unholy/strike-body-explode-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, curse an enemy within 30 feet as a Bonus Action for 1 minute:</p>\n               <ul>\n                 <li>Add your <strong>Proficiency Bonus to damage</strong> rolls against it.</li>\n                 <li>Attack rolls against the cursed target crit on <strong>19 or 20</strong>.</li>\n                 <li>If the target dies, you regain HP equal to your Warlock level + Charisma mod.</li>\n                 <li><strong>Hex Warrior:</strong> Proficiency with Medium Armor, Shields, Martial Weapons, and use <strong>Charisma</strong> for weapon attack and damage.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Hexblade 3",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "ualifestealer001",
+    "name": "Life Stealer (Accursed Specter)",
+    "type": "feat",
+    "img": "icons/magic/death/undead-ghost-shadow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, when you slay a humanoid, use a Reaction to bind its spirit, raising it as an <strong>Accursed Specter</strong> under your command until your next Long Rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Hexblade 6",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uaarmorofhexes01",
+    "name": "Armor of Hexes",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-glowing-triangle-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, if your cursed target hits you with an attack roll, you can use a Reaction to roll <strong>1d6</strong>: on a <strong>4 or higher</strong>, the attack misses you regardless of the roll.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Hexblade 10",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uamasterfulhex01",
+    "name": "Masterful Hex",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-aura-energy-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, when the creature cursed by your Hexblade Manifest dies, you can transfer the curse to another creature within 30 feet without expending a new use.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Hexblade 14"
+    }
+  },
+  {
+    "_id": "uaformofdread001",
+    "name": "Form of Dread",
+    "type": "feat",
+    "img": "icons/magic/death/skull-horned-goat-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, manifest an aspect of dread as a Bonus Action for 1 minute:</p>\n               <ul>\n                 <li>Gain <strong>Temporary HP equal to 1d10 + Warlock level</strong>.</li>\n                 <li><strong>Immune to Frightened</strong> condition.</li>\n                 <li>Once per turn on a hit, force the target to make a <strong>Wisdom save</strong> or become <strong>Frightened</strong> of you until end of your next turn.</li>\n               </ul>\n               <p>Uses equal to Proficiency Bonus per Long Rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Undead 3",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uaundeadspells01",
+    "name": "Undead Spells",
+    "type": "feat",
+    "img": "icons/magic/unholy/energy-smoke-drain-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared: <em>Bane</em>, <em>Blindness/Deafness</em>, <em>Speak with Dead</em>, <em>Death Ward</em>, and <em>Cloudkill</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Undead 3"
+    }
+  },
+  {
+    "_id": "uagravetouched01",
+    "name": "Grave Touched",
+    "type": "feat",
+    "img": "icons/magic/unholy/hand-marked-pink.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, you do not need to eat, drink, or breathe. Once per turn when dealing damage, you can replace the damage type with <strong>Necrotic</strong> and add <strong>one extra damage die</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Undead 6"
+    }
+  },
+  {
+    "_id": "uanecrotichusk01",
+    "name": "Necrotic Husk",
+    "type": "feat",
+    "img": "icons/magic/death/skeleton-skull-horned-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, gain <strong>Resistance to Necrotic damage</strong> (Immunity during Form of Dread). When reduced to 0 HP, explode dealing necrotic damage within 30 feet and revive with 1 HP (1x per Long Rest).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Undead 10"
+    }
+  },
+  {
+    "_id": "uasuperiordread1",
+    "name": "Spirit Projection",
+    "type": "feat",
+    "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, as a Magic action, project your spirit for 1 hour: 30-foot Fly speed (hover), resistance to bludgeoning/piercing/slashing, and cast Conjuration/Necromancy spells with reduced components.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Undead 14",
+      "activation": {
+        "type": "action",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uaarcherlore0001",
+    "name": "Arcane Archer Lore",
+    "type": "feat",
+    "img": "icons/sundries/books/book-runes-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, gain proficiency in <strong>Arcana and Nature</strong>, and learn either <em>Prestidigitation</em> or <em>Druidcraft</em> using Intelligence.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arcane Archer 3"
+    }
+  },
+  {
+    "_id": "uaarcaneshot0001",
+    "name": "Arcane Shot",
+    "type": "feat",
+    "img": "icons/weapons/ammunition/arrows-broadhead-glowing-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, infuse ranged attacks with magical effects. Choose two Arcane Shot options (e.g., <em>Banishing</em>, <em>Bursting</em>, <em>Enfeebling</em>, <em>Seeking</em>, <em>Shadow</em>, <em>Piercing</em>).</p>\n               <p>You can use an Arcane Shot once per turn on a hit. You have <strong>2 uses</strong>, regaining them on a Short or Long Rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arcane Archer 3",
+      "uses": {
+        "value": 2,
+        "max": 2,
+        "per": "sr",
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uacurvingshot001",
+    "name": "Curving Shot",
+    "type": "feat",
+    "img": "icons/skills/ranged/arrow-flying-spiral-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, when you miss with a ranged attack, take a Bonus Action to curve the shot toward another creature within 60 feet, making a new attack roll.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arcane Archer 7",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uamagicammo00001",
+    "name": "Magical Ammunition",
+    "type": "feat",
+    "img": "icons/weapons/ammunition/arrows-crystal-glowing-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, your ammunition counts as magical to overcome resistances and can create magical utility effects such as light beacons or anchoring ropes.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arcane Archer 7"
+    }
+  },
+  {
+    "_id": "uaeverreadyshot1",
+    "name": "Ever-Ready Shot",
+    "type": "feat",
+    "img": "icons/skills/ranged/target-bullseye-arrow-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, when you roll Initiative with no remaining uses of Arcane Shot, you immediately regain <strong>one use</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arcane Archer 10"
+    }
+  },
+  {
+    "_id": "uaarcaneburst001",
+    "name": "Arcane Burst",
+    "type": "feat",
+    "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, when you use Indomitable, release a shockwave that disorients adjacent foes or teleports you up to 30 feet.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arcane Archer 15"
+    }
+  },
+  {
+    "_id": "uamasterfulshot1",
+    "name": "Masterful Shots",
+    "type": "feat",
+    "img": "icons/skills/ranged/arrows-flying-multiple-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 18th level, the extra damage dealt by all of your Arcane Shot options increases from <strong>2d6 to 4d6</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arcane Archer 18"
+    }
+  },
+  {
+    "_id": "uamagictattoos01",
+    "name": "Magic Tattoos",
+    "type": "feat",
+    "img": "icons/skills/wounds/injury-scar-stitched-pink.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, your body is inscribed with mystical tattoos channeling your Focus. Your unarmed strikes can deal Force damage instead of bludgeoning.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Tattooed Warrior 3"
+    }
+  },
+  {
+    "_id": "uabeasttattoos01",
+    "name": "Beast Tattoos",
+    "type": "feat",
+    "img": "icons/creatures/claws/claw-glowing-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, choose two beast tattoos (e.g., <em>Tiger's Claw</em>, <em>Falcon's Wing</em>, <em>Turtle Shell</em>, or <em>Viper's Fang</em>) gaining enhanced strikes and defense.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Tattooed Warrior 3"
+    }
+  },
+  {
+    "_id": "uacelestialtatt1",
+    "name": "Celestial Tattoo",
+    "type": "feat",
+    "img": "icons/magic/light/wings-angel-feathered-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, receive a celestial tattoo: gain Fly speed equal to your Speed when using Step of the Wind, and resistance to Radiant and Necrotic damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Tattooed Warrior 6"
+    }
+  },
+  {
+    "_id": "uanaturetattoo01",
+    "name": "Nature Tattoo",
+    "type": "feat",
+    "img": "icons/magic/nature/tree-spirit-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 11th level, your nature tattoo absorbs elemental damage, infusing your unarmed strikes with fire, cold, or lightning.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Tattooed Warrior 11"
+    }
+  },
+  {
+    "_id": "uamonstertattoo1",
+    "name": "Monster Tattoo",
+    "type": "feat",
+    "img": "icons/creatures/abilities/dragon-breath-fire-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 17th level, manifest the titan tattoo: as a Bonus Action grow to Large size, gain condition immunities, and deal an extra 1d10 Force damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Tattooed Warrior 17",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uabenigntransp01",
+    "name": "Benign Transposition",
+    "type": "feat",
+    "img": "icons/magic/movement/portal-vortex-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, as a Bonus Action, teleport up to 30 feet to an unoccupied space or swap places with a willing creature. Recharges when casting a 1st+ level Conjuration spell.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Conjurer 3",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uaconjursavant01",
+    "name": "Conjuration Savant",
+    "type": "feat",
+    "img": "icons/sundries/books/book-open-glow-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Add two 1st- or 2nd-level Conjuration spells to your spellbook for free, and copying Conjuration spells takes half the gold and time.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Conjurer 3"
+    }
+  },
+  {
+    "_id": "uadistanttransp1",
+    "name": "Distant Transposition",
+    "type": "feat",
+    "img": "icons/magic/movement/trail-streak-zigzag-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, the range of your Benign Transposition increases to <strong>60 feet</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Conjurer 6"
+    }
+  },
+  {
+    "_id": "uadurablesummons",
+    "name": "Durable Summons",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, any creature you summon or create gains <strong>Temporary HP equal to twice your Wizard level</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Conjurer 6"
+    }
+  },
+  {
+    "_id": "uafocusedconjur1",
+    "name": "Focused Conjuration",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, while concentrating on a Conjuration spell, your concentration <strong>cannot be broken as a result of taking damage</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Conjurer 10"
+    }
+  },
+  {
+    "_id": "uasplintersummon",
+    "name": "Splintered Summons",
+    "type": "feat",
+    "img": "icons/magic/control/portal-stream-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, when casting a summon spell that creates one creature, you can manifest two creatures instead.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Conjurer 14"
+    }
+  },
+  {
+    "_id": "uaenchantsavant1",
+    "name": "Enchantment Savant",
+    "type": "feat",
+    "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+    "system": {
+      "description": {
+        "value": "<p>Add two Enchantment spells to your spellbook for free, and copying Enchantment spells takes half the gold and time.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Enchanter 3"
+    }
+  },
+  {
+    "_id": "uahypnoticpres01",
+    "name": "Hypnotic Presence",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-aura-energy-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, as a Magic action, force a creature within 5 feet to make a Wisdom save or be Charmed and Incapacitated until end of your next turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Enchanter 3",
+      "activation": {
+        "type": "action",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uasplitenchant01",
+    "name": "Split Enchantment",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, when you cast an Enchantment spell of 1st level or higher that targets only one creature, you can target a <strong>second creature</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Enchanter 6"
+    }
+  },
+  {
+    "_id": "uainstinctcharm1",
+    "name": "Instinctive Charm",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, when attacked, take a Reaction to force a Wisdom save on the attacker to redirect the attack to the nearest creature.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Enchanter 10",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uaaltermemories1",
+    "name": "Alter Memories",
+    "type": "feat",
+    "img": "icons/magic/perception/brain-think-glow-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, creatures you charm do not realize they were charmed, and you can make them forget periods of time.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Enchanter 14"
+    }
+  },
+  {
+    "_id": "uanecromansavant",
+    "name": "Necromancy Savant",
+    "type": "feat",
+    "img": "icons/magic/death/skull-energy-white-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Add two Necromancy spells to your spellbook for free, and copying Necromancy spells takes half the gold and time.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Necromancer 3"
+    }
+  },
+  {
+    "_id": "uanecromanspellb",
+    "name": "Necromancy Spellbook",
+    "type": "feat",
+    "img": "icons/sundries/books/book-skull-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, learn a modified Necromancy cantrip and store soul fragments within your spellbook pages.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Necromancer 3"
+    }
+  },
+  {
+    "_id": "uagravepower0001",
+    "name": "Grave Power",
+    "type": "feat",
+    "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, when you slay creatures with a spell of 1st+ level, regain HP equal to twice the spell level (three times for Necromancy).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Necromancer 6"
+    }
+  },
+  {
+    "_id": "uaundeadthralls1",
+    "name": "Undead Thralls",
+    "type": "feat",
+    "img": "icons/creatures/undead/skeleton-sword-shield-gray.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, add <em>Animate Dead</em> to spellbook. Undead you create have HP increased by Wizard level and add PB to damage rolls.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Necromancer 6"
+    }
+  },
+  {
+    "_id": "uaharvestundead1",
+    "name": "Harvest Undead",
+    "type": "feat",
+    "img": "icons/magic/death/skull-horned-goat-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, Resistance to Necrotic damage, max HP cannot be reduced, and absorb destroying undead thralls to heal yourself.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Necromancer 10"
+    }
+  },
+  {
+    "_id": "uadeathsmaster01",
+    "name": "Death's Master",
+    "type": "feat",
+    "img": "icons/magic/death/undead-skeleton-lich-king-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, as a Magic action, force an undead creature within 60 feet to make a Charisma saving throw or become under your permanent command.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Necromancer 14",
+      "activation": {
+        "type": "action",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uatransmutsavant",
+    "name": "Transmutation Savant",
+    "type": "feat",
+    "img": "icons/magic/symbols/runes-carved-stone-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>Add two Transmutation spells to your spellbook for free, and copying Transmutation spells takes half the gold and time.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Transmuter 3"
+    }
+  },
+  {
+    "_id": "uatransmutstone1",
+    "name": "Transmuter's Stone",
+    "type": "feat",
+    "img": "icons/commodities/gems/gem-faceted-rough-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, craft a magic stone granting its bearer a benefit: 60ft Darkvision, +10ft Speed, proficiency in Constitution saves, or elemental resistance.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Transmuter 3"
+    }
+  },
+  {
+    "_id": "uawondrousalter1",
+    "name": "Wondrous Alteration",
+    "type": "feat",
+    "img": "icons/magic/nature/crystal-growth-glow-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, temporarily transmute mundane physical substances (wood to iron, stone to silver, etc.) during a rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Transmuter 3"
+    }
+  },
+  {
+    "_id": "uaempoweredtrans",
+    "name": "Empowered Transmutation",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, your stone can confer two simultaneous benefits or be changed quickly.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Transmuter 6"
+    }
+  },
+  {
+    "_id": "uapotentstone001",
+    "name": "Potent Stone",
+    "type": "feat",
+    "img": "icons/commodities/gems/gem-faceted-diamond-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, the stone bearer can consume its charge to restore all HP or cure poisons and curses.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Transmuter 10"
+    }
+  },
+  {
+    "_id": "uashapechanger01",
+    "name": "Shapechanger",
+    "type": "feat",
+    "img": "icons/creatures/mammals/wolf-shadow-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, add <em>Polymorph</em> to spellbook and cast it on yourself without a spell slot (1x per Long Rest).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Transmuter 10"
+    }
+  },
+  {
+    "_id": "uamastertransmut",
+    "name": "Master Transmuter",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-sigil-horned-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, consume your stone to perform Major Transmutation: Panacea, Restore Youth, or Raise Dead.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Transmuter 14"
+    }
+  },
+  {
+    "_id": "uaarcanaspells01",
+    "name": "Arcana Domain Spells",
+    "type": "feat",
+    "img": "icons/sundries/books/book-runes-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have prepared: <em>Magic Missile</em>, <em>Detect Magic</em>, <em>Magic Weapon</em>, <em>Misty Step</em>, <em>Dispel Magic</em>, <em>Haste</em>, <em>Arcane Eye</em>, and <em>Dimension Door</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arcana Domain 3"
+    }
+  },
+  {
+    "_id": "uaarcanainitiate",
+    "name": "Arcane Initiate",
+    "type": "feat",
+    "img": "icons/magic/light/projectile-smoke-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, gain Arcana proficiency and learn <strong>two Wizard cantrips</strong> of your choice as Cleric spells.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arcana Domain 3"
+    }
+  },
+  {
+    "_id": "uaarcanaabjurat1",
+    "name": "Spellbreaker Abjuration",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, when healing an ally with a 1st+ level spell, also end one spell of equal or lower level affecting the target.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arcana Domain 6"
+    }
+  },
+  {
+    "_id": "uaarcanamastery1",
+    "name": "Arcane Mastery",
+    "type": "feat",
+    "img": "icons/magic/symbols/triangle-glow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 17th level, choose four Wizard spells (one each of 6th, 7th, 8th, and 9th level) to add to your prepared Cleric spells.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arcana Domain 17"
+    }
+  },
+  {
+    "_id": "uaancestralspell",
+    "name": "Ancestral Spells",
+    "type": "feat",
+    "img": "icons/magic/fire/spirit-soul-flame-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have prepared: <em>Bless</em>, <em>Prayer of Healing</em>, <em>Spirit Guardians</em>, <em>Death Ward</em>, and <em>Commune</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ancestral Sorcery 3"
+    }
+  },
+  {
+    "_id": "uaancestralguide",
+    "name": "Ancestral Guide",
+    "type": "feat",
+    "img": "icons/magic/perception/mind-flayer-glowing-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, consult ancestor spirits for a 1d4 bonus on skill checks and spend 1 Sorcery Point for Advantage on mental saves.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ancestral Sorcery 3"
+    }
+  },
+  {
+    "_id": "uaspiritualarmor",
+    "name": "Spiritual Armor",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, ancestors shield you: unarmored AC becomes 13 + Charisma mod, and you can intercept damage for nearby allies.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ancestral Sorcery 6"
+    }
+  },
+  {
+    "_id": "uaancestralcall1",
+    "name": "Ancestral Call",
+    "type": "feat",
+    "img": "icons/magic/sonic/sound-wave-explosion-glow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, summon an ancestral spirit warrior by spending 4 Sorcery Points without expending a spell slot.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ancestral Sorcery 14"
+    }
+  },
+  {
+    "_id": "uaancientavatars",
+    "name": "Avatar of the Ancients",
+    "type": "feat",
+    "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 18th level, as a Bonus Action become the living vessel of your bloodline for 1 minute: weapon resistance, 60ft Fly speed, and reroll spell damage dice.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ancestral Sorcery 18",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  }
+]

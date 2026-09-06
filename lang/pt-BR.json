@@ -134,6 +134,30 @@
       "Amplify": "Amplificar Maldição",
       "Brand": "Marca do Castigo"
     }
+  },
+  "UA_SUBCLASSES_5E": {
+    "Categories": {
+      "Horror": "Arquétipos de Horror",
+      "Arcane": "Arquétipos Arcanos"
+    },
+    "Subclasses": {
+      "Reanimator": "Reanimador",
+      "Spirits": "Colégio dos Espíritos",
+      "Grave": "Domínio do Túmulo",
+      "HollowWarden": "Guardião Oco",
+      "Phantom": "Fantasma",
+      "Shadow": "Feitiçaria das Sombras",
+      "Hexblade": "Patrono Lâmina Maldita",
+      "Undead": "Patrono Insepulto",
+      "ArcaneArcher": "Arqueiro Arcano",
+      "TattooedWarrior": "Guerreiro Tatuado",
+      "Conjurer": "Invocador",
+      "Enchanter": "Encantador",
+      "Necromancer": "Necromante",
+      "Transmuter": "Transmutador",
+      "Arcana": "Domínio da Arcana",
+      "Ancestral": "Feitiçaria Ancestral"
+    }
   }
 }
 

@@ -50,6 +50,23 @@ export class MidiQOLCompat {
       if (itemId?.startsWith("whcurse")) {
         console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Maldição de Sangue (${workflow.item.name}) em ${workflow.targets?.size || 0} alvo(s).`);
       }
+
+      // Automações para Arquétipos de Unearthed Arcana (Horror & Arcane)
+      if (itemId === "uajolttolife0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Choque para a Vida (Jolt to Life) do Reanimador.`);
+      }
+      if (itemId === "uapathtothegrav1") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Caminho para a Sepultura (Path to the Grave) do Clérigo do Túmulo.`);
+      }
+      if (itemId === "uahexblademanif1") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Manifestação da Lâmina Maldita (Hexblade Manifest).`);
+      }
+      if (itemId === "uaformofdread001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Forma Pavorosa (Form of Dread) do Bruxo Insepulto.`);
+      }
+      if (itemId === "uaarcaneshot0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Disparo Arcano (Arcane Shot) do Arqueiro Arcano.`);
+      }
     });
   }
 }

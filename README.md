@@ -26,6 +26,26 @@ Módulo completo para o **Foundry Virtual Tabletop (VTT)** que adiciona classes 
     3. **Ordem do Mutante (Mutant)**: *Criação de Mutagênicos* com 19 fórmulas completas em itens consumíveis (bônus e penalidades automatizadas via ActiveEffect), *Metabolismo Estranho*, *Fisiologia Robusta*, *Mutação Exaltada*.
     4. **Ordem da Alma Profana (Profane Soul)**: *Magia de Pacto* com Inteligência, Patronos do Outro Mundo, *Foco Ritual*, *Frenezi Místico*, *Canalização Diabólica*, *Arcana Revelada*, *Sifão de Almas*.
   - **Rituais Carmesins & Maldições de Sangue**: 7 Rituais com ActiveEffects e 10 Maldições de Sangue completas com salvaguardas e automações no Midi QOL.
+- **16 Subclasses de Unearthed Arcana (One D&D / 2024 - Lote 1: Horror & Arcane)**:
+  - Totalmente integradas às classes oficiais do sistema `dnd5e` através de `CONFIG.DND5E.subclasses` e concedidas automaticamente na progressão de níveis com Item Advancements:
+  - **Subclasses de Horror (`UA2025-HorrorSubclasses.pdf`)**:
+    1. **Artífice: Reanimador (Reanimator)**: *Choque para a Vida (Jolt to Life)*, *Companheiro Reanimado*, *Modificações Estranhas*, *Reanimação Aprimorada* e *Reanimação Prometeica*.
+    2. **Bardo: Colégio dos Espíritos (College of Spirits)**: *Canalizador de Espíritos*, *Contos do Além (Tales from Beyond)*, *Canalização Fortalecida* e *Conexão Mística*.
+    3. **Clérigo: Domínio do Túmulo (Grave Domain)**: *Círculo da Mortalidade* (cura máxima a 0 PV), Canalizar Divindade *Caminho para a Sepultura* (vulnerabilidade), *Sentinela às Portas da Morte* (cancela críticos) e *Ceifador Divino*.
+    4. **Patrulheiro: Guardião Oco (Hollow Warden)**: *Ira da Natureza Oca*, *Poder Faminto*, *Podridão e Violência* e *Resistência Ancestral*.
+    5. **Ladino: Fantasma (Phantom)**: *Sussurros dos Mortos*, *Lamentos da Sepultura (Wails from the Grave)*, *Fetiches dos Partidos (Tokens of the Departed)*, *Passo Fantasma* e *Amigo da Morte*.
+    6. **Feiticeiro: Feitiçaria das Sombras (Shadow Sorcery)**: *Olhos da Escuridão*, *Cão do Mau Agouro (Hound of Ill Omen)*, *Passo das Sombras* e *Forma Umbral*.
+    7. **Bruxo: Patrono Lâmina Maldita (Hexblade Patron)**: *Manifestação da Lâmina Maldita* (Guerreiro Maldito com Carisma, crítico 19-20 e dano de PB), *Espectro Maldito*, *Armadura de Maldições* e *Maldição Mestra*.
+    8. **Bruxo: Patrono Insepulto (Undead Patron)**: *Forma Pavorosa (Form of Dread)*, *Tocado pela Sepultura*, *Casca Necrótica* e *Projeção Espiritual*.
+  - **Subclasses Arcanas (`UA2025-ArcaneSubclassesUpdate.pdf` e `UA2025-ArcaneSubclasses.pdf`)**:
+    9. **Guerreiro: Arqueiro Arcano (Arcane Archer)**: *Tradição do Arqueiro Arcano*, *Disparo Arcano (Arcane Shot)* com 2d6 a 4d6 de dano mágico, *Disparo Curvo*, *Munição Mágica*, *Disparo Sempre Pronto*, *Explosão Arcana* e *Disparos Mestres*.
+    10. **Monge: Guerreiro Tatuado (Tattooed Warrior)**: *Tatuagens Mágicas*, *Tatuagens das Feras*, *Tatuagem Celestial*, *Tatuagem da Natureza* e *Tatuagem dos Monstros*.
+    11. **Mago: Invocador (Conjurer)**: *Transposição Benigna* (teleporte bônus recarregável), *Especialista em Conjuração*, *Transposição Distante*, *Invocações Duradouras* (+PVT em summons), *Conjuração Focada* (concentração inquebrável por dano) e *Invocações Fracionadas*.
+    12. **Mago: Encantador (Enchanter)**: *Especialista em Encantamento*, *Presença Hipnótica*, *Encantamento Dividido* (alvo duplo em magias), *Charme Instintivo* (redireciona ataques) e *Alterar Memórias*.
+    13. **Mago: Necromante (Necromancer)**: *Especialista em Necromancia*, *Grimório dos Mortos*, *Poder do Túmulo* (cura ao matar), *Servos Mortos-vivos* (mais PV e bônus no dano), *Colheita dos Mortos* e *Mestre da Morte* (comanda mortos-vivos inimigos).
+    14. **Mago: Transmutador (Transmuter)**: *Especialista em Transmutação*, *Pedra do Transmutador* (concede bônus customizáveis ao portador), *Alteração Prodigiosa*, *Transmutação Fortalecida*, *Pedra Potente*, *Metamorfo Arcano* (*Polymorph* livre) e *Mestre da Transmutação* (Panaceia e restauração).
+    15. **Clérigo: Domínio da Arcana (Arcana Domain)**: *Iniciado Arcano* (truques de mago como magias de clérigo), *Abjuração de Quebra de Feitiço* e *Maestria Arcana* (magias de 6º a 9º de mago).
+    16. **Feiticeiro: Feitiçaria Ancestral (Ancestral Sorcery)**: *Guia Ancestral*, *Armadura Espiritual*, *Chamado dos Ancestrais* e *Avatar dos Antigos*.
 - **Nova Magia & Companheiros**:
   - Nova magia de 2º círculo: *Homunculus Servant* (Servo Homúnculo) com ritual e ficha de invocação.
   - Fichas de NPCs/Companheiros completas no compêndio: **Steel Defender**, **Homunculus Servant** e **Eldritch Cannon**.
@@ -44,12 +64,18 @@ Módulo completo para o **Foundry Virtual Tabletop (VTT)** que adiciona classes 
 
 ## 📦 Compêndios Inclusos
 
-1. **Artificer Classes** (`artificer-classes`): O documento da classe Artífice com todos os avanços de perícias, dados de vida, proficiências e concessão automática de recursos.
-2. **Artificer Subclasses** (`artificer-subclasses`): As 5 subclasses com suas respectivas concessões de magias e habilidades.
-3. **Artificer Features** (`artificer-features`): Todos os recursos de classe e de subclasse como itens `feat`.
-4. **Artificer Spells** (`artificer-spells`): A nova magia *Homunculus Servant* e tabela de referência de conjuração.
-5. **Artificer Magic Items & Inventions** (`artificer-items`): Elixires experimentais consumíveis e itens replicados especiais (*Manifold Tool*, *Repeating Shot*, *Returning Weapon*, *Mind Sharpener*, *Boots of the Winding Path*, *Repulsion Shield*, etc.).
-6. **Artificer Companions & Summons** (`artificer-actors`): Atores pré-configurados do *Steel Defender*, *Homunculus Servant* e *Eldritch Cannon*.
+1. **Artificer Classes** (`artificer-classes`): O documento da classe Artífice.
+2. **Artificer Subclasses** (`artificer-subclasses`): As 5 subclasses do Artífice.
+3. **Artificer Features** (`artificer-features`): Todos os recursos de classe e subclasse do Artífice.
+4. **Artificer Spells** (`artificer-spells`): A nova magia *Homunculus Servant*.
+5. **Artificer Magic Items & Inventions** (`artificer-items`): Elixires experimentais e itens replicados.
+6. **Artificer Companions & Summons** (`artificer-actors`): Atores pré-configurados.
+7. **Witch Hunter Classes** (`witch-hunter-classes`): A classe Caçador de Bruxas.
+8. **Witch Hunter Orders** (`witch-hunter-subclasses`): As 4 Ordens do Caçador de Bruxas.
+9. **Witch Hunter Features** (`witch-hunter-features`): Recursos, rituais carmesins e maldições de sangue.
+10. **Witch Hunter Items & Mutagens** (`witch-hunter-items`): As fórmulas de mutagênicos consumíveis.
+11. **Unearthed Arcana Subclasses** (`ua-subclasses`): As 16 subclasses de Unearthed Arcana (Horror & Arcane).
+12. **Unearthed Arcana Features** (`ua-features`): Todas as características de 3º ao 18º nível das 16 subclasses do UA.
 
 ---
 

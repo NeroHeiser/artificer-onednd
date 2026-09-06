@@ -1,0 +1,1798 @@
+[
+  {
+    "_id": "uareanspells0001",
+    "name": "Magias do Reanimador",
+    "type": "feat",
+    "img": "icons/magic/death/skull-energy-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas nos níveis correspondentes:</p>\n               <ul>\n                 <li><strong>3º Nível:</strong> <em>Vitalidade Falsa (False Life)</em>, <em>Poupar os Moribundos (Spare the Dying)</em>, <em>Raio de Bruxa (Witch Bolt)</em></li>\n                 <li><strong>5º Nível:</strong> <em>Cegueira/Surdez (Blindness/Deafness)</em>, <em>Aprimorar Habilidade (Enhance Ability)</em></li>\n                 <li><strong>9º Nível:</strong> <em>Animar Mortos (Animate Dead)</em>, <em>Relâmpago (Lightning Bolt)</em></li>\n                 <li><strong>13º Nível:</strong> <em>Definhar (Blight)</em>, <em>Proteção contra a Morte (Death Ward)</em></li>\n                 <li><strong>17º Nível:</strong> <em>Casulo Antivida (Antilife Shell)</em>, <em>Reviver os Mortos (Raise Dead)</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Reanimador 3"
+    }
+  },
+  {
+    "_id": "uajolttolife0001",
+    "name": "Choque para a Vida",
+    "type": "feat",
+    "img": "icons/magic/lightning/bolt-forked-large-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, quando você conjura <em>Poupar os Moribundos (Spare the Dying)</em>, você pode modificar a magia para enviar um choque voltaico através do alvo, reanimando-o:</p>\n               <ul>\n                 <li>O alvo recupera <strong>1 Ponto de Vida</strong>.</li>\n                 <li>Cada criatura em uma Emanação de 3 metros (10 pés) ao redor do alvo faz uma salvaguarda de Destreza contra sua CD de magia, sofrendo <strong>1d4 + metade do seu nível de Artífice (arredondado para cima)</strong> de dano Elétrico em uma falha, ou metade no sucesso.</li>\n               </ul>\n               <p>Você pode usar esta modificação uma quantidade de vezes igual ao seu modificador de Inteligência (mínimo de 1), recuperando todos os usos em um Descanso Longo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Reanimador 3",
+      "uses": {
+        "value": 3,
+        "max": "@abilities.int.mod",
+        "per": "lr",
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uareancompani001",
+    "name": "Companheiro Reanimado",
+    "type": "feat",
+    "img": "icons/creatures/magical/construct-golem-flesh-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, usando Ferramentas de Funileiro ou de Artesão com as quais você é proficiente, você pode usar uma Ação de Magia para construir um <strong>Companheiro Reanimado</strong> (Morto-vivo Médio).</p>\n               <p>Ele age logo após seu turno, obedece aos seus comandos verbais e ataca usando seu modificador de Inteligência para ataque e dano.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Reanimador 3"
+    }
+  },
+  {
+    "_id": "uareanmodific001",
+    "name": "Modificações Estranhas",
+    "type": "feat",
+    "img": "icons/commodities/biological/organ-heart-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 5º nível, seu companheiro reanimado ganha aprimoramentos cirúrgicos e alquímicos à sua escolha: Cuspe Ácido, Carapaça Óssea, Tendões Elásticos ou Vigor Vil.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Reanimador 5"
+    }
+  },
+  {
+    "_id": "uareanimproved01",
+    "name": "Reanimação Aprimorada",
+    "type": "feat",
+    "img": "icons/magic/lightning/bolt-forked-large-cyan.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 9º nível, o dano elétrico de Choque para a Vida aumenta em 1d4 e o alvo recupera PV iguais a 1 + seu modificador de Inteligência. Além disso, seu companheiro pode realizar dois ataques em sua ação de Ataque.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Reanimador 9"
+    }
+  },
+  {
+    "_id": "uareanpromethe01",
+    "name": "Reanimação Prometeica",
+    "type": "feat",
+    "img": "icons/magic/lightning/fist-unarmed-strike-strike-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 15º nível, seu companheiro ganha Imunidade a dano Elétrico e regenera 5 PV no início de cada turno se sofrer dano elétrico. Além disso, você pode conjurar <em>Criar Mortos-vivos (Create Undead)</em> uma vez por Descanso Longo sem gastar espaço de magia.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Reanimador 15"
+    }
+  },
+  {
+    "_id": "uaspirchanneler1",
+    "name": "Canalizador de Espíritos",
+    "type": "feat",
+    "img": "icons/magic/symbols/circle-outer-ring-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você aprende o truque <em>Orientação (Guidance)</em>, que conta como magia de Bardo para você e possui alcance de 18 metros (60 pés). Você também pode usar uma vela, baralho de tarô ou tábua de espíritos como Foco de Conjuração.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Colégio dos Espíritos 3"
+    }
+  },
+  {
+    "_id": "uaspirbeyond0001",
+    "name": "Contos do Além",
+    "type": "feat",
+    "img": "icons/sundries/books/book-skull-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, como uma Ação Bônus, você gasta um dado de Inspiração de Bardo e rola na <strong>Tabela de Contos dos Espíritos</strong> para canalizar um espírito (ex: Fera, Herói, Tirano, Dragão, Amante, etc.), aplicando seus efeitos mágicos imediatos a um alvo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Colégio dos Espíritos 3",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uaspirempowered1",
+    "name": "Canalização Fortalecida",
+    "type": "feat",
+    "img": "icons/magic/sonic/silence-unholy-pink.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, ao conjurar uma magia de Bardo através do seu Foco Espiritual que cause dano ou restaure PV, você adiciona <strong>1d6</strong> ao dano ou à cura.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Colégio dos Espíritos 6"
+    }
+  },
+  {
+    "_id": "uaspirmysticconn",
+    "name": "Conexão Mística",
+    "type": "feat",
+    "img": "icons/magic/perception/mind-flayer-glowing-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, ao rolar na Tabela de Contos dos Espíritos, você rola <strong>dois dados</strong> e escolhe qual dos contos manifestar.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Colégio dos Espíritos 14"
+    }
+  },
+  {
+    "_id": "uagravecircle001",
+    "name": "Círculo da Mortalidade",
+    "type": "feat",
+    "img": "icons/magic/life/cross-beam-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, quando você conjura uma magia que restaura PV para uma criatura com 0 PV, qualquer dado rolado para cura usa o <strong>resultado máximo possível</strong>.</p>\n               <p>Além disso, você aprende o truque <em>Poupar os Moribundos (Spare the Dying)</em>, que para você tem alcance de 9 metros (30 pés) e pode ser conjurado como uma Ação Bônus.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Domínio do Túmulo 3"
+    }
+  },
+  {
+    "_id": "uagravespells001",
+    "name": "Magias do Domínio do Túmulo",
+    "type": "feat",
+    "img": "icons/magic/death/grave-tombstone-cross-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas:</p>\n               <ul>\n                 <li><strong>3º Nível:</strong> <em>Perdição (Bane)</em>, <em>Vitalidade Falsa (False Life)</em></li>\n                 <li><strong>5º Nível:</strong> <em>Repouso Tranquilo (Gentle Repose)</em>, <em>Raio do Enfraquecimento (Ray of Enfeeblement)</em></li>\n                 <li><strong>7º Nível:</strong> <em>Reviver (Revivify)</em>, <em>Toque Vampírico (Vampiric Touch)</em></li>\n                 <li><strong>9º Nível:</strong> <em>Definhar (Blight)</em>, <em>Proteção contra a Morte (Death Ward)</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Domínio do Túmulo 3"
+    }
+  },
+  {
+    "_id": "uapathtothegrav1",
+    "name": "Canalizar Divindade: Caminho para a Sepultura",
+    "type": "feat",
+    "img": "icons/magic/death/skull-horned-black.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma Ação de Magia, você gasta um uso de Canalizar Divindade para amaldiçoar uma criatura a até 9 metros (30 pés). Até o final do seu próximo turno, o alvo fica com <strong>Vulnerabilidade a todo o dano</strong> do próximo ataque feito por você ou seus aliados que o atingir.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Domínio do Túmulo 3",
+      "activation": {
+        "type": "action",
+        "cost": 1
+      },
+      "range": {
+        "value": 30,
+        "units": "ft"
+      }
+    }
+  },
+  {
+    "_id": "uagravesentinel1",
+    "name": "Sentinela às Portas da Morte",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, quando você ou uma criatura a até 9 metros sofrer um <strong>Acerto Crítico</strong>, você pode usar uma Reação para cancelar o crítico, transformando-o em um acerto normal. Usos iguais ao mod Sabedoria por Descanso Longo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Domínio do Túmulo 6",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uagravereaper001",
+    "name": "Ceifador Divino",
+    "type": "feat",
+    "img": "icons/magic/death/scythe-blade-skull-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 17º nível, ao conjurar uma magia de Necromancia de 1º a 5º círculo que tenha como alvo apenas uma criatura, você pode escolher um <strong>segundo alvo</strong> dentro do alcance.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Domínio do Túmulo 17"
+    }
+  },
+  {
+    "_id": "uahollowspells01",
+    "name": "Magias do Guardião Oco",
+    "type": "feat",
+    "img": "icons/magic/nature/root-vine-glow-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas: <em>Infligir Ferimentos</em>, <em>Passos sem Pegadas</em>, <em>Animar Mortos</em>, <em>Definhar</em> e <em>Contágio</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guardião Oco 3"
+    }
+  },
+  {
+    "_id": "uawrathofthewild",
+    "name": "Ira da Natureza Oca",
+    "type": "feat",
+    "img": "icons/magic/unholy/beam-impact-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Como uma Ação Bônus, seus ataques são envoltos em espíritos necróticos da floresta por 1 minuto. Uma vez por turno ao acertar um ataque, causa <strong>1d6 de dano Necrótico ou Frio extra</strong> e reduz o deslocamento do alvo em 3 metros (10 pés).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guardião Oco 3",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uahungeringmigh1",
+    "name": "Poder Faminto",
+    "type": "feat",
+    "img": "icons/magic/life/heart-shadow-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 7º nível, ao causar dano com Ira da Natureza Oca, você ganha Pontos de Vida Temporários iguais ao dano causado ou transfere esses PVT para um aliado a até 9 metros.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guardião Oco 7"
+    }
+  },
+  {
+    "_id": "uarotandviolence",
+    "name": "Podridão e Violência",
+    "type": "feat",
+    "img": "icons/magic/death/swarm-insects-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 11º nível, o dano da Ira da Natureza Oca aumenta para <strong>1d10</strong>, e você pode criar uma tempestade de podridão que torna a área em volta de você terreno difícil para os inimigos e causa dano contínuo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guardião Oco 11"
+    }
+  },
+  {
+    "_id": "uaancientenduran",
+    "name": "Resistência Ancestral",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 15º nível, ao ser reduzido a 0 PV, você cai para 1 PV em vez disso e emite uma onda necrótica em 9 metros que causa 3d10 de dano necrótico e empurra os inimigos (1x por Descanso Longo).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guardião Oco 15"
+    }
+  },
+  {
+    "_id": "uawhispersdead01",
+    "name": "Sussurros dos Mortos",
+    "type": "feat",
+    "img": "icons/magic/perception/ear-sound-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, sempre que terminar um Descanso Curto ou Longo, você pode escolher uma perícia ou ferramenta da qual não seja proficiente para se tornar <strong>proficiente</strong> até o próximo descanso, guiado pelas vozes dos espíritos.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fantasma 3"
+    }
+  },
+  {
+    "_id": "uawailsfromgrav1",
+    "name": "Lamentos da Sepultura",
+    "type": "feat",
+    "img": "icons/magic/death/skull-screaming-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, imediatamente após causar dano de <strong>Ataque Furtivo (Sneak Attack)</strong> em uma criatura, você pode forçar uma segunda criatura a até 9 metros a sofrer <strong>dano Necrótico igual à metade dos seus dados de Ataque Furtivo</strong> (arredondado para cima).</p>\n               <p>Usos iguais ao seu Bônus de Proficiência por Descanso Longo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fantasma 3"
+    }
+  },
+  {
+    "_id": "uatokensofdepart",
+    "name": "Fetiches dos Partidos",
+    "type": "feat",
+    "img": "icons/commodities/materials/shard-glass-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 9º nível, quando uma criatura morre a até 9 metros de você, você pode usar uma Reação para aprisionar uma lasca da alma dela em um <em>Fetiche da Alma</em> (máximo igual ao seu PB). Enquanto carregar um fetiche, tem Vantagem em testes de resistência contra morte e Constituição.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fantasma 9"
+    }
+  },
+  {
+    "_id": "uaghostwalk00001",
+    "name": "Passo Fantasma",
+    "type": "feat",
+    "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 13º nível, como uma Ação Bônus, você entra em uma forma espectral por 10 minutos (ou destrói 1 fetiche para ativar sem gastar uso diário): ganha deslocamento de voo de 3 metros (pairar), ataques contra você têm Desvantagem e você pode mover-se através de criaturas e objetos.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fantasma 13",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uadeathsfriend01",
+    "name": "Amigo da Morte",
+    "type": "feat",
+    "img": "icons/magic/death/skeleton-skull-horned-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 17º nível, ao usar Lamentos da Sepultura, você causa o dano necrótico ao <strong>primeiro e ao segundo alvo simultaneamente</strong>. Além disso, ao terminar um Descanso Longo, um fetiche da alma aparece em sua mão se você não tiver nenhum.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fantasma 17"
+    }
+  },
+  {
+    "_id": "uaeyesofdark0001",
+    "name": "Olhos da Escuridão",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-slit-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você ganha <strong>Visão no Escuro com alcance de 36 metros (120 pés)</strong>. Além disso, você pode conjurar <em>Escuridão (Darkness)</em> gastando 2 Pontos de Feitiçaria e pode enxergar normalmente através da escuridão criada por esta magia.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feitiçaria das Sombras 3"
+    }
+  },
+  {
+    "_id": "uashadowspells01",
+    "name": "Magias das Sombras",
+    "type": "feat",
+    "img": "icons/magic/unholy/silhouette-evil-horned-shadow.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas: <em>Vitalidade Falsa</em>, <em>Escuridão</em>, <em>Medo</em>, <em>Tentáculos Negros de Evard</em> e <em>Enervação</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feitiçaria das Sombras 3"
+    }
+  },
+  {
+    "_id": "uaspiritsillomen",
+    "name": "Cão do Mau Agouro",
+    "type": "feat",
+    "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, como uma Ação Bônus, você gasta 3 Pontos de Feitiçaria para convocar um lobo espectral de sombra ao lado de uma criatura a até 36 metros. O cão persegue o alvo, e enquanto estiver a até 1,5m dele, o alvo tem <strong>Desvantagem em salvaguardas contra suas magias</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feitiçaria das Sombras 6",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uashadowwalk0001",
+    "name": "Passo das Sombras",
+    "type": "feat",
+    "img": "icons/magic/movement/portal-vortex-dark-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, quando estiver em luz penumbrosa ou escuridão, você pode usar uma Ação Bônus para se teletransportar a até <strong>36 metros (120 pés)</strong> para outro espaço em luz penumbrosa ou escuridão que possa ver.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feitiçaria das Sombras 14",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uaumbralform0001",
+    "name": "Forma Umbral",
+    "type": "feat",
+    "img": "icons/magic/defensive/barrier-shield-dome-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 18º nível, gastando 5 Pontos de Feitiçaria como Ação Bônus, você se transforma em pura sombra por 1 minuto: ganha <strong>Resistência a todos os tipos de dano exceto Força e Radiante</strong>, e pode mover-se através de outras criaturas e objetos.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feitiçaria das Sombras 18",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uahexbladespell1",
+    "name": "Magias da Lâmina Maldita",
+    "type": "feat",
+    "img": "icons/weapons/swords/sword-broad-glowing-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas: <em>Escudo Arcano (Shield)</em>, <em>Golpe Colérico</em>, <em>Desfoque (Blur)</em>, <em>Golpe Estigmatizante</em>, <em>Piscar (Blink)</em>, <em>Arma Elemental</em>, <em>Assassino Fantasmagórico</em> e <em>Golpe Estonteante</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Lâmina Maldita 3"
+    }
+  },
+  {
+    "_id": "uahexblademanif1",
+    "name": "Manifestação da Lâmina Maldita",
+    "type": "feat",
+    "img": "icons/magic/unholy/strike-body-explode-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, como uma Ação Bônus, você amaldiçoa uma criatura que possa ver a até 9 metros por 1 minuto:</p>\n               <ul>\n                 <li>Você adiciona seu <strong>Bônus de Proficiência ao dano</strong> contra ela.</li>\n                 <li>Seus ataques contra o alvo acertam no <strong>crítico com 19 ou 20</strong>.</li>\n                 <li>Se o alvo morrer, você recupera PV iguais ao seu nível de Bruxo + mod Carisma.</li>\n                 <li><strong>Guerreiro Maldito:</strong> Você ganha proficiência com Armaduras Médias, Escudos e Armas Marciais, e usa seu <strong>Carisma</strong> para ataque e dano com sua arma de pacto.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Lâmina Maldita 3",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "ualifestealer001",
+    "name": "Roubo de Vida (Espectro Maldito)",
+    "type": "feat",
+    "img": "icons/magic/death/undead-ghost-shadow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, ao matar uma criatura humanoide, você pode usar uma Reação para erguer o espírito dela como um <strong>Espectro</strong> a seu serviço até o término do seu próximo Descanso Longo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Lâmina Maldita 6",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uaarmorofhexes01",
+    "name": "Armadura de Maldições",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-glowing-triangle-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, se o alvo da sua maldição atingir você com uma jogada de ataque, você pode usar uma Reação para rolar <strong>1d6</strong>: em um resultado <strong>4 ou superior</strong>, o ataque erra você independentemente do resultado.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Lâmina Maldita 10",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uamasterfulhex01",
+    "name": "Maldição Mestra",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-aura-energy-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, quando o alvo amaldiçoado pela sua Manifestação morrer, você pode transferir a maldição imediatamente para outra criatura que possa ver a até 9 metros sem gastar um novo uso.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Lâmina Maldita 14"
+    }
+  },
+  {
+    "_id": "uaformofdread001",
+    "name": "Forma Pavorosa",
+    "type": "feat",
+    "img": "icons/magic/death/skull-horned-goat-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, como uma Ação Bônus, você manifesta um aspecto da morte por 1 minuto:</p>\n               <ul>\n                 <li>Ganha <strong>Pontos de Vida Temporários iguais a 1d10 + nível de Bruxo</strong>.</li>\n                 <li>Você fica <strong>Imune à condição Amedrontado</strong>.</li>\n                 <li>Uma vez por turno ao acertar um ataque, pode forçar o alvo a fazer uma <strong>salvaguarda de Sabedoria</strong> ou ficar <strong>Amedrontado</strong> de você até o final do seu próximo turno.</li>\n               </ul>\n               <p>Usos iguais ao seu Bônus de Proficiência por Descanso Longo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Insepulto 3",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uaundeadspells01",
+    "name": "Magias do Insepulto",
+    "type": "feat",
+    "img": "icons/magic/unholy/energy-smoke-drain-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas: <em>Perdição</em>, <em>Cegueira/Surdez</em>, <em>Falar com os Mortos</em>, <em>Proteção contra a Morte</em> e <em>Névoa Mortal (Cloudkill)</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Insepulto 3"
+    }
+  },
+  {
+    "_id": "uagravetouched01",
+    "name": "Tocado pela Sepultura",
+    "type": "feat",
+    "img": "icons/magic/unholy/hand-marked-pink.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, você não precisa comer, beber ou respirar. Além disso, uma vez por turno ao causar dano, você pode substituir o tipo de dano do ataque por <strong>Necrótico</strong> e adicionar <strong>um dado extra de dano</strong> do mesmo tipo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Insepulto 6"
+    }
+  },
+  {
+    "_id": "uanecrotichusk01",
+    "name": "Casca Necrótica",
+    "type": "feat",
+    "img": "icons/magic/death/skeleton-skull-horned-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, você ganha <strong>Resistência a dano Necrótico</strong> (e Imunidade enquanto em Forma Pavorosa). Ao ser reduzido a 0 PV, você pode explodir em energia necrótica causando dano em 9 metros e retornar com 1 PV (1x por Descanso Longo).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Insepulto 10"
+    }
+  },
+  {
+    "_id": "uasuperiordread1",
+    "name": "Projeção Espiritual",
+    "type": "feat",
+    "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, como uma Ação de Magia, você pode projetar seu espírito para fora do corpo por 1 hora: ganha deslocamento de voo de 9 metros (pairar), resistência a dano concussão/cortante/perfurante e conjura magias de Conjuração e Necromancia sem componentes verbais, somáticos ou materiais sem custo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Horror Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Insepulto 14",
+      "activation": {
+        "type": "action",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uaarcherlore0001",
+    "name": "Tradição do Arqueiro Arcano",
+    "type": "feat",
+    "img": "icons/sundries/books/book-runes-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você aprende a teoria mágica élfica: ganha proficiência nas perícias <strong>Arcanismo e Natureza</strong>, e aprende o truque <em>Prestidigitação (Prestidigitation)</em> ou <em>Arte Druídica (Druidcraft)</em> usando Inteligência.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arqueiro Arcano 3"
+    }
+  },
+  {
+    "_id": "uaarcaneshot0001",
+    "name": "Disparo Arcano",
+    "type": "feat",
+    "img": "icons/weapons/ammunition/arrows-broadhead-glowing-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você aprende a imbuir flechas com magias potentes. Você escolhe duas opções de Disparo Arcano (ex: <em>Disparo Banidor</em>, <em>Explosivo</em>, <em>Enfraquecedor</em>, <em>Buscador</em>, <em>Sombrio</em>, <em>Perfurante</em>).</p>\n               <p>Você pode usar Disparo Arcano uma vez por turno ao acertar com uma arma à distância. Você tem <strong>2 usos</strong>, recuperando todos em Descanso Curto ou Longo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arqueiro Arcano 3",
+      "uses": {
+        "value": 2,
+        "max": 2,
+        "per": "sr",
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uacurvingshot001",
+    "name": "Disparo Curvo",
+    "type": "feat",
+    "img": "icons/skills/ranged/arrow-flying-spiral-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 7º nível, ao fazer um ataque com arma à distância e errar, você pode usar uma Ação Bônus para redirecionar o projétil mágico contra outra criatura a até 18 metros da primeira, fazendo uma nova jogada de ataque.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arqueiro Arcano 7",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uamagicammo00001",
+    "name": "Munição Mágica",
+    "type": "feat",
+    "img": "icons/weapons/ammunition/arrows-crystal-glowing-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 7º nível, suas munições disparadas contam como mágicas para sobrepujar resistências e podem emitir luz brilhante mágica ou fixar cordas espectrais.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arqueiro Arcano 7"
+    }
+  },
+  {
+    "_id": "uaeverreadyshot1",
+    "name": "Disparo Sempre Pronto",
+    "type": "feat",
+    "img": "icons/skills/ranged/target-bullseye-arrow-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, ao rolar Iniciativa sem nenhum uso de Disparo Arcano restante, você recupera <strong>um uso</strong> imediatamente.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arqueiro Arcano 10"
+    }
+  },
+  {
+    "_id": "uaarcaneburst001",
+    "name": "Explosão Arcana",
+    "type": "feat",
+    "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 15º nível, quando você usa seu recurso Indomável (Indomitable), você pode liberar uma onda de energia que atordoa criaturas hostis a até 3 metros ou teleporta você 9 metros.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arqueiro Arcano 15"
+    }
+  },
+  {
+    "_id": "uamasterfulshot1",
+    "name": "Disparos Mestres",
+    "type": "feat",
+    "img": "icons/skills/ranged/arrows-flying-multiple-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 18º nível, o dano extra de todas as suas opções de Disparo Arcano aumenta de <strong>2d6 para 4d6</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Arqueiro Arcano 18"
+    }
+  },
+  {
+    "_id": "uamagictattoos01",
+    "name": "Tatuagens Mágicas",
+    "type": "feat",
+    "img": "icons/skills/wounds/injury-scar-stitched-pink.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, sua pele é marcada com tatuagens mágicas que canalizam o seu Foco Espiritual (Ki). Seus ataques desarmados podem causar dano de Força em vez de concussão.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro Tatuado 3"
+    }
+  },
+  {
+    "_id": "uabeasttattoos01",
+    "name": "Tatuagens das Feras",
+    "type": "feat",
+    "img": "icons/creatures/claws/claw-glowing-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você escolhe duas tatuagens bestiais (ex: <em>Garra do Tigre</em>, <em>Asa do Falcão</em>, <em>Casco da Tartaruga</em> ou <em>Presa da Serpente</em>), ganhando ataques especiais e mobilidade aprimorada gastando pontos de Foco.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro Tatuado 3"
+    }
+  },
+  {
+    "_id": "uacelestialtatt1",
+    "name": "Tatuagem Celestial",
+    "type": "feat",
+    "img": "icons/magic/light/wings-angel-feathered-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, você recebe uma tatuagem celestial: ganha deslocamento de Voo igual ao seu deslocamento terrestre quando usar Passo do Vento e resistência a dano Radiante e Necrótico.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro Tatuado 6"
+    }
+  },
+  {
+    "_id": "uanaturetattoo01",
+    "name": "Tatuagem da Natureza",
+    "type": "feat",
+    "img": "icons/magic/nature/tree-spirit-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 11º nível, sua tatuagem da natureza permite absorver dano elemental e refletir em seus ataques desarmados como dano de fogo, frio ou elétrico.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro Tatuado 11"
+    }
+  },
+  {
+    "_id": "uamonstertattoo1",
+    "name": "Tatuagem dos Monstros",
+    "type": "feat",
+    "img": "icons/creatures/abilities/dragon-breath-fire-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 17º nível, você manifesta a tatuagem dos monstros cósmicos: como uma Ação Bônus, expande seu tamanho para Grande, ganha imunidade a condições incapacitantes e seus golpes causam 1d10 extra de força.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro Tatuado 17",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uabenigntransp01",
+    "name": "Transposição Benigna",
+    "type": "feat",
+    "img": "icons/magic/movement/portal-vortex-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, como uma Ação Bônus, você pode se teletransportar até 9 metros para um espaço desocupado que possa ver, ou trocar de lugar com uma criatura voluntária Pequena ou Média. Recarrega ao conjurar uma magia de Conjuração de 1º círculo ou superior.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Invocador 3",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uaconjursavant01",
+    "name": "Especialista em Conjuração",
+    "type": "feat",
+    "img": "icons/sundries/books/book-open-glow-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você adiciona duas magias de Conjuração de 1º ou 2º círculo ao seu grimório gratuitamente e copiar magias de Conjuração custa metade do ouro e tempo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Invocador 3"
+    }
+  },
+  {
+    "_id": "uadistanttransp1",
+    "name": "Transposição Distante",
+    "type": "feat",
+    "img": "icons/magic/movement/trail-streak-zigzag-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, o alcance da sua Transposição Benigna aumenta para <strong>18 metros (60 pés)</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Invocador 6"
+    }
+  },
+  {
+    "_id": "uadurablesummons",
+    "name": "Invocações Duradouras",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, criaturas que você conjurar ou invocar ganham <strong>Pontos de Vida Temporários iguais ao dobro do seu nível de Mago</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Invocador 6"
+    }
+  },
+  {
+    "_id": "uafocusedconjur1",
+    "name": "Conjuração Focada",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, enquanto você estiver se concentrando em uma magia de Conjuração, sua concentração <strong>não pode ser quebrada como resultado de sofrer dano</strong>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Invocador 10"
+    }
+  },
+  {
+    "_id": "uasplintersummon",
+    "name": "Invocações Fracionadas",
+    "type": "feat",
+    "img": "icons/magic/control/portal-stream-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, ao conjurar uma magia de invocação que crie uma criatura, você pode manifestar duas criaturas em vez de uma (com estatísticas divididas harmoniosamente).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Invocador 14"
+    }
+  },
+  {
+    "_id": "uaenchantsavant1",
+    "name": "Especialista em Encantamento",
+    "type": "feat",
+    "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você adiciona duas magias de Encantamento ao seu grimório e copiar magias de Encantamento custa metade do ouro e tempo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Encantador 3"
+    }
+  },
+  {
+    "_id": "uahypnoticpres01",
+    "name": "Presença Hipnótica",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-aura-energy-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, como uma Ação de Magia, force uma criatura a até 1,5m a fazer uma salvaguarda de Sabedoria ou ficar Enfeitiçada e Incapacitada até o início do seu próximo turno.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Encantador 3",
+      "activation": {
+        "type": "action",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uasplitenchant01",
+    "name": "Encantamento Dividido",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, ao conjurar uma magia de Encantamento de 1º círculo ou superior que tenha apenas uma criatura como alvo, você pode escolher um <strong>segundo alvo</strong> dentro do alcance.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Encantador 6"
+    }
+  },
+  {
+    "_id": "uainstinctcharm1",
+    "name": "Charme Instintivo",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, quando uma criatura que você possa ver fizer um ataque contra você, você pode usar uma Reação para forçar uma salvaguarda de Sabedoria: em caso de falha, o ataque é redirecionado para a criatura mais próxima.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Encantador 10",
+      "activation": {
+        "type": "reaction",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uaaltermemories1",
+    "name": "Alterar Memórias",
+    "type": "feat",
+    "img": "icons/magic/perception/brain-think-glow-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, ao enfeitiçar criaturas com magias de Encantamento, elas não percebem que foram enfeitiçadas quando o efeito termina, e você pode fazê-las esquecer detalhes do período.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Encantador 14"
+    }
+  },
+  {
+    "_id": "uanecromansavant",
+    "name": "Especialista em Necromancia",
+    "type": "feat",
+    "img": "icons/magic/death/skull-energy-white-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você adiciona duas magias de Necromancia ao seu grimório e copiar magias de Necromancia custa metade do ouro e tempo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Necromante 3"
+    }
+  },
+  {
+    "_id": "uanecromanspellb",
+    "name": "Grimório dos Mortos",
+    "type": "feat",
+    "img": "icons/sundries/books/book-skull-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você aprende o truque <em>Toque Chocante</em> ou <em>Rajada de Veneno</em> modificado para Necromancia, e pode armazenar almas nos pergaminhos do grimório.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Necromante 3"
+    }
+  },
+  {
+    "_id": "uagravepower0001",
+    "name": "Poder do Túmulo",
+    "type": "feat",
+    "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, ao matar uma ou mais criaturas com uma magia de 1º círculo ou superior, você recupera Pontos de Vida iguais ao dobro do círculo da magia (ou triplo se for Necromancia).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Necromante 6"
+    }
+  },
+  {
+    "_id": "uaundeadthralls1",
+    "name": "Servos Mortos-vivos",
+    "type": "feat",
+    "img": "icons/creatures/undead/skeleton-sword-shield-gray.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, você adiciona <em>Animar Mortos (Animate Dead)</em> ao grimório. Seus mortos-vivos criados ganham PV adicionais iguais ao seu nível de Mago e adicionam seu Bônus de Proficiência ao dano.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Necromante 6"
+    }
+  },
+  {
+    "_id": "uaharvestundead1",
+    "name": "Colheita dos Mortos",
+    "type": "feat",
+    "img": "icons/magic/death/skull-horned-goat-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, você tem Resistência a dano Necrótico e seu máximo de PV não pode ser reduzido. Quando um de seus servos mortos-vivos for destruído, você pode absorver a essência dele para curar a si mesmo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Necromante 10"
+    }
+  },
+  {
+    "_id": "uadeathsmaster01",
+    "name": "Mestre da Morte",
+    "type": "feat",
+    "img": "icons/magic/death/undead-skeleton-lich-king-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, você pode comandar mortos-vivos hostis: como uma Ação de Magia, force um morto-vivo a até 18 metros a fazer salvaguarda de Carisma contra sua CD de magia ou se tornar seu servo permanente.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Necromante 14",
+      "activation": {
+        "type": "action",
+        "cost": 1
+      }
+    }
+  },
+  {
+    "_id": "uatransmutsavant",
+    "name": "Especialista em Transmutação",
+    "type": "feat",
+    "img": "icons/magic/symbols/runes-carved-stone-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você adiciona duas magias de Transmutação ao seu grimório e copiar magias de Transmutação custa metade do ouro e tempo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Transmutador 3"
+    }
+  },
+  {
+    "_id": "uatransmutstone1",
+    "name": "Pedra do Transmutador",
+    "type": "feat",
+    "img": "icons/commodities/gems/gem-faceted-rough-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você forja uma pedra mágica especial que concede ao portador um benefício à sua escolha: Visão no Escuro (18m), +3m de velocidade, proficiência em salvaguardas de Constituição ou resistência a um elemento.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Transmutador 3"
+    }
+  },
+  {
+    "_id": "uawondrousalter1",
+    "name": "Alteração Prodigiosa",
+    "type": "feat",
+    "img": "icons/magic/nature/crystal-growth-glow-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você pode alterar temporariamente as propriedades físicas de materiais mundanos (madeira em metal, pedra em prata, etc.) durante um descanso.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Transmutador 3"
+    }
+  },
+  {
+    "_id": "uaempoweredtrans",
+    "name": "Transmutação Fortalecida",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, sua pedra pode conceder dois benefícios simultâneos ou você pode trocar os benefícios no início de cada turno.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Transmutador 6"
+    }
+  },
+  {
+    "_id": "uapotentstone001",
+    "name": "Pedra Potente",
+    "type": "feat",
+    "img": "icons/commodities/gems/gem-faceted-diamond-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, o portador da pedra pode gastar sua carga para curar todos os PV ou remover todas as maldições e venenos.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Transmutador 10"
+    }
+  },
+  {
+    "_id": "uashapechanger01",
+    "name": "Metamorfo Arcano",
+    "type": "feat",
+    "img": "icons/creatures/mammals/wolf-shadow-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, você adiciona <em>Metamorfose (Polymorph)</em> ao grimório e pode conjurá-la em si mesmo sem gastar espaço de magia (1x por Descanso Longo).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Transmutador 10"
+    }
+  },
+  {
+    "_id": "uamastertransmut",
+    "name": "Mestre da Transmutação",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-sigil-horned-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, você pode destruir sua pedra para realizar uma Transmutação Maior: Criar Panaceia (cura total e remoção de condições), Restaurar Juventude ou Reviver os Mortos.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Updates"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Transmutador 14"
+    }
+  },
+  {
+    "_id": "uaarcanaspells01",
+    "name": "Magias do Domínio da Arcana",
+    "type": "feat",
+    "img": "icons/sundries/books/book-runes-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas: <em>Mísseis Mágicos</em>, <em>Detectar Magia</em>, <em>Arma Mágica</em>, <em>Passo Nebuloso</em>, <em>Dissipar Magia</em>, <em>Velocidade</em>, <em>Olho Arcano</em> e <em>Porta Dimensional</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Domínio da Arcana 3"
+    }
+  },
+  {
+    "_id": "uaarcanainitiate",
+    "name": "Iniciado Arcano",
+    "type": "feat",
+    "img": "icons/magic/light/projectile-smoke-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você ganha proficiência em Arcanismo e aprende <strong>dois truques da lista de Mago</strong> à sua escolha, que contam como magias de Clérigo para você.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Domínio da Arcana 3"
+    }
+  },
+  {
+    "_id": "uaarcanaabjurat1",
+    "name": "Abjuração de Quebra de Feitiço",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, ao restaurar PV de um aliado com uma magia de 1º círculo ou superior, você também encerra uma magia de círculo igual ou menor que esteja afetando o alvo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Domínio da Arcana 6"
+    }
+  },
+  {
+    "_id": "uaarcanamastery1",
+    "name": "Maestria Arcana",
+    "type": "feat",
+    "img": "icons/magic/symbols/triangle-glow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 17º nível, você escolhe quatro magias da lista de Mago (uma de 6º, uma de 7º, uma de 8º e uma de 9º círculo) para adicionar à sua lista de magias sempre preparadas de Clérigo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Domínio da Arcana 17"
+    }
+  },
+  {
+    "_id": "uaancestralspell",
+    "name": "Magias Ancestrais",
+    "type": "feat",
+    "img": "icons/magic/fire/spirit-soul-flame-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas: <em>Bênção</em>, <em>Oração de Cura</em>, <em>Espíritos Guardiões</em>, <em>Proteção contra a Morte</em> e <em>Comunhão</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feitiçaria Ancestral 3"
+    }
+  },
+  {
+    "_id": "uaancestralguide",
+    "name": "Guia Ancestral",
+    "type": "feat",
+    "img": "icons/magic/perception/mind-flayer-glowing-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você pode invocar o conselho dos espíritos de seus antepassados: ganha bônus de 1d4 em testes de perícia e pode gastar 1 Ponto de Feitiçaria para ter Vantagem em salvaguardas mentais.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feitiçaria Ancestral 3"
+    }
+  },
+  {
+    "_id": "uaspiritualarmor",
+    "name": "Armadura Espiritual",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, os espíritos ancestrais formam um escudo protetor: sua CA se torna 13 + mod Carisma enquanto não usar armadura, e você pode absorver dano direcionado a aliados adjacentes.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feitiçaria Ancestral 6"
+    }
+  },
+  {
+    "_id": "uaancestralcall1",
+    "name": "Chamado dos Ancestrais",
+    "type": "feat",
+    "img": "icons/magic/sonic/sound-wave-explosion-glow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, você pode conjurar <em>Conjurar Descendente Celestial/Espiritual</em> gastando 4 Pontos de Feitiçaria sem gastar espaço de magia.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feitiçaria Ancestral 14"
+    }
+  },
+  {
+    "_id": "uaancientavatars",
+    "name": "Avatar dos Antigos",
+    "type": "feat",
+    "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 18º nível, como uma Ação Bônus, você se torna o receptáculo vivo de sua linhagem ancestral por 1 minuto: ganha resistência a dano de armas, voo de 18m e pode re-rolar dados de magias.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Arcane Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feitiçaria Ancestral 18",
+      "activation": {
+        "type": "bonus",
+        "cost": 1
+      }
+    }
+  }
+]
