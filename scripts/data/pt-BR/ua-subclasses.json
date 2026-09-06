@@ -1129,5 +1129,1159 @@
         }
       ]
     }
+  },
+  {
+    "_id": "uasubmoonbard000",
+    "name": "Colégio da Lua",
+    "type": "subclass",
+    "img": "icons/magic/nature/moon-crescent-tree-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Bardos do Colégio da Lua canalizam as lendas antigas e os segredos espirituais das Ilhas Moonshae e das florestas intocadas de Faerûn, usando contos populares para fortalecer aliados e desferir magias primitivas.</p>",
+        "chat": ""
+      },
+      "identifier": "moon",
+      "classIdentifier": "bard",
+      "advancement": [
+        {
+          "_id": "advmoonnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos da Lua (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamoonfolk000001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaprimalori00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmoonnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso da Lua (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamoonwell000001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmoonnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso da Lua (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabolsterfk00001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubknowcleric1",
+    "name": "Domínio do Conhecimento",
+    "type": "subclass",
+    "img": "icons/sundries/books/book-eye-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Deuses do conhecimento valorizam o aprendizado e a verdade cósmica. Seus clérigos desvendam segredos arcanos, manipulam memórias e desnudam as mentes de adversários.</p>",
+        "chat": ""
+      },
+      "identifier": "knowledge",
+      "classIdentifier": "cleric",
+      "advancement": [
+        {
+          "_id": "advknownv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Conhecimento (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaknowspells0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaknowbless00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaknowmindm00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advknownv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso do Conhecimento (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaknowunfet00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advknownv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Recurso do Conhecimento (Nível 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaknowdivin00001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubpdragknight",
+    "name": "Cavaleiro do Dragão Púrpura",
+    "type": "subclass",
+    "img": "icons/creatures/reptiles/dragon-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Guerreiros de elite da cavalaria de Cormyr, que marcham para o combate acompanhados por jovens dracônicos ametistas leais e inspiram seus companheiros com liderança inflexível.</p>",
+        "chat": ""
+      },
+      "identifier": "purple-dragon-knight",
+      "classIdentifier": "fighter",
+      "advancement": [
+        {
+          "_id": "advpdknv00000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Dragão Púrpura (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapdkknight00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapdkcompan00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpdknv00000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recurso do Dragão Púrpura (Nível 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapdkdrider00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpdknv00000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Dragão Púrpura (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapdkrallys00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpdknv00000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso do Dragão Púrpura (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapdkamethyst001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpdknv00000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso do Dragão Púrpura (Nível 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapdkendurin0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubpalgenies01",
+    "name": "Juramento dos Gênios Nobres",
+    "type": "subclass",
+    "img": "icons/magic/symbols/crest-elemental-royalty.webp",
+    "system": {
+      "description": {
+        "value": "<p>Paladinos que juram honrar os pactos ancestrais dos nobres gênios elementais dos Planos Interiores, canalizando relâmpagos, fogo, tempestades e geada em seus golpes sagrados.</p>",
+        "chat": ""
+      },
+      "identifier": "noble-genies",
+      "classIdentifier": "paladin",
+      "advancement": [
+        {
+          "_id": "advgennv00000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos dos Gênios (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uageniessmite001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uageniesspells01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uageniessplend01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advgennv00000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recurso dos Gênios (Nível 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uageniesaura0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advgennv00000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso dos Gênios (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uageniesrebuk001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advgennv00000020",
+          "type": "ItemGrant",
+          "level": 20,
+          "title": "Recurso dos Gênios (Nível 20)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uageniesscion001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubwinterwlk01",
+    "name": "Caminhante do Inverno",
+    "type": "subclass",
+    "img": "icons/magic/water/ice-mountain-frost.webp",
+    "system": {
+      "description": {
+        "value": "<p>Patrulheiros que habitam as tundras congeladas e montanhas implacáveis do Norte de Faerûn, dominando nevascas letais e congelando seus alvos em batalha.</p>",
+        "chat": ""
+      },
+      "identifier": "winter-walker",
+      "classIdentifier": "ranger",
+      "advancement": [
+        {
+          "_id": "advwinnv00000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Inverno (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawinterexpl0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawinterrime0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawinterspells01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advwinnv00000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recurso do Inverno (Nível 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawintersoul0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advwinnv00000011",
+          "type": "ItemGrant",
+          "level": 11,
+          "title": "Recurso do Inverno (Nível 11)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawinterretrib01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advwinnv00000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso do Inverno (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawinterhaunt000"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubscionthree1",
+    "name": "Herdeiro dos Três",
+    "type": "subclass",
+    "img": "icons/magic/death/skull-horned-blood-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>Ladinos moldados pelas sombras dos Três Mortos (Bane, Bhaal e Myrkul), especialistas em emboscadas brutais, medo paralisante e sacrifícios rituais de sangue.</p>",
+        "chat": ""
+      },
+      "identifier": "scion-of-the-three",
+      "classIdentifier": "rogue",
+      "advancement": [
+        {
+          "_id": "advscinnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos dos Três (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uascionthirst001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uascionalleg0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advscinnv0000009",
+          "type": "ItemGrant",
+          "level": 9,
+          "title": "Recurso dos Três (Nível 9)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uascionfear00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advscinnv0000013",
+          "type": "ItemGrant",
+          "level": 13,
+          "title": "Recurso dos Três (Nível 13)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uascionaura00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advscinnv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Recurso dos Três (Nível 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasciondread0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubspellfire01",
+    "name": "Feitiçaria do Fogo Mágico",
+    "type": "subclass",
+    "img": "icons/magic/fire/beam-jet-stream-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>Feiticeiros abençoados pelo raro dom do Fogo Mágico — o poder primordial de canalizar a própria Trama mágica pura, absorvendo feitiços inimigos e convertendo-os em chamas prateadas e cura.</p>",
+        "chat": ""
+      },
+      "identifier": "spellfire",
+      "classIdentifier": "sorcerer",
+      "advancement": [
+        {
+          "_id": "advspfxnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos de Fogo Mágico (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspellfirebrst1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspellfiresp001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advspfxnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso de Fogo Mágico (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspellfireabs01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advspfxnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso de Fogo Mágico (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspellfirehn001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advspfxnv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso de Fogo Mágico (Nível 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspellfirecrw01"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubbladesing01",
+    "name": "Cantor da Lâmina",
+    "type": "subclass",
+    "img": "icons/skills/melee/sword-twirl-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Magos praticantes da antiga arte élfica que mescla esgrima acrobática e conjuração de feitiços de combate, transformando defesas em canções mortais.</p>",
+        "chat": ""
+      },
+      "identifier": "bladesinger",
+      "classIdentifier": "wizard",
+      "advancement": [
+        {
+          "_id": "advbldxnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Cantor da Lâmina (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabladesong00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabladeswarsong1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbldxnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso do Cantor da Lâmina (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabladesextraat1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbldxnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Cantor da Lâmina (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabladessongdef1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbldxnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Cantor da Lâmina (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabladessongvic1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubpreservdrui",
+    "name": "Círculo da Preservação",
+    "type": "subclass",
+    "img": "icons/magic/nature/sprout-tree-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Druidas guardiões dedicados a salvar os últimos fragmentos de vida e vegetação em mundos áridos e assolados pelo apocalipse, criando santuários intocáveis de restauração.</p>",
+        "chat": ""
+      },
+      "identifier": "preservation",
+      "classIdentifier": "druid",
+      "advancement": [
+        {
+          "_id": "advprsxnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos da Preservação (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapreservspells1"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapreservland001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapreservstud001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advprsxnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso da Preservação (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapreservimp0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advprsxnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso da Preservação (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapreservfacil01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advprsxnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso da Preservação (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapreservsacro01"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubgladiatorfg",
+    "name": "Gladiador",
+    "type": "subclass",
+    "img": "icons/skills/melee/unarmed-punch-fist-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>Combatentes forjados nas arenas sangrentas de Dark Sun e mundos brutais, mestres em manobras violentas que eletrizam o público e mutilam adversários com estilo feroz.</p>",
+        "chat": ""
+      },
+      "identifier": "gladiator",
+      "classIdentifier": "fighter",
+      "advancement": [
+        {
+          "_id": "advgldxnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Gladiador (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagladiatbrut001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagladiattheat01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advgldxnv0000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recurso do Gladiador (Nível 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagladiatparry01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advgldxnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Gladiador (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagladiatbold001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advgldxnv0000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso do Gladiador (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagladiatresurg1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advgldxnv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso do Gladiador (Nível 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uagladiatmutil01"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubdefiledsorc",
+    "name": "Feitiçaria Profanada",
+    "type": "subclass",
+    "img": "icons/magic/unholy/wither-decay-hand-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Feiticeiros que extraem poder bruto dessecando e consumindo a força vital da terra e dos seres vivos ao seu redor, canalizando a magia profanadora dos mundos devastados.</p>",
+        "chat": ""
+      },
+      "identifier": "defiled",
+      "classIdentifier": "sorcerer",
+      "advancement": [
+        {
+          "_id": "advdefxnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos Profanadores (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadefileempow001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadefilespells01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advdefxnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso Profanador (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadefilecorrupt1"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advdefxnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso Profanador (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadefileaura0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advdefxnv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso Profanador (Nível 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadefilesuper001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubsorckpatron",
+    "name": "Patrono Rei-Feiticeiro",
+    "type": "subclass",
+    "img": "icons/magic/control/control-influence-crown-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>Bruxos pactuados com tiranos dragões-feiticeiros imortais, governantes absolutos de reinos desérticos que concedem comandos mentais autoritários e poder psiônico implacável.</p>",
+        "chat": ""
+      },
+      "identifier": "sorcerer-king",
+      "classIdentifier": "warlock",
+      "advancement": [
+        {
+          "_id": "advskpxnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Rei-Feiticeiro (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasorckspells001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasorckherald001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advskpxnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso do Rei-Feiticeiro (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasorckedict0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advskpxnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Rei-Feiticeiro (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasorckrebuke001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advskpxnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Rei-Feiticeiro (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasorcktyranny01"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubmonkmystica",
+    "name": "Guerreiro das Artes Místicas",
+    "type": "subclass",
+    "img": "icons/magic/symbols/circle-ouroboros-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Monges iniciados nos segredos das antigas academias de conjuração marcial, combinando golpes fulminantes com feitiços arcanos e concentração inabalável.</p>",
+        "chat": ""
+      },
+      "identifier": "mystic-arts",
+      "classIdentifier": "monk",
+      "advancement": [
+        {
+          "_id": "advmysxnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recurso Místico (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamysticspell001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmysxnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recursos Místicos (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamysticfight001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamysticfocus001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmysxnv0000011",
+          "type": "ItemGrant",
+          "level": 11,
+          "title": "Recurso Místico (Nível 11)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamysticcenter01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmysxnv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Recurso Místico (Nível 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamysticimpfg001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubpalspellgua",
+    "name": "Juramento da Guarda de Feitiços",
+    "type": "subclass",
+    "img": "icons/magic/defensive/shield-barrier-chain-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>Paladinos templários juramentados para conter o abuso e a tirania mágica, neutralizando conjuradores hostis, dissipando feitiços e absorvendo dano de aliados vinculados.</p>",
+        "chat": ""
+      },
+      "identifier": "spellguard",
+      "classIdentifier": "paladin",
+      "advancement": [
+        {
+          "_id": "advspgxnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos da Guarda (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspellgbond0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspellgstrike01"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspellgspells01"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advspgxnv0000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recurso da Guarda (Nível 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspellgaura0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advspgxnv0000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso da Guarda (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspellgblade001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advspgxnv0000020",
+          "type": "ItemGrant",
+          "level": 20,
+          "title": "Recurso da Guarda (Nível 20)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaspellgetern001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubmagicsteal1",
+    "name": "Ladrão de Magia",
+    "type": "subclass",
+    "img": "icons/magic/symbols/rune-hand-grasp-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Ladinos oportunistas que desenvolveram técnicas para pilhar energia mágica diretamente de conjuradores adversários e objetos encantados, reutilizando-a como golpes de força letais.</p>",
+        "chat": ""
+      },
+      "identifier": "magic-stealer",
+      "classIdentifier": "rogue",
+      "advancement": [
+        {
+          "_id": "advmstxnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Ladrão de Magia (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uastealdrain0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uastealempow0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmstxnv0000009",
+          "type": "ItemGrant",
+          "level": 9,
+          "title": "Recurso do Ladrão de Magia (Nível 9)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uastealsabot0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmstxnv0000013",
+          "type": "ItemGrant",
+          "level": 13,
+          "title": "Recursos do Ladrão de Magia (Nível 13)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uastealshroud001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uastealimpdr0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmstxnv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Recurso do Ladrão de Magia (Nível 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uastealimplosion"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubvestigepatr",
+    "name": "Patrono Vestígio",
+    "type": "subclass",
+    "img": "icons/magic/death/wraith-ghost-spirit-cyan.webp",
+    "system": {
+      "description": {
+        "value": "<p>Bruxos que negociaram pactos com os ecos fantasmagóricos de deuses caídos e heróis lendários esquecidos pelo tempo, acompanhados por um vestígio espectral de tremendo poder arcano.</p>",
+        "chat": ""
+      },
+      "identifier": "vestige",
+      "classIdentifier": "warlock",
+      "advancement": [
+        {
+          "_id": "advvstxnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Vestígio (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uavestigcomp0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uavestigspell001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advvstxnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso do Vestígio (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uavestigrecov001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advvstxnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Vestígio (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uavestigaura0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advvstxnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Vestígio (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uavestigsembl001"
+              }
+            ]
+          }
+        }
+      ]
+    }
   }
 ]

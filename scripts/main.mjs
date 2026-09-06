@@ -96,17 +96,72 @@ Hooks.once("init", () => {
     };
     CONFIG.DND5E.subclasses.witchhunter = CONFIG.DND5E.subclasses["witch-hunter"];
 
-    // Registrar Subclasses de Unearthed Arcana (Horror & Arcane)
+    // Registrar Subclasses de Unearthed Arcana (Lote 1: Horror & Arcane + Lote 2: Realms, Apocalyptic & Mystic)
     CONFIG.DND5E.subclasses.artificer.reanimator = "Compendium.artificer-onednd.ua-subclasses.Item.uasubreanimator0";
-    CONFIG.DND5E.subclasses.bard = { ...CONFIG.DND5E.subclasses.bard, spirits: "Compendium.artificer-onednd.ua-subclasses.Item.uasubspiritbard0" };
-    CONFIG.DND5E.subclasses.cleric = { ...CONFIG.DND5E.subclasses.cleric, grave: "Compendium.artificer-onednd.ua-subclasses.Item.uasubgravecleric", arcana: "Compendium.artificer-onednd.ua-subclasses.Item.uasubarcanacleri" };
-    CONFIG.DND5E.subclasses.fighter = { ...CONFIG.DND5E.subclasses.fighter, "arcane-archer": "Compendium.artificer-onednd.ua-subclasses.Item.uasubfgtarcanear" };
-    CONFIG.DND5E.subclasses.monk = { ...CONFIG.DND5E.subclasses.monk, "tattooed-warrior": "Compendium.artificer-onednd.ua-subclasses.Item.uasubmonktattoo1" };
-    CONFIG.DND5E.subclasses.ranger = { ...CONFIG.DND5E.subclasses.ranger, "hollow-warden": "Compendium.artificer-onednd.ua-subclasses.Item.uasubhollowward1" };
-    CONFIG.DND5E.subclasses.rogue = { ...CONFIG.DND5E.subclasses.rogue, phantom: "Compendium.artificer-onednd.ua-subclasses.Item.uasubphantomrogu" };
-    CONFIG.DND5E.subclasses.sorcerer = { ...CONFIG.DND5E.subclasses.sorcerer, shadow: "Compendium.artificer-onednd.ua-subclasses.Item.uasubshadowsorce", ancestral: "Compendium.artificer-onednd.ua-subclasses.Item.uasubancestrals1" };
-    CONFIG.DND5E.subclasses.warlock = { ...CONFIG.DND5E.subclasses.warlock, hexblade: "Compendium.artificer-onednd.ua-subclasses.Item.uasubhexbladewar", undead: "Compendium.artificer-onednd.ua-subclasses.Item.uasubundeadwlk01" };
-    CONFIG.DND5E.subclasses.wizard = { ...CONFIG.DND5E.subclasses.wizard, conjurer: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwizconjurer", enchanter: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwizenchante", necromancer: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwiznecroman", transmuter: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwiztransmut" };
+    CONFIG.DND5E.subclasses.bard = {
+      ...CONFIG.DND5E.subclasses.bard,
+      spirits: "Compendium.artificer-onednd.ua-subclasses.Item.uasubspiritbard0",
+      moon: "Compendium.artificer-onednd.ua-subclasses.Item.uasubmoonbard000"
+    };
+    CONFIG.DND5E.subclasses.cleric = {
+      ...CONFIG.DND5E.subclasses.cleric,
+      grave: "Compendium.artificer-onednd.ua-subclasses.Item.uasubgravecleric",
+      arcana: "Compendium.artificer-onednd.ua-subclasses.Item.uasubarcanacleri",
+      knowledge: "Compendium.artificer-onednd.ua-subclasses.Item.uasubknowcleric1"
+    };
+    CONFIG.DND5E.subclasses.druid = {
+      ...CONFIG.DND5E.subclasses.druid,
+      preservation: "Compendium.artificer-onednd.ua-subclasses.Item.uasubpreservdrui"
+    };
+    CONFIG.DND5E.subclasses.fighter = {
+      ...CONFIG.DND5E.subclasses.fighter,
+      "arcane-archer": "Compendium.artificer-onednd.ua-subclasses.Item.uasubfgtarcanear",
+      "purple-dragon-knight": "Compendium.artificer-onednd.ua-subclasses.Item.uasubpdragknight",
+      gladiator: "Compendium.artificer-onednd.ua-subclasses.Item.uasubgladiatorfg"
+    };
+    CONFIG.DND5E.subclasses.monk = {
+      ...CONFIG.DND5E.subclasses.monk,
+      "tattooed-warrior": "Compendium.artificer-onednd.ua-subclasses.Item.uasubmonktattoo1",
+      "mystic-arts": "Compendium.artificer-onednd.ua-subclasses.Item.uasubmonkmystica"
+    };
+    CONFIG.DND5E.subclasses.paladin = {
+      ...CONFIG.DND5E.subclasses.paladin,
+      "noble-genies": "Compendium.artificer-onednd.ua-subclasses.Item.uasubpalgenies01",
+      spellguard: "Compendium.artificer-onednd.ua-subclasses.Item.uasubpalspellgua"
+    };
+    CONFIG.DND5E.subclasses.ranger = {
+      ...CONFIG.DND5E.subclasses.ranger,
+      "hollow-warden": "Compendium.artificer-onednd.ua-subclasses.Item.uasubhollowward1",
+      "winter-walker": "Compendium.artificer-onednd.ua-subclasses.Item.uasubwinterwlk01"
+    };
+    CONFIG.DND5E.subclasses.rogue = {
+      ...CONFIG.DND5E.subclasses.rogue,
+      phantom: "Compendium.artificer-onednd.ua-subclasses.Item.uasubphantomrogu",
+      "scion-of-the-three": "Compendium.artificer-onednd.ua-subclasses.Item.uasubscionthree1",
+      "magic-stealer": "Compendium.artificer-onednd.ua-subclasses.Item.uasubmagicsteal1"
+    };
+    CONFIG.DND5E.subclasses.sorcerer = {
+      ...CONFIG.DND5E.subclasses.sorcerer,
+      shadow: "Compendium.artificer-onednd.ua-subclasses.Item.uasubshadowsorce",
+      ancestral: "Compendium.artificer-onednd.ua-subclasses.Item.uasubancestrals1",
+      spellfire: "Compendium.artificer-onednd.ua-subclasses.Item.uasubspellfire01",
+      defiled: "Compendium.artificer-onednd.ua-subclasses.Item.uasubdefiledsorc"
+    };
+    CONFIG.DND5E.subclasses.warlock = {
+      ...CONFIG.DND5E.subclasses.warlock,
+      hexblade: "Compendium.artificer-onednd.ua-subclasses.Item.uasubhexbladewar",
+      undead: "Compendium.artificer-onednd.ua-subclasses.Item.uasubundeadwlk01",
+      "sorcerer-king": "Compendium.artificer-onednd.ua-subclasses.Item.uasubsorckpatron",
+      vestige: "Compendium.artificer-onednd.ua-subclasses.Item.uasubvestigepatr"
+    };
+    CONFIG.DND5E.subclasses.wizard = {
+      ...CONFIG.DND5E.subclasses.wizard,
+      conjurer: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwizconjurer",
+      enchanter: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwizenchante",
+      necromancer: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwiznecroman",
+      transmuter: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwiztransmut",
+      bladesinger: "Compendium.artificer-onednd.ua-subclasses.Item.uasubbladesing01"
+    };
 
     // Registrar Psion como Conjurador Pleno e suas 3 Subclasses
     CONFIG.DND5E.spellProgression.psion = "full";

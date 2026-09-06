@@ -1794,5 +1794,1725 @@
         "cost": 1
       }
     }
+  },
+  {
+    "_id": "uamoonfolk000001",
+    "name": "Moonshae Folktales",
+    "type": "feat",
+    "img": "icons/magic/nature/moon-crescent-tree-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you learn to invoke the primal wisdom of the Moonshae Isles. As a Bonus Action, you can expend one Bardic Inspiration die and roll it to channel a blessed folk legend:</p>\n               <ul>\n                 <li><strong>1–2 (The Beast):</strong> An ally within 30 ft gains Temporary HP equal to the roll + your Cha modifier, and its next melee attack deals extra cold damage equal to the roll.</li>\n                 <li><strong>3–4 (The Earthmother):</strong> An ally within 30 ft regains HP equal to the roll + your Cha modifier, and ends one poison or disease affecting it.</li>\n                 <li><strong>5–6+ (The White Well):</strong> An ally within 30 ft can use its reaction to teleport up to 30 ft to an unoccupied space it can see and gains Advantage on its next saving throw.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bard (College of the Moon) 3"
+    }
+  },
+  {
+    "_id": "uaprimalori00001",
+    "name": "Primal Lorist",
+    "type": "feat",
+    "img": "icons/sundries/books/book-embossed-tree-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you gain proficiency in Nature and Survival. Whenever you make an Int (Nature) or Wis (Survival) check, you can add your Cha modifier to the check. In addition, you learn the <em>Druidcraft</em> cantrip.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bard (College of the Moon) 3"
+    }
+  },
+  {
+    "_id": "uamoonwell000001",
+    "name": "Blessing of the Moonwells",
+    "type": "feat",
+    "img": "icons/magic/water/vortex-water-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, the sacred water of the moonwells restores your soul. Once per day when you finish a Short Rest, you regain one expended use of Bardic Inspiration. Additionally, you can cast <em>Moonbeam</em> once without expending a spell slot per Long Rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bard (College of the Moon) 6"
+    }
+  },
+  {
+    "_id": "uabolsterfk00001",
+    "name": "Bolstered Folktales",
+    "type": "feat",
+    "img": "icons/magic/control/buff-flight-wings-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, your stories resonate with ancient power. Whenever you roll your Bardic Inspiration die for Moonshae Folktales, you roll two dice instead of one and can choose which result to use, or apply both results to two different allies within range.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bard (College of the Moon) 14"
+    }
+  },
+  {
+    "_id": "uaknowspells0001",
+    "name": "Knowledge Domain Spells",
+    "type": "feat",
+    "img": "icons/sundries/books/book-eye-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared at the specified Cleric levels:</p>\n               <ul>\n                 <li><strong>Level 3:</strong> <em>Command</em>, <em>Identify</em>, <em>Detect Thoughts</em>, <em>Mind Spike</em></li>\n                 <li><strong>Level 5:</strong> <em>Nondetection</em>, <em>Tongues</em></li>\n                 <li><strong>Level 7:</strong> <em>Arcane Eye</em>, <em>Confusion</em></li>\n                 <li><strong>Level 9:</strong> <em>Legend Lore</em>, <em>Scrying</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Cleric (Knowledge Domain) 3"
+    }
+  },
+  {
+    "_id": "uaknowbless00001",
+    "name": "Blessings of Knowledge",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you learn two languages of your choice. You also gain proficiency and Expertise in two of the following skills: Arcana, History, Nature, or Religion.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Cleric (Knowledge Domain) 3"
+    }
+  },
+  {
+    "_id": "uaknowmindm00001",
+    "name": "Mind Magic",
+    "type": "feat",
+    "img": "icons/magic/perception/brain-glow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, whenever you cast an Enchantment or Divination spell using a spell slot, you can do so without needing Verbal or Somatic components.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Cleric (Knowledge Domain) 3"
+    }
+  },
+  {
+    "_id": "uaknowunfet00001",
+    "name": "Unfettered Mind",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-aura-energy-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, your mind becomes an unassailable redoubt. You have Advantage on saving throws against being Charmed or Frightened. Furthermore, you can use your Channel Divinity to read surface thoughts of a creature or cleanse the Charmed and Frightened conditions from allies within 30 ft.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Cleric (Knowledge Domain) 6"
+    }
+  },
+  {
+    "_id": "uaknowdivin00001",
+    "name": "Divine Foreknowledge",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 17th level, your connection to divine omniscience reaches its apex. You gain Truesight out to 30 ft. As a Reaction when an enemy within 60 ft makes an attack roll, ability check, or saving throw, you can impose Disadvantage on that roll.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Cleric (Knowledge Domain) 17"
+    }
+  },
+  {
+    "_id": "uapdkknight00001",
+    "name": "Knightly Envoy",
+    "type": "feat",
+    "img": "icons/skills/social/diplomacy-handshake-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you are trained as a diplomatic vanguard of Cormyr. You gain proficiency in Persuasion (or Animal Handling/Insight) and gain Expertise in Persuasion.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fighter (Purple Dragon Knight) 3"
+    }
+  },
+  {
+    "_id": "uapdkcompan00001",
+    "name": "Purple Dragon Companion",
+    "type": "feat",
+    "img": "icons/creatures/reptiles/dragon-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you form a bond with a purple dragon wyrmling companion that fights beside you. It takes its turn immediately after yours, uses your Proficiency Bonus, and can deliver psionic breath or draconic strikes.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fighter (Purple Dragon Knight) 3"
+    }
+  },
+  {
+    "_id": "uapdkdrider00001",
+    "name": "Dragon Rider",
+    "type": "feat",
+    "img": "icons/environment/creatures/flying-mount.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, your dragon companion grows large enough to serve as your combat mount. Mounting or dismounting costs only 5 ft of movement, and you have Advantage on saving throws to avoid falling off your mount.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fighter (Purple Dragon Knight) 7"
+    }
+  },
+  {
+    "_id": "uapdkrallys00001",
+    "name": "Rallying Surge",
+    "type": "feat",
+    "img": "icons/magic/life/heart-shield-hand-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, when you use your <em>Second Wind</em>, you can choose up to three allies within 60 ft. Each one regains Hit Points equal to your Fighter level or your Second Wind roll.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fighter (Purple Dragon Knight) 10"
+    }
+  },
+  {
+    "_id": "uapdkamethyst001",
+    "name": "Amethyst Pinnacle",
+    "type": "feat",
+    "img": "icons/commodities/gems/gem-faceted-rough-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, amethyst energy shields you and your mount. You and your dragon gain resistance to Force and Psychic damage, and the dragon's breath weapon range is doubled and damage increased.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fighter (Purple Dragon Knight) 15"
+    }
+  },
+  {
+    "_id": "uapdkendurin0001",
+    "name": "Enduring Commander",
+    "type": "feat",
+    "img": "icons/skills/combat/banners-honor-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 18th level, when you use your <em>Action Surge</em>, one ally of your choice within 60 ft can use its reaction to make one weapon attack or cast a cantrip.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fighter (Purple Dragon Knight) 18"
+    }
+  },
+  {
+    "_id": "uageniessmite001",
+    "name": "Elemental Smite",
+    "type": "feat",
+    "img": "icons/magic/fire/dagger-rune-enchant-flame-blue-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, when you cast <em>Divine Smite</em>, you can choose to deal Acid, Cold, Fire, Lightning, or Thunder damage instead of Radiant damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladin (Oath of the Noble Genies) 3"
+    }
+  },
+  {
+    "_id": "uageniesspells01",
+    "name": "Genie Spells",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-sigil-elemental.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared at the specified Paladin levels:</p>\n               <ul>\n                 <li><strong>Level 3:</strong> <em>Absorb Elements</em>, <em>Thunderous Smite</em>, <em>Misty Step</em>, <em>Phantasmal Force</em></li>\n                 <li><strong>Level 5:</strong> <em>Fly</em>, <em>Protection from Energy</em></li>\n                 <li><strong>Level 9:</strong> <em>Banishment</em>, <em>Fire Shield</em></li>\n                 <li><strong>Level 13:</strong> <em>Conjure Elemental</em>, <em>Creation</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladin (Oath of the Noble Genies) 3"
+    }
+  },
+  {
+    "_id": "uageniessplend01",
+    "name": "Genie's Splendor",
+    "type": "feat",
+    "img": "icons/magic/air/wind-stream-whirlwind-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you can use your Channel Divinity to manifest noble genie power: gain flying speed equal to your walking speed for 10 minutes, or unleash a 15-ft cone of elemental energy dealing 2d8 + Paladin level damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladin (Oath of the Noble Genies) 3"
+    }
+  },
+  {
+    "_id": "uageniesaura0001",
+    "name": "Aura of Elemental Shielding",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-glowing-gold-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, you emanate a 10-ft aura of elemental warding. Whenever you finish a rest, choose Acid, Cold, Fire, Lightning, or Thunder. You and allies in the aura have resistance to the chosen damage type. Extends to 30 ft at 18th level.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladin (Oath of the Noble Genies) 7"
+    }
+  },
+  {
+    "_id": "uageniesrebuk001",
+    "name": "Elemental Rebuke",
+    "type": "feat",
+    "img": "icons/magic/lightning/bolt-strike-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, when a creature within 30 ft hits you or an ally in your aura, you can use a reaction to retaliate, dealing 2d10 + Cha modifier elemental damage to the attacker.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladin (Oath of the Noble Genies) 15"
+    }
+  },
+  {
+    "_id": "uageniesscion001",
+    "name": "Noble Scion",
+    "type": "feat",
+    "img": "icons/magic/symbols/crest-elemental-royalty.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 20th level, as a Bonus Action, you take on the avatar of a noble genie sultan for 1 minute: flying speed 60 ft (hover), resistance to all 5 elemental damage types, and enhanced spell power.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladin (Oath of the Noble Genies) 20"
+    }
+  },
+  {
+    "_id": "uawinterexpl0001",
+    "name": "Frigid Explorer",
+    "type": "feat",
+    "img": "icons/magic/water/ice-mountain-frost.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you ignore difficult terrain created by ice or snow, and you are adapted to extreme cold climates. You also gain resistance to Cold damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ranger (Winter Walker) 3"
+    }
+  },
+  {
+    "_id": "uawinterrime0001",
+    "name": "Hunter's Rime",
+    "type": "feat",
+    "img": "icons/magic/water/projectile-ice-shard.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, once per turn when you hit a creature with a weapon attack, you can encase it in frost: it takes an extra 1d6 Cold damage and its speed is reduced by 10 ft until the start of your next turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ranger (Winter Walker) 3"
+    }
+  },
+  {
+    "_id": "uawinterspells01",
+    "name": "Winter Walker Spells",
+    "type": "feat",
+    "img": "icons/magic/water/snowflake-ice-crystal-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared at the specified Ranger levels:</p>\n               <ul>\n                 <li><strong>Level 3:</strong> <em>Armor of Agathys</em>, <em>Ice Knife</em>, <em>Hold Person</em>, <em>Rime's Binding Ice</em></li>\n                 <li><strong>Level 5:</strong> <em>Sleet Storm</em>, <em>Slow</em></li>\n                 <li><strong>Level 9:</strong> <em>Ice Storm</em>, <em>Resilient Sphere</em></li>\n                 <li><strong>Level 13:</strong> <em>Cone of Cold</em>, <em>Hold Monster</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ranger (Winter Walker) 3"
+    }
+  },
+  {
+    "_id": "uawintersoul0001",
+    "name": "Fortifying Soul",
+    "type": "feat",
+    "img": "icons/magic/life/cross-frost-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, whenever you deal Cold damage with a weapon attack or ranger spell, you gain Temporary Hit Points equal to your Wisdom modifier (minimum 1).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ranger (Winter Walker) 7"
+    }
+  },
+  {
+    "_id": "uawinterretrib01",
+    "name": "Chilling Retribution",
+    "type": "feat",
+    "img": "icons/magic/water/ice-spikes-burst-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 11th level, Hunter's Rime damage increases to 1d10. Furthermore, when an enemy within 5 ft hits you with a melee attack, it takes 2d8 Cold damage and must succeed on a Con save or have Disadvantage on its next attack.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ranger (Winter Walker) 11"
+    }
+  },
+  {
+    "_id": "uawinterhaunt000",
+    "name": "Frozen Haunt",
+    "type": "feat",
+    "img": "icons/magic/death/specter-frozen-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, you can manifest the avatar of unrelenting winter for 1 minute: emanate a 15-ft blizzard (difficult terrain for enemies, 2d6 cold damage at start of enemy turn) and you can pass through solid creatures and objects.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ranger (Winter Walker) 15"
+    }
+  },
+  {
+    "_id": "uascionthirst001",
+    "name": "Bloodthirst",
+    "type": "feat",
+    "img": "icons/skills/melee/blood-slash-dagger-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, when you score a Critical Hit or drop a creature to 0 HP with Sneak Attack, you gain Temporary HP equal to your Rogue level + Dex modifier and can immediately move up to half your speed without provoking opportunity attacks.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Rogue (Scion of the Three) 3"
+    }
+  },
+  {
+    "_id": "uascionalleg0001",
+    "name": "Dread Allegiance",
+    "type": "feat",
+    "img": "icons/magic/death/skull-horned-blood-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you swear dark fealty to one of the Dead Three:</p>\n               <ul>\n                 <li><strong>Bane (Tyranny):</strong> Proficiency in Intimidation, advantage on saves against fear, and +PB Force damage.</li>\n                 <li><strong>Bhaal (Murder):</strong> Critical hit on 19–20 against bloodied creatures (at or below half HP).</li>\n                 <li><strong>Myrkul (Death):</strong> Sneak Attack can deal Necrotic damage, and you learn <em>Spare the Dying</em> and <em>False Life</em>.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Rogue (Scion of the Three) 3"
+    }
+  },
+  {
+    "_id": "uascionfear00001",
+    "name": "Strike Fear",
+    "type": "feat",
+    "img": "icons/magic/control/fear-fright-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 9th level, when you hit with Sneak Attack, the target must succeed on a Wisdom save (DC 8 + PB + Dex mod) or have the Frightened condition until the end of your next turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Rogue (Scion of the Three) 9"
+    }
+  },
+  {
+    "_id": "uascionaura00001",
+    "name": "Aura of Malevolence",
+    "type": "feat",
+    "img": "icons/magic/unholy/silhouette-evil-horns-shadow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 13th level, you emanate a 10-ft aura of chilling dread. Enemies in your aura have Disadvantage on saves against fear, and you and allies gain resistance to Necrotic damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Rogue (Scion of the Three) 13"
+    }
+  },
+  {
+    "_id": "uasciondread0001",
+    "name": "Dread Incarnate",
+    "type": "feat",
+    "img": "icons/magic/death/avatar-reaper-scythe-black.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 17th level, once per Long Rest, you channel the dark mantle of the Dead Three for 1 minute: gain resistance to all damage except radiant, maximize Sneak Attack damage on your first hit each turn, and frightened enemies take 4d6 necrotic damage at start of their turns.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Rogue (Scion of the Three) 17"
+    }
+  },
+  {
+    "_id": "uaspellfirebrst1",
+    "name": "Spellfire Burst",
+    "type": "feat",
+    "img": "icons/magic/fire/beam-jet-stream-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you channel the raw silver flame of magic. When you cast a spell that deals Fire or Radiant damage, you can spend 1 Sorcery Point to ignore resistance and force targets to make a Con save or be Blinded until the start of your next turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Sorcerer (Spellfire Sorcery) 3"
+    }
+  },
+  {
+    "_id": "uaspellfiresp001",
+    "name": "Spellfire Spells",
+    "type": "feat",
+    "img": "icons/magic/fire/flame-burning-hand-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared at the specified Sorcerer levels:</p>\n               <ul>\n                 <li><strong>Level 3:</strong> <em>Burning Hands</em>, <em>Guiding Bolt</em>, <em>Scorching Ray</em>, <em>Lesser Restoration</em></li>\n                 <li><strong>Level 5:</strong> <em>Daylight</em>, <em>Fireball</em></li>\n                 <li><strong>Level 7:</strong> <em>Fire Shield</em>, <em>Wall of Fire</em></li>\n                 <li><strong>Level 9:</strong> <em>Flame Strike</em>, <em>Dawn</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Sorcerer (Spellfire Sorcery) 3"
+    }
+  },
+  {
+    "_id": "uaspellfireabs01",
+    "name": "Absorb Spells",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, as a Reaction when targeted by a spell or inside a spell's area of effect, you can spend 1 Sorcery Point to gain Advantage on the saving throw. If you succeed, you regain Sorcery Points equal to the spell's level (minimum 1).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Sorcerer (Spellfire Sorcery) 6"
+    }
+  },
+  {
+    "_id": "uaspellfirehn001",
+    "name": "Honed Spellfire",
+    "type": "feat",
+    "img": "icons/magic/life/cross-healing-green-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, you can direct spellfire to heal allies. As an Action, you can spend up to your Cha modifier in Sorcery Points to heal a creature within 30 ft: 1d10 HP per Sorcery Point spent.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Sorcerer (Spellfire Sorcery) 14"
+    }
+  },
+  {
+    "_id": "uaspellfirecrw01",
+    "name": "Crown of Spellfire",
+    "type": "feat",
+    "img": "icons/magic/fire/crown-flame-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 18th level, as a Bonus Action by spending 5 Sorcery Points, you ignite the Crown of Spellfire for 1 minute: gain flying speed 60 ft (hover), immunity to Fire and Radiant damage, and all your spells deal bonus damage equal to your Cha modifier.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Sorcerer (Spellfire Sorcery) 18"
+    }
+  },
+  {
+    "_id": "uabladesong00001",
+    "name": "Bladesong",
+    "type": "feat",
+    "img": "icons/skills/melee/sword-twirl-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you invoke the elven art of the Bladesong. As a Bonus Action (uses = Proficiency Bonus per Long Rest), you start the Bladesong for 1 minute, gaining:</p>\n               <ul>\n                 <li>Bonus to AC equal to your Intelligence modifier (minimum +1).</li>\n                 <li>Walking speed increases by 10 ft.</li>\n                 <li>Advantage on Dexterity (Acrobatics) checks.</li>\n                 <li>Bonus to Constitution saves to maintain concentration equal to your Int modifier (minimum +1).</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Wizard (Bladesinger) 3"
+    }
+  },
+  {
+    "_id": "uabladeswarsong1",
+    "name": "Training in War and Song",
+    "type": "feat",
+    "img": "icons/weapons/swords/sword-rapier-dueling.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you gain proficiency with Light Armor, one one-handed melee weapon of your choice, and the Performance skill.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Wizard (Bladesinger) 3"
+    }
+  },
+  {
+    "_id": "uabladesextraat1",
+    "name": "Extra Attack (Bladesinger)",
+    "type": "feat",
+    "img": "icons/skills/melee/strike-blade-slashing-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, you can attack twice instead of once whenever you take the Attack action on your turn. Moreover, you can cast one of your cantrips in place of one of those attacks.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Wizard (Bladesinger) 6"
+    }
+  },
+  {
+    "_id": "uabladessongdef1",
+    "name": "Song of Defense",
+    "type": "feat",
+    "img": "icons/magic/defensive/barrier-shield-dome-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, while your Bladesong is active and you take damage, you can use your reaction to expend one spell slot and reduce that damage by five times the slot's level.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Wizard (Bladesinger) 10"
+    }
+  },
+  {
+    "_id": "uabladessongvic1",
+    "name": "Song of Victory",
+    "type": "feat",
+    "img": "icons/skills/melee/sword-blade-shining-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, while your Bladesong is active, you can add your Intelligence modifier (minimum of +1) to the damage of your melee weapon attacks.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Wizard (Bladesinger) 14"
+    }
+  },
+  {
+    "_id": "uapreservspells1",
+    "name": "Circle of Preservation Spells",
+    "type": "feat",
+    "img": "icons/magic/nature/sprout-tree-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared at the specified Druid levels:</p>\n               <ul>\n                 <li><strong>Level 3:</strong> <em>Goodberry</em>, <em>Purify Food and Drink</em>, <em>Barkskin</em>, <em>Lesser Restoration</em></li>\n                 <li><strong>Level 5:</strong> <em>Create Food and Water</em>, <em>Plant Growth</em></li>\n                 <li><strong>Level 7:</strong> <em>Aura of Life</em>, <em>Death Ward</em></li>\n                 <li><strong>Level 9:</strong> <em>Greater Restoration</em>, <em>Reincarnate</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Druid (Circle of Preservation) 3"
+    }
+  },
+  {
+    "_id": "uapreservland001",
+    "name": "Preserved Land",
+    "type": "feat",
+    "img": "icons/magic/nature/oasis-desert-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, by expending a use of Wild Shape, you sanctify a 20-ft radius area centered on you for 1 minute. Allies inside gain resistance to Necrotic damage and regain extra HP equal to your Wis modifier whenever healed.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Druid (Circle of Preservation) 3"
+    }
+  },
+  {
+    "_id": "uapreservstud001",
+    "name": "Student of Preservation",
+    "type": "feat",
+    "img": "icons/tools/herbalism/herbalism-pouch-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you gain proficiency in Medicine and Herbalism Kit, and have Advantage on checks to forage food or pure water in wastelands.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Druid (Circle of Preservation) 3"
+    }
+  },
+  {
+    "_id": "uapreservimp0001",
+    "name": "Improved Preservation",
+    "type": "feat",
+    "img": "icons/magic/nature/sun-radiance-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, allies within your Preserved Land add 1d4 to all saving throws. Enemies entering or starting their turn in the area take Radiant damage equal to your Wis modifier.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Druid (Circle of Preservation) 6"
+    }
+  },
+  {
+    "_id": "uapreservfacil01",
+    "name": "Facilitated Restoration",
+    "type": "feat",
+    "img": "icons/magic/life/cross-sparkle-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, you can cast <em>Lesser Restoration</em> as a Bonus Action without expending a spell slot a number of times equal to your Wis modifier per Long Rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Druid (Circle of Preservation) 10"
+    }
+  },
+  {
+    "_id": "uapreservsacro01",
+    "name": "Sacrosanct Land",
+    "type": "feat",
+    "img": "icons/magic/nature/tree-roots-glow-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, your Preserved Land expands to 30 ft radius. When an ally in the area is reduced to 0 HP, it drops to 1 HP instead (once per creature per rest).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Druid (Circle of Preservation) 14"
+    }
+  },
+  {
+    "_id": "uagladiatbrut001",
+    "name": "Brutality",
+    "type": "feat",
+    "img": "icons/skills/melee/unarmed-punch-fist-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you learn crowd-pleasing brutality. You gain 3 Brutality dice (d6s, becoming d8s at 10th and d10s at 18th). You can spend a Brutality die on weapon attacks to add to damage, knock prone, disarm, or impose disadvantage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fighter (Gladiator) 3"
+    }
+  },
+  {
+    "_id": "uagladiattheat01",
+    "name": "Combat Theatrics",
+    "type": "feat",
+    "img": "icons/skills/social/intimidation-mask-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you gain proficiency in Performance and Athletics. You can add your Cha modifier to Initiative rolls instead of Dex.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fighter (Gladiator) 3"
+    }
+  },
+  {
+    "_id": "uagladiatparry01",
+    "name": "Flourish Parry",
+    "type": "feat",
+    "img": "icons/skills/melee/shield-block-parry-sparks.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, as a Reaction when hit by a melee attack, spend 1 Brutality die, roll it, add your PB, and reduce the incoming damage. If reduced to 0, make an immediate melee attack against the attacker.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fighter (Gladiator) 7"
+    }
+  },
+  {
+    "_id": "uagladiatbold001",
+    "name": "Bolder Brutalities",
+    "type": "feat",
+    "img": "icons/skills/melee/weapons-crossed-swords-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, your Brutality dice become d8s. Whenever you use <em>Second Wind</em>, you regain 1 expended Brutality die.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fighter (Gladiator) 10"
+    }
+  },
+  {
+    "_id": "uagladiatresurg1",
+    "name": "Brutal Resurgence",
+    "type": "feat",
+    "img": "icons/skills/wounds/blood-drip-fist.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, when you roll initiative and have no Brutality dice remaining, you immediately regain 2 Brutality dice.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fighter (Gladiator) 15"
+    }
+  },
+  {
+    "_id": "uagladiatmutil01",
+    "name": "Mutilate",
+    "type": "feat",
+    "img": "icons/skills/melee/cleave-axe-blood-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 18th level, your Brutality dice become d10s. On a Critical Hit, you do not expend the Brutality die used, and the target's speed is halved until it receives magical healing.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Fighter (Gladiator) 18"
+    }
+  },
+  {
+    "_id": "uadefileempow001",
+    "name": "Defile and Empower",
+    "type": "feat",
+    "img": "icons/magic/unholy/wither-decay-hand-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, when casting a spell of 1st level or higher, you wither the life in a 10-ft emanation. Vegetation dies, and living creatures take Necrotic damage equal to the spell's level. You gain +1 to spell attack rolls and spell save DC for that casting.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Sorcerer (Defiled Sorcery) 3"
+    }
+  },
+  {
+    "_id": "uadefilespells01",
+    "name": "Defiler Spells",
+    "type": "feat",
+    "img": "icons/magic/death/skull-poison-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared at the specified Sorcerer levels:</p>\n               <ul>\n                 <li><strong>Level 3:</strong> <em>Inflict Wounds</em>, <em>Ray of Sickness</em>, <em>Blindness/Deafness</em>, <em>Ray of Enfeeblement</em></li>\n                 <li><strong>Level 5:</strong> <em>Animate Dead</em>, <em>Vampiric Touch</em></li>\n                 <li><strong>Level 7:</strong> <em>Blight</em>, <em>Shadow of Moil</em></li>\n                 <li><strong>Level 9:</strong> <em>Cloudkill</em>, <em>Contagion</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Sorcerer (Defiled Sorcery) 3"
+    }
+  },
+  {
+    "_id": "uadefilecorrupt1",
+    "name": "Corrupted Caster",
+    "type": "feat",
+    "img": "icons/magic/death/undead-zombie-glowing-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, you gain resistance to Necrotic and Poison damage, and immunity to the Poisoned condition.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Sorcerer (Defiled Sorcery) 6"
+    }
+  },
+  {
+    "_id": "uadefileaura0001",
+    "name": "Withering Aura",
+    "type": "feat",
+    "img": "icons/magic/unholy/miasma-plague-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, you project a 15-ft aura of decay: enemies inside have Disadvantage on Constitution saving throws. When an enemy dies in your aura, you regain 1 Sorcery Point.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Sorcerer (Defiled Sorcery) 14"
+    }
+  },
+  {
+    "_id": "uadefilesuper001",
+    "name": "Superior Defiler",
+    "type": "feat",
+    "img": "icons/magic/death/skull-energy-cloud-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 18th level, your Withering Aura expands to 30 ft and prevents enemies inside from regaining Hit Points. Spending 4 Sorcery Points allows you to incinerate terrain in 60 ft, dealing 6d10 necrotic damage to all enemies in the area (Con save half).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Sorcerer (Defiled Sorcery) 18"
+    }
+  },
+  {
+    "_id": "uasorckspells001",
+    "name": "Sorcerer-King Spells",
+    "type": "feat",
+    "img": "icons/magic/control/control-influence-crown-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared at the specified Warlock levels:</p>\n               <ul>\n                 <li><strong>Level 3:</strong> <em>Command</em>, <em>Compelled Duel</em>, <em>Hold Person</em>, <em>Mind Spike</em>, <em>Wrathful Smite</em></li>\n                 <li><strong>Level 5:</strong> <em>Fear</em>, <em>Sending</em></li>\n                 <li><strong>Level 7:</strong> <em>Compulsion</em>, <em>Staggering Smite</em></li>\n                 <li><strong>Level 9:</strong> <em>Dominate Person</em>, <em>Synaptic Static</em></li>\n               </ul>\n               <p><strong>Psionic Casting:</strong> You can cast these spells without Verbal or Material components (unless consumed or with monetary cost).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Warlock (Sorcerer-King Patron) 3"
+    }
+  },
+  {
+    "_id": "uasorckherald001",
+    "name": "Tyrant's Herald",
+    "type": "feat",
+    "img": "icons/skills/social/intimidation-shouting-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you gain proficiency and Expertise in Intimidation. Additionally, you can cast <em>Command</em> as a Bonus Action without expending a spell slot a number of times equal to your Cha modifier per Long Rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Warlock (Sorcerer-King Patron) 3"
+    }
+  },
+  {
+    "_id": "uasorckedict0001",
+    "name": "Decisive Edict",
+    "type": "feat",
+    "img": "icons/magic/control/command-speech-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, when casting a spell using a Pact Magic slot, emit a 30-ft emanation. For each creature inside, choose:</p>\n               <ul>\n                 <li><strong>Marshal:</strong> Ally gains Advantage on attack rolls until the end of its next turn.</li>\n                 <li><strong>Oppress:</strong> Enemy must pass a Wis save or be Frightened until the end of its next turn.</li>\n               </ul>\n               <p>Recharges on Short/Long Rest, or upon using Magical Cunning.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Warlock (Sorcerer-King Patron) 6"
+    }
+  },
+  {
+    "_id": "uasorckrebuke001",
+    "name": "Vindictive Rebuke",
+    "type": "feat",
+    "img": "icons/magic/perception/mind-flaying-energy-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, as a Reaction when hit by an attack, force the enemy to reroll the d20 and use the new roll. If the attack misses, the creature takes Psychic damage equal to your Warlock level (uses = Cha mod per Long Rest).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Warlock (Sorcerer-King Patron) 10"
+    }
+  },
+  {
+    "_id": "uasorcktyranny01",
+    "name": "Absolute Tyranny",
+    "type": "feat",
+    "img": "icons/magic/control/throne-monarch-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, whenever you cast <em>Command</em>, you can target one additional creature. Furthermore, creatures Frightened by you automatically fail saving throws against your <em>Command</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Warlock (Sorcerer-King Patron) 14"
+    }
+  },
+  {
+    "_id": "uamysticspell001",
+    "name": "Mystic Spellcasting",
+    "type": "feat",
+    "img": "icons/magic/symbols/circle-ouroboros-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you channel arcane discipline into martial mastery. You learn cantrips and spells from the Sorcerer spell list (Abjuration and Evocation), using Wisdom as your spellcasting ability with third-caster progression.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Monk (Warrior of the Mystic Arts) 3"
+    }
+  },
+  {
+    "_id": "uamysticfight001",
+    "name": "Mystic Fighting Style",
+    "type": "feat",
+    "img": "icons/skills/melee/unarmed-kick-strike-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, when you use your action to cast a cantrip, you can make one unarmed strike as a Bonus Action.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Monk (Warrior of the Mystic Arts) 6"
+    }
+  },
+  {
+    "_id": "uamysticfocus001",
+    "name": "Mystic Focus",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-gem-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, you can spend 1 Focus Point (Ki) to cast a prepared 1st-level spell without expending a spell slot, or empower your unarmed strikes with 1d8 elemental damage for 1 minute.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Monk (Warrior of the Mystic Arts) 6"
+    }
+  },
+  {
+    "_id": "uamysticcenter01",
+    "name": "Centered Focus",
+    "type": "feat",
+    "img": "icons/magic/perception/meditation-aura-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 11th level, whenever you make a Constitution save to maintain concentration on a spell, you can spend 1 Focus Point to automatically succeed.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Monk (Warrior of the Mystic Arts) 11"
+    }
+  },
+  {
+    "_id": "uamysticimpfg001",
+    "name": "Improved Mystic Fighting Style",
+    "type": "feat",
+    "img": "icons/skills/melee/unarmed-combo-flurry-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 17th level, when you cast a spell of 1st level or higher as an Action, you can make two unarmed strikes as a Bonus Action, or spend 2 Focus Points to cast the spell as a Bonus Action.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Monk (Warrior of the Mystic Arts) 17"
+    }
+  },
+  {
+    "_id": "uaspellgbond0001",
+    "name": "Guardian Bond",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-chain-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, as an Action, forge a protective bond with an ally within 30 ft. When that ally takes damage, you can use your Reaction to absorb half that damage yourself.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladin (Oath of the Spellguard) 3"
+    }
+  },
+  {
+    "_id": "uaspellgstrike01",
+    "name": "Spellguard Strike",
+    "type": "feat",
+    "img": "icons/weapons/swords/sword-broad-glowing-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, when you hit a concentrating creature with a melee attack, it has Disadvantage on the concentration check. If it loses concentration, it takes extra Force damage equal to your Paladin level.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladin (Oath of the Spellguard) 3"
+    }
+  },
+  {
+    "_id": "uaspellgspells01",
+    "name": "Oath of the Spellguard Spells",
+    "type": "feat",
+    "img": "icons/magic/symbols/shield-runes-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared at the specified Paladin levels:</p>\n               <ul>\n                 <li><strong>Level 3:</strong> <em>Detect Magic</em>, <em>Shield</em>, <em>Misty Step</em>, <em>Silence</em></li>\n                 <li><strong>Level 5:</strong> <em>Counterspell</em>, <em>Dispel Magic</em></li>\n                 <li><strong>Level 9:</strong> <em>Banishment</em>, <em>Otiluke's Resilient Sphere</em></li>\n                 <li><strong>Level 13:</strong> <em>Circle of Power</em>, <em>Dispel Evil and Good</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladin (Oath of the Spellguard) 3"
+    }
+  },
+  {
+    "_id": "uaspellgaura0001",
+    "name": "Aura of Concentration",
+    "type": "feat",
+    "img": "icons/magic/defensive/barrier-shield-dome-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, you emanate a 10-ft aura: you and allies in the aura have Advantage on saves to maintain concentration on spells and gain resistance to spell damage. Expands to 30 ft at 18th level.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladin (Oath of the Spellguard) 7"
+    }
+  },
+  {
+    "_id": "uaspellgblade001",
+    "name": "Spell-Breaking Blade",
+    "type": "feat",
+    "img": "icons/weapons/swords/sword-runic-energy-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, when you hit a creature with a weapon attack, you can cast <em>Dispel Magic</em> on the target as part of the attack without expending a spell slot (uses = Cha mod per Long Rest).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladin (Oath of the Spellguard) 15"
+    }
+  },
+  {
+    "_id": "uaspellgetern001",
+    "name": "Eternal Spellguard",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-wings-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 20th level, as a Bonus Action, manifest the supreme aegis of the Spellguard for 1 minute: immunity to spells of 1st-3rd level, advantage on all saves against spells, and whenever a spell fails to affect you, the caster takes 3d10 Force damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladin (Oath of the Spellguard) 20"
+    }
+  },
+  {
+    "_id": "uastealdrain0001",
+    "name": "Drain Magic",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-hand-grasp-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, when you hit with Sneak Attack against a spellcaster or touch a magical object, siphon residual energy into a Stolen Magic Charge (max = Proficiency Bonus). Spend charges to cast <em>Detect Magic</em> or <em>Dispel Magic</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Rogue (Magic Stealer) 3"
+    }
+  },
+  {
+    "_id": "uastealempow0001",
+    "name": "Empower Sneak Attack",
+    "type": "feat",
+    "img": "icons/weapons/daggers/dagger-crystal-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, when you deal Sneak Attack damage, spend 1 Stolen Magic Charge to convert all damage to Force damage and add +1d6 damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Rogue (Magic Stealer) 3"
+    }
+  },
+  {
+    "_id": "uastealsabot0001",
+    "name": "Magical Sabotage",
+    "type": "feat",
+    "img": "icons/tools/traps/trap-disarm-wires-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 9th level, you can use Cunning Action to disarm magical glyphs, wards, or continuous magical effects within 30 ft using thieves' tools and Arcana.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Rogue (Magic Stealer) 9"
+    }
+  },
+  {
+    "_id": "uastealshroud001",
+    "name": "Occult Shroud",
+    "type": "feat",
+    "img": "icons/magic/defensive/illusion-evasion-cloak-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 13th level, when using <em>Uncanny Dodge</em> against damage from a spell or magical effect, you can spend 1 Stolen Magic Charge to become Invisible until the end of your next turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Rogue (Magic Stealer) 13"
+    }
+  },
+  {
+    "_id": "uastealimpdr0001",
+    "name": "Improved Drain Magic",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-hand-grasp-lightning.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 13th level, your max Stolen Magic Charges increases to PB + 2. As a Reaction when a creature within 30 ft casts a spell, make a ranged weapon attack: if it hits, siphon the spell, negating it if 1st-2nd level, or imposing disadvantage on its concentration.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Rogue (Magic Stealer) 13"
+    }
+  },
+  {
+    "_id": "uastealimplosion",
+    "name": "Eldritch Implosion",
+    "type": "feat",
+    "img": "icons/magic/sonic/explosion-shock-wave-violet.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 17th level, as an Action, spend 3 Stolen Magic Charges to detonate an arcane implosion in a 20-ft radius sphere up to 60 ft away. Enemies take 10d10 Force damage (Dex save half) and all active spells of 5th level or lower in the area are dispelled.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Rogue (Magic Stealer) 17"
+    }
+  },
+  {
+    "_id": "uavestigcomp0001",
+    "name": "Vestige Companion",
+    "type": "feat",
+    "img": "icons/magic/death/wraith-ghost-spirit-cyan.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you bind the spectral remnant of a forgotten entity. It manifests as an ephemeral companion that acts on your turn, attacks using your spell attack modifier, deals Psychic or Force damage, and can fly through solid objects.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Warlock (Vestige Patron) 3"
+    }
+  },
+  {
+    "_id": "uavestigspell001",
+    "name": "Vestige Spells",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-sigil-spirit-cyan.webp",
+    "system": {
+      "description": {
+        "value": "<p>You always have the following spells prepared at the specified Warlock levels:</p>\n               <ul>\n                 <li><strong>Level 3:</strong> <em>Heroism</em>, <em>Unseen Servant</em>, <em>Invisibility</em>, <em>Spiritual Weapon</em></li>\n                 <li><strong>Level 5:</strong> <em>Phantom Steed</em>, <em>Spirit Guardians</em></li>\n                 <li><strong>Level 7:</strong> <em>Death Ward</em>, <em>Phantasmal Killer</em></li>\n                 <li><strong>Level 9:</strong> <em>Contact Other Plane</em>, <em>Mislead</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Warlock (Vestige Patron) 3"
+    }
+  },
+  {
+    "_id": "uavestigrecov001",
+    "name": "Vestige Recovery",
+    "type": "feat",
+    "img": "icons/magic/life/heart-soul-spirit-cyan.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, when you or your vestige companion reduce an enemy to 0 HP, you gain Temporary HP equal to your Warlock level + Cha mod, and the vestige can immediately teleport up to 30 ft.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Warlock (Vestige Patron) 6"
+    }
+  },
+  {
+    "_id": "uavestigaura0001",
+    "name": "Aura of Power",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-aura-energy-cyan.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, your vestige companion projects a 10-ft aura: allies inside add 1d4 to attack rolls and saving throws.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Warlock (Vestige Patron) 10"
+    }
+  },
+  {
+    "_id": "uavestigsembl001",
+    "name": "Semblance of Life",
+    "type": "feat",
+    "img": "icons/magic/unholy/specter-ascension-spirit-cyan.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, your vestige companion can assume full corporeal power for 1 minute: gains resistance to all damage, 40 ft flying speed (hover), and can channel your prepared Warlock spells using its own reaction or bonus action.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Warlock (Vestige Patron) 14"
+    }
   }
 ]

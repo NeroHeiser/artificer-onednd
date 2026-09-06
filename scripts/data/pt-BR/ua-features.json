@@ -1794,5 +1794,1725 @@
         "cost": 1
       }
     }
+  },
+  {
+    "_id": "uamoonfolk000001",
+    "name": "Contos Populares de Moonshae",
+    "type": "feat",
+    "img": "icons/magic/nature/moon-crescent-tree-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você aprende a invocar a sabedoria mágica das lendas das Ilhas Moonshae. Com uma Ação Bônus, você pode gastar um dado de Inspiração de Bardo e rolar o dado para escolher um conto popular abençoado:</p>\n               <ul>\n                 <li><strong>1–2 (O Monstro):</strong> Um aliado que você possa ver a até 9m ganha Pontos de Vida Temporários iguais ao resultado + seu modificador de Carisma, e seu próximo ataque corpo a corpo causa dano de frio adicional igual ao número rolado.</li>\n                 <li><strong>3–4 (A Mãe-Terra):</strong> Um aliado a até 9m recupera Pontos de Vida iguais ao resultado + seu modificador de Carisma, e encerra uma condição Envenenado ou Doente em si mesmo.</li>\n                 <li><strong>5–6+ (O Poço Branco):</strong> Um aliado a até 9m pode usar imediatamente sua reação para teleportar-se até 9m para um espaço desocupado visível e ganha Vantagem em seu próximo teste de resistência.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bardo (Colégio da Lua) 3"
+    }
+  },
+  {
+    "_id": "uaprimalori00001",
+    "name": "Folclorista Primitivo",
+    "type": "feat",
+    "img": "icons/sundries/books/book-embossed-tree-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você ganha proficiência nas perícias Natureza e Sobrevivência. Sempre que fizer um teste de Inteligência (Natureza) ou Sabedoria (Sobrevivência), você pode adicionar seu modificador de Carisma ao teste. Além disso, você aprende o truque <em>Artifício Adiantado (Druidcraft)</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bardo (Colégio da Lua) 3"
+    }
+  },
+  {
+    "_id": "uamoonwell000001",
+    "name": "Bênção dos Poços da Lua",
+    "type": "feat",
+    "img": "icons/magic/water/vortex-water-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, a água sagrada dos poços lunares revigora seu espírito. Uma vez por dia ao completar um Descanso Curto, você recupera um uso esgotado de Inspiração de Bardo. Além disso, você pode conjurar a magia <em>Raio Lunar (Moonbeam)</em> sem gastar espaço de magia uma vez por Descanso Longo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bardo (Colégio da Lua) 6"
+    }
+  },
+  {
+    "_id": "uabolsterfk00001",
+    "name": "Contos Fortalecidos",
+    "type": "feat",
+    "img": "icons/magic/control/buff-flight-wings-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, suas histórias tocam a própria essência feérica. Sempre que rolar um dado de Inspiração de Bardo para Contos Populares de Moonshae, você rola dois dados em vez de um e escolhe qual efeito aplicar, ou pode aplicar os dois efeitos a aliados diferentes dentro do alcance.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bardo (Colégio da Lua) 14"
+    }
+  },
+  {
+    "_id": "uaknowspells0001",
+    "name": "Magias do Domínio do Conhecimento",
+    "type": "feat",
+    "img": "icons/sundries/books/book-eye-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas nos níveis correspondentes:</p>\n               <ul>\n                 <li><strong>3º Nível:</strong> <em>Comando (Command)</em>, <em>Identificação (Identify)</em>, <em>Detectar Pensamentos (Detect Thoughts)</em>, <em>Espinho Mental (Mind Spike)</em></li>\n                 <li><strong>5º Nível:</strong> <em>Indetectável (Nondetection)</em>, <em>Idiomas (Tongues)</em></li>\n                 <li><strong>7º Nível:</strong> <em>Olho Arcano (Arcane Eye)</em>, <em>Confusão (Confusion)</em></li>\n                 <li><strong>9º Nível:</strong> <em>Lendas e Histórias (Legend Lore)</em>, <em>Vidência (Scrying)</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Clérigo (Domínio do Conhecimento) 3"
+    }
+  },
+  {
+    "_id": "uaknowbless00001",
+    "name": "Bênçãos do Conhecimento",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você aprende dois idiomas à sua escolha. Você também ganha proficiência e Especialização (Expertise) em duas das seguintes perícias: Arcanismo, História, Natureza ou Religião.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Clérigo (Domínio do Conhecimento) 3"
+    }
+  },
+  {
+    "_id": "uaknowmindm00001",
+    "name": "Magia Mental",
+    "type": "feat",
+    "img": "icons/magic/perception/brain-glow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, sempre que você conjurar uma magia da escola de Encantamento ou Adivinhação usando um espaço de magia, você pode conjurá-la sem a necessidade de componentes Verbais ou Somáticos.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Clérigo (Domínio do Conhecimento) 3"
+    }
+  },
+  {
+    "_id": "uaknowunfet00001",
+    "name": "Mente Desacorrentada",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-aura-energy-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, sua mente se torna uma fortaleza inexpugnável. Você tem Vantagem em testes de resistência contra ser Enfeitiçado ou Amedrontado. Além disso, você pode usar seu Canalizar Divindade para ler pensamentos superficiais de uma criatura ou encerrar instantaneamente as condições Enfeitiçado e Amedrontado em criaturas aliadas a até 9m.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Clérigo (Domínio do Conhecimento) 6"
+    }
+  },
+  {
+    "_id": "uaknowdivin00001",
+    "name": "Presciência Divina",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 17º nível, sua conexão com a onisciência divina atinge o ápice. Você ganha Visão Verdadeira (Truesight) com alcance de 9m. Como uma Reação quando um inimigo a até 18m realiza uma jogada de ataque, teste de habilidade ou teste de resistência, você pode impor Desvantagem naquela rolagem.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Clérigo (Domínio do Conhecimento) 17"
+    }
+  },
+  {
+    "_id": "uapdkknight00001",
+    "name": "Enviado Cavaleiresco",
+    "type": "feat",
+    "img": "icons/skills/social/diplomacy-handshake-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você é treinado como líder diplomático de Cormyr. Você ganha proficiência na perícia Persuasão (ou Intuição/Adestrar Animais se já for proficiente) e Especialização (Expertise) em Persuasão.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro (Cavaleiro do Dragão Púrpura) 3"
+    }
+  },
+  {
+    "_id": "uapdkcompan00001",
+    "name": "Companheiro Dragão Púrpura",
+    "type": "feat",
+    "img": "icons/creatures/reptiles/dragon-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você estabelece um elo com um jovem dragão púrpura (wyrmling dracônico) que o acompanha em batalha. Ele age imediatamente após o seu turno, usa seu Bônus de Proficiência e pode desferir ataques de sopro psíquico/energia ou garras ferozes.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro (Cavaleiro do Dragão Púrpura) 3"
+    }
+  },
+  {
+    "_id": "uapdkdrider00001",
+    "name": "Cavaleiro de Dragão",
+    "type": "feat",
+    "img": "icons/environment/creatures/flying-mount.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 7º nível, seu companheiro dragão atinge tamanho suficiente para servir como sua montaria de combate. Montar ou desmontar custa apenas 1,5m de movimento, e você tem Vantagem em salvaguardas para não ser derrubado da sela.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro (Cavaleiro do Dragão Púrpura) 7"
+    }
+  },
+  {
+    "_id": "uapdkrallys00001",
+    "name": "Surto de Encorajamento",
+    "type": "feat",
+    "img": "icons/magic/life/heart-shield-hand-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, quando você usa seu <em>Retomar o Fôlego (Second Wind)</em>, você pode escolher até três aliados a até 18m de você. Cada um deles recupera Pontos de Vida iguais ao seu nível de Guerreiro ou à sua rolagem de Retomar o Fôlego.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro (Cavaleiro do Dragão Púrpura) 10"
+    }
+  },
+  {
+    "_id": "uapdkamethyst001",
+    "name": "Pináculo de Ametista",
+    "type": "feat",
+    "img": "icons/commodities/gems/gem-faceted-rough-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 15º nível, a energia ametista protege você e sua montaria. Você e seu dragão ganham resistência a dano de Força e Psíquico, e o sopro do dragão tem seu alcance dobrado e dano ampliado.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro (Cavaleiro do Dragão Púrpura) 15"
+    }
+  },
+  {
+    "_id": "uapdkendurin0001",
+    "name": "Comandante Resiliente",
+    "type": "feat",
+    "img": "icons/skills/combat/banners-honor-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 18º nível, quando você usa seu <em>Surto de Ação (Action Surge)</em>, um aliado à sua escolha a até 18m pode usar imediatamente a reação dele para realizar um ataque com arma ou conjurar um truque.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro (Cavaleiro do Dragão Púrpura) 18"
+    }
+  },
+  {
+    "_id": "uageniessmite001",
+    "name": "Golpe Elemental",
+    "type": "feat",
+    "img": "icons/magic/fire/dagger-rune-enchant-flame-blue-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, quando você conjura <em>Golpe Divino (Divine Smite)</em>, você pode escolher causar dano de Ácido, Frio, Fogo, Elétrico ou Trovão em vez de dano Radiante.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladino (Juramento dos Gênios Nobres) 3"
+    }
+  },
+  {
+    "_id": "uageniesspells01",
+    "name": "Magias dos Gênios",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-sigil-elemental.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas nos níveis correspondentes:</p>\n               <ul>\n                 <li><strong>3º Nível:</strong> <em>Absorver Elementos (Absorb Elements)</em>, <em>Golpe Trovejante (Thunderous Smite)</em>, <em>Passo Sombrio (Misty Step)</em>, <em>Força Fantasmagórica (Phantasmal Force)</em></li>\n                 <li><strong>5º Nível:</strong> <em>Voo (Fly)</em>, <em>Proteção contra Energia (Protection from Energy)</em></li>\n                 <li><strong>9º Nível:</strong> <em>Banimento (Banishment)</em>, <em>Escudo de Fogo (Fire Shield)</em></li>\n                 <li><strong>13º Nível:</strong> <em>Conjurar Elemental (Conjure Elemental)</em>, <em>Criação (Creation)</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladino (Juramento dos Gênios Nobres) 3"
+    }
+  },
+  {
+    "_id": "uageniessplend01",
+    "name": "Esplendor dos Gênios",
+    "type": "feat",
+    "img": "icons/magic/air/wind-stream-whirlwind-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você pode usar seu Canalizar Divindade para manifestar a opulência elemental dos gênios: você ganha deslocamento de voo igual ao seu deslocamento de caminhada por 10 minutos ou libera uma onda elemental em cone de 4,5m causando 2d8 + seu nível de Paladino em dano elemental.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladino (Juramento dos Gênios Nobres) 3"
+    }
+  },
+  {
+    "_id": "uageniesaura0001",
+    "name": "Aura de Blindagem Elemental",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-glowing-gold-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 7º nível, você emana uma aura de 3m de proteção elemental. Sempre que terminar um descanso, escolha Ácido, Frio, Fogo, Elétrico ou Trovão. Você e aliados dentro da sua aura têm resistência ao tipo escolhido. No 18º nível, o alcance da aura expande para 9m.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladino (Juramento dos Gênios Nobres) 7"
+    }
+  },
+  {
+    "_id": "uageniesrebuk001",
+    "name": "Reprimenda Elemental",
+    "type": "feat",
+    "img": "icons/magic/lightning/bolt-strike-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 15º nível, quando uma criatura a até 9m atinge você ou um aliado em sua aura, você pode usar sua reação para retaliar com fúria elemental, causando 2d10 + seu modificador de Carisma de dano elemental ao atacante.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladino (Juramento dos Gênios Nobres) 15"
+    }
+  },
+  {
+    "_id": "uageniesscion001",
+    "name": "Herdeiro Nobre",
+    "type": "feat",
+    "img": "icons/magic/symbols/crest-elemental-royalty.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 20º nível, como uma Ação Bônus, você assume a forma avatar de um sultão dos gênios por 1 minuto: ganha deslocamento de voo de 18m (planar), resistência a todos os 5 danos elementais e pode conjurar magias elementais com custo de ação reduzido.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladino (Juramento dos Gênios Nobres) 20"
+    }
+  },
+  {
+    "_id": "uawinterexpl0001",
+    "name": "Explorador Gélido",
+    "type": "feat",
+    "img": "icons/magic/water/ice-mountain-frost.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você ignora terreno difícil criado por gelo ou neve, e está adaptado a climas de frio extremo. Você também ganha resistência a dano de Frio.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Patrulheiro (Caminhante do Inverno) 3"
+    }
+  },
+  {
+    "_id": "uawinterrime0001",
+    "name": "Geada do Caçador",
+    "type": "feat",
+    "img": "icons/magic/water/projectile-ice-shard.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, uma vez por turno quando você atinge uma criatura com um ataque de arma, você pode cobri-la com geada: ela sofre +1d6 de dano de Frio e seu deslocamento é reduzido em 3m até o início do seu próximo turno.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Patrulheiro (Caminhante do Inverno) 3"
+    }
+  },
+  {
+    "_id": "uawinterspells01",
+    "name": "Magias do Caminhante do Inverno",
+    "type": "feat",
+    "img": "icons/magic/water/snowflake-ice-crystal-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas nos níveis correspondentes:</p>\n               <ul>\n                 <li><strong>3º Nível:</strong> <em>Armadura de Agathys (Armor of Agathys)</em>, <em>Faca de Gelo (Ice Knife)</em>, <em>Imobilizar Pessoa (Hold Person)</em>, <em>Gelo Vinculante de Rime (Rime's Binding Ice)</em></li>\n                 <li><strong>5º Nível:</strong> <em>Nevasca (Sleet Storm)</em>, <em>Lentidão (Slow)</em></li>\n                 <li><strong>9º Nível:</strong> <em>Tempestade de Gelo (Ice Storm)</em>, <em>Esfera Resiliente (Resilient Sphere)</em></li>\n                 <li><strong>13º Nível:</strong> <em>Cone de Frio (Cone of Cold)</em>, <em>Imobilizar Monstro (Hold Monster)</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Patrulheiro (Caminhante do Inverno) 3"
+    }
+  },
+  {
+    "_id": "uawintersoul0001",
+    "name": "Alma Fortalecida",
+    "type": "feat",
+    "img": "icons/magic/life/cross-frost-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 7º nível, sempre que você causar dano de Frio com um ataque de arma ou magia de patrulheiro, você ganha Pontos de Vida Temporários iguais ao seu modificador de Sabedoria (mínimo de 1).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Patrulheiro (Caminhante do Inverno) 7"
+    }
+  },
+  {
+    "_id": "uawinterretrib01",
+    "name": "Retribuição Congelante",
+    "type": "feat",
+    "img": "icons/magic/water/ice-spikes-burst-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 11º nível, o dano da Geada do Caçador aumenta para 1d10. Além disso, quando um inimigo a até 1,5m atinge você com um ataque corpo a corpo, ele sofre 2d8 de dano de Frio e deve passar em uma salvaguarda de Constituição ou terá Desvantagem em seu próximo ataque.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Patrulheiro (Caminhante do Inverno) 11"
+    }
+  },
+  {
+    "_id": "uawinterhaunt000",
+    "name": "Assombração Congelada",
+    "type": "feat",
+    "img": "icons/magic/death/specter-frozen-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 15º nível, você pode manifestar o avatar do inverno implacável por 1 minuto: emana uma tempestade de 4,5m ao seu redor (terreno difícil para inimigos, 2d6 de dano de frio no início do turno inimigo) e você pode se mover através de criaturas e objetos sólidos.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Patrulheiro (Caminhante do Inverno) 15"
+    }
+  },
+  {
+    "_id": "uascionthirst001",
+    "name": "Sede de Sangue",
+    "type": "feat",
+    "img": "icons/skills/melee/blood-slash-dagger-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, quando você acerta um Acerto Crítico ou reduz uma criatura a 0 PV com Ataque Furtivo, você ganha Pontos de Vida Temporários iguais ao seu nível de Ladino + modificador de Destreza e pode se mover até metade do seu deslocamento sem provocar ataques de oportunidade.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ladino (Herdeiro dos Três) 3"
+    }
+  },
+  {
+    "_id": "uascionalleg0001",
+    "name": "Lealdade Pavorosa",
+    "type": "feat",
+    "img": "icons/magic/death/skull-horned-blood-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você dedica seus assassinatos a um dos Três Mortos:</p>\n               <ul>\n                 <li><strong>Bane (Tirania):</strong> Proficiência em Intimidação, vantagem em testes contra medo e +PB em dano de Força em ataques surpresa.</li>\n                 <li><strong>Bhaal (Assassinato):</strong> Acerto Crítico em 19–20 contra alvos com menos da metade da vida máxima (feridos).</li>\n                 <li><strong>Myrkul (Morte):</strong> Seu Ataque Furtivo pode causar dano Necrótico, e você aprende os truques <em>Poupar os Moribundos</em> e <em>Vitalidade Falsa</em>.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ladino (Herdeiro dos Três) 3"
+    }
+  },
+  {
+    "_id": "uascionfear00001",
+    "name": "Abalar de Pavor",
+    "type": "feat",
+    "img": "icons/magic/control/fear-fright-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 9º nível, quando atinge um alvo com seu Ataque Furtivo, a criatura deve passar em uma salvaguarda de Sabedoria (CD 8 + PB + mod Destreza) ou ficará Amedrontada por você até o final do seu próximo turno.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ladino (Herdeiro dos Três) 9"
+    }
+  },
+  {
+    "_id": "uascionaura00001",
+    "name": "Aura de Malevolência",
+    "type": "feat",
+    "img": "icons/magic/unholy/silhouette-evil-horns-shadow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 13º nível, você emana uma aura de 3m de puro terror. Inimigos dentro da aura têm Desvantagem em salvaguardas contra a condição Amedrontado, e você e seus aliados ganham resistência a dano Necrótico.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ladino (Herdeiro dos Três) 13"
+    }
+  },
+  {
+    "_id": "uasciondread0001",
+    "name": "Encarnação do Pavor",
+    "type": "feat",
+    "img": "icons/magic/death/avatar-reaper-scythe-black.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 17º nível, uma vez por Descanso Longo, você manifesta o poder pleno dos Três Mortos por 1 minuto: ganha resistência a todo dano exceto radiante, maximiza seu dano de Ataque Furtivo no primeiro acerto de cada turno, e inimigos amedrontados sofrem 4d6 de dano necrótico no início de cada turno deles.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ladino (Herdeiro dos Três) 17"
+    }
+  },
+  {
+    "_id": "uaspellfirebrst1",
+    "name": "Explosão de Fogo Mágico",
+    "type": "feat",
+    "img": "icons/magic/fire/beam-jet-stream-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você canaliza a magia pura de Faerûn. Quando conjura uma magia que causa dano de Fogo ou Radiante, você pode gastar 1 Ponto de Feitiçaria para fazer o dano ignorar resistências e forçar criaturas atingidas a fazerem uma salvaguarda de Constituição ou ficarem Cegas até o início do seu próximo turno.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feiticeiro (Feitiçaria do Fogo Mágico) 3"
+    }
+  },
+  {
+    "_id": "uaspellfiresp001",
+    "name": "Magias de Fogo Mágico",
+    "type": "feat",
+    "img": "icons/magic/fire/flame-burning-hand-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas nos níveis correspondentes:</p>\n               <ul>\n                 <li><strong>3º Nível:</strong> <em>Mãos Flamejantes (Burning Hands)</em>, <em>Raio Guiador (Guiding Bolt)</em>, <em>Raio Ardente (Scorching Ray)</em>, <em>Restauração Menor (Lesser Restoration)</em></li>\n                 <li><strong>5º Nível:</strong> <em>Luz do Dia (Daylight)</em>, <em>Bola de Fogo (Fireball)</em></li>\n                 <li><strong>7º Nível:</strong> <em>Escudo de Fogo (Fire Shield)</em>, <em>Muralha de Fogo (Wall of Fire)</em></li>\n                 <li><strong>9º Nível:</strong> <em>Coluna de Chamas (Flame Strike)</em>, <em>Alvorecer (Dawn)</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feiticeiro (Feitiçaria do Fogo Mágico) 3"
+    }
+  },
+  {
+    "_id": "uaspellfireabs01",
+    "name": "Absorver Magias",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, como uma Reação quando for alvo de uma magia ou estiver na área de efeito de uma magia, você pode gastar 1 Ponto de Feitiçaria para ganhar Vantagem na salvaguarda contra a magia. Se tiver sucesso, você recupera Pontos de Feitiçaria iguais ao círculo da magia absorvida (mínimo 1).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feiticeiro (Feitiçaria do Fogo Mágico) 6"
+    }
+  },
+  {
+    "_id": "uaspellfirehn001",
+    "name": "Fogo Mágico Lapidado",
+    "type": "feat",
+    "img": "icons/magic/life/cross-healing-green-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, você pode canalizar o Fogo Mágico para curar aliados. Com uma Ação, você pode gastar até o seu modificador de Carisma em Pontos de Feitiçaria para curar uma criatura a até 9m: 1d10 de cura por Ponto de Feitiçaria gasto.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feiticeiro (Feitiçaria do Fogo Mágico) 14"
+    }
+  },
+  {
+    "_id": "uaspellfirecrw01",
+    "name": "Coroa de Fogo Mágico",
+    "type": "feat",
+    "img": "icons/magic/fire/crown-flame-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 18º nível, com uma Ação Bônus e gastando 5 Pontos de Feitiçaria, você acende a lendária Coroa de Fogo Mágico por 1 minuto: ganha voo de 18m (planar), imunidade a dano de Fogo e Radiante, e todas as suas magias causam dano bônus igual ao seu modificador de Carisma.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feiticeiro (Feitiçaria do Fogo Mágico) 18"
+    }
+  },
+  {
+    "_id": "uabladesong00001",
+    "name": "Canção da Lâmina",
+    "type": "feat",
+    "img": "icons/skills/melee/sword-twirl-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você aprende a invocar a tradição élfica da Canção da Lâmina. Como Ação Bônus (usos iguais ao seu Bônus de Proficiência por Descanso Longo), você ativa a Canção da Lâmina por 1 minuto, recebendo:</p>\n               <ul>\n                 <li>Bônus na Classe de Armadura igual ao seu modificador de Inteligência (mínimo +1).</li>\n                 <li>Deslocamento de caminhada aumentado em 3m.</li>\n                 <li>Vantagem em testes de Destreza (Acrobacia).</li>\n                 <li>Bônus em salvaguardas de Constituição para manter concentração igual ao seu modificador de Inteligência (mínimo +1).</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Mago (Cantor da Lâmina) 3"
+    }
+  },
+  {
+    "_id": "uabladeswarsong1",
+    "name": "Treinamento de Guerra e Canção",
+    "type": "feat",
+    "img": "icons/weapons/swords/sword-rapier-dueling.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você ganha proficiência em Armaduras Leves, em uma arma corpo a corpo de uma mão à sua escolha, e na perícia Atuação.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Mago (Cantor da Lâmina) 3"
+    }
+  },
+  {
+    "_id": "uabladesextraat1",
+    "name": "Ataque Extra (Cantor da Lâmina)",
+    "type": "feat",
+    "img": "icons/skills/melee/strike-blade-slashing-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, você pode atacar duas vezes em vez de uma sempre que realizar a ação de Ataque no seu turno. Além disso, você pode conjurar um dos seus truques no lugar de um desses ataques.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Mago (Cantor da Lâmina) 6"
+    }
+  },
+  {
+    "_id": "uabladessongdef1",
+    "name": "Canção de Defesa",
+    "type": "feat",
+    "img": "icons/magic/defensive/barrier-shield-dome-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, enquanto sua Canção da Lâmina estiver ativa e você sofrer dano, você pode usar sua reação para gastar um espaço de magia e reduzir aquele dano em um valor igual a 5 vezes o círculo do espaço gasto.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Mago (Cantor da Lâmina) 10"
+    }
+  },
+  {
+    "_id": "uabladessongvic1",
+    "name": "Canção de Vitória",
+    "type": "feat",
+    "img": "icons/skills/melee/sword-blade-shining-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, enquanto sua Canção da Lâmina estiver ativa, você pode adicionar seu modificador de Inteligência (mínimo de +1) ao dano de seus ataques com armas corpo a corpo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Forgotten Realms Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Mago (Cantor da Lâmina) 14"
+    }
+  },
+  {
+    "_id": "uapreservspells1",
+    "name": "Magias do Círculo da Preservação",
+    "type": "feat",
+    "img": "icons/magic/nature/sprout-tree-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas nos níveis correspondentes:</p>\n               <ul>\n                 <li><strong>3º Nível:</strong> <em>Baga Boa (Goodberry)</em>, <em>Purificar Alimentos (Purify Food and Drink)</em>, <em>Pele de Árvore (Barkskin)</em>, <em>Restauração Menor (Lesser Restoration)</em></li>\n                 <li><strong>5º Nível:</strong> <em>Criar Comida e Água (Create Food and Water)</em>, <em>Crescimento de Plantas (Plant Growth)</em></li>\n                 <li><strong>7º Nível:</strong> <em>Aura de Vida (Aura of Life)</em>, <em>Proteção contra a Morte (Death Ward)</em></li>\n                 <li><strong>9º Nível:</strong> <em>Restauração Maior (Greater Restoration)</em>, <em>Reencarnação (Reincarnate)</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Druida (Círculo da Preservação) 3"
+    }
+  },
+  {
+    "_id": "uapreservland001",
+    "name": "Terra Preservada",
+    "type": "feat",
+    "img": "icons/magic/nature/oasis-desert-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, gastando um uso de Forma Selvagem, você santifica uma área de 6m de raio centrada em você por 1 minuto. Aliados na área ganham resistência a dano necrótico e recuperam Pontos de Vida adicionais iguais ao seu modificador de Sabedoria sempre que receberem cura mágica.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Druida (Círculo da Preservação) 3"
+    }
+  },
+  {
+    "_id": "uapreservstud001",
+    "name": "Estudioso da Preservação",
+    "type": "feat",
+    "img": "icons/tools/herbalism/herbalism-pouch-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você ganha proficiência em Medicina e com o Kit de Herbalismo. Além disso, tem Vantagem em testes para obter alimentos ou água pura em desertos ou terras devastadas.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Druida (Círculo da Preservação) 3"
+    }
+  },
+  {
+    "_id": "uapreservimp0001",
+    "name": "Preservação Aprimorada",
+    "type": "feat",
+    "img": "icons/magic/nature/sun-radiance-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, aliados dentro de sua Terra Preservada adicionam 1d4 a todas as salvaguardas. Inimigos que entrem na área ou iniciem o turno nela sofrem dano Radiante igual ao seu modificador de Sabedoria.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Druida (Círculo da Preservação) 6"
+    }
+  },
+  {
+    "_id": "uapreservfacil01",
+    "name": "Restauração Facilitada",
+    "type": "feat",
+    "img": "icons/magic/life/cross-sparkle-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, você pode conjurar <em>Restauração Menor</em> como Ação Bônus sem gastar espaço de magia um número de vezes igual ao seu modificador de Sabedoria por Descanso Longo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Druida (Círculo da Preservação) 10"
+    }
+  },
+  {
+    "_id": "uapreservsacro01",
+    "name": "Terra Sacrossanta",
+    "type": "feat",
+    "img": "icons/magic/nature/tree-roots-glow-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, o raio de sua Terra Preservada se expande para 9m. Quando um aliado dentro da área for reduzido a 0 PV, ele cai para 1 PV em vez disso (uma vez por criatura por descanso).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Druida (Círculo da Preservação) 14"
+    }
+  },
+  {
+    "_id": "uagladiatbrut001",
+    "name": "Brutalidade",
+    "type": "feat",
+    "img": "icons/skills/melee/unarmed-punch-fist-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você aprende a entreter multidões com violência devastadora. Você ganha 3 dados de Brutalidade (d6s, tornando-se d8s no nv 10 e d10s no nv 18). Você pode gastar um dado em ataques com arma para aumentar o dano, derrubar o alvo no chão, desarmá-lo ou forçá-lo a atacar com desvantagem.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro (Gladiador) 3"
+    }
+  },
+  {
+    "_id": "uagladiattheat01",
+    "name": "Teatralidade de Combate",
+    "type": "feat",
+    "img": "icons/skills/social/intimidation-mask-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você ganha proficiência nas perícias Atuação e Atletismo. Você pode usar seu modificador de Carisma no lugar de Destreza em testes de Iniciativa.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro (Gladiador) 3"
+    }
+  },
+  {
+    "_id": "uagladiatparry01",
+    "name": "Aparo Florescente",
+    "type": "feat",
+    "img": "icons/skills/melee/shield-block-parry-sparks.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 7º nível, como uma Reação quando atingido por um ataque corpo a corpo, você pode gastar 1 dado de Brutalidade, rolá-lo, adicionar seu Bônus de Proficiência e reduzir o dano recebido. Se o dano for reduzido a 0, você pode fazer um ataque corpo a corpo imediato contra o agressor.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro (Gladiador) 7"
+    }
+  },
+  {
+    "_id": "uagladiatbold001",
+    "name": "Brutalidades Mais Ousadas",
+    "type": "feat",
+    "img": "icons/skills/melee/weapons-crossed-swords-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, seus dados de Brutalidade se tornam d8s. Sempre que você usar <em>Retomar o Fôlego</em>, você recupera 1 dado de Brutalidade gasto.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro (Gladiador) 10"
+    }
+  },
+  {
+    "_id": "uagladiatresurg1",
+    "name": "Ressurgência Brutal",
+    "type": "feat",
+    "img": "icons/skills/wounds/blood-drip-fist.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 15º nível, quando rolar iniciativa e não tiver dados de Brutalidade restantes, você recupera instantaneamente 2 dados de Brutalidade.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro (Gladiador) 15"
+    }
+  },
+  {
+    "_id": "uagladiatmutil01",
+    "name": "Mutilar",
+    "type": "feat",
+    "img": "icons/skills/melee/cleave-axe-blood-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 18º nível, seus dados de Brutalidade se tornam d10s. Quando você acerta um Acerto Crítico, você não gasta o dado de Brutalidade utilizado e o alvo tem seu deslocamento reduzido pela metade até receber cura mágica.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Guerreiro (Gladiador) 18"
+    }
+  },
+  {
+    "_id": "uadefileempow001",
+    "name": "Profanar e Fortalecer",
+    "type": "feat",
+    "img": "icons/magic/unholy/wither-decay-hand-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, ao conjurar uma magia de 1º círculo ou superior, você drena a vitalidade do solo em uma emanação de 3m. A vegetação seca e criaturas não-mortas-vivas e não-construtos sofrem dano Necrótico igual ao círculo da magia. Você recebe +1 na jogada de ataque e na CD da magia conjurada.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feiticeiro (Feitiçaria Profanada) 3"
+    }
+  },
+  {
+    "_id": "uadefilespells01",
+    "name": "Magias Profanadoras",
+    "type": "feat",
+    "img": "icons/magic/death/skull-poison-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas nos níveis correspondentes:</p>\n               <ul>\n                 <li><strong>3º Nível:</strong> <em>Infligir Ferimentos (Inflict Wounds)</em>, <em>Raio de Enjoo (Ray of Sickness)</em>, <em>Cegueira/Surdez (Blindness/Deafness)</em>, <em>Raio do Enfraquecimento (Ray of Enfeeblement)</em></li>\n                 <li><strong>5º Nível:</strong> <em>Animar Mortos (Animate Dead)</em>, <em>Toque Vampírico (Vampiric Touch)</em></li>\n                 <li><strong>7º Nível:</strong> <em>Definhar (Blight)</em>, <em>Sombra de Moil (Shadow of Moil)</em></li>\n                 <li><strong>9º Nível:</strong> <em>Névoa Mortal (Cloudkill)</em>, <em>Contágio (Contagion)</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feiticeiro (Feitiçaria Profanada) 3"
+    }
+  },
+  {
+    "_id": "uadefilecorrupt1",
+    "name": "Conjurador Corrompido",
+    "type": "feat",
+    "img": "icons/magic/death/undead-zombie-glowing-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, você se torna resistente a dano Necrótico e de Veneno, e ganha imunidade à condição Envenenado.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feiticeiro (Feitiçaria Profanada) 6"
+    }
+  },
+  {
+    "_id": "uadefileaura0001",
+    "name": "Aura Agonizante",
+    "type": "feat",
+    "img": "icons/magic/unholy/miasma-plague-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, você projeta uma aura de 4,5m de decadência: inimigos dentro dela têm Desvantagem em testes de resistência de Constituição. Sempre que um inimigo morre dentro da sua aura, você recupera 1 Ponto de Feitiçaria.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feiticeiro (Feitiçaria Profanada) 14"
+    }
+  },
+  {
+    "_id": "uadefilesuper001",
+    "name": "Profanador Superior",
+    "type": "feat",
+    "img": "icons/magic/death/skull-energy-cloud-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 18º nível, sua Aura Agonizante expande para 9m e impede inimigos dentro dela de recuperarem Pontos de Vida. Além disso, gastando 4 Pontos de Feitiçaria, você pode desintegrar toda a flora em 18m causando 6d10 de dano necrótico em inimigos na área (salvaguarda de Con reduz pela metade).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Feiticeiro (Feitiçaria Profanada) 18"
+    }
+  },
+  {
+    "_id": "uasorckspells001",
+    "name": "Magias do Rei-Feiticeiro",
+    "type": "feat",
+    "img": "icons/magic/control/control-influence-crown-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas nos níveis correspondentes:</p>\n               <ul>\n                 <li><strong>3º Nível:</strong> <em>Comando (Command)</em>, <em>Duelo Compelido (Compelled Duel)</em>, <em>Imobilizar Pessoa (Hold Person)</em>, <em>Espinho Mental (Mind Spike)</em>, <em>Golpe Furioso (Wrathful Smite)</em></li>\n                 <li><strong>5º Nível:</strong> <em>Medo (Fear)</em>, <em>Envio (Sending)</em></li>\n                 <li><strong>7º Nível:</strong> <em>Compulsão (Compulsion)</em>, <em>Golpe Estonteante (Staggering Smite)</em></li>\n                 <li><strong>9º Nível:</strong> <em>Dominar Pessoa (Dominate Person)</em>, <em>Estática Sináptica (Synaptic Static)</em></li>\n               </ul>\n               <p><strong>Conjuração Psiônica:</strong> Você pode conjurar estas magias sem componentes Verbais ou Materiais (exceto se consumidos ou com custo monetário).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bruxo (Patrono Rei-Feiticeiro) 3"
+    }
+  },
+  {
+    "_id": "uasorckherald001",
+    "name": "Arauto do Tirano",
+    "type": "feat",
+    "img": "icons/skills/social/intimidation-shouting-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você ganha proficiência e Especialização na perícia Intimidação. Além disso, você pode conjurar <em>Comando (Command)</em> como uma Ação Bônus sem gastar espaço de magia um número de vezes igual ao seu modificador de Carisma por Descanso Longo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bruxo (Patrono Rei-Feiticeiro) 3"
+    }
+  },
+  {
+    "_id": "uasorckedict0001",
+    "name": "Édito Decisivo",
+    "type": "feat",
+    "img": "icons/magic/control/command-speech-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, quando conjura uma magia usando um espaço de Magia de Pacto, você libera uma emanação de 9m centrada em você. Para cada criatura visível na área, escolha:</p>\n               <ul>\n                 <li><strong>Comandar:</strong> Aliado ganha Vantagem em jogadas de ataque até o fim do próximo turno dele.</li>\n                 <li><strong>Oprimir:</strong> Inimigo deve passar em salvaguarda de Sabedoria ou ficará Amedrontado até o fim do próximo turno dele.</li>\n               </ul>\n               <p>Recarrega com Descanso Curto ou Longo, ou ao usar Astúcia Mágica.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bruxo (Patrono Rei-Feiticeiro) 6"
+    }
+  },
+  {
+    "_id": "uasorckrebuke001",
+    "name": "Reprimenda Vingativa",
+    "type": "feat",
+    "img": "icons/magic/perception/mind-flaying-energy-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, como uma Reação quando um inimigo acerta um ataque em você, você força o inimigo a rolar novamente o d20 e usar o novo resultado. Se o ataque errar, o agressor sofre dano Psíquico igual ao seu nível de Bruxo (usos iguais ao mod de Carisma por Descanso Longo).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bruxo (Patrono Rei-Feiticeiro) 10"
+    }
+  },
+  {
+    "_id": "uasorcktyranny01",
+    "name": "Tirania Absoluta",
+    "type": "feat",
+    "img": "icons/magic/control/throne-monarch-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, sempre que conjurar <em>Comando</em>, você pode mirar um alvo adicional dentro do alcance. Além disso, qualquer criatura Amedrontada por você falha automaticamente nas salvaguardas contra suas magias de <em>Comando</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2025 - Apocalyptic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bruxo (Patrono Rei-Feiticeiro) 14"
+    }
+  },
+  {
+    "_id": "uamysticspell001",
+    "name": "Conjuração Mística",
+    "type": "feat",
+    "img": "icons/magic/symbols/circle-ouroboros-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você aprende a tecer energias místicas através de suas artes marciais. Você aprende truques e magias da lista de Feiticeiro (Abjuração e Evocação), usando Sabedoria como sua habilidade de conjuração e seguindo a progressão de Conjurador Terciário.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Monge (Guerreiro das Artes Místicas) 3"
+    }
+  },
+  {
+    "_id": "uamysticfight001",
+    "name": "Estilo de Luta Místico",
+    "type": "feat",
+    "img": "icons/skills/melee/unarmed-kick-strike-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, quando você usa sua ação para conjurar um truque, você pode desferir um golpe desarmado como Ação Bônus.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Monge (Guerreiro das Artes Místicas) 6"
+    }
+  },
+  {
+    "_id": "uamysticfocus001",
+    "name": "Foco Místico",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-gem-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, você pode gastar 1 Ponto de Foco (Ki) para conjurar uma magia de 1º círculo preparada sem gastar espaço de magia, ou para infundir seus golpes desarmados com 1d8 de dano elemental por 1 minuto.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Monge (Guerreiro das Artes Místicas) 6"
+    }
+  },
+  {
+    "_id": "uamysticcenter01",
+    "name": "Foco Centrado",
+    "type": "feat",
+    "img": "icons/magic/perception/meditation-aura-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 11º nível, sempre que fizer uma salvaguarda de Constituição para manter a concentração em uma magia, você pode gastar 1 Ponto de Foco para ter sucesso automático.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Monge (Guerreiro das Artes Místicas) 11"
+    }
+  },
+  {
+    "_id": "uamysticimpfg001",
+    "name": "Estilo Místico Aprimorado",
+    "type": "feat",
+    "img": "icons/skills/melee/unarmed-combo-flurry-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 17º nível, ao conjurar uma magia de 1º círculo ou superior como Ação, você pode desferir dois golpes desarmados com sua Ação Bônus, ou gastar 2 Pontos de Foco para conjurar a magia como Ação Bônus em vez de Ação.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Monge (Guerreiro das Artes Místicas) 17"
+    }
+  },
+  {
+    "_id": "uaspellgbond0001",
+    "name": "Vínculo Guardião",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-chain-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, com uma Ação, você cria um elo místico protetor com um aliado a até 9m. Quando aquele aliado sofrer dano, você pode usar sua Reação para absorver metade daquele dano, sofrendo-o você mesmo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladino (Juramento da Guarda de Feitiços) 3"
+    }
+  },
+  {
+    "_id": "uaspellgstrike01",
+    "name": "Golpe Guarda-Feitiço",
+    "type": "feat",
+    "img": "icons/weapons/swords/sword-broad-glowing-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, quando atinge uma criatura concentrando-se em uma magia com um ataque corpo a corpo, o alvo tem Desvantagem na salvaguarda de concentração. Se falhar e perder a concentração, ele sofre dano de Força adicional igual ao seu nível de Paladino.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladino (Juramento da Guarda de Feitiços) 3"
+    }
+  },
+  {
+    "_id": "uaspellgspells01",
+    "name": "Magias do Juramento da Guarda de Feitiços",
+    "type": "feat",
+    "img": "icons/magic/symbols/shield-runes-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas nos níveis correspondentes:</p>\n               <ul>\n                 <li><strong>3º Nível:</strong> <em>Detectar Magia (Detect Magic)</em>, <em>Escudo Arcano (Shield)</em>, <em>Passo Sombrio (Misty Step)</em>, <em>Silêncio (Silence)</em></li>\n                 <li><strong>5º Nível:</strong> <em>Contramágica (Counterspell)</em>, <em>Dissipar Magia (Dispel Magic)</em></li>\n                 <li><strong>9º Nível:</strong> <em>Banimento (Banishment)</em>, <em>Esfera Resiliente (Otiluke's Resilient Sphere)</em></li>\n                 <li><strong>13º Nível:</strong> <em>Círculo de Poder (Circle of Power)</em>, <em>Dissipar o Bem e Mal (Dispel Evil and Good)</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladino (Juramento da Guarda de Feitiços) 3"
+    }
+  },
+  {
+    "_id": "uaspellgaura0001",
+    "name": "Aura de Concentração",
+    "type": "feat",
+    "img": "icons/magic/defensive/barrier-shield-dome-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 7º nível, você emana uma aura de 3m: você e seus aliados na aura têm Vantagem em testes para manter concentração em magias e ganham resistência a dano causado por magias. No 18º nível, a aura expande para 9m.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladino (Juramento da Guarda de Feitiços) 7"
+    }
+  },
+  {
+    "_id": "uaspellgblade001",
+    "name": "Lâmina Destruidora de Magia",
+    "type": "feat",
+    "img": "icons/weapons/swords/sword-runic-energy-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 15º nível, quando atinge uma criatura com um ataque de arma, você pode conjurar <em>Dissipar Magia</em> no alvo como parte do mesmo ataque sem gastar espaço de magia (usos iguais ao mod de Carisma por Descanso Longo).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladino (Juramento da Guarda de Feitiços) 15"
+    }
+  },
+  {
+    "_id": "uaspellgetern001",
+    "name": "Guarda-Feitiços Eterno",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-wings-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 20º nível, com uma Ação Bônus, você manifesta a égide lendária da Guarda de Feitiços por 1 minuto: ganha imunidade a magias de 1º a 3º círculo, vantagem em todas as salvaguardas contra magias, e sempre que uma magia hostil falhar em afetá-lo, o conjurador sofre 3d10 de dano de Força.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Paladino (Juramento da Guarda de Feitiços) 20"
+    }
+  },
+  {
+    "_id": "uastealdrain0001",
+    "name": "Drenar Magia",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-hand-grasp-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, quando acerta um Ataque Furtivo em uma criatura que conjura magias ou toca um objeto mágico, você pode drenar resíduos arcanos para obter uma Carga Mágica Roubada (máximo igual ao seu Bônus de Proficiência). Você pode gastar cargas para conjurar <em>Detectar Magia</em> ou <em>Dissipar Magia</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ladino (Ladrão de Magia) 3"
+    }
+  },
+  {
+    "_id": "uastealempow0001",
+    "name": "Empoderar Ataque Furtivo",
+    "type": "feat",
+    "img": "icons/weapons/daggers/dagger-crystal-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, quando causar Ataque Furtivo, você pode gastar 1 Carga Mágica Roubada para converter todo o dano do ataque em dano de Força e adicionar +1d6 ao dano total.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ladino (Ladrão de Magia) 3"
+    }
+  },
+  {
+    "_id": "uastealsabot0001",
+    "name": "Sabotagem Mágica",
+    "type": "feat",
+    "img": "icons/tools/traps/trap-disarm-wires-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 9º nível, você pode usar sua Ação Ardilosa para desarmar armadilhas mágicas ou desmantelar efeitos mágicos contínuos em objetos e criaturas a até 9m usando ferramentas de ladrão e Arcanismo.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ladino (Ladrão de Magia) 9"
+    }
+  },
+  {
+    "_id": "uastealshroud001",
+    "name": "Manto Oculto",
+    "type": "feat",
+    "img": "icons/magic/defensive/illusion-evasion-cloak-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 13º nível, quando usar sua <em>Esquiva Sobrenatural (Uncanny Dodge)</em> contra dano de magia, você pode gastar 1 Carga Mágica Roubada para ficar Invisível até o final do seu próximo turno.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ladino (Ladrão de Magia) 13"
+    }
+  },
+  {
+    "_id": "uastealimpdr0001",
+    "name": "Drenar Magia Aprimorado",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-hand-grasp-lightning.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 13º nível, seu limite de Cargas Mágicas Roubadas aumenta para seu Bônus de Proficiência + 2. Como uma Reação quando uma criatura a até 9m conjurar uma magia, você pode fazer um ataque à distância com arma: se acertar, você drena a magia, cancelando-a se for de 1º ou 2º círculo, ou forçando uma salvaguarda com desvantagem.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ladino (Ladrão de Magia) 13"
+    }
+  },
+  {
+    "_id": "uastealimplosion",
+    "name": "Implosão Mística",
+    "type": "feat",
+    "img": "icons/magic/sonic/explosion-shock-wave-violet.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 17º nível, com uma Ação, você gasta 3 Cargas Mágicas Roubadas para detonar uma onda de vácuo arcano em uma esfera de 6m de raio a até 18m. Inimigos na área sofrem 10d10 de dano de Força (salvaguarda de Destreza reduz à metade) e todas as magias ativas de 5º círculo ou inferior na área são dissipadas.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Ladino (Ladrão de Magia) 17"
+    }
+  },
+  {
+    "_id": "uavestigcomp0001",
+    "name": "Companheiro Vestígio",
+    "type": "feat",
+    "img": "icons/magic/death/wraith-ghost-spirit-cyan.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 3º nível, você vincula a alma espectral de uma entidade esquecida. Ela se manifesta como um companheiro etéreo que age no seu turno, ataca com seu modificador de ataque de magia, causa dano Psíquico ou de Força e pode voar através de obstáculos.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bruxo (Patrono Vestígio) 3"
+    }
+  },
+  {
+    "_id": "uavestigspell001",
+    "name": "Magias de Vestígio",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-sigil-spirit-cyan.webp",
+    "system": {
+      "description": {
+        "value": "<p>Você sempre tem as seguintes magias preparadas nos níveis correspondentes:</p>\n               <ul>\n                 <li><strong>3º Nível:</strong> <em>Heroísmo (Heroism)</em>, <em>Servo Invisível (Unseen Servant)</em>, <em>Invisibilidade (Invisibility)</em>, <em>Arma Espiritual (Spiritual Weapon)</em></li>\n                 <li><strong>5º Nível:</strong> <em>Montaria Fantasmagórica (Phantom Steed)</em>, <em>Guardiões Espirituais (Spirit Guardians)</em></li>\n                 <li><strong>7º Nível:</strong> <em>Proteção contra a Morte (Death Ward)</em>, <em>Assassino Fantasmagórico (Phantasmal Killer)</em></li>\n                 <li><strong>9º Nível:</strong> <em>Contato Extraplanar (Contact Other Plane)</em>, <em>Despistar (Mislead)</em></li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bruxo (Patrono Vestígio) 3"
+    }
+  },
+  {
+    "_id": "uavestigrecov001",
+    "name": "Recuperação de Vestígio",
+    "type": "feat",
+    "img": "icons/magic/life/heart-soul-spirit-cyan.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 6º nível, quando você ou seu companheiro vestígio reduz um inimigo a 0 PV, você recupera Pontos de Vida Temporários iguais ao seu nível de Bruxo + mod de Carisma, e o companheiro pode teleportar-se até 9m imediatamente.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bruxo (Patrono Vestígio) 6"
+    }
+  },
+  {
+    "_id": "uavestigaura0001",
+    "name": "Aura de Poder",
+    "type": "feat",
+    "img": "icons/magic/control/silhouette-aura-energy-cyan.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 10º nível, seu companheiro vestígio projeta uma aura de 3m: aliados na área adicionam 1d4 a jogadas de ataque e testes de resistência.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bruxo (Patrono Vestígio) 10"
+    }
+  },
+  {
+    "_id": "uavestigsembl001",
+    "name": "Aparência de Vida",
+    "type": "feat",
+    "img": "icons/magic/unholy/specter-ascension-spirit-cyan.webp",
+    "system": {
+      "description": {
+        "value": "<p>No 14º nível, seu companheiro vestígio pode se manifestar fisicamente por 1 minuto: ganha resistência a todo dano, voo de 12m (planar), e pode canalizar suas magias de Bruxo preparadas usando a própria reação ou ação bônus dele.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Unearthed Arcana 2026 - Mystic Subclasses"
+      },
+      "type": {
+        "value": "class",
+        "subtype": ""
+      },
+      "requirements": "Bruxo (Patrono Vestígio) 14"
+    }
   }
 ]

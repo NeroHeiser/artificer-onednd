@@ -138,7 +138,10 @@
   "UA_SUBCLASSES_5E": {
     "Categories": {
       "Horror": "Horror Archetypes",
-      "Arcane": "Arcane Archetypes"
+      "Arcane": "Arcane Archetypes",
+      "Realms": "Forgotten Realms Archetypes",
+      "Apocalyptic": "Apocalyptic Archetypes",
+      "Mystic": "Mystic Archetypes"
     },
     "Subclasses": {
       "Reanimator": "Reanimator",
@@ -156,7 +159,23 @@
       "Necromancer": "Necromancer",
       "Transmuter": "Transmuter",
       "Arcana": "Arcana Domain",
-      "Ancestral": "Ancestral Sorcery"
+      "Ancestral": "Ancestral Sorcery",
+      "Moon": "College of the Moon",
+      "Knowledge": "Knowledge Domain",
+      "PurpleDragonKnight": "Purple Dragon Knight",
+      "NobleGenies": "Oath of the Noble Genies",
+      "WinterWalker": "Winter Walker",
+      "ScionOfTheThree": "Scion of the Three",
+      "Spellfire": "Spellfire Sorcery",
+      "Bladesinger": "Bladesinger",
+      "Preservation": "Circle of Preservation",
+      "Gladiator": "Gladiator",
+      "Defiled": "Defiled Sorcery",
+      "SorcererKing": "Sorcerer-King Patron",
+      "MysticArts": "Warrior of the Mystic Arts",
+      "Spellguard": "Oath of the Spellguard",
+      "MagicStealer": "Magic Stealer",
+      "Vestige": "Vestige Patron"
     }
   },
   "PSION_5E": {

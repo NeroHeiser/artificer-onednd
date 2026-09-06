@@ -138,7 +138,10 @@
   "UA_SUBCLASSES_5E": {
     "Categories": {
       "Horror": "Arquétipos de Horror",
-      "Arcane": "Arquétipos Arcanos"
+      "Arcane": "Arquétipos Arcanos",
+      "Realms": "Arquétipos de Forgotten Realms",
+      "Apocalyptic": "Arquétipos Apocalípticos",
+      "Mystic": "Arquétipos Místicos"
     },
     "Subclasses": {
       "Reanimator": "Reanimador",
@@ -156,7 +159,23 @@
       "Necromancer": "Necromante",
       "Transmuter": "Transmutador",
       "Arcana": "Domínio da Arcana",
-      "Ancestral": "Feitiçaria Ancestral"
+      "Ancestral": "Feitiçaria Ancestral",
+      "Moon": "Colégio da Lua",
+      "Knowledge": "Domínio do Conhecimento",
+      "PurpleDragonKnight": "Cavaleiro do Dragão Púrpura",
+      "NobleGenies": "Juramento dos Gênios Nobres",
+      "WinterWalker": "Caminhante do Inverno",
+      "ScionOfTheThree": "Herdeiro dos Três",
+      "Spellfire": "Feitiçaria do Fogo Mágico",
+      "Bladesinger": "Cantor da Lâmina",
+      "Preservation": "Círculo da Preservação",
+      "Gladiator": "Gladiador",
+      "Defiled": "Feitiçaria Profanada",
+      "SorcererKing": "Patrono Rei-Feiticeiro",
+      "MysticArts": "Guerreiro das Artes Místicas",
+      "Spellguard": "Juramento da Guarda de Feitiços",
+      "MagicStealer": "Ladrão de Magia",
+      "Vestige": "Patrono Vestígio"
     }
   },
   "PSION_5E": {
