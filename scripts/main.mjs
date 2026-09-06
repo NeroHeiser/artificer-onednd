@@ -96,8 +96,15 @@ Hooks.once("init", () => {
     };
     CONFIG.DND5E.subclasses.witchhunter = CONFIG.DND5E.subclasses["witch-hunter"];
 
-    // Registrar Subclasses de Unearthed Arcana (Lote 1: Horror & Arcane + Lote 2: Realms, Apocalyptic & Mystic)
+    // Registrar Subclasses de Unearthed Arcana (Lote 1, Lote 2 e Lote 3 - Total 46 Subclasses)
     CONFIG.DND5E.subclasses.artificer.reanimator = "Compendium.artificer-onednd.ua-subclasses.Item.uasubreanimator0";
+    CONFIG.DND5E.subclasses.barbarian = {
+      ...CONFIG.DND5E.subclasses.barbarian,
+      unlight: "Compendium.artificer-onednd.ua-subclasses.Item.uasubbarbunlight",
+      lament: "Compendium.artificer-onednd.ua-subclasses.Item.uasubbarblament0",
+      "spiritual-guardian": "Compendium.artificer-onednd.ua-subclasses.Item.uasubbarbspirit0",
+      "storm-herald": "Compendium.artificer-onednd.ua-subclasses.Item.uasubbarbstormh0"
+    };
     CONFIG.DND5E.subclasses.bard = {
       ...CONFIG.DND5E.subclasses.bard,
       spirits: "Compendium.artificer-onednd.ua-subclasses.Item.uasubspiritbard0",
@@ -111,23 +118,29 @@ Hooks.once("init", () => {
     };
     CONFIG.DND5E.subclasses.druid = {
       ...CONFIG.DND5E.subclasses.druid,
-      preservation: "Compendium.artificer-onednd.ua-subclasses.Item.uasubpreservdrui"
+      preservation: "Compendium.artificer-onednd.ua-subclasses.Item.uasubpreservdrui",
+      titan: "Compendium.artificer-onednd.ua-subclasses.Item.uasubdruidtitan0"
     };
     CONFIG.DND5E.subclasses.fighter = {
       ...CONFIG.DND5E.subclasses.fighter,
       "arcane-archer": "Compendium.artificer-onednd.ua-subclasses.Item.uasubfgtarcanear",
       "purple-dragon-knight": "Compendium.artificer-onednd.ua-subclasses.Item.uasubpdragknight",
-      gladiator: "Compendium.artificer-onednd.ua-subclasses.Item.uasubgladiatorfg"
+      gladiator: "Compendium.artificer-onednd.ua-subclasses.Item.uasubgladiatorfg",
+      "hell-knight": "Compendium.artificer-onednd.ua-subclasses.Item.uasubfghthellkni",
+      cavalier: "Compendium.artificer-onednd.ua-subclasses.Item.uasubfgtcavalier"
     };
     CONFIG.DND5E.subclasses.monk = {
       ...CONFIG.DND5E.subclasses.monk,
       "tattooed-warrior": "Compendium.artificer-onednd.ua-subclasses.Item.uasubmonktattoo1",
-      "mystic-arts": "Compendium.artificer-onednd.ua-subclasses.Item.uasubmonkmystica"
+      "mystic-arts": "Compendium.artificer-onednd.ua-subclasses.Item.uasubmonkmystica",
+      venom: "Compendium.artificer-onednd.ua-subclasses.Item.uasubmonkvenom00",
+      intoxication: "Compendium.artificer-onednd.ua-subclasses.Item.uasubmonkdrunk00"
     };
     CONFIG.DND5E.subclasses.paladin = {
       ...CONFIG.DND5E.subclasses.paladin,
       "noble-genies": "Compendium.artificer-onednd.ua-subclasses.Item.uasubpalgenies01",
-      spellguard: "Compendium.artificer-onednd.ua-subclasses.Item.uasubpalspellgua"
+      spellguard: "Compendium.artificer-onednd.ua-subclasses.Item.uasubpalspellgua",
+      oathbreaker: "Compendium.artificer-onednd.ua-subclasses.Item.uasubpaloathbrk0"
     };
     CONFIG.DND5E.subclasses.ranger = {
       ...CONFIG.DND5E.subclasses.ranger,
@@ -138,21 +151,24 @@ Hooks.once("init", () => {
       ...CONFIG.DND5E.subclasses.rogue,
       phantom: "Compendium.artificer-onednd.ua-subclasses.Item.uasubphantomrogu",
       "scion-of-the-three": "Compendium.artificer-onednd.ua-subclasses.Item.uasubscionthree1",
-      "magic-stealer": "Compendium.artificer-onednd.ua-subclasses.Item.uasubmagicsteal1"
+      "magic-stealer": "Compendium.artificer-onednd.ua-subclasses.Item.uasubmagicsteal1",
+      "house-agent": "Compendium.artificer-onednd.ua-subclasses.Item.uasubhouseagent0"
     };
     CONFIG.DND5E.subclasses.sorcerer = {
       ...CONFIG.DND5E.subclasses.sorcerer,
       shadow: "Compendium.artificer-onednd.ua-subclasses.Item.uasubshadowsorce",
       ancestral: "Compendium.artificer-onednd.ua-subclasses.Item.uasubancestrals1",
       spellfire: "Compendium.artificer-onednd.ua-subclasses.Item.uasubspellfire01",
-      defiled: "Compendium.artificer-onednd.ua-subclasses.Item.uasubdefiledsorc"
+      defiled: "Compendium.artificer-onednd.ua-subclasses.Item.uasubdefiledsorc",
+      demonic: "Compendium.artificer-onednd.ua-subclasses.Item.uasubsorcdemonic"
     };
     CONFIG.DND5E.subclasses.warlock = {
       ...CONFIG.DND5E.subclasses.warlock,
       hexblade: "Compendium.artificer-onednd.ua-subclasses.Item.uasubhexbladewar",
       undead: "Compendium.artificer-onednd.ua-subclasses.Item.uasubundeadwlk01",
       "sorcerer-king": "Compendium.artificer-onednd.ua-subclasses.Item.uasubsorckpatron",
-      vestige: "Compendium.artificer-onednd.ua-subclasses.Item.uasubvestigepatr"
+      vestige: "Compendium.artificer-onednd.ua-subclasses.Item.uasubvestigepatr",
+      primordial: "Compendium.artificer-onednd.ua-subclasses.Item.uasubprimordial0"
     };
     CONFIG.DND5E.subclasses.wizard = {
       ...CONFIG.DND5E.subclasses.wizard,
@@ -160,7 +176,8 @@ Hooks.once("init", () => {
       enchanter: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwizenchante",
       necromancer: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwiznecroman",
       transmuter: "Compendium.artificer-onednd.ua-subclasses.Item.uasubwiztransmut",
-      bladesinger: "Compendium.artificer-onednd.ua-subclasses.Item.uasubbladesing01"
+      bladesinger: "Compendium.artificer-onednd.ua-subclasses.Item.uasubbladesing01",
+      imaskarcanist: "Compendium.artificer-onednd.ua-subclasses.Item.uasubimaskarcan0"
     };
 
     // Registrar Psion como Conjurador Pleno e suas 3 Subclasses

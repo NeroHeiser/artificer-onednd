@@ -86,6 +86,35 @@ export class MidiQOLCompat {
         console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Reprimenda Vingativa (Vindictive Rebuke) do Rei-Feiticeiro.`);
       }
 
+      // Automações para Arquétipos de Unearthed Arcana (Lote 3: Underdark, Vilões e Subclasses Atualizadas)
+      if (itemId === "uabarbunlrad0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Fúria Radiante (Radiant Rage) da Não-Luz.`);
+      }
+      if (itemId === "uabarblamban0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Lamento da Banshee (Banshee's Wail) do Caminho do Lamento.`);
+      }
+      if (itemId === "uamonkventch0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Toque Tóxico (Toxic Touch) do Guerreiro do Veneno.`);
+      }
+      if (itemId === "uafgthlwep000001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Arma Forjada no Inferno (Hell-Forged Weapon) do Cavaleiro do Inferno.`);
+      }
+      if (itemId === "uasrcdemrup00001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Ruptura Abissal (Abyssal Rupture) da Feitiçaria Demoníaca.`);
+      }
+      if (itemId === "uabarbstrara0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Aura de Tempestade (Storm Aura) do Arauto da Tempestade.`);
+      }
+      if (itemId === "uafgtcavmrk00001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Marca Inabalável (Unwavering Mark) do Cavaleiro.`);
+      }
+      if (itemId === "uamonkdrktch0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Técnica Bêbada (Drunken Technique) do Guerreiro da Intoxicação.`);
+      }
+      if (itemId === "uapaloathasp0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Aspecto Pavoroso (Dreadful Aspect) do Quebrador de Juramento.`);
+      }
+
       // Automação e logging para habilidades do Psion
       if (itemId === "psionfeatpropel1") {
         console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Propulsão Telecinética (Telekinetic Propel) em ${workflow.targets?.size || 0} alvo(s).`);

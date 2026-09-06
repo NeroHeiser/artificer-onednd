@@ -2283,5 +2283,1040 @@
         }
       ]
     }
+  },
+  {
+    "_id": "uasubbarbunlight",
+    "name": "Path of Unlight",
+    "type": "subclass",
+    "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+    "system": {
+      "description": {
+        "value": "<p>Barbarians on the Path of Unlight embrace uncontrollable radiant magic from the Underdark in exchange for incredible physical prowess and blazing fury.</p>",
+        "chat": ""
+      },
+      "identifier": "unlight",
+      "classIdentifier": "barbarian",
+      "advancement": [
+        {
+          "_id": "advbunlnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Unlight Feature (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbunlrad0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbunlnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Unlight Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbunlrev0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbunlnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Unlight Features (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbunlinf0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbunlhar0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbunlnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Unlight Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbunlbrl0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubhouseagent0",
+    "name": "House Agent",
+    "type": "subclass",
+    "img": "icons/commodities/treasure/token-runed-silver.webp",
+    "system": {
+      "description": {
+        "value": "<p>Trained in the intrigue of noble houses of the Underdark, House Agents are master infiltrators who strike when their target's back is turned.</p>",
+        "chat": ""
+      },
+      "identifier": "house-agent",
+      "classIdentifier": "rogue",
+      "advancement": [
+        {
+          "_id": "advhseanv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "House Agent Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaroghseins00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaroghsepres0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhseanv0000009",
+          "type": "ItemGrant",
+          "level": 9,
+          "title": "House Agent Feature (Level 9)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaroghseback0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhseanv0000013",
+          "type": "ItemGrant",
+          "level": 13,
+          "title": "House Agent Features (Level 13)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaroghsesilv0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaroghseinf00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhseanv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "House Agent Feature (Level 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaroghsesubt0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubimaskarcan0",
+    "name": "Imaskarcanist",
+    "type": "subclass",
+    "img": "icons/sundries/books/book-runed-glowing-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>Scholars of the ancient secrets of Deep Imaskar who master Unlight to both heal allies and curse enemies with radiant doom.</p>",
+        "chat": ""
+      },
+      "identifier": "imaskarcanist",
+      "classIdentifier": "wizard",
+      "advancement": [
+        {
+          "_id": "advimsknv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Imaskarcanist Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawizimaskadp001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawizimaskinv001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advimsknv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Imaskarcanist Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawizimaskres001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advimsknv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Imaskarcanist Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawizimasksec001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advimsknv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Imaskarcanist Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawizimaskdom001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubbarblament0",
+    "name": "Path of Lament",
+    "type": "subclass",
+    "img": "icons/magic/control/fear-fright-monster-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Barbarians walking the Path of Lament hone their regrets into deadly weapons, propelled by supernatural grief and gifts from beyond the grave.</p>",
+        "chat": ""
+      },
+      "identifier": "lament",
+      "classIdentifier": "barbarian",
+      "advancement": [
+        {
+          "_id": "advblamnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Lament Feature (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarblamban0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advblamnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Lament Features (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarblamcom0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarblamhor0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advblamnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Lament Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarblamang0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advblamnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Lament Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarblamsor0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubmonkvenom00",
+    "name": "Warrior of Venom",
+    "type": "subclass",
+    "img": "icons/weapons/daggers/dagger-poison-skull-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Warriors of Venom pollute their internal power to become poison incarnate, harnessing their own toxicity to impair and envenom foes.</p>",
+        "chat": ""
+      },
+      "identifier": "venom",
+      "classIdentifier": "monk",
+      "advancement": [
+        {
+          "_id": "advmvennv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Venom Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkvenwep0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkvenpot0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmvennv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Venom Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkventch0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmvennv0000011",
+          "type": "ItemGrant",
+          "level": 11,
+          "title": "Venom Features (Level 11)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkvenref0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkvenbld0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmvennv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Venom Feature (Level 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkvenbrt0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubprimordial0",
+    "name": "Primordial Patron",
+    "type": "subclass",
+    "img": "icons/magic/elements/sphere-elements-fire-earth-water-air.webp",
+    "system": {
+      "description": {
+        "value": "<p>Your pact draws on the Inner Planes, heralding ancient and destructive scions of elemental chaos and preparing the way for their arrival.</p>",
+        "chat": ""
+      },
+      "identifier": "primordial",
+      "classIdentifier": "warlock",
+      "advancement": [
+        {
+          "_id": "advprimnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Primordial Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawlkprimnod0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawlkprimspe0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advprimnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Primordial Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawlkprimhav0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advprimnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Primordial Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawlkprimpro0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advprimnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Primordial Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawlkprimhar0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubdruidtitan0",
+    "name": "Circle of the Titan",
+    "type": "subclass",
+    "img": "icons/creatures/magical/construct-golem-stone-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Druids of the Circle of the Titan assume towering, monstrous forms to mete out cataclysmic retribution and forcibly restore the natural order.</p>",
+        "chat": ""
+      },
+      "identifier": "titan",
+      "classIdentifier": "druid",
+      "advancement": [
+        {
+          "_id": "advdtitnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Titan Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadrdtitanspe001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadrdtitanfrm001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advdtitnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Titan Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadrdtitanimp001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advdtitnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Titan Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadrdtitanhav001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advdtitnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Titan Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadrdtitanapp001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubfghthellkni",
+    "name": "Hell Knight",
+    "type": "subclass",
+    "img": "icons/weapons/swords/sword-flanged-fire-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>Champions of archdevils and high-ranking fiends of the Nine Hells, armed with hell-forged weapons to inflict infernal wounds and damn enemies.</p>",
+        "chat": ""
+      },
+      "identifier": "hell-knight",
+      "classIdentifier": "fighter",
+      "advancement": [
+        {
+          "_id": "advfhelnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Hell Knight Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthlgift00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthlwep000001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthlwnd000001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfhelnv0000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Hell Knight Features (Level 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthladvw00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthleqp000001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfhelnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Hell Knight Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthlsrg000001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfhelnv0000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Hell Knight Feature (Level 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthlmsf000001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfhelnv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Hell Knight Feature (Level 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthlbrg000001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubsorcdemonic",
+    "name": "Demonic Sorcery",
+    "type": "subclass",
+    "img": "icons/magic/unholy/portal-rift-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>The corruptive magic of demons courses through you, making you a conduit for the infinite horrors and reality-warping chaos of the Abyss.</p>",
+        "chat": ""
+      },
+      "identifier": "demonic",
+      "classIdentifier": "sorcerer",
+      "advancement": [
+        {
+          "_id": "advsdemnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Demonic Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasrcdemrup00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasrcdemspe00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advsdemnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Demonic Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasrcdemrlm00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advsdemnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Demonic Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasrcdemcnd00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advsdemnv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Demonic Feature (Level 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasrcdemexp00001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubbarbspirit0",
+    "name": "Path of the Spiritual Guardian",
+    "type": "subclass",
+    "img": "icons/magic/death/undead-ghost-shadow-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Barbarians calling upon ancestral spirits to guide, defend their comrades, shield allies from harm, and lash out with vengeful strikes.</p>",
+        "chat": ""
+      },
+      "identifier": "spiritual-guardian",
+      "classIdentifier": "barbarian",
+      "advancement": [
+        {
+          "_id": "advbspinv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Guardian Feature (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbspipro0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbspinv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Guardian Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbspishi0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbspinv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Guardian Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbspicon0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbspinv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Guardian Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbspiven0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubbarbstormh0",
+    "name": "Path of the Storm Herald",
+    "type": "subclass",
+    "img": "icons/magic/air/storm-lightning-clouds-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Harness Rage into a mantle of primal magic swirling like a storm, unleashing the fury of the Desert, Sea, or Tundra.</p>",
+        "chat": ""
+      },
+      "identifier": "storm-herald",
+      "classIdentifier": "barbarian",
+      "advancement": [
+        {
+          "_id": "advbstrnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Storm Feature (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbstrara0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbstrnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Storm Feature (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbstrsou0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbstrnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Storm Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbstrshi0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbstrnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Storm Feature (Level 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbstrrag0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubfgtcavalier",
+    "name": "Cavalier",
+    "type": "subclass",
+    "img": "icons/skills/movement/charge-charge-horseman-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>Defenders of allies on foot or from a mount, excelling at mounted combat, warding maneuvers, and holding the defensive line.</p>",
+        "chat": ""
+      },
+      "identifier": "cavalier",
+      "classIdentifier": "fighter",
+      "advancement": [
+        {
+          "_id": "advfcavnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Cavalier Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgtcavprf00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgtcavsad00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgtcavmrk00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfcavnv0000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Cavalier Feature (Level 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgtcavwar00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfcavnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Cavalier Feature (Level 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgtcavhld00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfcavnv0000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Cavalier Feature (Level 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgtcavchr00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfcavnv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Cavalier Feature (Level 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgtcavdef00001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubmonkdrunk00",
+    "name": "Warrior of Intoxication",
+    "type": "subclass",
+    "img": "icons/consumables/potions/potion-flask-corked-amber.webp",
+    "system": {
+      "description": {
+        "value": "<p>Monks who sway and stumble to confound foes, drinking mystic brews for potent benefits and unleashing chaotic frenzies of unarmed strikes.</p>",
+        "chat": ""
+      },
+      "identifier": "intoxication",
+      "classIdentifier": "monk",
+      "advancement": [
+        {
+          "_id": "advmdrknv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Intoxication Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkdrkprf0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkdrktch0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmdrknv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Intoxication Features (Level 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkdrkswy0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkdrkbrw0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmdrknv0000011",
+          "type": "ItemGrant",
+          "level": 11,
+          "title": "Intoxication Feature (Level 11)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkdrkmst0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmdrknv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Intoxication Feature (Level 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkdrkfrn0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubpaloathbrk0",
+    "name": "Oathbreaker",
+    "type": "subclass",
+    "img": "icons/magic/death/skull-horned-shadow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Paladins who shattered their sacred vows for dark ambition or corruption, wielding dread auras, necromancy, and overwhelming malice.</p>",
+        "chat": ""
+      },
+      "identifier": "oathbreaker",
+      "classIdentifier": "paladin",
+      "advancement": [
+        {
+          "_id": "advpoatnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Oathbreaker Features (Level 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapaloathund0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapaloathasp0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapaloathspe0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpoatnv0000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Oathbreaker Feature (Level 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapaloathhat0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpoatnv0000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Oathbreaker Feature (Level 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapaloathres0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpoatnv0000020",
+          "type": "ItemGrant",
+          "level": 20,
+          "title": "Oathbreaker Feature (Level 20)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapaloathdrd0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
   }
 ]

@@ -141,7 +141,10 @@
       "Arcane": "Arquétipos Arcanos",
       "Realms": "Arquétipos de Forgotten Realms",
       "Apocalyptic": "Arquétipos Apocalípticos",
-      "Mystic": "Arquétipos Místicos"
+      "Mystic": "Arquétipos Místicos",
+      "Underdark": "Arquétipos do Subterrâneo",
+      "Villainous": "Arquétipos de Vilões",
+      "Updated": "Arquétipos Atualizados"
     },
     "Subclasses": {
       "Reanimator": "Reanimador",
@@ -175,7 +178,21 @@
       "MysticArts": "Guerreiro das Artes Místicas",
       "Spellguard": "Juramento da Guarda de Feitiços",
       "MagicStealer": "Ladrão de Magia",
-      "Vestige": "Patrono Vestígio"
+      "Vestige": "Patrono Vestígio",
+      "Unlight": "Caminho da Não-Luz",
+      "HouseAgent": "Agente da Casa",
+      "Imaskarcanist": "Imaskarcanista",
+      "Lament": "Caminho do Lamento",
+      "Venom": "Guerreiro do Veneno",
+      "Primordial": "Patrono Primordial",
+      "Titan": "Círculo do Titã",
+      "HellKnight": "Cavaleiro do Inferno",
+      "Demonic": "Feitiçaria Demoníaca",
+      "SpiritualGuardian": "Caminho do Guardião Espiritual",
+      "StormHerald": "Caminho do Arauto da Tempestade",
+      "Cavalier": "Cavaleiro",
+      "Intoxication": "Guerreiro da Intoxicação",
+      "Oathbreaker": "Quebrador de Juramento"
     }
   },
   "PSION_5E": {

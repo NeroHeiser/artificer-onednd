@@ -2283,5 +2283,1040 @@
         }
       ]
     }
+  },
+  {
+    "_id": "uasubbarbunlight",
+    "name": "Caminho da Não-Luz",
+    "type": "subclass",
+    "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+    "system": {
+      "description": {
+        "value": "<p>Bárbaros do Caminho da Não-Luz abraçam a magia incontrolável da Não-Luz nas profundezas do Subterrâneo em troca de uma destreza física avassaladora e fulgor destrutivo.</p>",
+        "chat": ""
+      },
+      "identifier": "unlight",
+      "classIdentifier": "barbarian",
+      "advancement": [
+        {
+          "_id": "advbunlnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recurso da Não-Luz (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbunlrad0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbunlnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso da Não-Luz (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbunlrev0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbunlnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recursos da Não-Luz (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbunlinf0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbunlhar0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbunlnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso da Não-Luz (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbunlbrl0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubhouseagent0",
+    "name": "Agente da Casa",
+    "type": "subclass",
+    "img": "icons/commodities/treasure/token-runed-silver.webp",
+    "system": {
+      "description": {
+        "value": "<p>Treinados nas intrigas e jogos de poder das grandes casas nobres do Subterrâneo, os Agentes da Casa infiltram-se e sabotam com charme, sutileza e lâminas traiçoeiras.</p>",
+        "chat": ""
+      },
+      "identifier": "house-agent",
+      "classIdentifier": "rogue",
+      "advancement": [
+        {
+          "_id": "advhseanv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Agente (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaroghseins00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaroghsepres0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhseanv0000009",
+          "type": "ItemGrant",
+          "level": 9,
+          "title": "Recurso do Agente (Nível 9)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaroghseback0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhseanv0000013",
+          "type": "ItemGrant",
+          "level": 13,
+          "title": "Recursos do Agente (Nível 13)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaroghsesilv0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaroghseinf00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advhseanv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Recurso do Agente (Nível 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uaroghsesubt0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubimaskarcan0",
+    "name": "Imaskarcanista",
+    "type": "subclass",
+    "img": "icons/sundries/books/book-runed-glowing-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>Estudiosos dos segredos milenares de Imaskar Profunda e dos artefatos Imaskarcana, dominando a Não-Luz capaz de curar feridas ou desintegrar inimigos em cataclismos radiantes.</p>",
+        "chat": ""
+      },
+      "identifier": "imaskarcanist",
+      "classIdentifier": "wizard",
+      "advancement": [
+        {
+          "_id": "advimsknv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Imaskarcanista (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawizimaskadp001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawizimaskinv001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advimsknv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso do Imaskarcanista (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawizimaskres001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advimsknv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Imaskarcanista (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawizimasksec001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advimsknv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Imaskarcanista (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawizimaskdom001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubbarblament0",
+    "name": "Caminho do Lamento",
+    "type": "subclass",
+    "img": "icons/magic/control/fear-fright-monster-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Bárbaros que trilham o Caminho do Lamento forjam seus arrependimentos em armas mortais e canalizam suas dores mais profundas em uma fúria sobrenatural vinda do além-túmulo.</p>",
+        "chat": ""
+      },
+      "identifier": "lament",
+      "classIdentifier": "barbarian",
+      "advancement": [
+        {
+          "_id": "advblamnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recurso do Lamento (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarblamban0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advblamnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recursos do Lamento (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarblamcom0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarblamhor0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advblamnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Lamento (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarblamang0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advblamnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Lamento (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarblamsor0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubmonkvenom00",
+    "name": "Guerreiro do Veneno",
+    "type": "subclass",
+    "img": "icons/weapons/daggers/dagger-poison-skull-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Guerreiros do Veneno corrompem suas reservas internas de poder para se tornarem o próprio veneno encarnado, infectando e debilitando inimigos a cada golpe.</p>",
+        "chat": ""
+      },
+      "identifier": "venom",
+      "classIdentifier": "monk",
+      "advancement": [
+        {
+          "_id": "advmvennv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Veneno (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkvenwep0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkvenpot0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmvennv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso do Veneno (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkventch0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmvennv0000011",
+          "type": "ItemGrant",
+          "level": 11,
+          "title": "Recursos do Veneno (Nível 11)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkvenref0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkvenbld0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmvennv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Recurso do Veneno (Nível 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkvenbrt0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubprimordial0",
+    "name": "Patrono Primordial",
+    "type": "subclass",
+    "img": "icons/magic/elements/sphere-elements-fire-earth-water-air.webp",
+    "system": {
+      "description": {
+        "value": "<p>Seu pacto bebe das forças brutas dos Planos Interiores, tornando você um arauto de poderosos príncipes e horrores elementais do caos primitivo.</p>",
+        "chat": ""
+      },
+      "identifier": "primordial",
+      "classIdentifier": "warlock",
+      "advancement": [
+        {
+          "_id": "advprimnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Primordial (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawlkprimnod0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawlkprimspe0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advprimnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso do Primordial (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawlkprimhav0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advprimnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Primordial (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawlkprimpro0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advprimnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Primordial (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uawlkprimhar0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubdruidtitan0",
+    "name": "Círculo do Titã",
+    "type": "subclass",
+    "img": "icons/creatures/magical/construct-golem-stone-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>Druidas do Círculo do Titã assumem formas titânicas e monstruosas para esmagar cidades poluidoras e retribuir com cataclismos naturais àqueles que violam a natureza.</p>",
+        "chat": ""
+      },
+      "identifier": "titan",
+      "classIdentifier": "druid",
+      "advancement": [
+        {
+          "_id": "advdtitnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Titã (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadrdtitanspe001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadrdtitanfrm001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advdtitnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso do Titã (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadrdtitanimp001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advdtitnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Titã (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadrdtitanhav001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advdtitnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Titã (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uadrdtitanapp001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubfghthellkni",
+    "name": "Cavaleiro do Inferno",
+    "type": "subclass",
+    "img": "icons/weapons/swords/sword-flanged-fire-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>Campeões e executores juramentados a arquidiabos dos Nove Infernos, munidos de armas forjadas em fogo infernal e capazes de infligir feridas atrozes que drenam a vida de seus oponentes.</p>",
+        "chat": ""
+      },
+      "identifier": "hell-knight",
+      "classIdentifier": "fighter",
+      "advancement": [
+        {
+          "_id": "advfhelnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Cavaleiro do Inferno (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthlgift00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthlwep000001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthlwnd000001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfhelnv0000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recursos do Cavaleiro do Inferno (Nível 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthladvw00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthleqp000001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfhelnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Cavaleiro do Inferno (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthlsrg000001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfhelnv0000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso do Cavaleiro do Inferno (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthlmsf000001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfhelnv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso do Cavaleiro do Inferno (Nível 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgthlbrg000001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubsorcdemonic",
+    "name": "Feitiçaria Demoníaca",
+    "type": "subclass",
+    "img": "icons/magic/unholy/portal-rift-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>A magia corruptora dos demônios e as camadas caóticas do Abismo correm em suas veias, rasgando fendas dimensionais que dilaceram a mente e o corpo dos infelizes por perto.</p>",
+        "chat": ""
+      },
+      "identifier": "demonic",
+      "classIdentifier": "sorcerer",
+      "advancement": [
+        {
+          "_id": "advsdemnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos Demoníacos (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasrcdemrup00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasrcdemspe00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advsdemnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso Demoníaco (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasrcdemrlm00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advsdemnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso Demoníaco (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasrcdemcnd00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advsdemnv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso Demoníaco (Nível 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uasrcdemexp00001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubbarbspirit0",
+    "name": "Caminho do Guardião Espiritual",
+    "type": "subclass",
+    "img": "icons/magic/death/undead-ghost-shadow-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Bárbaros que invocam espíritos ancestrais e protetores durante sua fúria para proteger seus companheiros, enfraquecer ataques inimigos e desferir golpes vingativos.</p>",
+        "chat": ""
+      },
+      "identifier": "spiritual-guardian",
+      "classIdentifier": "barbarian",
+      "advancement": [
+        {
+          "_id": "advbspinv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recurso do Guardião (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbspipro0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbspinv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso do Guardião (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbspishi0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbspinv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Guardião (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbspicon0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbspinv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso do Guardião (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbspiven0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubbarbstormh0",
+    "name": "Caminho do Arauto da Tempestade",
+    "type": "subclass",
+    "img": "icons/magic/air/storm-lightning-clouds-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>Mestres em transformar a fúria em mantos de tempestade primordial (Deserto, Mar ou Tundra) que assolam inimigos com fogo, raios ou geada inclemente.</p>",
+        "chat": ""
+      },
+      "identifier": "storm-herald",
+      "classIdentifier": "barbarian",
+      "advancement": [
+        {
+          "_id": "advbstrnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recurso da Tempestade (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbstrara0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbstrnv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recurso da Tempestade (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbstrsou0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbstrnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso da Tempestade (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbstrshi0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advbstrnv0000014",
+          "type": "ItemGrant",
+          "level": 14,
+          "title": "Recurso da Tempestade (Nível 14)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uabarbstrrag0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubfgtcavalier",
+    "name": "Cavaleiro",
+    "type": "subclass",
+    "img": "icons/skills/movement/charge-charge-horseman-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>Especialistas em combate montado e proteção de aliados em terra, marcando alvos inabalavelmente e impondo controle implacável de linha de frente.</p>",
+        "chat": ""
+      },
+      "identifier": "cavalier",
+      "classIdentifier": "fighter",
+      "advancement": [
+        {
+          "_id": "advfcavnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Cavaleiro (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgtcavprf00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgtcavsad00001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgtcavmrk00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfcavnv0000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recurso do Cavaleiro (Nível 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgtcavwar00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfcavnv0000010",
+          "type": "ItemGrant",
+          "level": 10,
+          "title": "Recurso do Cavaleiro (Nível 10)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgtcavhld00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfcavnv0000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso do Cavaleiro (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgtcavchr00001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advfcavnv0000018",
+          "type": "ItemGrant",
+          "level": 18,
+          "title": "Recurso do Cavaleiro (Nível 18)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uafgtcavdef00001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubmonkdrunk00",
+    "name": "Guerreiro da Intoxicação",
+    "type": "subclass",
+    "img": "icons/consumables/potions/potion-flask-corked-amber.webp",
+    "system": {
+      "description": {
+        "value": "<p>Monges que confundem oponentes com passos cambaleantes e imprevisíveis, utilizando infusões místicas fortificantes e rajadas acrobáticas de golpes desconcertantes.</p>",
+        "chat": ""
+      },
+      "identifier": "intoxication",
+      "classIdentifier": "monk",
+      "advancement": [
+        {
+          "_id": "advmdrknv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos da Intoxicação (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkdrkprf0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkdrktch0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmdrknv0000006",
+          "type": "ItemGrant",
+          "level": 6,
+          "title": "Recursos da Intoxicação (Nível 6)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkdrkswy0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkdrkbrw0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmdrknv0000011",
+          "type": "ItemGrant",
+          "level": 11,
+          "title": "Recurso da Intoxicação (Nível 11)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkdrkmst0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advmdrknv0000017",
+          "type": "ItemGrant",
+          "level": 17,
+          "title": "Recurso da Intoxicação (Nível 17)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uamonkdrkfrn0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": "uasubpaloathbrk0",
+    "name": "Quebrador de Juramento",
+    "type": "subclass",
+    "img": "icons/magic/death/skull-horned-shadow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>Paladinos corrompidos pelo poder ou traição que quebraram seus votos sagrados, liderando legiões de mortos-vivos com auras opressivas de medo, ódio e escuridão.</p>",
+        "chat": ""
+      },
+      "identifier": "oathbreaker",
+      "classIdentifier": "paladin",
+      "advancement": [
+        {
+          "_id": "advpoatnv0000003",
+          "type": "ItemGrant",
+          "level": 3,
+          "title": "Recursos do Quebrador (Nível 3)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapaloathund0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapaloathasp0001"
+              },
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapaloathspe0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpoatnv0000007",
+          "type": "ItemGrant",
+          "level": 7,
+          "title": "Recurso do Quebrador (Nível 7)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapaloathhat0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpoatnv0000015",
+          "type": "ItemGrant",
+          "level": 15,
+          "title": "Recurso do Quebrador (Nível 15)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapaloathres0001"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "advpoatnv0000020",
+          "type": "ItemGrant",
+          "level": 20,
+          "title": "Recurso do Quebrador (Nível 20)",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.artificer-onednd.ua-features.Item.uapaloathdrd0001"
+              }
+            ]
+          }
+        }
+      ]
+    }
   }
 ]

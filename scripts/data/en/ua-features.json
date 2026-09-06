@@ -3514,5 +3514,3227 @@
       },
       "requirements": "Warlock (Vestige Patron) 14"
     }
+  },
+  {
+    "_id": "uabarbunlrad0001",
+    "name": "Radiant Rage",
+    "type": "feat",
+    "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, the Unlight coursing through you fuels your Rage. If a creature hits you with a melee attack roll while your Rage is active, the creature takes Radiant damage equal to your Rage Damage bonus.</p>\n               <p>Additionally, while your Rage is active, you shed Bright Light in a 20-foot radius.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": 6,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uabarbunlrev0001",
+    "name": "Unlight Revelation",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, you have proficiency in the Perception skill, if you lack it. You also gain Expertise in that skill.</p>\n               <p>While your Rage is active, you have Blindsight with a range equal to that of the Bright Light provided by your Radiant Rage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uabarbunlinf0001",
+    "name": "Infectious Unlight",
+    "type": "feat",
+    "img": "icons/magic/light/beam-strike-vertical-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, damage you deal with Brutal Strike can be Radiant or the usual type (your choice). The following effect is now among your Brutal Strike options:</p>\n               <p><strong>Radiant Infection:</strong> The target becomes infected with Unlight for 1 minute. While infected, it sheds Bright Light in a 10-foot radius. Additionally, at the start of each of its turns, the target takes 1d6 Radiant damage. The target makes a Constitution saving throw (DC 8 plus your Strength modifier and Proficiency Bonus) at the end of each of its turns, ending the effect on itself on a success.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uabarbunlhar0001",
+    "name": "Harbinger of Unlight",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-glowing-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, you have Resistance to Radiant damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uabarbunlbrl0001",
+    "name": "Brilliant Rage",
+    "type": "feat",
+    "img": "icons/magic/light/explosion-star-large-orange-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, the aura of your Unlight is bolstered. While your Rage is active, you shed Bright Light in a 30-foot radius.</p>\n               <p>As a Bonus Action, you unleash blinding brilliance. When you do, each creature of your choice within 30 feet of you makes a Constitution saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, a creature takes 1d12 Radiant damage and has the Blinded condition until the end of your next turn. On a successful save, a creature takes half damage only.</p>\n               <p>Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "round"
+      },
+      "target": {
+        "value": 9,
+        "width": null,
+        "units": "m",
+        "type": "radius"
+      },
+      "range": {
+        "value": 9,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "lr",
+        "recovery": ""
+      },
+      "save": {
+        "ability": "con",
+        "dc": null,
+        "scaling": "str"
+      }
+    }
+  },
+  {
+    "_id": "uaroghseins00001",
+    "name": "House Insignia",
+    "type": "feat",
+    "img": "icons/commodities/treasure/token-runed-silver.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you gain a magical token in the form of a brooch or coin that marks you as an agent of your sponsor and bears their heraldry. Charisma is your spellcasting ability for spells cast with your insignia:</p>\n               <ul>\n                 <li><strong>Cantrips:</strong> You learn the <em>Friends</em> cantrip.</li>\n                 <li><strong>Find Familiar:</strong> You can cast <em>Find Familiar</em> only as a Ritual, choosing the Spider form.</li>\n                 <li><strong>Insignia Spells:</strong> 3rd level: <em>Charm Person</em>; 5th level: <em>Suggestion</em>; 9th level: <em>Hypnotic Pattern</em>. Once you cast an insignia spell, you can't cast it again until you finish a Long Rest.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uaroghsepres0001",
+    "name": "Charming Presence",
+    "type": "feat",
+    "img": "icons/skills/social/diplomacy-handshake-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you can take the Influence action as a Bonus Action. Additionally, choose one of the following skills: Deception, Intimidation, Performance, or Persuasion. You have proficiency in that skill.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uaroghseback0001",
+    "name": "Backstab",
+    "type": "feat",
+    "img": "icons/weapons/daggers/dagger-poison-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 9th level, you have Advantage on attack rolls against creatures within 5 feet of you that are Friendly to you or have the Charmed Condition. You also gain the following Cunning Strike option:</p>\n               <p><strong>Stunning Betrayal (Cost: 4d6):</strong> If your target was Friendly to you or had the Charmed condition when you hit it, the target has the Stunned condition until the start of your next turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "round"
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": 1.5,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uaroghsesilv0001",
+    "name": "Silver Tongue",
+    "type": "feat",
+    "img": "icons/skills/social/speech-bubble-whisper-silver.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 13th level, a creature’s Hostile attitude doesn’t impose Disadvantage on your Charisma checks to influence that creature.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uaroghseinf00001",
+    "name": "Infiltration Partner",
+    "type": "feat",
+    "img": "icons/creatures/webs/spider-silk-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 13th level, the familiar you have through the Find Familiar spell gains Darkvision with a range of 120 feet and Truesight with a range of 30 feet.</p>\n               <p>Additionally, when you cast the Find Familiar spell or finish a Short or Long Rest while you have a familiar, you can grant your familiar Temporary Hit Points equal to your Rogue level.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uaroghsesubt0001",
+    "name": "Subtle Manipulator",
+    "type": "feat",
+    "img": "icons/magic/control/hypnosis-mesmerism-eye-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 17th level, you gain the following Cunning Strike option:</p>\n               <p><strong>Confound (Cost: 5d6):</strong> The target must succeed on a Wisdom saving throw with a DC equal to your spellcasting DC or have the Charmed condition for 1 minute. The target can repeat the save when it takes any damage, ending the effect on itself on a success.</p>\n               <p>Additionally, you can cast the Friends spell as a Bonus Action without its usual humanoid/combat immunities. When a spell you cast that causes the Charmed condition ends, the target doesn’t know it was Charmed by you.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uawizimaskadp001",
+    "name": "Unlight Adept",
+    "type": "feat",
+    "img": "icons/magic/light/beam-strike-vertical-magenta.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you know how to weave Unlight into your damaging spells. When you cast a spell that deals Acid, Cold, Fire, Lightning, or Thunder damage, you can change that damage type to Radiant.</p>\n               <p>In addition, Dim Light created by spells you cast is Bright Light instead.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uawizimaskinv001",
+    "name": "Unlight Invigoration",
+    "type": "feat",
+    "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, as a Bonus Action, choose a willing creature you can see within 30 feet of you and roll one or two of your Hit Point Dice. Those dice are expended. The target gains Temporary Hit Points equal to the total rolled plus your Intelligence modifier, and until the target has no Temporary Hit Points, it has Advantage on Strength checks and sheds Bright Light in a 10-foot radius.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": 9,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uawizimaskres001",
+    "name": "Unlight Restoration",
+    "type": "feat",
+    "img": "icons/magic/life/cross-sparkle-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, as a Bonus Action, choose a creature you can see within 30 feet of you and roll one or two of your Hit Point Dice. Those dice are expended. The target regains Hit Points equal to the total rolled and sheds Bright Light in a 10-foot radius until the end of its next turn.</p>\n               <p>If you expended two Hit Point Dice, you can choose to end one of the following conditions on the target: Blinded, Deafened, Paralyzed, or Poisoned instead of restoring Hit Points.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": 9,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uawizimasksec001",
+    "name": "Secrets of Deep Imaskar",
+    "type": "feat",
+    "img": "icons/sundries/books/book-runed-glowing-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, your research into the Imaskarcana grants you the following benefits:</p>\n               <ul>\n                 <li><strong>Imaskarcana Lore:</strong> You can attune yourself to a magic item as a Magic action (once per Long Rest).</li>\n                 <li><strong>Piercing Unlight:</strong> Your spells ignore Resistance to Radiant damage.</li>\n                 <li><strong>Unlight Resilience:</strong> You gain Resistance to Radiant damage.</li>\n                 <li><strong>Imaskar Seals:</strong> You always have <em>Glyph of Warding</em> prepared and can cast it once per Long Rest without expending a spell slot or material components, cast at your highest available Wizard spell slot level.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uawizimaskdom001",
+    "name": "Doom of Unlight",
+    "type": "feat",
+    "img": "icons/magic/light/explosion-star-supernova-glow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, when a creature takes Radiant damage from a spell you cast, you can use a Reaction to curse it. The target makes a Constitution save against your spell save DC. On a failure, it suffers:</p>\n               <ul>\n                 <li>Sheds Bright Light in a 20-foot radius; attacks against it have Advantage.</li>\n                 <li>Takes Radiant damage equal to your character level at the start of each of its turns.</li>\n                 <li>Has Advantage on Strength checks and melee attacks; hitting another creature allows it to repeat the save to end the curse.</li>\n                 <li>If reduced to 0 HP, it explodes: creatures within 10 ft take Radiant damage equal to half your level in d8s.</li>\n               </ul>\n               <p>Recharges on a Long Rest or by expending a 6th+ level spell slot.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-UnderdarkOptions"
+      },
+      "activation": {
+        "type": "reaction",
+        "cost": 1,
+        "condition": "Quando criatura sofre Dano Radiante de magia sua"
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": 18,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "lr",
+        "recovery": ""
+      },
+      "save": {
+        "ability": "con",
+        "dc": null,
+        "scaling": "int"
+      }
+    }
+  },
+  {
+    "_id": "uabarblamban0001",
+    "name": "Banshee's Wail",
+    "type": "feat",
+    "img": "icons/magic/control/fear-fright-monster-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, when you activate your Rage or as a Bonus Action while your Rage is active, you can let out a doleful wail. Each creature of your choice in a 30-foot Emanation makes a Constitution saving throw (DC 8 + Con mod + PB). On a failed save, a creature takes Psychic damage equal to a number of d12s equal to your Rage Damage bonus and has the Deafened condition for 1 minute. On a successful save, half damage only.</p>\n               <p>Uses equal to your Constitution modifier per Long Rest, or expend a Rage use to restore all uses.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "value": 9,
+        "width": null,
+        "units": "m",
+        "type": "radius"
+      },
+      "range": {
+        "value": 9,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "@abilities.con.mod",
+        "per": "lr",
+        "recovery": ""
+      },
+      "save": {
+        "ability": "con",
+        "dc": null,
+        "scaling": "con"
+      }
+    }
+  },
+  {
+    "_id": "uabarblamcom0001",
+    "name": "Commune with the Dead",
+    "type": "feat",
+    "img": "icons/magic/death/skull-glow-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, you can cast the <em>Speak with Dead</em> spell but only as a Ritual. Wisdom is your spellcasting ability for it.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uabarblamhor0001",
+    "name": "Horrifying Strike",
+    "type": "feat",
+    "img": "icons/skills/melee/blood-slash-blade-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, once per turn when you hit a creature with a Strength-based attack roll while your Rage is active, the target must succeed on a Wisdom saving throw (DC 8 + Con mod + PB) or have the Frightened condition until the start of your next turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "round"
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      },
+      "save": {
+        "ability": "wis",
+        "dc": null,
+        "scaling": "con"
+      }
+    }
+  },
+  {
+    "_id": "uabarblamang0001",
+    "name": "Otherworldly Anguish",
+    "type": "feat",
+    "img": "icons/magic/death/skull-flames-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, you gain the following benefits:</p>\n               <ul>\n                 <li><strong>Deathly Wail:</strong> If a target fails against Banshee’s Wail and has HP equal to twice your Barbarian level or fewer, it drops to 0 HP instead of taking damage.</li>\n                 <li><strong>Impenetrable Sorrow:</strong> You can’t be possessed.</li>\n                 <li><strong>Resistance:</strong> You have Resistance to Cold and Necrotic damage while your Rage is active.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uabarblamsor0001",
+    "name": "Sorrow Form",
+    "type": "feat",
+    "img": "icons/magic/death/undead-skeleton-energy-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, when you activate your Rage, you can empower yourself with undeath for 1 minute:</p>\n               <ul>\n                 <li><strong>Immunities:</strong> Immunity to Charmed and Frightened conditions, and cannot gain Exhaustion levels.</li>\n                 <li><strong>Life-Draining Strike:</strong> When a creature fails against Horrifying Strike, it takes 2d10 Necrotic damage and you regain HP equal to the Necrotic damage dealt.</li>\n                 <li><strong>Undead:</strong> Your creature type is Undead.</li>\n               </ul>\n               <p>Recharges after a Long Rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "lr",
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uamonkvenwep0001",
+    "name": "Envenom Weapon",
+    "type": "feat",
+    "img": "icons/weapons/daggers/dagger-poison-skull-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, at the start of your turn, you can expend 1 Focus Point to apply a toxin from your blood to a Monk weapon you're holding. A creature hit takes one effect:</p>\n               <ul>\n                 <li><strong>Slowing Toxin:</strong> Until start of your next turn, target's Speed is halved; cannot take Reactions; and can take an action or Bonus Action on its turn, not both.</li>\n                 <li><strong>Venom:</strong> The target takes Poison damage equal to two rolls of your Martial Arts die.</li>\n               </ul>\n               <p>Lasts 1 minute or until the weapon deals damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "special",
+        "cost": 1,
+        "condition": "Início do turno"
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uamonkvenpot0001",
+    "name": "Potent Arsenal",
+    "type": "feat",
+    "img": "icons/tools/laboratory/vials-glass-poison-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you gain a Poisoner’s Kit and proficiency with it. You can craft Basic Poison over 1 day (8 hours). Additionally, whenever you deal Poison damage with a Monk feature or weapon, you can change that damage type to Acid.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uamonkventch0001",
+    "name": "Toxic Touch",
+    "type": "feat",
+    "img": "icons/skills/melee/unarmed-punch-fist-poison-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, as a Magic action, expend 1 Focus Point to touch a creature. On a failed Con save, it is Poisoned for 1 minute and gains one effect:</p>\n               <ul>\n                 <li><strong>Intoxicant:</strong> Charmed until damaged.</li>\n                 <li><strong>Sedative:</strong> Unconscious until shaken awake as an action.</li>\n                 <li><strong>Truth Serum:</strong> Cannot knowingly lie for the duration.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "action",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": "touch"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      },
+      "save": {
+        "ability": "con",
+        "dc": null,
+        "scaling": "wis"
+      }
+    }
+  },
+  {
+    "_id": "uamonkvenref0001",
+    "name": "Toxin Refiner",
+    "type": "feat",
+    "img": "icons/magic/nature/root-vine-glow-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 11th level, you gain Immunity to Poison damage. When subjected to Poison damage, your Envenom Weapon deals extra Poison damage equal to one Martial Arts die. Ingesting poison restores HP equal to one Martial Arts die roll.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uamonkvenbld0001",
+    "name": "Toxic Blood",
+    "type": "feat",
+    "img": "icons/magic/unholy/liquid-blood-drip-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 11th level, when a creature hits you with a melee attack roll, it takes 1d6 Poison damage. If you are Bloodied, it takes Poison damage equal to one roll of your Martial Arts die instead.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uamonkvenbrt0001",
+    "name": "Hallucinogenic Breath",
+    "type": "feat",
+    "img": "icons/magic/air/fog-gas-cloud-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 17th level, as part of the Attack action, spend 2 Focus Points to replace one attack with hallucinogenic breath at a creature within 30 feet. Con save: on failure, takes 3 Martial Arts dice of Poison damage and is Frightened for 1 minute (dashing away on turns); half damage on success.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "special",
+        "cost": 2,
+        "condition": "Substitui 1 ataque"
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": 9,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      },
+      "save": {
+        "ability": "con",
+        "dc": null,
+        "scaling": "wis"
+      }
+    }
+  },
+  {
+    "_id": "uawlkprimnod0001",
+    "name": "Elemental Node",
+    "type": "feat",
+    "img": "icons/magic/elements/sphere-elements-fire-earth-water-air.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, as a Magic action, create a 5-foot-radius Sphere of elemental magic within 60 feet. As a Bonus Action on later turns, move it up to 30 feet.</p>\n               <p>Dex save: 1d6 damage of chosen element (Air: Thunder, Earth: Acid, Fire: Fire, Water: Cold) on failure, half on success. Damage increases to 2d6 at 6th level and 3d6 at 14th level. Lasts 1 minute. Recharges on Short or Long Rest, or expend a Pact Magic slot.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "action",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "value": 1.5,
+        "width": null,
+        "units": "m",
+        "type": "sphere"
+      },
+      "range": {
+        "value": 18,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "sr",
+        "recovery": ""
+      },
+      "save": {
+        "ability": "dex",
+        "dc": null,
+        "scaling": "cha"
+      }
+    }
+  },
+  {
+    "_id": "uawlkprimspe0001",
+    "name": "Elemental Spells",
+    "type": "feat",
+    "img": "icons/sundries/books/book-elemental-runes-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you always have certain primordial spells prepared along with spells corresponding to your chosen element (Air, Earth, Fire, or Water) at levels 3, 5, 7, and 9.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uawlkprimhav0001",
+    "name": "Elemental Haven",
+    "type": "feat",
+    "img": "icons/magic/defensive/barrier-shield-dome-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, while inside your Elemental Node, you add your Charisma modifier to AC (min +1). As a Bonus Action, teleport into your node or within 5 ft of it (uses equal to Cha mod per Long Rest).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "@abilities.cha.mod",
+        "per": "lr",
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uawlkprimpro0001",
+    "name": "Primeval Protection",
+    "type": "feat",
+    "img": "icons/magic/symbols/rune-sigil-shield-glow-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, you have Resistance to your chosen element’s damage type. Inside your node, you are Immune to that damage type. Your Elemental Node becomes a 10-foot-radius Sphere.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uawlkprimhar0001",
+    "name": "Elemental Harbinger",
+    "type": "feat",
+    "img": "icons/magic/elements/vortex-elements-swirl.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, when expending a slot inside your node, pull a creature within 30 ft up to 15 ft toward center on a failed Str save. Node lasts up to 1 hour. Can cast <em>Planar Ally</em> without a spell slot inside node once per 2d4 Long Rests.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptions02"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "hour"
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uadrdtitanspe001",
+    "name": "Circle of the Titan Spells",
+    "type": "feat",
+    "img": "icons/sundries/books/book-carved-stone-glowing-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you always have the listed spells prepared: 3rd: <em>Enlarge/Reduce, Thaumaturgy, Thunderwave</em>; 5th: <em>Fear</em>; 7th: <em>Fire Shield</em>; 9th: <em>Destructive Wave</em>. You can cast these spells while in Titan Form.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uadrdtitanfrm001",
+    "name": "Titan Form",
+    "type": "feat",
+    "img": "icons/creatures/magical/construct-golem-stone-green.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, Wild Shape lets you assume a Titan Form (Behemoth, Leviathan, or Insectoid) for 10 minutes:</p>\n               <ul>\n                 <li>Temp HP: 4x Druid level; AC: 13 + Wis mod.</li>\n                 <li>Strength and Dexterity scores equal your Wisdom score.</li>\n                 <li>Rend attack (10 ft reach, 1d8+Wis, scaling to 2d8 at lv 6 and 3d8 at lv 12). Multiattack at lv 5. Siege Monster.</li>\n                 <li>Form-specific abilities: Behemoth (Climb 40ft, Incandescent Breath), Leviathan (Swim 40ft, Amphibious, Toxic Deluge), Insectoid (Fly 40ft at lv 10, Energizing Pollen).</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "10",
+        "units": "minute"
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": "self"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uadrdtitanimp001",
+    "name": "Dire Impact",
+    "type": "feat",
+    "img": "icons/magic/earth/strike-fist-stone-shatter.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, your Titan Form features gain enhancements:</p>\n               <ul>\n                 <li><strong>Elemental Rend:</strong> Choose Acid, Cold, Fire, Lightning, or Thunder damage on Rend hits.</li>\n                 <li><strong>Shock Wave:</strong> Once per turn after moving half your Speed, emit a 10-ft Emanation: Con save or knocked Prone.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": 3,
+        "width": null,
+        "units": "m",
+        "type": "radius"
+      },
+      "range": {
+        "value": 3,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      },
+      "save": {
+        "ability": "con",
+        "dc": null,
+        "scaling": "wis"
+      }
+    }
+  },
+  {
+    "_id": "uadrdtitanhav001",
+    "name": "Primal Havoc",
+    "type": "feat",
+    "img": "icons/creatures/magical/behemoth-armored-mammoth-brown.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, you can become Huge when assuming Titan Form. Expend a spell slot on transformation to gain +half slot level to AC. Ignore difficult terrain from rubble, snow, ice, or undergrowth.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uadrdtitanapp001",
+    "name": "Monstrous Appetite",
+    "type": "feat",
+    "img": "icons/creatures/abilities/mouth-teeth-flesh-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, you can become Gargantuan. Grapple on Rend hit. Bonus Action Swallow a grappled Large or smaller creature on failed Str save: swallowed creature is Blinded and Restrained, has Total Cover, and takes Wis mod d12 Acid damage each turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      },
+      "save": {
+        "ability": "str",
+        "dc": null,
+        "scaling": "wis"
+      }
+    }
+  },
+  {
+    "_id": "uafgthlgift00001",
+    "name": "Diabolical Gift",
+    "type": "feat",
+    "img": "icons/magic/perception/eye-slit-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you gain Devil’s Sight (120 ft normal sight in darkness and magical darkness), learn Infernal (or another language), and gain proficiency in Deception, Performance, or Sleight of Hand.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": 36,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uafgthlwep000001",
+    "name": "Hell-Forged Weapon",
+    "type": "feat",
+    "img": "icons/weapons/swords/sword-flanged-fire-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, when taking the Attack action, imbue weapons with hellfire. Sheds Dim Light in 5 ft, and damage can be Cold, Fire, or Necrotic (chosen when imbued).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": "Na ação de Ataque"
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uafgthlwnd000001",
+    "name": "Infernal Wound",
+    "type": "feat",
+    "img": "icons/skills/melee/blood-slash-curved-fire.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, when hitting with Hell-Forged Weapon, add 1d6 extra damage and inflict an infernal wound. Wounded target takes 1d6 damage at start of its turns for 1 minute or until healed/stanched. Uses equal to Con mod per Short or Long Rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "@abilities.con.mod",
+        "per": "sr",
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uafgthladvw00001",
+    "name": "Advanced Wounds",
+    "type": "feat",
+    "img": "icons/magic/unholy/strike-body-explode-blood-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, choose an advanced effect when rolling Infernal Wound Die: Purulence of Minauros (Acid + Poisoned), Rupture of Cania (Force damage), or Stygian Gangrene (Cold + no reactions). Rolling a 6 triggers Devil’s Luck enhancements.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uafgthleqp000001",
+    "name": "Infernal Equipment",
+    "type": "feat",
+    "img": "icons/equipment/chest/breastplate-metal-spiked-black-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, gain Resistance to Cold, Fire, or Necrotic while wearing Heavy armor or wielding a Shield. When you roll your Infernal Wound Die, treat a roll of 1 as a 6.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uafgthlsrg000001",
+    "name": "Hellfire Surge",
+    "type": "feat",
+    "img": "icons/magic/fire/flame-burst-blast-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, using Action Surge with Hell-Forged Weapon emits a 20-foot Emanation until end of your next turn. Wounded creatures starting turns within take two Infernal Wound dice of damage instead of one.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": "No Surto de Ação"
+      },
+      "duration": {
+        "value": "1",
+        "units": "round"
+      },
+      "target": {
+        "value": 6,
+        "width": null,
+        "units": "m",
+        "type": "radius"
+      },
+      "range": {
+        "value": 6,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uafgthlmsf000001",
+    "name": "Devil's Misfortune",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, Reaction to roll Infernal Wound Die and reduce damage from a wounded attacker (roll again on a 6, max 3 dice). Critical hits against you become normal hits.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "reaction",
+        "cost": 1,
+        "condition": "Quando criatura com ferida infernal atinge você"
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": "self"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uafgthlbrg000001",
+    "name": "Infernal Bargain",
+    "type": "feat",
+    "img": "icons/magic/unholy/demon-fire-pentagram-glow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 18th level, rolling three 6s on your Infernal Wound Die before next turn grants Heroic Inspiration. Expend it within 120 ft to force a d20 reroll: success recharges Indomitable or Second Wind; failure causes you to lose 3d6 + Fighter level HP.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": 36,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uasrcdemrup00001",
+    "name": "Abyssal Rupture",
+    "type": "feat",
+    "img": "icons/magic/unholy/portal-rift-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, using Innate Sorcery creates a 10-foot-radius Abyssal rupture within 30 feet. Move it 30 ft at start of turn. Bonus Action option: Demonic Lash (melee spell attack, 1d8 slashing + pull 10 ft) or Terrifying Screams (Wis save or 1d4 psychic damage).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "value": 3,
+        "width": null,
+        "units": "m",
+        "type": "sphere"
+      },
+      "range": {
+        "value": 9,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uasrcdemspe00001",
+    "name": "Demonic Spells",
+    "type": "feat",
+    "img": "icons/sundries/books/book-shadow-horned-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you always have Demonic Spells prepared: 3rd: <em>Bane, Dissonant Whispers, Spike Growth, Web</em>; 5th: <em>Bestow Curse, Dispel Magic</em>; 7th: <em>Giant Insect, Hallucinatory Terrain</em>; 9th: <em>Contact Other Plane, Modify Memory</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uasrcdemrlm00001",
+    "name": "Abyssal Realm",
+    "type": "feat",
+    "img": "icons/magic/unholy/silhouette-evil-horns-shadow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, spending 1+ Sorcery Points allows you to fill your Rupture or a 10-ft Emanation with Abyssal influence: Gaping Maw’s Frenzy (forced movement on Cha fail), Maze of Azzatar (Invisible against targets on Int fail), or Slime Pits’ Haze (Charmed or Poisoned on Con fail).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": "Gasto de Pontos de Feitiçaria"
+      },
+      "duration": {
+        "value": "1",
+        "units": "round"
+      },
+      "target": {
+        "value": 3,
+        "width": null,
+        "units": "m",
+        "type": "radius"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uasrcdemcnd00001",
+    "name": "Abyssal Conduit",
+    "type": "feat",
+    "img": "icons/magic/unholy/summon-demon-horns-flame-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, Rupture radius becomes 30 feet and difficult terrain for enemies. Always have <em>Summon Fiend</em> prepared; can cast it without Concentration for 1 minute (Demon form), gaining Advantage on attacks within Rupture.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uasrcdemexp00001",
+    "name": "Abyssal Explosion",
+    "type": "feat",
+    "img": "icons/magic/unholy/energy-smoke-cloud-red.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 18th level, as a Magic action, fill a 30-foot-radius Sphere with Abyssal explosion. Con save: 8d6 Force damage (non-fiends) and Incapacitated until start of next turn on failure; half damage on success. Recharges on Long Rest or 7 Sorcery Points.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2026-VillainousOptionsRevisited"
+      },
+      "activation": {
+        "type": "action",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "round"
+      },
+      "target": {
+        "value": 9,
+        "width": null,
+        "units": "m",
+        "type": "sphere"
+      },
+      "range": {
+        "value": 36,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "lr",
+        "recovery": ""
+      },
+      "save": {
+        "ability": "con",
+        "dc": null,
+        "scaling": "cha"
+      }
+    }
+  },
+  {
+    "_id": "uabarbspipro0001",
+    "name": "Spiritual Protectors",
+    "type": "feat",
+    "img": "icons/magic/death/undead-ghost-shadow-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, hitting a creature while raging triggers spectral warriors to cause one effect: Distract (Disadvantage on attacks vs others), Protect (ally gains Resistance to target's next hit), or Strike (extra 1d6 Acid, Cold, Fire, Force, Lightning, or Thunder damage).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "round"
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uabarbspishi0001",
+    "name": "Spirit Shield",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, while your Rage is active, when another creature you can see within 30 feet of you takes damage, use a Reaction to reduce that damage by rolling a number of d6s equal to your Rage Damage bonus.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "reaction",
+        "cost": 1,
+        "condition": "Quando aliado a até 9m sofre dano"
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": 9,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uabarbspicon0001",
+    "name": "Consult the Spirits",
+    "type": "feat",
+    "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, cast <em>Augury</em> or <em>Clairvoyance</em> without a spell slot or material components. Wisdom is your spellcasting ability. Recharges on a Short or Long Rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "action",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "sr",
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uabarbspiven0001",
+    "name": "Vengeful Spirits",
+    "type": "feat",
+    "img": "icons/skills/melee/strike-blade-slashing-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, rolling 18–20 on a melee weapon attack roll allows you to make one additional attack roll with the same weapon as part of that action (once per turn).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": "Ao rolar 18-20 em ataque corpo a corpo"
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uabarbstrara0001",
+    "name": "Storm Aura",
+    "type": "feat",
+    "img": "icons/magic/air/storm-lightning-clouds-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, entering Rage extends a 10-foot Emanation aura (Desert, Sea, or Tundra). Activates on Rage and as a Bonus Action on subsequent turns (DC 8 + Con mod + PB):</p>\n               <ul>\n                 <li><strong>Desert:</strong> (Rage bonus)d4 Fire damage in aura on failed Dex save.</li>\n                 <li><strong>Sea:</strong> (Rage bonus)d6 Lightning damage to one creature in aura (half on Dex save).</li>\n                 <li><strong>Tundra:</strong> Target in aura subtracts (Rage bonus)d4 from next damage roll on failed Str save.</li>\n               </ul>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": 3,
+        "width": null,
+        "units": "m",
+        "type": "radius"
+      },
+      "range": {
+        "value": 3,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      },
+      "save": {
+        "ability": "dex",
+        "dc": null,
+        "scaling": "con"
+      }
+    }
+  },
+  {
+    "_id": "uabarbstrsou0001",
+    "name": "Storm Soul",
+    "type": "feat",
+    "img": "icons/magic/lightning/spark-flashes-blue.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, gain passive benefits based on last Storm Aura choice: Desert (Fire resistance, ignite objects), Sea (Lightning resistance, breathe water, swim speed), Tundra (Cold resistance, freeze 5-ft cube of water).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uabarbstrshi0001",
+    "name": "Shielding Storm",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-flaming-teal.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, each creature of your choice within your Storm Aura has the damage Resistance you have from the Storm Soul feature.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uabarbstrrag0001",
+    "name": "Raging Storm",
+    "type": "feat",
+    "img": "icons/magic/lightning/bolt-strike-blue-white.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 14th level, Storm Aura upgrades: Desert (ignites targets for 2d4 fire damage at turn start), Sea (lightning chains to a second target within 30 ft), Tundra (deals 2d4 Cold damage and halves target’s Speed).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uafgtcavprf00001",
+    "name": "Bonus Proficiency",
+    "type": "feat",
+    "img": "icons/skills/social/diplomacy-peace-symbol.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you gain proficiency in Animal Handling, History, Insight, Performance, or Persuasion, or you learn one language of your choice.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uafgtcavsad00001",
+    "name": "Born to the Saddle",
+    "type": "feat",
+    "img": "icons/environment/creatures/horses-running.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, Advantage on saving throws to avoid falling off mount, land on feet if falling 10 ft or less, and mounting/dismounting costs only 5 ft of movement.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uafgtcavmrk00001",
+    "name": "Unwavering Mark",
+    "type": "feat",
+    "img": "icons/skills/combat/mark-target-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, hit with melee weapon marks a creature until end of next turn. While within 5 ft of you, marked creature has Disadvantage on attacks against targets other than you. If it hits an ally, you have Advantage on attack rolls against it until end of your next turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "round"
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": 1.5,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uafgtcavwar00001",
+    "name": "Warding Maneuver",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, Reaction to add 1d8 to AC of self or ally within 5 ft against an attack. If it still hits, target gains Resistance to the damage. Uses equal to Con modifier per Long Rest.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "reaction",
+        "cost": 1,
+        "condition": "Quando você ou aliado a até 1,5m é atingido"
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": 1.5,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "@abilities.con.mod",
+        "per": "lr",
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uafgtcavhld00001",
+    "name": "Hold the Line",
+    "type": "feat",
+    "img": "icons/skills/combat/spear-defensive-formation.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 10th level, creatures provoke Opportunity Attacks when moving 5 ft or more within your reach. Hitting with an Opportunity Attack reduces target’s Speed to 0 for the turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uafgtcavchr00001",
+    "name": "Ferocious Charger",
+    "type": "feat",
+    "img": "icons/skills/movement/charge-charge-horseman-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, in the first round of combat, you and your mount gain +10 ft Speed and do not provoke Opportunity Attacks. Moving within 5 ft forces a Str save or pushed 5 ft / knocked Prone.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": "Primeira rodada de combate"
+      },
+      "duration": {
+        "value": "1",
+        "units": "round"
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      },
+      "save": {
+        "ability": "str",
+        "dc": null,
+        "scaling": "str"
+      }
+    }
+  },
+  {
+    "_id": "uafgtcavdef00001",
+    "name": "Vigilant Defender",
+    "type": "feat",
+    "img": "icons/skills/combat/sword-parry-defend-gold.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 18th level, gain a special Reaction once on every creature’s turn except your own, usable only to make Opportunity Attacks.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "reaction",
+        "cost": 1,
+        "condition": "No turno de outra criatura"
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uamonkdrkprf0001",
+    "name": "Bonus Proficiencies",
+    "type": "feat",
+    "img": "icons/tools/instruments/tankard-wood-beer.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you gain proficiency in Performance (or another Monk skill) and Brewer’s Supplies.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uamonkdrktch0001",
+    "name": "Drunken Technique",
+    "type": "feat",
+    "img": "icons/skills/movement/body-turn-roll-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, whenever you use Flurry of Blows, your Speed increases by 10 feet until the end of the current turn and your movement doesn’t provoke Opportunity Attacks.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": "Na Rajada de Golpes"
+      },
+      "duration": {
+        "value": "1",
+        "units": "round"
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": "self"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uamonkdrkswy0001",
+    "name": "Tipsy Sway",
+    "type": "feat",
+    "img": "icons/skills/movement/feet-turn-sway-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, stand from Prone for 5 ft movement. When a melee attack misses you, spend 1 Focus Point as a Reaction to redirect it to hit another creature within 5 ft of you.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "reaction",
+        "cost": 1,
+        "condition": "Quando ataque corpo a corpo erra você"
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": 1,
+        "width": null,
+        "units": "",
+        "type": "creature"
+      },
+      "range": {
+        "value": 1.5,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uamonkdrkbrw0001",
+    "name": "Mystic Brew",
+    "type": "feat",
+    "img": "icons/consumables/potions/potion-flask-corked-amber.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 6th level, brew magical beverages after a rest (1 hr duration, or 8 hrs for 1 Focus Point): Cinnamon Dragon (30-ft cone 4 Martial Arts dice Fire damage + Poisoned), Heavenly Spirit (Psychic and Radiant resistance), Refreshing Dip (+1 Martial Arts die when regaining HP).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "hour"
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": "self"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uamonkdrkmst0001",
+    "name": "Master Brewer",
+    "type": "feat",
+    "img": "icons/consumables/potions/potion-tube-glowing-yellow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 11th level, add to Mystic Brew: Blue Lightning (make an Unarmed Strike as part of reactions that aren't OAs or spells) and Drunkard’s Luck (gain Heroic Inspiration when rolling Initiative).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uamonkdrkfrn0001",
+    "name": "Intoxicated Frenzy",
+    "type": "feat",
+    "img": "icons/skills/melee/unarmed-strikes-flurry-orange.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 17th level, when you use Flurry of Blows, you can make up to three additional Unarmed Strikes with it (up to a total of six), provided that each strike targets a different creature this turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": "Na Rajada de Golpes"
+      },
+      "duration": {
+        "value": "1",
+        "units": "round"
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uapaloathund0001",
+    "name": "Conjure Undead",
+    "type": "feat",
+    "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, as a Bonus Action, spend one Channel Divinity to summon skeletons or zombies equal to half your Charisma modifier (min 1) for 1 minute within 30 ft. They act immediately after you and obey commands.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": 9,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uapaloathasp0001",
+    "name": "Dreadful Aspect",
+    "type": "feat",
+    "img": "icons/magic/control/fear-fright-skull-fire-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, immediately after casting Divine Smite, spend one Channel Divinity: each creature of choice in a 30-foot Emanation must succeed on a Wisdom save or have the Frightened condition for 1 minute.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": "Imediatamente após Divine Smite"
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "value": 9,
+        "width": null,
+        "units": "m",
+        "type": "radius"
+      },
+      "range": {
+        "value": 9,
+        "long": null,
+        "units": "m"
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      },
+      "save": {
+        "ability": "wis",
+        "dc": null,
+        "scaling": "cha"
+      }
+    }
+  },
+  {
+    "_id": "uapaloathspe0001",
+    "name": "Oathbreaker Spells",
+    "type": "feat",
+    "img": "icons/sundries/books/book-eye-skull-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 3rd level, you always have Oathbreaker Spells prepared: 3rd: <em>Hellish Rebuke, Witch Bolt</em>; 5th: <em>Crown of Madness, Darkness</em>; 9th: <em>Fear, Summon Undead</em>; 13th: <em>Blight, Phantasmal Killer</em>; 17th: <em>Contagion, Steel Wind Strike</em>.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uapaloathhat0001",
+    "name": "Aura of Hate",
+    "type": "feat",
+    "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 7th level, when you or an allied Fiend or Undead in your Aura of Protection hits with a melee attack, it deals extra Necrotic damage equal to your Charisma modifier.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "special",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uapaloathres0001",
+    "name": "Supernatural Resistance",
+    "type": "feat",
+    "img": "icons/magic/defensive/shield-barrier-stone-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 15th level, you gain Resistance to Bludgeoning, Piercing, and Slashing damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "none",
+        "cost": null,
+        "condition": ""
+      },
+      "duration": {
+        "value": "",
+        "units": ""
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+      }
+    }
+  },
+  {
+    "_id": "uapaloathdrd0001",
+    "name": "Dread Lord",
+    "type": "feat",
+    "img": "icons/magic/death/skull-horned-shadow-purple.webp",
+    "system": {
+      "description": {
+        "value": "<p>At 20th level, as a Bonus Action, empower your Aura of Protection for 10 minutes (recharges on Long Rest or 5th-level spell slot): magical Darkness fills aura (you and allies can see through it); Frightened creatures starting turns in aura take 4d10 Psychic damage; Bonus Action Shadow Strike deals 3d10+Cha Necrotic damage to a target in aura.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "UA2025-UpdatedSubclasses"
+      },
+      "activation": {
+        "type": "bonus",
+        "cost": 1,
+        "condition": ""
+      },
+      "duration": {
+        "value": "10",
+        "units": "minute"
+      },
+      "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": "self"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+      },
+      "uses": {
+        "value": 1,
+        "max": "1",
+        "per": "lr",
+        "recovery": ""
+      }
+    }
   }
 ]
