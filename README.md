@@ -38,7 +38,7 @@ Módulo completo para o **Foundry Virtual Tabletop (VTT)** que adiciona classes 
     2. **Psicinético (Psykinetic)**: Cinética destrutiva, *Telecinese Reforçada*, *Técnicas Telecinéticas* (uso gratuito de 1d4, Boost, Disorient, Telekinetic Bolt), *Transe Destrutivo* (Voo 6m e bônus de dano contínuo), *Campo Ricocheteante*, *Esmagamento Telecinético Aprimorado* e *Telecinese Elevada*.
     3. **Telepata (Telepath)**: Domínio cognitivo, *Infiltrador Mental* (*Detectar Pensamentos* sem componentes e sem concentração), *Distração Telepática* (reação subtrai dado de ataque inimigo), *Baluarte Mental*, *Pensamentos Potentes* (telepatia 18m e Int em truques), *Apoio Telepático* e *Embaralhar Mentes* (*Confusão* em área ampliada controlando ações).
   - **10 Novas Magias do UA 2025**: *Arremesso Telecinético*, *Sifão Vital*, *Rastro Ectoplásmico*, *Chicote do Ego*, *Escuridão Sangrenta*, *Esmagamento Telecinético*, *Campo de Inversão Vital*, *Explosão Psiônica*, *Forma de Pensamento* e *Invocar Entidade Astral*.
-- **16 Subclasses de Unearthed Arcana (One D&D / 2024 - Lote 1: Horror & Arcane)**:
+- **46 Subclasses de Unearthed Arcana (One D&D / 2024 - Lote 1, Lote 2 & Lote 3 - Total de 58 Subclasses no Módulo)**:
   - Totalmente integradas às classes oficiais do sistema `dnd5e` através de `CONFIG.DND5E.subclasses` e concedidas automaticamente na progressão de níveis com Item Advancements:
   - **Subclasses de Horror (`UA2025-HorrorSubclasses.pdf`)**:
     1. **Artífice: Reanimador (Reanimator)**: *Choque para a Vida (Jolt to Life)*, *Companheiro Reanimado*, *Modificações Estranhas*, *Reanimação Aprimorada* e *Reanimação Prometeica*.
@@ -58,6 +58,42 @@ Módulo completo para o **Foundry Virtual Tabletop (VTT)** que adiciona classes 
     14. **Mago: Transmutador (Transmuter)**: *Especialista em Transmutação*, *Pedra do Transmutador* (concede bônus customizáveis ao portador), *Alteração Prodigiosa*, *Transmutação Fortalecida*, *Pedra Potente*, *Metamorfo Arcano* (*Polymorph* livre) e *Mestre da Transmutação* (Panaceia e restauração).
     15. **Clérigo: Domínio da Arcana (Arcana Domain)**: *Iniciado Arcano* (truques de mago como magias de clérigo), *Abjuração de Quebra de Feitiço* e *Maestria Arcana* (magias de 6º a 9º de mago).
     16. **Feiticeiro: Feitiçaria Ancestral (Ancestral Sorcery)**: *Guia Ancestral*, *Armadura Espiritual*, *Chamado dos Ancestrais* e *Avatar dos Antigos*.
+  - **Subclasses de Forgotten Realms (`UA2025-RealmsSubclasses.pdf`)**:
+    17. **Bardo: Colégio da Lua (College of the Moon)**: *Contos Populares de Moonshae*, *Folclorista Primitivo*, *Bênção dos Poços da Lua* e *Contos Fortalecidos*.
+    18. **Clérigo: Domínio do Conhecimento (Knowledge Domain)**: *Bênçãos do Conhecimento*, *Magias do Domínio*, *Magia Mental*, *Mente Desacorrentada* e *Presciência Divina*.
+    19. **Guerreiro: Cavaleiro do Dragão Púrpura (Purple Dragon Knight)**: *Enviado Cavaleiresco*, *Companheiro Dragão Púrpura*, *Cavaleiro de Dragão*, *Surto de Encorajamento*, *Pináculo de Ametista* e *Comandante Resiliente*.
+    20. **Paladino: Juramento dos Gênios Nobres (Oath of the Noble Genies)**: *Golpe Elemental*, *Esplendor dos Gênios*, *Magias do Juramento*, *Aura de Blindagem Elemental*, *Reprimenda Elemental* e *Herdeiro Nobre*.
+    21. **Patrulheiro: Caminhante do Inverno (Winter Walker)**: *Explorador Gélido*, *Geada do Caçador*, *Magias do Caminhante do Inverno*, *Alma Fortalecida*, *Retribuição Congelante* e *Assombração Congelada*.
+    22. **Ladino: Herdeiro dos Três (Scion of the Three)**: *Sede de Sangue*, *Lealdade Pavorosa* (Bane, Bhaal, Myrkul), *Abalar de Pavor*, *Aura de Malevolência* e *Encarnação do Pavor*.
+    23. **Feiticeiro: Feitiçaria do Fogo Mágico (Spellfire Sorcery)**: *Explosão de Fogo Mágico*, *Magias de Fogo Mágico*, *Absorver Magias*, *Fogo Mágico Lapidado* e *Coroa de Fogo Mágico*.
+    24. **Mago: Cantor da Lâmina (Bladesinger)**: *Canção da Lâmina* (bônus de CA, concentração e velocidade), *Treinamento de Guerra e Canção*, *Ataque Extra* com truque, *Canção de Defesa* e *Canção de Vitória*.
+  - **Subclasses Apocalípticas (`UA2025-ApocalypticSubclasses.pdf`)**:
+    25. **Druida: Círculo da Preservação (Circle of Preservation)**: *Magias do Círculo*, *Terra Preservada*, *Estudioso da Preservação*, *Preservação Aprimorada*, *Restauração Facilitada* e *Terra Sacrossanta*.
+    26. **Guerreiro: Gladiador (Gladiator)**: *Brutalidade*, *Teatralidade de Combate*, *Aparo Florescente*, *Brutalidades Mais Ousadas*, *Ressurgência Brutal* e *Mutilar*.
+    27. **Feiticeiro: Feitiçaria Profanada (Defiled Sorcery)**: *Profanar e Fortalecer*, *Magias Profanadoras*, *Conjurador Corrompido*, *Aura Agonizante* e *Profanador Superior*.
+    28. **Bruxo: Patrono Rei-Feiticeiro (Sorcerer-King Patron)**: *Magias do Rei-Feiticeiro* (conjuração psiônica sem componentes), *Arauto do Tirano*, *Édito Decisivo*, *Reprimenda Vingativa* e *Tirania Absoluta*.
+  - **Subclasses Místicas (`UA2026-MysticSubclasses.pdf`)**:
+    29. **Monge: Guerreiro das Artes Místicas (Warrior of the Mystic Arts)**: *Conjuração Mística*, *Estilo de Luta Místico*, *Foco Místico*, *Foco Centrado* e *Estilo Místico Aprimorado*.
+    30. **Paladino: Juramento da Guarda de Feitiços (Oath of the Spellguard)**: *Vínculo Guardião*, *Golpe Guarda-Feitiço*, *Magias do Juramento*, *Aura de Concentração*, *Lâmina Destruidora de Magia* e *Guarda-Feitiços Eterno*.
+    31. **Ladino: Ladrão de Magia (Magic Stealer)**: *Drenar Magia*, *Empoderar Ataque Furtivo*, *Sabotagem Mágica*, *Manto Oculto*, *Drenar Magia Aprimorado* e *Implosão Mística*.
+    32. **Bruxo: Patrono Vestígio (Vestige Patron)**: *Companheiro Vestígio*, *Magias de Vestígio*, *Recuperação de Vestígio*, *Aura de Poder* e *Aparência de Vida*.
+  - **Subclasses do Subterrâneo (`UA2026-UnderdarkOptions.pdf`)**:
+    33. **Bárbaro: Caminho da Não-Luz (Path of Unlight)**: *Fúria Radiante*, *Revelação da Não-Luz*, *Não-Luz Infecciosa*, *Arauto da Não-Luz* e *Fúria Brilhante*.
+    34. **Ladino: Agente da Casa (House Agent)**: *Insígnia da Casa*, *Presença Cativante*, *Golpe pelas Costas (Backstab)*, *Língua de Prata*, *Parceiro de Infiltração* e *Manipulador Sutil*.
+    35. **Mago: Imaskarcanista (Imaskarcanist)**: *Adepto da Não-Luz*, *Vigor da Não-Luz*, *Restauração da Não-Luz*, *Segredos de Imaskar Profunda* e *Ruína da Não-Luz*.
+  - **Subclasses Monstruosas e Vilanescas (`UA2026-MonsterSubclasses.pdf`, `UA2026-NadirSubclasses.pdf` e Guias)**:
+    36. **Bárbaro: Caminho do Lamento (Path of Lament)**: *Lamento da Banshee*, *Comunhão com os Mortos*, *Golpe Horripilante*, *Angústia do Outro Mundo* e *Forma do Pesar*.
+    37. **Monge: Guerreiro do Veneno (Warrior of Venom)**: *Envenenar Arma*, *Arsenal Potente*, *Toque Tóxico*, *Refinador de Toxinas*, *Sangue Tóxico* e *Sopro Alucinógeno*.
+    38. **Bruxo: Patrono Primordial (Primordial Patron)**: *Nodo Elemental*, *Magias Elementais*, *Refúgio Elemental*, *Proteção Primitiva* e *Arauto Elemental*.
+    39. **Druida: Círculo do Titã (Circle of the Titan)**: *Magias do Círculo*, *Forma de Titã*, *Impacto Terrível*, *Devastação Primitiva* e *Apetite Monstruoso*.
+    40. **Guerreiro: Cavaleiro do Inferno (Hell Knight)**: *Dádiva Diabólica*, *Arma Forjada no Inferno*, *Ferida Infernal*, *Feridas Avançadas*, *Equipamento Infernal*, *Surto de Fogo Infernal*, *Infortúnio do Diabo* e *Barganha Infernal*.
+    41. **Feiticeiro: Feitiçaria Demoníaca (Demonic Sorcery)**: *Ruptura Abissal*, *Magias Demoníacas*, *Reino Abissal*, *Conduíte Abissal* e *Explosão Abissal*.
+    42. **Paladino: Quebrador de Juramento (Oathbreaker)**: *Conjurar Mortos-Vivos*, *Aspecto Pavoroso*, *Magias do Quebrador de Juramento*, *Aura de Ódio*, *Resistência Sobrenatural* e *Senhor do Pavor*.
+  - **Subclasses Atualizadas (`UA-SubclassesUpdate.pdf`)**:
+    43. **Bárbaro: Caminho do Guardião Espiritual (Path of the Spiritual Guardian)**: *Protetores Espirituais*, *Escudo Espiritual*, *Consultar os Espíritos* e *Espíritos Vingativos*.
+    44. **Bárbaro: Caminho do Arauto da Tempestade (Path of the Storm Herald)**: *Aura de Tempestade*, *Alma da Tempestade*, *Tempestade Protetora* e *Tempestade Enfurecida*.
+    45. **Guerreiro: Cavaleiro (Cavalier)**: *Proficiência Bônus*, *Nascido na Sela*, *Marca Inabalável*, *Manobra de Guarda*, *Manter a Linha*, *Investida Feroz* e *Defensor Vigilante*.
+    46. **Monge: Guerreiro da Intoxicação (Warrior of Intoxication)**: *Proficiências Bônus*, *Técnica Bêbada*, *Gingado Ébrio*, *Infusão Mística*, *Mestre Cervejeiro* e *Frenesi Intoxicado*.
 - **Nova Magia & Companheiros**:
   - Nova magia de 2º círculo: *Homunculus Servant* (Servo Homúnculo) com ritual e ficha de invocação.
   - Fichas de NPCs/Companheiros completas no compêndio: **Steel Defender**, **Homunculus Servant** e **Eldritch Cannon**.
@@ -90,8 +126,8 @@ Módulo completo para o **Foundry Virtual Tabletop (VTT)** que adiciona classes 
 12. **Psion Subclasses** (`psion-subclasses`): As 3 subclasses (*Metamorfo*, *Psicinético*, *Telepata*).
 13. **Psion Features** (`psion-features`): Recursos da classe, 11 Disciplinas Psiônicas e armas orgânicas.
 14. **Psion Spells** (`psion-spells`): As 10 novas magias oficiais do playtest Unearthed Arcana 2025.
-15. **Unearthed Arcana Subclasses** (`ua-subclasses`): As 16 subclasses de Unearthed Arcana (Horror & Arcane).
-16. **Unearthed Arcana Features** (`ua-features`): Todas as características de 3º ao 18º nível das 16 subclasses do UA.
+15. **Unearthed Arcana Subclasses** (`ua-subclasses`): As 46 subclasses de Unearthed Arcana (Lotes 1, 2 e 3: Horror, Arcane, Realms, Apocalyptic, Mystic, Underdark, Vilões e Atualizadas).
+16. **Unearthed Arcana Features** (`ua-features`): 248 características completas de classe e subclasse de 3º ao 20º nível das 46 subclasses do UA.
 
 ---
 

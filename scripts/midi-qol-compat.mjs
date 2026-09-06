@@ -51,7 +51,7 @@ export class MidiQOLCompat {
         console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Maldição de Sangue (${workflow.item.name}) em ${workflow.targets?.size || 0} alvo(s).`);
       }
 
-      // Automações para Arquétipos de Unearthed Arcana (Horror & Arcane)
+      // Automações para Arquétipos de Unearthed Arcana (Lote 1 & Lote 2)
       if (itemId === "uajolttolife0001") {
         console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Choque para a Vida (Jolt to Life) do Reanimador.`);
       }
@@ -66,6 +66,53 @@ export class MidiQOLCompat {
       }
       if (itemId === "uaarcaneshot0001") {
         console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Disparo Arcano (Arcane Shot) do Arqueiro Arcano.`);
+      }
+      if (itemId === "uabladesong00001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Canção da Lâmina (Bladesong) para ${workflow.actor?.name}.`);
+      }
+      if (itemId === "uagladiatparry01") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Aparo Florescente (Flourish Parry) do Gladiador.`);
+      }
+      if (itemId === "uastealdrain0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Drenar Magia (Drain Magic) do Ladrão de Magia.`);
+      }
+      if (itemId === "uaspellgstrike01") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Golpe Guarda-Feitiço (Spellguard Strike).`);
+      }
+      if (itemId === "uaspellfireabs01") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Absorver Magias (Absorb Spells) do Fogo Mágico.`);
+      }
+      if (itemId === "uasorckrebuke001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Reprimenda Vingativa (Vindictive Rebuke) do Rei-Feiticeiro.`);
+      }
+
+      // Automações para Arquétipos de Unearthed Arcana (Lote 3: Underdark, Vilões e Subclasses Atualizadas)
+      if (itemId === "uabarbunlrad0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Fúria Radiante (Radiant Rage) da Não-Luz.`);
+      }
+      if (itemId === "uabarblamban0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Lamento da Banshee (Banshee's Wail) do Caminho do Lamento.`);
+      }
+      if (itemId === "uamonkventch0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Toque Tóxico (Toxic Touch) do Guerreiro do Veneno.`);
+      }
+      if (itemId === "uafgthlwep000001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Arma Forjada no Inferno (Hell-Forged Weapon) do Cavaleiro do Inferno.`);
+      }
+      if (itemId === "uasrcdemrup00001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Ruptura Abissal (Abyssal Rupture) da Feitiçaria Demoníaca.`);
+      }
+      if (itemId === "uabarbstrara0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Aura de Tempestade (Storm Aura) do Arauto da Tempestade.`);
+      }
+      if (itemId === "uafgtcavmrk00001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Marca Inabalável (Unwavering Mark) do Cavaleiro.`);
+      }
+      if (itemId === "uamonkdrktch0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Técnica Bêbada (Drunken Technique) do Guerreiro da Intoxicação.`);
+      }
+      if (itemId === "uapaloathasp0001") {
+        console.log(`Expansão de Classes e Arquétipos | Midi QOL processou Aspecto Pavoroso (Dreadful Aspect) do Quebrador de Juramento.`);
       }
 
       // Automação e logging para habilidades do Psion
