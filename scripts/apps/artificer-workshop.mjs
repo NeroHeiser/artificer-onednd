@@ -263,16 +263,7 @@ export class ArtificerWorkshopApp extends BaseApplication {
       });
     }
 
-    // Ações para compatibilidade com clique direto
-    html.querySelectorAll("[data-action]").forEach(el => {
-      el.addEventListener("click", ev => {
-        const actionName = ev.currentTarget.dataset.action;
-        const handler = ArtificerWorkshopApp.DEFAULT_OPTIONS.actions[actionName];
-        if (handler) {
-          handler.call(this, ev, ev.currentTarget);
-        }
-      });
-    });
+    // Nota: ApplicationV2 gerencia as ações declaradas em DEFAULT_OPTIONS.actions nativamente.
   }
 
   // -------------------------------------------------------------
@@ -424,18 +415,18 @@ export class ArtificerWorkshopApp extends BaseApplication {
     const isPt = game.i18n?.lang?.startsWith("pt");
 
     const planItemMap = {
-      "manifold tool": "itemmanifoldtool",
-      "ferramenta multifuncional": "itemmanifoldtool",
-      "repeating shot": "itemrepeating001",
-      "disparo repetidor": "itemrepeating001",
-      "returning weapon": "itemreturning001",
-      "arma retornável": "itemreturning001",
-      "mind sharpener": "itemmindsharp001",
-      "focalizador mental": "itemmindsharp001",
-      "boots of the winding path": "itemwindingboot1",
-      "botas do caminho sinuoso": "itemwindingboot1",
-      "repulsion shield": "itemrepulsionsh1",
-      "escudo de repulsão": "itemrepulsionsh1"
+      "manifold tool": "repmanifoldtool0",
+      "ferramenta multifuncional": "repmanifoldtool0",
+      "repeating shot": "reprepeating0000",
+      "disparo repetidor": "reprepeating0000",
+      "returning weapon": "repreturningweap",
+      "arma retornável": "repreturningweap",
+      "mind sharpener": "repmindsharpener",
+      "focalizador mental": "repmindsharpener",
+      "boots of the winding path": "repwindingboots0",
+      "botas do caminho sinuoso": "repwindingboots0",
+      "repulsion shield": "reprepulsionshld",
+      "escudo de repulsão": "reprepulsionshld"
     };
 
     const targetDocId = planItemMap[itemName.toLowerCase()];
