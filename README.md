@@ -1,5 +1,7 @@
 # Classes & Archetypes Expansion (D&D 5e)
 
+[English](README.md) | [Português (Brasil)](README.pt-BR.md)
+
 [![Foundry VTT](https://img.shields.io/badge/Foundry%20VTT-v12%20%7C%20v14-orange.svg)](https://foundryvtt.com/)
 [![System](https://img.shields.io/badge/System-dnd5e%20v3.0%2B-blue.svg)](https://github.com/foundryvtt/dnd5e)
 [![Tests](https://img.shields.io/badge/Tests-20%20passed-brightgreen.svg)](tests/)
