@@ -1,157 +1,154 @@
-# Expansão de Classes e Arquétipos (D&D 5e)
+# Classes & Archetypes Expansion (D&D 5e)
 
-Módulo completo para o **Foundry Virtual Tabletop (VTT)** que adiciona classes completas e arquétipos de Unearthed Arcana (One D&D / 2024), começando com a classe **Artificer (Artífice)** e suas 5 subclasses, totalmente integrado ao sistema oficial `dnd5e` (v3.0+ e v4.0+) e com suporte a automações completas no **Midi QOL** (v12 e v14).
+[![Foundry VTT](https://img.shields.io/badge/Foundry%20VTT-v12%20%7C%20v14-orange.svg)](https://foundryvtt.com/)
+[![System](https://img.shields.io/badge/System-dnd5e%20v3.0%2B-blue.svg)](https://github.com/foundryvtt/dnd5e)
+[![Tests](https://img.shields.io/badge/Tests-20%20passed-brightgreen.svg)](tests/)
+[![Midi-QOL](https://img.shields.io/badge/Midi--QOL-Recommended-purple.svg)](https://gitlab.com/tposney/midi-qol)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
----
-
-## 🛠️ Recursos Principais
-
-- **Automação & Compatibilidade com Midi QOL**:
-  - Alinhamento total com as atividades do sistema `dnd5e` (`actionType`, fórmulas de ataque/dano/cura, salvaguardas com DC escalável e Active Effects integrados).
-  - Elixires experimentais aplicam bônus de velocidade, CA, dados em salvaguardas/ataques e voo automaticamente via Active Effects com controle de tempo.
-  - Companheiros (Defensor de Aço, Canhão Arcano, Servo Homúnculo) com armas e ações automatizadas (cura com detecção de alvos, sopro em cone com CD de resistência, golpes de força e arremessos).
-  - Degradação graciosa: se o Midi QOL não estiver ativo na mesa, funciona 100% no padrão nativo do D&D 5e.
-- **Classe Artificer Completa**: Progressão de níveis 1 a 20 configurada com a arquitetura moderna de **Item Advancements** (`HitPoints`, `TraitAdvancement`, `ItemGrantAdvancement`, `ScaleValueAdvancement`).
-- **5 Subclasses Especializadas do Artífice**:
-  1. **Alchemist (Alquimista)**: Produção de *Experimental Elixirs*, *Alchemical Savant*, *Restorative Reagents*, *Chemical Mastery*.
-  2. **Armorer (Armeiro)**: *Arcane Armor*, modelos de armadura (**Dreadnaught**, **Guardian** e **Infiltrator**), *Extra Attack*, *Improved Armorer*, *Perfected Armor*.
-  3. **Artillerist (Artilheiro)**: *Eldritch Cannon* (Flamethrower, Force Ballista, Protector), *Arcane Firearm*, *Explosive Cannon*, *Fortified Position*.
-  4. **Battle Smith (Ferreiro de Batalha)**: *Battle Ready* (Int para ataque e dano mágico), companheiro *Steel Defender*, *Extra Attack*, *Arcane Jolt*, *Improved Defender*.
-  5. **Cartographer (Cartógrafo)**: *Adventurer's Atlas*, *Mapping Magic* (teleporte *Portal Jump* e *Faerie Fire* grátis), *Guided Precision*, *Ingenious Movement*, *Superior Atlas*.
-- **Classe Caçador de Bruxas (Witch Hunter / Blood Hunter)**:
-  - Progressão completa de níveis 1 a 20 baseada na versão oficial de 2020 do D&D Beyond (Matthew Mercer), com **Inteligência** como atributo-chave e **Maestria em Armas (One D&D / 2024)** no 1º nível.
-  - **4 Ordens Especializadas**:
-    1. **Ordem do Caçador de Espectros (Ghostslayer)**: *Ritual da Alvorada* (Radiante), *Passo Etéreo*, *Marca do Sepulcro*, *Visão da Sepultura*, *Espírito Vingativo*.
-    2. **Ordem do Licantropo (Lycan)**: *Transformação Híbrida* (resistências a armas, bônus de CA, garras desarmadas e ataque bônus), *Proeza do Perseguidor*, *Transformação Avançada*, *Vontade de Ferro*, *Maestria Híbrida*.
-    3. **Ordem do Mutante (Mutant)**: *Criação de Mutagênicos* com 19 fórmulas completas em itens consumíveis (bônus e penalidades automatizadas via ActiveEffect), *Metabolismo Estranho*, *Fisiologia Robusta*, *Mutação Exaltada*.
-    4. **Ordem da Alma Profana (Profane Soul)**: *Magia de Pacto* com Inteligência, Patronos do Outro Mundo, *Foco Ritual*, *Frenezi Místico*, *Canalização Diabólica*, *Arcana Revelada*, *Sifão de Almas*.
-  - **Rituais Carmesins & Maldições de Sangue**: 7 Rituais com ActiveEffects e 10 Maldições de Sangue completas com salvaguardas e automações no Midi QOL.
-- **Classe Psion Completa (One D&D / UA 2025)**:
-  - Conjurador Pleno Mental (espaços de 1º a 9º círculo, Inteligência, d6 de vida, salvaguardas de Int e Sab).
-  - **Conjuração Psiônica**: Sem necessidade de componentes Verbais nem Materiais (a menos que consumidos ou com custo em ouro).
-  - **Telecinese Sutil**: *Mãos Mágicas* sem componentes somáticos e invisível.
-  - **Dados de Energia Psiônica**: Escala de `4d6` no nível 1 até `12d12` no nível 17.
-  - **Habilidades Básicas**: *Propulsão Telecinética* e *Conexão Telepática*.
-  - **11 Disciplinas Psiônicas**: *Biofeedback*, *Precognição Fortalecedora*, *Pensamentos Destrutivos*, *Língua Diabólica*, *Percepção Expandida*, *Insinuação do Id*, *Mira Certeira*, *Mente Observadora*, *Contra-ataque Psiônico*, *Guardas Psiônicos* e *Mente Aguçada*.
-  - **3 Subclasses Oficiais**:
-    1. **Metamorfo (Metamorph)**: Biopsiônica, *Forma Mutável*, 3 *Armas Orgânicas* baseadas em Inteligência (Lâmina de Osso, Maça de Carne, Lançador de Vísceras), *Ataque Extra* com truque, *Tecelão de Carne* (+2 CA e cura ampliada), *Forma Mutável Aprimorada* e *Armas que Dobram a Vida*.
-    2. **Psicinético (Psykinetic)**: Cinética destrutiva, *Telecinese Reforçada*, *Técnicas Telecinéticas* (uso gratuito de 1d4, Boost, Disorient, Telekinetic Bolt), *Transe Destrutivo* (Voo 6m e bônus de dano contínuo), *Campo Ricocheteante*, *Esmagamento Telecinético Aprimorado* e *Telecinese Elevada*.
-    3. **Telepata (Telepath)**: Domínio cognitivo, *Infiltrador Mental* (*Detectar Pensamentos* sem componentes e sem concentração), *Distração Telepática* (reação subtrai dado de ataque inimigo), *Baluarte Mental*, *Pensamentos Potentes* (telepatia 18m e Int em truques), *Apoio Telepático* e *Embaralhar Mentes* (*Confusão* em área ampliada controlando ações).
-  - **10 Novas Magias do UA 2025**: *Arremesso Telecinético*, *Sifão Vital*, *Rastro Ectoplásmico*, *Chicote do Ego*, *Escuridão Sangrenta*, *Esmagamento Telecinético*, *Campo de Inversão Vital*, *Explosão Psiônica*, *Forma de Pensamento* e *Invocar Entidade Astral*.
-- **46 Subclasses de Unearthed Arcana (One D&D / 2024 - Lote 1, Lote 2 & Lote 3 - Total de 58 Subclasses no Módulo)**:
-  - Totalmente integradas às classes oficiais do sistema `dnd5e` através de `CONFIG.DND5E.subclasses` e concedidas automaticamente na progressão de níveis com Item Advancements:
-  - **Subclasses de Horror (`UA2025-HorrorSubclasses.pdf`)**:
-    1. **Artífice: Reanimador (Reanimator)**: *Choque para a Vida (Jolt to Life)*, *Companheiro Reanimado*, *Modificações Estranhas*, *Reanimação Aprimorada* e *Reanimação Prometeica*.
-    2. **Bardo: Colégio dos Espíritos (College of Spirits)**: *Canalizador de Espíritos*, *Contos do Além (Tales from Beyond)*, *Canalização Fortalecida* e *Conexão Mística*.
-    3. **Clérigo: Domínio do Túmulo (Grave Domain)**: *Círculo da Mortalidade* (cura máxima a 0 PV), Canalizar Divindade *Caminho para a Sepultura* (vulnerabilidade), *Sentinela às Portas da Morte* (cancela críticos) e *Ceifador Divino*.
-    4. **Patrulheiro: Guardião Oco (Hollow Warden)**: *Ira da Natureza Oca*, *Poder Faminto*, *Podridão e Violência* e *Resistência Ancestral*.
-    5. **Ladino: Fantasma (Phantom)**: *Sussurros dos Mortos*, *Lamentos da Sepultura (Wails from the Grave)*, *Fetiches dos Partidos (Tokens of the Departed)*, *Passo Fantasma* e *Amigo da Morte*.
-    6. **Feiticeiro: Feitiçaria das Sombras (Shadow Sorcery)**: *Olhos da Escuridão*, *Cão do Mau Agouro (Hound of Ill Omen)*, *Passo das Sombras* e *Forma Umbral*.
-    7. **Bruxo: Patrono Lâmina Maldita (Hexblade Patron)**: *Manifestação da Lâmina Maldita* (Guerreiro Maldito com Carisma, crítico 19-20 e dano de PB), *Espectro Maldito*, *Armadura de Maldições* e *Maldição Mestra*.
-    8. **Bruxo: Patrono Insepulto (Undead Patron)**: *Forma Pavorosa (Form of Dread)*, *Tocado pela Sepultura*, *Casca Necrótica* e *Projeção Espiritual*.
-  - **Subclasses Arcanas (`UA2025-ArcaneSubclassesUpdate.pdf` e `UA2025-ArcaneSubclasses.pdf`)**:
-    9. **Guerreiro: Arqueiro Arcano (Arcane Archer)**: *Tradição do Arqueiro Arcano*, *Disparo Arcano (Arcane Shot)* com 2d6 a 4d6 de dano mágico, *Disparo Curvo*, *Munição Mágica*, *Disparo Sempre Pronto*, *Explosão Arcana* e *Disparos Mestres*.
-    10. **Monge: Guerreiro Tatuado (Tattooed Warrior)**: *Tatuagens Mágicas*, *Tatuagens das Feras*, *Tatuagem Celestial*, *Tatuagem da Natureza* e *Tatuagem dos Monstros*.
-    11. **Mago: Invocador (Conjurer)**: *Transposição Benigna* (teleporte bônus recarregável), *Especialista em Conjuração*, *Transposição Distante*, *Invocações Duradouras* (+PVT em summons), *Conjuração Focada* (concentração inquebrável por dano) e *Invocações Fracionadas*.
-    12. **Mago: Encantador (Enchanter)**: *Especialista em Encantamento*, *Presença Hipnótica*, *Encantamento Dividido* (alvo duplo em magias), *Charme Instintivo* (redireciona ataques) e *Alterar Memórias*.
-    13. **Mago: Necromante (Necromancer)**: *Especialista em Necromancia*, *Grimório dos Mortos*, *Poder do Túmulo* (cura ao matar), *Servos Mortos-vivos* (mais PV e bônus no dano), *Colheita dos Mortos* e *Mestre da Morte* (comanda mortos-vivos inimigos).
-    14. **Mago: Transmutador (Transmuter)**: *Especialista em Transmutação*, *Pedra do Transmutador* (concede bônus customizáveis ao portador), *Alteração Prodigiosa*, *Transmutação Fortalecida*, *Pedra Potente*, *Metamorfo Arcano* (*Polymorph* livre) e *Mestre da Transmutação* (Panaceia e restauração).
-    15. **Clérigo: Domínio da Arcana (Arcana Domain)**: *Iniciado Arcano* (truques de mago como magias de clérigo), *Abjuração de Quebra de Feitiço* e *Maestria Arcana* (magias de 6º a 9º de mago).
-    16. **Feiticeiro: Feitiçaria Ancestral (Ancestral Sorcery)**: *Guia Ancestral*, *Armadura Espiritual*, *Chamado dos Ancestrais* e *Avatar dos Antigos*.
-  - **Subclasses de Forgotten Realms (`UA2025-RealmsSubclasses.pdf`)**:
-    17. **Bardo: Colégio da Lua (College of the Moon)**: *Contos Populares de Moonshae*, *Folclorista Primitivo*, *Bênção dos Poços da Lua* e *Contos Fortalecidos*.
-    18. **Clérigo: Domínio do Conhecimento (Knowledge Domain)**: *Bênçãos do Conhecimento*, *Magias do Domínio*, *Magia Mental*, *Mente Desacorrentada* e *Presciência Divina*.
-    19. **Guerreiro: Cavaleiro do Dragão Púrpura (Purple Dragon Knight)**: *Enviado Cavaleiresco*, *Companheiro Dragão Púrpura*, *Cavaleiro de Dragão*, *Surto de Encorajamento*, *Pináculo de Ametista* e *Comandante Resiliente*.
-    20. **Paladino: Juramento dos Gênios Nobres (Oath of the Noble Genies)**: *Golpe Elemental*, *Esplendor dos Gênios*, *Magias do Juramento*, *Aura de Blindagem Elemental*, *Reprimenda Elemental* e *Herdeiro Nobre*.
-    21. **Patrulheiro: Caminhante do Inverno (Winter Walker)**: *Explorador Gélido*, *Geada do Caçador*, *Magias do Caminhante do Inverno*, *Alma Fortalecida*, *Retribuição Congelante* e *Assombração Congelada*.
-    22. **Ladino: Herdeiro dos Três (Scion of the Three)**: *Sede de Sangue*, *Lealdade Pavorosa* (Bane, Bhaal, Myrkul), *Abalar de Pavor*, *Aura de Malevolência* e *Encarnação do Pavor*.
-    23. **Feiticeiro: Feitiçaria do Fogo Mágico (Spellfire Sorcery)**: *Explosão de Fogo Mágico*, *Magias de Fogo Mágico*, *Absorver Magias*, *Fogo Mágico Lapidado* e *Coroa de Fogo Mágico*.
-    24. **Mago: Cantor da Lâmina (Bladesinger)**: *Canção da Lâmina* (bônus de CA, concentração e velocidade), *Treinamento de Guerra e Canção*, *Ataque Extra* com truque, *Canção de Defesa* e *Canção de Vitória*.
-  - **Subclasses Apocalípticas (`UA2025-ApocalypticSubclasses.pdf`)**:
-    25. **Druida: Círculo da Preservação (Circle of Preservation)**: *Magias do Círculo*, *Terra Preservada*, *Estudioso da Preservação*, *Preservação Aprimorada*, *Restauração Facilitada* e *Terra Sacrossanta*.
-    26. **Guerreiro: Gladiador (Gladiator)**: *Brutalidade*, *Teatralidade de Combate*, *Aparo Florescente*, *Brutalidades Mais Ousadas*, *Ressurgência Brutal* e *Mutilar*.
-    27. **Feiticeiro: Feitiçaria Profanada (Defiled Sorcery)**: *Profanar e Fortalecer*, *Magias Profanadoras*, *Conjurador Corrompido*, *Aura Agonizante* e *Profanador Superior*.
-    28. **Bruxo: Patrono Rei-Feiticeiro (Sorcerer-King Patron)**: *Magias do Rei-Feiticeiro* (conjuração psiônica sem componentes), *Arauto do Tirano*, *Édito Decisivo*, *Reprimenda Vingativa* e *Tirania Absoluta*.
-  - **Subclasses Místicas (`UA2026-MysticSubclasses.pdf`)**:
-    29. **Monge: Guerreiro das Artes Místicas (Warrior of the Mystic Arts)**: *Conjuração Mística*, *Estilo de Luta Místico*, *Foco Místico*, *Foco Centrado* e *Estilo Místico Aprimorado*.
-    30. **Paladino: Juramento da Guarda de Feitiços (Oath of the Spellguard)**: *Vínculo Guardião*, *Golpe Guarda-Feitiço*, *Magias do Juramento*, *Aura de Concentração*, *Lâmina Destruidora de Magia* e *Guarda-Feitiços Eterno*.
-    31. **Ladino: Ladrão de Magia (Magic Stealer)**: *Drenar Magia*, *Empoderar Ataque Furtivo*, *Sabotagem Mágica*, *Manto Oculto*, *Drenar Magia Aprimorado* e *Implosão Mística*.
-    32. **Bruxo: Patrono Vestígio (Vestige Patron)**: *Companheiro Vestígio*, *Magias de Vestígio*, *Recuperação de Vestígio*, *Aura de Poder* e *Aparência de Vida*.
-  - **Subclasses do Subterrâneo (`UA2026-UnderdarkOptions.pdf`)**:
-    33. **Bárbaro: Caminho da Não-Luz (Path of Unlight)**: *Fúria Radiante*, *Revelação da Não-Luz*, *Não-Luz Infecciosa*, *Arauto da Não-Luz* e *Fúria Brilhante*.
-    34. **Ladino: Agente da Casa (House Agent)**: *Insígnia da Casa*, *Presença Cativante*, *Golpe pelas Costas (Backstab)*, *Língua de Prata*, *Parceiro de Infiltração* e *Manipulador Sutil*.
-    35. **Mago: Imaskarcanista (Imaskarcanist)**: *Adepto da Não-Luz*, *Vigor da Não-Luz*, *Restauração da Não-Luz*, *Segredos de Imaskar Profunda* e *Ruína da Não-Luz*.
-  - **Subclasses Monstruosas e Vilanescas (`UA2026-MonsterSubclasses.pdf`, `UA2026-NadirSubclasses.pdf` e Guias)**:
-    36. **Bárbaro: Caminho do Lamento (Path of Lament)**: *Lamento da Banshee*, *Comunhão com os Mortos*, *Golpe Horripilante*, *Angústia do Outro Mundo* e *Forma do Pesar*.
-    37. **Monge: Guerreiro do Veneno (Warrior of Venom)**: *Envenenar Arma*, *Arsenal Potente*, *Toque Tóxico*, *Refinador de Toxinas*, *Sangue Tóxico* e *Sopro Alucinógeno*.
-    38. **Bruxo: Patrono Primordial (Primordial Patron)**: *Nodo Elemental*, *Magias Elementais*, *Refúgio Elemental*, *Proteção Primitiva* e *Arauto Elemental*.
-    39. **Druida: Círculo do Titã (Circle of the Titan)**: *Magias do Círculo*, *Forma de Titã*, *Impacto Terrível*, *Devastação Primitiva* e *Apetite Monstruoso*.
-    40. **Guerreiro: Cavaleiro do Inferno (Hell Knight)**: *Dádiva Diabólica*, *Arma Forjada no Inferno*, *Ferida Infernal*, *Feridas Avançadas*, *Equipamento Infernal*, *Surto de Fogo Infernal*, *Infortúnio do Diabo* e *Barganha Infernal*.
-    41. **Feiticeiro: Feitiçaria Demoníaca (Demonic Sorcery)**: *Ruptura Abissal*, *Magias Demoníacas*, *Reino Abissal*, *Conduíte Abissal* e *Explosão Abissal*.
-    42. **Paladino: Quebrador de Juramento (Oathbreaker)**: *Conjurar Mortos-Vivos*, *Aspecto Pavoroso*, *Magias do Quebrador de Juramento*, *Aura de Ódio*, *Resistência Sobrenatural* e *Senhor do Pavor*.
-  - **Subclasses Atualizadas (`UA-SubclassesUpdate.pdf`)**:
-    43. **Bárbaro: Caminho do Guardião Espiritual (Path of the Spiritual Guardian)**: *Protetores Espirituais*, *Escudo Espiritual*, *Consultar os Espíritos* e *Espíritos Vingativos*.
-    44. **Bárbaro: Caminho do Arauto da Tempestade (Path of the Storm Herald)**: *Aura de Tempestade*, *Alma da Tempestade*, *Tempestade Protetora* e *Tempestade Enfurecida*.
-    45. **Guerreiro: Cavaleiro (Cavalier)**: *Proficiência Bônus*, *Nascido na Sela*, *Marca Inabalável*, *Manobra de Guarda*, *Manter a Linha*, *Investida Feroz* e *Defensor Vigilante*.
-    46. **Monge: Guerreiro da Intoxicação (Warrior of Intoxication)**: *Proficiências Bônus*, *Técnica Bêbada*, *Gingado Ébrio*, *Infusão Mística*, *Mestre Cervejeiro* e *Frenesi Intoxicado*.
-- **Nova Magia & Companheiros**:
-  - Nova magia de 2º círculo: *Homunculus Servant* (Servo Homúnculo) com ritual e ficha de invocação.
-  - Fichas de NPCs/Companheiros completas no compêndio: **Steel Defender**, **Homunculus Servant** e **Eldritch Cannon**.
-- **Ferramenta de Expansão (Workshop)**:
-  - Interface moderna desenvolvida em **ApplicationV2** do Foundry V12+.
-  - **Sorteio e Geração de Elixires Experimentais**: Rola 1d6 ou gasta espaço de magia para gerar instantaneamente o frasco consumível no inventário do personagem.
-  - **Magia de Funileiro (Tinker's Magic)**: Catálogo com 30 itens mundanos para conjurar no inventário com 1 clique (com controle de término no descanso longo).
-  - **Replicar Item Mágico (Replicate Magic Item)**: Tabela de planos conhecidos e itens replicados com filtro por nível (2+, 6+, 10+, 14+).
-  - **Companheiros**: Atalho direto para abrir e gerenciar as fichas de construtos e canhões.
-- **Sincronização Automática de Compêndios**:
-  - Popula automaticamente os compêndios do módulo no Foundry caso estejam vazios, garantindo total integridade de UUIDs e compatibilidade multiplataforma.
-- **Bilingue (i18n)**:
-  - Suporte completo a **Português (Brasil)** e **English**.
+A comprehensive module for **Foundry Virtual Tabletop (VTT)** providing full class progressions, 58 specialized archetypes, and interactive workshop interfaces for the `dnd5e` system (v3.0+ and v4.0+), with seamless **Midi QOL** combat automation and bilingual compendiums (**English** and **Português - Brasil**).
 
 ---
 
-## 📦 Compêndios Inclusos
+## 🌟 Highlights
 
-1. **Artificer Classes** (`artificer-classes`): O documento da classe Artífice completo.
-2. **Artificer Subclasses** (`artificer-subclasses`): As 5 subclasses do Artífice.
-3. **Artificer Features** (`artificer-features`): Recursos de classe e subclasse do Artífice.
-4. **Artificer Spells** (`artificer-spells`): Magias do Artífice e a nova magia *Homunculus Servant*.
-5. **Artificer Magic Items & Inventions** (`artificer-items`): Elixires experimentais e itens replicados.
-6. **Artificer Companions & Summons** (`artificer-actors`): Atores e companheiros pré-configurados.
-7. **Witch Hunter Classes** (`witch-hunter-classes`): A classe Caçador de Bruxas.
-8. **Witch Hunter Orders** (`witch-hunter-subclasses`): As 4 Ordens do Caçador de Bruxas.
-9. **Witch Hunter Features** (`witch-hunter-features`): Recursos, rituais carmesins e maldições de sangue.
-10. **Witch Hunter Items & Mutagens** (`witch-hunter-items`): As 19 fórmulas de mutagênicos consumíveis.
-11. **Psion Classes** (`psion-classes`): A classe Psion completa (conjurador pleno, 1º a 20º nível).
-12. **Psion Subclasses** (`psion-subclasses`): As 3 subclasses (*Metamorfo*, *Psicinético*, *Telepata*).
-13. **Psion Features** (`psion-features`): Recursos da classe, 11 Disciplinas Psiônicas e armas orgânicas.
-14. **Psion Spells** (`psion-spells`): As 10 novas magias oficiais do playtest Unearthed Arcana 2025.
-15. **Unearthed Arcana Subclasses** (`ua-subclasses`): As 46 subclasses de Unearthed Arcana (Lotes 1, 2 e 3: Horror, Arcane, Realms, Apocalyptic, Mystic, Underdark, Vilões e Atualizadas).
-16. **Unearthed Arcana Features** (`ua-features`): 248 características completas de classe e subclasse de 3º ao 20º nível das 46 subclasses do UA.
+- **Full Level 1–20 Classes**: Complete progression configured using modern D&D 5e **Item Advancements** (`HitPoints`, `TraitAdvancement`, `ItemGrantAdvancement`, `ScaleValueAdvancement`).
+- **58 Total Subclasses**: Fully registered in `CONFIG.DND5E.subclasses` and automatically offered during level-up.
+- **Interactive Artificer Workshop**: Modern **ApplicationV2** interface for rolling Experimental Elixirs, summoning Tinker's Magic mundane items, crafting Replicated Magic Items by tier, and managing construct companion sheets.
+- **Midi QOL Automation**: Full activity alignment (`actionType`, scalable save DCs, Active Effects for buffs, sacrificial damage, and combat logs) with graceful degradation when Midi QOL is inactive.
+- **Bilingual & Auto-Syncing**: Automatic locale detection (`en` and `pt-BR`) with 1:1 ID parity across all 16 compendiums.
 
 ---
 
-## 🚀 Como Usar no Foundry VTT
+## ⚔️ Included Classes & Archetypes
 
-1. No painel de gerenciamento de módulos do seu mundo Foundry, habilite **Artificer: Forge of the Artificer (D&D 5e)**.
-2. Abra a aba de **Compêndios** na barra lateral direita.
-3. Localize **Artificer Classes** e arraste o item **Artificer** para uma ficha de personagem vazia.
-4. A janela nativa de **Level Up / Advancement** do D&D 5e se abrirá automaticamente, permitindo escolher perícias e ferramentas.
-5. Conforme o personagem sobe de nível:
-   - No nível 2: Concede *Replicate Magic Item*.
-   - No nível 3: Arraste a subclasse desejada da pasta **Artificer Subclasses** (ex: *Armorer*, *Alchemist*, etc.).
-6. Clique no botão dourado **Oficina do Artífice** no cabeçalho da ficha do personagem para acessar o painel de criação rápida de elixires, invenções e companheiros!
+### 1. Artificer (One D&D / 2024)
+*Half-caster (round-up progression) with Intelligence as key ability, infusions, and companion constructs.*
+
+| Subclass | Focus | Key Features |
+| :--- | :--- | :--- |
+| **Alchemist** | Support / Potions | Experimental Elixirs, Alchemical Savant, Restorative Reagents, Chemical Mastery |
+| **Armorer** | Tank / Infiltration | Arcane Armor (Guardian, Infiltrator, Dreadnaught models), Extra Attack, Perfected Armor |
+| **Artillerist** | Ranged Blaster | Eldritch Cannon (Flamethrower, Force Ballista, Protector), Arcane Firearm, Fortified Position |
+| **Battle Smith** | Martial / Pet | Battle Ready (INT weapon attacks), Steel Defender companion, Arcane Jolt, Improved Defender |
+| **Cartographer** | Utility / Mobility | Adventurer's Atlas, Mapping Magic (*Portal Jump*, free *Faerie Fire*), Guided Precision |
+| **Reanimator (UA)** | Necro-Engineering | Jolt to Life, Reanimated Companion, Strange Modifications, Promethean Reanimation |
+
+### 2. Witch Hunter (Blood Hunter 2020)
+*Martial warrior wielding Crimson Rites, Esoteric Mutations, and Blood Curses with Intelligence synergy.*
+
+| Order | Focus | Key Features |
+| :--- | :--- | :--- |
+| **Ghostslayer** | Undead / Radiant | Rite of the Dawn, Ethereal Step, Brand of the Sundering, Grave Sight |
+| **Lycan** | Shapeshifter Tank | Hybrid Transformation (damage resistance, natural claw attacks), Stalker's Prowess |
+| **Mutant** | Consumable Buffs | 19 Mutagen consumables with automated positive and negative Active Effects |
+| **Profane Soul** | Pact Magic | Intelligence pact slots, Otherworldly Patrons, Rite Focus, Mystic Frenzy |
+
+### 3. Psion (One D&D / UA 2025)
+*Full mental caster (1st–9th level slots) casting without verbal or material components.*
+
+| Subclass | Focus | Key Features |
+| :--- | :--- | :--- |
+| **Metamorph** | Biopsionics | Mutable Form, INT-based Organic Weapons (Bone Blade, Flesh Mace, Viscera Launcher) |
+| **Psykinetic** | Telekinesis | Telekinetic Techniques, Destructive Trance (flight & damage bonus), Rebounding Field |
+| **Telepath** | Mind Infiltration | Mental Infiltrator (component-less *Detect Thoughts*), Telepathic Distraction, Mind Shuffle |
+
+### 4. Unearthed Arcana Subclasses (46 Archetypes)
+All archetypes are integrated into core classes and grant full class features from 3rd to 20th level:
+
+| Class | Archetypes Included |
+| :--- | :--- |
+| **Barbarian** | Path of Unlight, Path of Lament, Path of the Spiritual Guardian, Path of the Storm Herald |
+| **Bard** | College of Spirits, College of the Moon |
+| **Cleric** | Grave Domain, Arcana Domain, Knowledge Domain |
+| **Druid** | Circle of Preservation, Circle of the Titan |
+| **Fighter** | Arcane Archer, Purple Dragon Knight, Gladiator, Hell Knight, Cavalier |
+| **Monk** | Warrior of the Mystic Arts, Tattooed Warrior, Warrior of Venom, Warrior of Intoxication |
+| **Paladin** | Oath of the Noble Genies, Oath of the Spellguard, Oathbreaker |
+| **Ranger** | Hollow Warden, Winter Walker |
+| **Rogue** | Phantom, Scion of the Three, Magic Stealer, House Agent |
+| **Sorcerer** | Shadow Sorcery, Ancestral Sorcery, Spellfire Sorcery, Defiled Sorcery, Demonic Sorcery |
+| **Warlock** | Hexblade Patron, Undead Patron, Sorcerer-King Patron, Vestige Patron, Primordial Patron |
+| **Wizard** | School of Conjuration, School of Enchantment, School of Necromancy, School of Transmutation, Bladesinger, Imaskarcanist |
 
 ---
 
-## 📋 Compatibilidade
+## 🔧 Interactive Artificer Workshop
 
-- **Foundry VTT**: v12 e v14
-- **Sistema de Jogo**: `dnd5e` (v3.0.0 ou superior)
+Accessible via the character sheet header button or Module Settings shortcut:
+
+1. **Experimental Elixirs**: Roll 1d6 or expend a spell slot to instantly craft consumable elixir items in the character's inventory with active effects for healing, speed, AC, or flight.
+2. **Tinker's Magic**: 1-click generation of 31 mundane adventuring tools and equipment that expire upon taking a Long Rest.
+3. **Replicate Magic Item**: Filter known plans and craft replicated items partitioned into Tiers 2+, 6+, 10+, and 14+.
+4. **Companions Management**: Quick access to configure and open sheets for **Steel Defender**, **Homunculus Servant**, and **Eldritch Cannon**.
 
 ---
 
-## 👤 Autor
+## 📦 Compendiums Included
 
-Desenvolvido por **Lopes** ([GitHub](https://github.com/NeroHeiser)).
+| Compendium ID | Type | Content |
+| :--- | :---: | :--- |
+| `artificer-classes` | Item | Artificer class progression |
+| `artificer-subclasses` | Item | 5 Artificer subclasses |
+| `artificer-features` | Item | Artificer class and subclass features |
+| `artificer-spells` | Item | Artificer spells and *Homunculus Servant* |
+| `artificer-items` | Item | Experimental elixirs and replicated magic items |
+| `artificer-actors` | Actor | Pre-configured companion actors and constructs |
+| `witch-hunter-classes` | Item | Witch Hunter class progression |
+| `witch-hunter-subclasses` | Item | 4 Witch Hunter orders |
+| `witch-hunter-features` | Item | Crimson Rites, Blood Curses, and class features |
+| `witch-hunter-items` | Item | 19 Craftable mutagens |
+| `psion-classes` | Item | Psion class progression |
+| `psion-subclasses` | Item | 3 Psion subclasses |
+| `psion-features` | Item | 11 Psionic Disciplines and class features |
+| `psion-spells` | Item | 10 UA 2025 Psionic spells |
+| `ua-subclasses` | Item | 46 Unearthed Arcana subclasses |
+| `ua-features` | Item | 248 Subclass features (levels 3–20) |
 
+---
+
+## 🚀 Installation & Usage
+
+### Installation
+1. In the Foundry VTT Setup screen, navigate to the **Add-on Modules** tab.
+2. Click **Install Module** and paste the manifest URL:
+   ```text
+   https://raw.githubusercontent.com/NeroHeiser/artificer-onednd/main/module.json
+   ```
+3. Enable the module inside your world.
+
+### Usage
+1. Open the **Compendium Packs** sidebar.
+2. Drag any class (e.g., **Artificer**, **Psion**, **Witch Hunter**) onto an empty character sheet.
+3. Follow the native D&D 5e level-up advancement dialogs.
+4. For Artificers, click the **Artificer Workshop** wrench button on the character sheet header to launch the interactive workshop.
+
+---
+
+## 🧪 Development & Quality Assurance
+
+This module enforces strict unit testing and clean code principles with zero external testing dependencies:
+
+```bash
+# Run test suite (20 unit tests)
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+```
+
+---
+
+## 📋 Compatibility
+
+- **Foundry Virtual Tabletop**: Verified for v12 and v14.
+- **Game System**: `dnd5e` v3.0.0 or higher.
+- **Recommended Modules**: `midi-qol` (for automated combat resolution and effect application).
+
+---
+
+## 👤 Author
+
+Developed by **Lopes** ([GitHub](https://github.com/NeroHeiser)).
+
+Licensed under the [MIT License](LICENSE).

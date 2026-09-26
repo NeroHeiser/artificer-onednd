@@ -6,6 +6,7 @@
  */
 
 import { CompendiumSync } from "../compendium-sync.mjs";
+import { getWorkshopCatalogs, PLAN_ITEM_MAP } from "./artificer-workshop-data.mjs";
 
 const MODULE_ID = "artificer-onednd";
 
@@ -107,119 +108,18 @@ export class ArtificerWorkshopApp extends BaseApplication {
     }
 
     const isPt = game.i18n?.lang?.startsWith("pt");
-
-    const tinkerItems = [
-      { id: "ball-bearings", name: isPt ? "Esferas de Metal" : "Ball Bearings", label: isPt ? "Esferas de Metal" : "Ball Bearings", icon: "fas fa-circle" },
-      { id: "basket", name: isPt ? "Cesto" : "Basket", label: isPt ? "Cesto" : "Basket", icon: "fas fa-shopping-basket" },
-      { id: "bedroll", name: isPt ? "Saco de Dormir" : "Bedroll", label: isPt ? "Saco de Dormir" : "Bedroll", icon: "fas fa-bed" },
-      { id: "bell", name: isPt ? "Sino" : "Bell", label: isPt ? "Sino" : "Bell", icon: "fas fa-bell" },
-      { id: "blanket", name: isPt ? "Cobertor" : "Blanket", label: isPt ? "Cobertor" : "Blanket", icon: "fas fa-couch" },
-      { id: "block-and-tackle", name: isPt ? "Talha" : "Block and Tackle", label: isPt ? "Talha" : "Block and Tackle", icon: "fas fa-dolly" },
-      { id: "bottle-glass", name: isPt ? "Garrafa de Vidro" : "Bottle (Glass)", label: isPt ? "Garrafa de Vidro" : "Bottle (Glass)", icon: "fas fa-wine-bottle" },
-      { id: "bucket", name: isPt ? "Balde" : "Bucket", label: isPt ? "Balde" : "Bucket", icon: "fas fa-fill" },
-      { id: "caltrops", name: isPt ? "Abrolhos" : "Caltrops", label: isPt ? "Abrolhos" : "Caltrops", icon: "fas fa-asterisk" },
-      { id: "candle", name: isPt ? "Vela" : "Candle", label: isPt ? "Vela" : "Candle", icon: "fas fa-fire" },
-      { id: "crowbar", name: isPt ? "Pé de Cabra" : "Crowbar", label: isPt ? "Pé de Cabra" : "Crowbar", icon: "fas fa-gavel" },
-      { id: "flask", name: isPt ? "Frasco" : "Flask", label: isPt ? "Frasco" : "Flask", icon: "fas fa-flask" },
-      { id: "grappling-hook", name: isPt ? "Gancho de Escalada" : "Grappling Hook", label: isPt ? "Gancho de Escalada" : "Grappling Hook", icon: "fas fa-anchor" },
-      { id: "hunting-trap", name: isPt ? "Armadilha de Caça" : "Hunting Trap", label: isPt ? "Armadilha de Caça" : "Hunting Trap", icon: "fas fa-teeth" },
-      { id: "jug", name: isPt ? "Jarra" : "Jug", label: isPt ? "Jarra" : "Jug", icon: "fas fa-wine-glass" },
-      { id: "lamp", name: isPt ? "Lâmpada" : "Lamp", label: isPt ? "Lâmpada" : "Lamp", icon: "fas fa-lightbulb" },
-      { id: "manacles", name: isPt ? "Algemas" : "Manacles", label: isPt ? "Algemas" : "Manacles", icon: "fas fa-link" },
-      { id: "net", name: isPt ? "Rede" : "Net", label: isPt ? "Rede" : "Net", icon: "fas fa-border-all" },
-      { id: "oil", name: isPt ? "Óleo (Frasco)" : "Oil (Flask)", label: isPt ? "Óleo (Frasco)" : "Oil (Flask)", icon: "fas fa-tint" },
-      { id: "paper", name: isPt ? "Papel" : "Paper", label: isPt ? "Papel" : "Paper", icon: "fas fa-scroll" },
-      { id: "parchment", name: isPt ? "Pergaminho" : "Parchment", label: isPt ? "Pergaminho" : "Parchment", icon: "fas fa-file-alt" },
-      { id: "pole", name: isPt ? "Vara (3 metros)" : "Pole (10-ft)", label: isPt ? "Vara (3 metros)" : "Pole (10-ft)", icon: "fas fa-ruler-vertical" },
-      { id: "pouch", name: isPt ? "Bolsa" : "Pouch", label: isPt ? "Bolsa" : "Pouch", icon: "fas fa-archive" },
-      { id: "rope", name: isPt ? "Corda de Cânhamo (15m)" : "Rope, Hempen (50ft)", label: isPt ? "Corda de Cânhamo (15m)" : "Rope, Hempen (50ft)", icon: "fas fa-ring" },
-      { id: "sack", name: isPt ? "Saco" : "Sack", label: isPt ? "Saco" : "Sack", icon: "fas fa-box" },
-      { id: "shovel", name: isPt ? "Pá" : "Shovel", label: isPt ? "Pá" : "Shovel", icon: "fas fa-shovel" },
-      { id: "spikes-iron", name: isPt ? "Pítons de Ferro" : "Spikes (Iron)", label: isPt ? "Pítons de Ferro" : "Spikes (Iron)", icon: "fas fa-thumbtack" },
-      { id: "string", name: isPt ? "Barbante" : "String", label: isPt ? "Barbante" : "String", icon: "fas fa-tape" },
-      { id: "tinderbox", name: isPt ? "Isqueiro / Pederneira" : "Tinderbox", label: isPt ? "Isqueiro / Pederneira" : "Tinderbox", icon: "fas fa-fire-alt" },
-      { id: "torch", name: isPt ? "Tocha" : "Torch", label: isPt ? "Tocha" : "Torch", icon: "fas fa-burn" },
-      { id: "vial", name: isPt ? "Vidreto" : "Vial", label: isPt ? "Vidreto" : "Vial", icon: "fas fa-vial" }
-    ];
-
-    const plansTier2 = [
-      { name: isPt ? "Jarra de Alquimia" : "Alchemy Jug", attunement: false },
-      { name: isPt ? "Bolsa Espaçosa" : "Bag of Holding", attunement: false },
-      { name: isPt ? "Capuz de Respirar na Água" : "Cap of Water Breathing", attunement: false },
-      { name: isPt ? "Item Mágico Comum (não-poção/pergaminho)" : "Common magic item (non-potion/scroll)", attunement: false },
-      { name: isPt ? "Óculos Noturnos" : "Goggles of Night", attunement: false },
-      { name: isPt ? "Ferramenta Multifuncional" : "Manifold Tool", attunement: true },
-      { name: isPt ? "Disparo Repetidor" : "Repeating Shot", attunement: true },
-      { name: isPt ? "Arma Retornável" : "Returning Weapon", attunement: false },
-      { name: isPt ? "Corda de Escalar" : "Rope of Climbing", attunement: false },
-      { name: isPt ? "Pedras de Mensagem" : "Sending Stones", attunement: false },
-      { name: isPt ? "Escudo +1" : "Shield, +1", attunement: false },
-      { name: isPt ? "Varinha de Detectar Magia" : "Wand of Magic Detection", attunement: false },
-      { name: isPt ? "Varinha dos Segredos" : "Wand of Secrets", attunement: false },
-      { name: isPt ? "Varinha do Mago de Guerra +1" : "Wand of the War Mage, +1", attunement: true },
-      { name: isPt ? "Arma +1" : "Weapon, +1", attunement: false },
-      { name: isPt ? "Faixas de Poder Desarmado +1" : "Wraps of Unarmed Power, +1", attunement: false }
-    ];
-
-    const plansTier6 = [
-      { name: isPt ? "Armadura +1" : "Armor, +1", attunement: false },
-      { name: isPt ? "Botas Élficas" : "Boots of Elvenkind", attunement: false },
-      { name: isPt ? "Botas do Caminho Sinuoso" : "Boots of the Winding Path", attunement: true },
-      { name: isPt ? "Manto Élfico" : "Cloak of Elvenkind", attunement: true },
-      { name: isPt ? "Manto da Arraia" : "Cloak of the Manta Ray", attunement: true },
-      { name: isPt ? "Arma Deslumbrante" : "Dazzling Weapon", attunement: true },
-      { name: isPt ? "Olhos de Fascinação" : "Eyes of Charming", attunement: true },
-      { name: isPt ? "Olhos de Visão Minuciosa" : "Eyes of Minute Seeing", attunement: false },
-      { name: isPt ? "Luvas do Ladrão" : "Gloves of Thievery", attunement: false }
-    ];
-
-    const plansTier10 = [
-      { name: isPt ? "Armadura de Resistência" : "Armor of Resistance", attunement: true },
-      { name: isPt ? "Adaga do Veneno" : "Dagger of Venom", attunement: false },
-      { name: isPt ? "Cota Élfica" : "Elven Chain", attunement: false },
-      { name: isPt ? "Elmo da Prontidão" : "Helm of Awareness", attunement: false },
-      { name: isPt ? "Lanterna da Revelação" : "Lantern of Revealing", attunement: false },
-      { name: isPt ? "Focalizador Mental" : "Mind Sharpener", attunement: true },
-      { name: isPt ? "Colar de Adaptação" : "Necklace of Adaptation", attunement: true },
-      { name: isPt ? "Gaita Assombrada" : "Pipes of Haunting", attunement: false },
-      { name: isPt ? "Escudo de Repulsão" : "Repulsion Shield", attunement: false },
-      { name: isPt ? "Anel de Queda Suave" : "Ring of Feather Falling", attunement: true },
-      { name: isPt ? "Anel de Pulo" : "Ring of Jumping", attunement: true },
-      { name: isPt ? "Anel de Proteção Mental" : "Ring of Mind Shielding", attunement: true },
-      { name: isPt ? "Anel de Natação" : "Ring of Swimming", attunement: false },
-      { name: isPt ? "Anel de Caminhar na Água" : "Ring of Water Walking", attunement: false },
-      { name: isPt ? "Escudo Sentinela" : "Sentinel Shield", attunement: false },
-      { name: isPt ? "Escudo +2" : "Shield, +2", attunement: false },
-      { name: isPt ? "Anel Reabastecedor de Magia" : "Spell-Refueling Ring", attunement: true },
-      { name: isPt ? "Item Maravilhoso Incomum (não-amaldiçoado)" : "Uncommon Wondrous Item (non-cursed)", attunement: false },
-      { name: isPt ? "Varinha de Mísseis Mágicos" : "Wand of Magic Missiles", attunement: false },
-      { name: isPt ? "Varinha do Mago de Guerra +2" : "Wand of the War Mage, +2", attunement: true },
-      { name: isPt ? "Varinha de Teia" : "Wand of Web", attunement: true },
-      { name: isPt ? "Arma +2" : "Weapon, +2", attunement: false },
-      { name: isPt ? "Arma de Alerta" : "Weapon of Warning", attunement: true },
-      { name: isPt ? "Faixas de Poder Desarmado +2" : "Wraps of Unarmed Power, +2", attunement: false }
-    ];
-
-    const plansTier14 = [
-      { name: isPt ? "Armadura +2" : "Armor, +2", attunement: false },
-      { name: isPt ? "Escudo de Apanhar Flechas" : "Arrow-Catching Shield", attunement: true },
-      { name: isPt ? "Língua Flamejante" : "Flame Tongue", attunement: true },
-      { name: isPt ? "Item Maravilhoso Raro (não-amaldiçoado)" : "Rare Wondrous Item (non-cursed)", attunement: false },
-      { name: isPt ? "Anel de Movimentação Livre" : "Ring of Free Action", attunement: true },
-      { name: isPt ? "Anel de Proteção" : "Ring of Protection", attunement: true },
-      { name: isPt ? "Anel do Carneiro" : "Ring of the Ram", attunement: true }
-    ];
+    const catalogs = getWorkshopCatalogs(isPt);
 
     return {
       ...baseContext,
       actor,
       artificerLevel,
       subclass,
-      tinkerItems,
-      plansTier2,
-      plansTier6,
-      plansTier10,
-      plansTier14,
+      tinkerItems: catalogs.tinkerItems,
+      plansTier2: catalogs.plansTier2,
+      plansTier6: catalogs.plansTier6,
+      plansTier10: catalogs.plansTier10,
+      plansTier14: catalogs.plansTier14,
       isGM: game.user.isGM
     };
   }
@@ -428,22 +328,7 @@ export class ArtificerWorkshopApp extends BaseApplication {
     const pack = game.packs.get(`${MODULE_ID}.artificer-items`);
     const isPt = game.i18n?.lang?.startsWith("pt");
 
-    const planItemMap = {
-      "manifold tool": "repmanifoldtool0",
-      "ferramenta multifuncional": "repmanifoldtool0",
-      "repeating shot": "reprepeating0000",
-      "disparo repetidor": "reprepeating0000",
-      "returning weapon": "repreturningweap",
-      "arma retornável": "repreturningweap",
-      "mind sharpener": "repmindsharpener",
-      "focalizador mental": "repmindsharpener",
-      "boots of the winding path": "repwindingboots0",
-      "botas do caminho sinuoso": "repwindingboots0",
-      "repulsion shield": "reprepulsionshld",
-      "escudo de repulsão": "reprepulsionshld"
-    };
-
-    const targetDocId = planItemMap[itemName.toLowerCase()];
+    const targetDocId = PLAN_ITEM_MAP[itemName.toLowerCase()];
     let itemData = null;
 
     if (pack && targetDocId) {

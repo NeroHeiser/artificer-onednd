@@ -2868,6 +2868,7 @@ export function run() {
   function save(filename, enData, ptData) {
     fs.writeFileSync(path.join(EN_DIR, filename), JSON.stringify(enData, null, 2) + "\n");
     fs.writeFileSync(path.join(PT_DIR, filename), JSON.stringify(ptData, null, 2) + "\n");
+    fs.writeFileSync(path.join(DATA_DIR, filename), JSON.stringify(ptData, null, 2) + "\n");
   }
 
   save("ua-features.json", allFeaturesEn, allFeaturesPt);

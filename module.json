@@ -17,6 +17,13 @@
           "minimum": "3.0.0"
         }
       }
+    ],
+    "recommends": [
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "reason": "Provides automated combat rolls, saves, and Active Effect handling for class features."
+      }
     ]
   },
   "authors": [
