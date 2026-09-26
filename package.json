@@ -1,0 +1,21 @@
+{
+  "name": "artificer-onednd",
+  "version": "1.1.0",
+  "description": "Classes and Unearthed Arcana archetypes expansion for Foundry VTT dnd5e system with Midi QOL support and bilingual compendiums",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "test:watch": "node --test --watch tests/*.test.mjs"
+  },
+  "keywords": [
+    "foundryvtt",
+    "dnd5e",
+    "artificer",
+    "unearthed-arcana",
+    "psion",
+    "blood-hunter",
+    "midi-qol"
+  ],
+  "author": "Lopes",
+  "license": "MIT"
+}
