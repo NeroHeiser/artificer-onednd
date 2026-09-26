@@ -128,6 +128,7 @@ export class CompendiumSync {
     const langChanged = storedLang !== langFolder;
 
     let syncedCount = 0;
+    const baseRoute = typeof foundry !== "undefined" && foundry.utils?.getRoute ? foundry.utils.getRoute(`modules/${MODULE_ID}`) : `/modules/${MODULE_ID}`;
 
     for (const packInfo of this.PACKS) {
       const packKey = `${MODULE_ID}.${packInfo.id}`;
@@ -146,10 +147,16 @@ export class CompendiumSync {
         const index = await pack.getIndex();
         const hasInvalidIds = index.some(e => !/^[a-zA-Z0-9]{16}$/.test(e._id));
 
-        // Carrega o arquivo JSON do idioma ativo (pt-BR ou en)
-        const dataUrl = `modules/${MODULE_ID}/scripts/data/${langFolder}/${packInfo.file}`;
-        const response = await fetch(dataUrl);
-        if (!response.ok) {
+        // Carrega o arquivo JSON do idioma ativo (pt-BR ou en) com suporte a rotas do Foundry
+        const dataUrl = `${baseRoute}/scripts/data/${langFolder}/${packInfo.file}`;
+        let response = await fetch(dataUrl).catch(() => null);
+
+        // Fallback sem rota caso a rota padrão não responda
+        if (!response || !response.ok) {
+          response = await fetch(`modules/${MODULE_ID}/scripts/data/${langFolder}/${packInfo.file}`).catch(() => null);
+        }
+
+        if (!response || !response.ok) {
           console.error(`Artificer OneD&D | Falha ao carregar arquivo de dados: ${dataUrl}`);
           continue;
         }

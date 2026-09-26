@@ -10,9 +10,9 @@ import { CompendiumSync } from "../compendium-sync.mjs";
 const MODULE_ID = "artificer-onednd";
 
 // Obtenção da classe base do Foundry V12+ (ApplicationV2) com fallback seguro
-const BaseApplication = foundry.applications?.api?.HandlebarsApplicationMixin
+const BaseApplication = (typeof foundry !== "undefined" && foundry.applications?.api?.HandlebarsApplicationMixin)
   ? foundry.applications.api.HandlebarsApplicationMixin(foundry.applications.api.ApplicationV2)
-  : Application;
+  : (typeof Application !== "undefined" ? Application : class {});
 
 export class ArtificerWorkshopApp extends BaseApplication {
   constructor(options = {}) {
@@ -263,16 +263,7 @@ export class ArtificerWorkshopApp extends BaseApplication {
       });
     }
 
-    // Ações para compatibilidade com clique direto
-    html.querySelectorAll("[data-action]").forEach(el => {
-      el.addEventListener("click", ev => {
-        const actionName = ev.currentTarget.dataset.action;
-        const handler = ArtificerWorkshopApp.DEFAULT_OPTIONS.actions[actionName];
-        if (handler) {
-          handler.call(this, ev, ev.currentTarget);
-        }
-      });
-    });
+    // Nota: ApplicationV2 gerencia as ações declaradas em DEFAULT_OPTIONS.actions nativamente.
   }
 
   // -------------------------------------------------------------
@@ -354,13 +345,27 @@ export class ArtificerWorkshopApp extends BaseApplication {
     if (!itemData) {
       // Fallback a partir de JSON local caso o compêndio ainda não esteja indexado
       const langFolder = game.i18n?.lang?.startsWith("pt") ? "pt-BR" : "en";
-      const res = await fetch(`modules/${MODULE_ID}/scripts/data/${langFolder}/items.json`);
-      const items = await res.json();
-      itemData = items.find(i => i._id === targetId);
+      const baseRoute = typeof foundry !== "undefined" && foundry.utils?.getRoute
+        ? foundry.utils.getRoute(`modules/${MODULE_ID}`)
+        : `/modules/${MODULE_ID}`;
+
+      let res = await fetch(`${baseRoute}/scripts/data/${langFolder}/items.json`).catch(() => null);
+      if (!res || !res.ok) {
+        res = await fetch(`modules/${MODULE_ID}/scripts/data/${langFolder}/items.json`).catch(() => null);
+      }
+
+      if (res?.ok) {
+        const items = await res.json();
+        itemData = items.find(i => i._id === targetId);
+      }
     }
 
     if (itemData) {
       delete itemData._id;
+      itemData.flags = itemData.flags || {};
+      itemData.flags[MODULE_ID] = {
+        sourceId: targetId
+      };
       await this.actor.createEmbeddedDocuments("Item", [itemData]);
       ui.notifications.info(
         game.i18n.format("ARTIFICER_5E.Notifications.ElixirCreated", {
@@ -424,18 +429,18 @@ export class ArtificerWorkshopApp extends BaseApplication {
     const isPt = game.i18n?.lang?.startsWith("pt");
 
     const planItemMap = {
-      "manifold tool": "itemmanifoldtool",
-      "ferramenta multifuncional": "itemmanifoldtool",
-      "repeating shot": "itemrepeating001",
-      "disparo repetidor": "itemrepeating001",
-      "returning weapon": "itemreturning001",
-      "arma retornável": "itemreturning001",
-      "mind sharpener": "itemmindsharp001",
-      "focalizador mental": "itemmindsharp001",
-      "boots of the winding path": "itemwindingboot1",
-      "botas do caminho sinuoso": "itemwindingboot1",
-      "repulsion shield": "itemrepulsionsh1",
-      "escudo de repulsão": "itemrepulsionsh1"
+      "manifold tool": "repmanifoldtool0",
+      "ferramenta multifuncional": "repmanifoldtool0",
+      "repeating shot": "reprepeating0000",
+      "disparo repetidor": "reprepeating0000",
+      "returning weapon": "repreturningweap",
+      "arma retornável": "repreturningweap",
+      "mind sharpener": "repmindsharpener",
+      "focalizador mental": "repmindsharpener",
+      "boots of the winding path": "repwindingboots0",
+      "botas do caminho sinuoso": "repwindingboots0",
+      "repulsion shield": "reprepulsionshld",
+      "escudo de repulsão": "reprepulsionshld"
     };
 
     const targetDocId = planItemMap[itemName.toLowerCase()];
@@ -472,6 +477,13 @@ export class ArtificerWorkshopApp extends BaseApplication {
       };
     } else {
       delete itemData._id;
+    }
+
+    itemData.flags = itemData.flags || {};
+    if (targetDocId) {
+      itemData.flags[MODULE_ID] = {
+        sourceId: targetDocId
+      };
     }
 
     await this.actor.createEmbeddedDocuments("Item", [itemData]);
