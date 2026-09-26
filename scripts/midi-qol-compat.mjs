@@ -26,6 +26,32 @@ export class MidiQOLCompat {
   }
 
   /**
+   * Resolves the canonical item ID from compendium flags, stats, or direct ID.
+   * @param {object} item
+   * @returns {string|null}
+   */
+  static resolveItemSourceId(item) {
+    if (!item) return null;
+
+    const moduleSourceId = item.flags?.[MODULE_ID]?.sourceId;
+    if (moduleSourceId) return moduleSourceId;
+
+    const compendiumSource = item._stats?.compendiumSource;
+    if (typeof compendiumSource === "string") {
+      const match = compendiumSource.match(/\.Item\.([a-zA-Z0-9]+)$/);
+      if (match) return match[1];
+    }
+
+    const coreSourceId = item.flags?.core?.sourceId;
+    if (typeof coreSourceId === "string") {
+      const match = coreSourceId.match(/\.Item\.([a-zA-Z0-9]+)$/);
+      if (match) return match[1];
+    }
+
+    return item._id || item.id || null;
+  }
+
+  /**
    * Registra hooks e auxiliares do Midi QOL
    */
   static _setupMidiHooks() {
@@ -33,7 +59,7 @@ export class MidiQOLCompat {
     Hooks.on("midi-qol.RollComplete", async (workflow) => {
       if (!workflow?.item) return;
 
-      const itemId = workflow.item._id;
+      const itemId = MidiQOLCompat.resolveItemSourceId(workflow.item);
       if (itemId === "elixirhealing000") {
         console.log(`Expansão de Classes e Arquétipos | Midi QOL processou cura do Elixir Experimental em ${workflow.targets?.size || 0} alvo(s).`);
       }

@@ -10,9 +10,9 @@ import { CompendiumSync } from "../compendium-sync.mjs";
 const MODULE_ID = "artificer-onednd";
 
 // Obtenção da classe base do Foundry V12+ (ApplicationV2) com fallback seguro
-const BaseApplication = foundry.applications?.api?.HandlebarsApplicationMixin
+const BaseApplication = (typeof foundry !== "undefined" && foundry.applications?.api?.HandlebarsApplicationMixin)
   ? foundry.applications.api.HandlebarsApplicationMixin(foundry.applications.api.ApplicationV2)
-  : Application;
+  : (typeof Application !== "undefined" ? Application : class {});
 
 export class ArtificerWorkshopApp extends BaseApplication {
   constructor(options = {}) {
@@ -345,13 +345,27 @@ export class ArtificerWorkshopApp extends BaseApplication {
     if (!itemData) {
       // Fallback a partir de JSON local caso o compêndio ainda não esteja indexado
       const langFolder = game.i18n?.lang?.startsWith("pt") ? "pt-BR" : "en";
-      const res = await fetch(`modules/${MODULE_ID}/scripts/data/${langFolder}/items.json`);
-      const items = await res.json();
-      itemData = items.find(i => i._id === targetId);
+      const baseRoute = typeof foundry !== "undefined" && foundry.utils?.getRoute
+        ? foundry.utils.getRoute(`modules/${MODULE_ID}`)
+        : `/modules/${MODULE_ID}`;
+
+      let res = await fetch(`${baseRoute}/scripts/data/${langFolder}/items.json`).catch(() => null);
+      if (!res || !res.ok) {
+        res = await fetch(`modules/${MODULE_ID}/scripts/data/${langFolder}/items.json`).catch(() => null);
+      }
+
+      if (res?.ok) {
+        const items = await res.json();
+        itemData = items.find(i => i._id === targetId);
+      }
     }
 
     if (itemData) {
       delete itemData._id;
+      itemData.flags = itemData.flags || {};
+      itemData.flags[MODULE_ID] = {
+        sourceId: targetId
+      };
       await this.actor.createEmbeddedDocuments("Item", [itemData]);
       ui.notifications.info(
         game.i18n.format("ARTIFICER_5E.Notifications.ElixirCreated", {
@@ -463,6 +477,13 @@ export class ArtificerWorkshopApp extends BaseApplication {
       };
     } else {
       delete itemData._id;
+    }
+
+    itemData.flags = itemData.flags || {};
+    if (targetDocId) {
+      itemData.flags[MODULE_ID] = {
+        sourceId: targetDocId
+      };
     }
 
     await this.actor.createEmbeddedDocuments("Item", [itemData]);
