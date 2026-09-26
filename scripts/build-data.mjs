@@ -16,8 +16,6 @@ for (const dir of [DATA_DIR, PT_DIR, EN_DIR]) {
 function saveFiles(filename, enData, ptData) {
   fs.writeFileSync(path.join(EN_DIR, filename), JSON.stringify(enData, null, 2));
   fs.writeFileSync(path.join(PT_DIR, filename), JSON.stringify(ptData, null, 2));
-  // Raiz recebe pt-BR por padrão
-  fs.writeFileSync(path.join(DATA_DIR, filename), JSON.stringify(ptData, null, 2));
 }
 
 // =============================================================
