@@ -139,9 +139,13 @@ export class CompendiumSync {
         continue;
       }
 
-      // Se o compêndio estiver bloqueado, desbloqueia temporariamente para gravação
+      // Ensure compendium is explicitly unlocked on the server before write operations
       const wasLocked = pack.locked;
-      if (wasLocked) await pack.configure({ locked: false });
+      try {
+        await pack.configure({ locked: false });
+      } catch (err) {
+        try { pack.locked = false; } catch (_) {}
+      }
 
       try {
         const index = await pack.getIndex();
@@ -184,7 +188,13 @@ export class CompendiumSync {
       } catch (err) {
         console.error(`Artificer OneD&D | Erro ao sincronizar o pacote ${packKey}:`, err);
       } finally {
-        if (wasLocked) await pack.configure({ locked: true });
+        if (wasLocked) {
+          try {
+            await pack.configure({ locked: true });
+          } catch (_) {
+            try { pack.locked = true; } catch (_) {}
+          }
+        }
       }
     }
 
